@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:layoutDirection="ltr"
+    android:background="#EEEEE0"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/product_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="#EEEEE0"
+        android:layoutDirection="ltr"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layoutDirection="ltr"
+                app:srcCompat="@drawable/pet1" />
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="24sp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="pedigree"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="24sp"
+                android:layoutDirection="ltr"
+                android:textStyle="italic"
+                android:typeface="sans" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/product_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:fontFamily="sans-serif"
+                    android:lineSpacingExtra="24sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="15"
+                    android:layoutDirection="ltr"
+                    android:textAlignment="textStart"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textColor="#009624"
+                    android:textSize="24sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

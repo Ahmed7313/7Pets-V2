@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingEnd="8dp"
+    android:paddingStart="8dp">
+
+    <TextView
+        android:id="@+id/signInText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Complete your Data to Finish the sign up"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="150dp"/>
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editTextPhone_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        app:met_iconLeft="@android:drawable/stat_sys_phone_call"
+        app:met_floatingLabel="highlight"
+        app:met_baseColor="@color/colorAccent"
+        app:met_errorColor="#FFFFFF"
+        app:met_clearButton="true"
+        app:met_primaryColor="@color/colorAccent"
+        android:inputType="number"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/finish_ggogle_signUp"
+            android:layout_width="154dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBar_sign_up_google"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

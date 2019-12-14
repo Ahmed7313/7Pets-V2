@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name"> 7 pets </string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="register_now">Register Now</string>
+    <string name="login_now">Login Now</string>
+
+    <!--Navigation drawer items-->
+    <string name="noconnection">Kindly connect to a WIFI network or enable Mobile Data</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Exclusive Products</string>
+    <string name="slide_1_desc">Get products which are unique and only available at our shops !</string>
+
+    <string name="slide_2_title">Cheap Rates</string>
+    <string name="slide_2_desc">Products at such an affordable rates !</string>
+
+    <string name="slide_3_title">Hassle Free Payments</string>
+    <string name="slide_3_desc">With various pay options , you can easily pay in a minute !</string>
+
+    <string name="slide_4_title">Fast Delivery</string>
+    <string name="slide_4_desc">Blazing fast order delivery within time !</string>
+
+    <string name="forget">Forget your Password</string>
+
+    <string name="please_check_your_email">Please check your email</string>
+    <string name="resend_verify_email">Resend verify email</string>
+    <string name="or">or</string>
+    <string name="try_different_email">Try differrent email</string>
+    <string name="swipe_down_to_refresh">Swipe down to refresh</string>
+    <string name="pls_verify_email">Please, Check your email inbox and verify your email then try again.</string>
+    <string name="petName">Pets</string>
+
+</resources>
