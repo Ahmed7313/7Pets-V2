@@ -19,11 +19,17 @@
         android:theme="@style/AppTheme">
         <activity android:name=".IndividualProduct"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".OrderDetails"></activity>
+        <activity android:name=".Cart"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Productscategory.Dogs"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ProductCategory.DogFood"
+            android:name=".DogFood"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Rgisteration.CompleteSignUpData"

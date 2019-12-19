@@ -225,4 +225,6 @@ public class UserSession {
     public boolean isFirstTimeLaunch() {
         return pref.getBoolean(IS_FIRST_TIME_LAUNCH, true);
     }
+
+
 }

@@ -23,14 +23,14 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int background = 0x7f0a0066;
-        public static final int container = 0x7f0a0082;
-        public static final int details_label = 0x7f0a009f;
-        public static final int label = 0x7f0a00d3;
+        public static final int background = 0x7f0a0068;
+        public static final int container = 0x7f0a008b;
+        public static final int details_label = 0x7f0a00a9;
+        public static final int label = 0x7f0a00e0;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int kprogresshud_hud = 0x7f0d0037;
+        public static final int kprogresshud_hud = 0x7f0d003c;
     }
 }

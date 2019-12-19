@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
@@ -28,8 +29,11 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
@@ -37,6 +41,7 @@ import com.google.firebase.storage.UploadTask;
 import com.noon.a7pets.MainActivity;
 import com.noon.a7pets.R;
 import com.noon.a7pets.User;
+import com.noon.a7pets.usersession.UserSession;
 
 import java.io.IOException;
 import java.util.UUID;
@@ -73,6 +78,15 @@ public class SignUpActivity extends Activity {
     private UploadTask uploadTask;
     private String name,email,password,mobile;
     private TextView appname;
+
+    private UserSession session;
+    private String sessionEmail,sessionPass,sessionMobile,sessionName,sessionPhoto;
+
+    String currentUserID;
+    //Getting reference to Firebase Database
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference mDatabaseReference = database.getReference();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,6 +99,7 @@ public class SignUpActivity extends Activity {
         appname.setTypeface(typeface);
 
         userRef = FirebaseDatabase.getInstance().getReference().child("Users");
+        session = new UserSession(getApplicationContext());
 
         signInText = (TextView) findViewById(R.id.signInText);
         signInText.setOnClickListener(new View.OnClickListener() {
@@ -153,10 +168,10 @@ public class SignUpActivity extends Activity {
         } else {
             AMorPM = " PM";
         }
-        String name = editTextFirstName.getText().toString().trim();
+        final String name = editTextFirstName.getText().toString().trim();
         String username = name;
         String phoneNumber = editTextPhone.getText().toString().trim();
-        String email = editTextEmail.getText().toString().trim();
+        final String email = editTextEmail.getText().toString().trim();
         String userId = mAuth.getCurrentUser().getUid();
         User user;
         DatabaseReference currentUserDb = FirebaseDatabase.getInstance().getReference().child("Users").child(userId);
@@ -164,6 +179,7 @@ public class SignUpActivity extends Activity {
         if (profileImageUrl != null) {
             signUpButton.setVisibility(View.GONE);
             user = new User(username, phoneNumber, email, profileImageUrl);
+
             currentUserDb.setValue(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                 @Override
                 public void onSuccess(Void aVoid) {
@@ -171,6 +187,10 @@ public class SignUpActivity extends Activity {
                     USER_INFO_SAVED = 1;
                     FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
                     currentUser.sendEmailVerification();
+
+                    //create shared preference and store data
+                    session.createLoginSession(name,email,mobile,profileImageUrl);
+
                     Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
@@ -407,10 +427,11 @@ public class SignUpActivity extends Activity {
                                 if (task.isSuccessful()) {
                                     saveUserInfoToFirebaseDatabase();
                                     FirebaseAuth mAuth = FirebaseAuth.getInstance();
-                                    String currentUserID = mAuth.getCurrentUser().getUid();
+                                     currentUserID = mAuth.getCurrentUser().getUid();
                                     deviceTokenRef = FirebaseDatabase.getInstance().getReference().child("Users").child(currentUserID);
                                     String deviceToken = FirebaseInstanceId.getInstance().getToken();
                                     deviceTokenRef.child("device_token").setValue(deviceToken);
+                                    countFirebaseValues();
                                 } else {
                                     Toast.makeText(getApplicationContext(), task.getException().getMessage(), Toast.LENGTH_LONG).show();
                                 }
@@ -446,5 +467,32 @@ public class SignUpActivity extends Activity {
 
     }
 
+    private void countFirebaseValues() {
 
+        mDatabaseReference.child(currentUserID).child("cart").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Log.e(dataSnapshot.getKey(),dataSnapshot.getChildrenCount() + "");
+                session.setCartValue((int)dataSnapshot.getChildrenCount());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        mDatabaseReference.child(currentUserID).child("wishlist").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Log.e(dataSnapshot.getKey(),dataSnapshot.getChildrenCount() + "");
+                session.setWishlistValue((int)dataSnapshot.getChildrenCount());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+    }
 }

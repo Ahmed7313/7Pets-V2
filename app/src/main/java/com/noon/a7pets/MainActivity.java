@@ -1,7 +1,6 @@
 package com.noon.a7pets;
 
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -33,7 +32,7 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 //import com.mikepenz.materialdrawer.util.DrawerUIUtils;
 //import com.mikepenz.materialize.util.UIUtils;
-import com.noon.a7pets.ProductCategory.DogFood;
+import com.noon.a7pets.Productscategory.Dogs;
 import com.noon.a7pets.networksync.CheckInternetConnection;
 import com.noon.a7pets.usersession.UserSession;
 //import com.webianks.easy_feedback.EasyFeedback;
@@ -84,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         dogFood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, DogFood.class));
+                startActivity(new Intent(MainActivity.this, Dogs.class));
             }
         });
         //ImageSLider
@@ -377,6 +376,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+
     @Override
     protected void onStop() {
         sliderShow.stopAutoCycle();
@@ -397,9 +397,9 @@ public class MainActivity extends AppCompatActivity {
 //        startActivity(new Intent(MainActivity.this, Profile.class));
 //    }
 //
-//    public void viewCart(View view) {
-//        startActivity(new Intent(MainActivity.this, Cart.class));
-//    }
+    public void viewCart(View view) {
+        startActivity(new Intent(MainActivity.this, Cart.class));
+    }
 //
 //    @Override
 //    protected void onResume() {

@@ -108,12 +108,12 @@
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\keychain.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_dialog_alert.xml.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\23cf34a52c7182999ca77cef2b47761b\\jetified-FancyDialog-0.1.4\\res\\layout-land\\dialog_alert.xml"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_borderfile.xml.flat",
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\borderfile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_dialog_alert.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\23cf34a52c7182999ca77cef2b47761b\\jetified-FancyDialog-0.1.4\\res\\layout-land\\dialog_alert.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
@@ -192,12 +192,12 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\2111d963c95cc6e94705fb367f0a0943\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\2111d963c95cc6e94705fb367f0a0943\\core-1.1.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_kprogresshud_hud.xml.flat",
@@ -216,12 +216,12 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\3295b8d0bda86d39fcda21b87c31a4e7\\material-1.0.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_complete_sign_up_data.xml.flat",
-        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\layout\\activity_complete_sign_up_data.xml"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\2111d963c95cc6e94705fb367f0a0943\\core-1.1.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_complete_sign_up_data.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\layout\\activity_complete_sign_up_data.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_hide_motion_spec.xml.flat",
@@ -350,6 +350,10 @@
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\2111d963c95cc6e94705fb367f0a0943\\core-1.1.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cart.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\layout\\activity_cart.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_paw.png.flat",
@@ -512,12 +516,12 @@
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\internetconnection.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rightarrow.png.flat",
-        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\rightarrow.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_agenda.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable-xxhdpi\\agenda.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rightarrow.png.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\rightarrow.png"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_dialog_material_background.xml.flat",
@@ -1196,16 +1200,16 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\3295b8d0bda86d39fcda21b87c31a4e7\\material-1.0.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\b86f782fc38280792c753b7008811558\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\3295b8d0bda86d39fcda21b87c31a4e7\\material-1.0.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_menu_item_action_area.xml.flat",
@@ -1392,6 +1396,10 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
     },
     {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_cards_cardview_layout.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\layout\\cards_cardview_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1434,6 +1442,10 @@
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_cart_item_layout.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\layout\\cart_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_individual_product.xml.flat",
@@ -1564,12 +1576,12 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\13e63d573bec870a3f4665ea298135cd\\jetified-materialtextfield-1.0.7\\res\\drawable\\card.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_readnotif.png.flat",
-        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\readnotif.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_cart.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable-hdpi\\cart.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_readnotif.png.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\readnotif.png"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_met_ic_clear.png.flat",
@@ -1776,6 +1788,10 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\anim\\btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
     },
     {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_details.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\layout\\activity_order_details.xml"
+    },
+    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
@@ -1916,12 +1932,12 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_checked_mtrl_animation_interpolator_0.xml.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi_agenda.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable-tvdpi\\agenda.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_checked_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2236,12 +2252,12 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\3295b8d0bda86d39fcda21b87c31a4e7\\material-1.0.0\\res\\drawable\\mtrl_tabs_default_indicator.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cart.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable-mdpi\\cart.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_profile.png.flat",
@@ -2380,6 +2396,10 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_paw_orange.png.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\paw_orange.png"
+    },
+    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\b86f782fc38280792c753b7008811558\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
@@ -2512,6 +2532,10 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\b86f782fc38280792c753b7008811558\\play-services-base-17.1.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dogs.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\layout\\activity_dogs.xml"
+    },
+    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
@@ -2592,12 +2616,12 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\b86f782fc38280792c753b7008811558\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_profile.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable-xhdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",

@@ -3,6 +3,7 @@ package com.noon.a7pets.Rgisteration;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,8 +16,11 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.noon.a7pets.MainActivity;
 import com.noon.a7pets.R;
@@ -35,6 +39,10 @@ public class CompleteSignUpData extends Activity {
     private DatabaseReference deviceTokenRef;
     private FirebaseAuth mAuth;
     private DatabaseReference userRef;
+    private String sessionEmail,sessionPass,sessionMobile,sessionName,sessionPhoto;
+    String currentUserID;
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference mDatabaseReference = database.getReference();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -116,7 +124,7 @@ public class CompleteSignUpData extends Activity {
                     currentUser.sendEmailVerification();
                     //Set the user Device token if he signed in using google
                     FirebaseAuth mAuth = FirebaseAuth.getInstance();
-                    String currentUserID = mAuth.getCurrentUser().getUid();
+                    currentUserID = mAuth.getCurrentUser().getUid();
                     deviceTokenRef = FirebaseDatabase.getInstance().getReference().child("Users").child(currentUserID);
                     String deviceToken = FirebaseInstanceId.getInstance().getToken();
                     deviceTokenRef.child("device_token").setValue(deviceToken);
@@ -133,6 +141,35 @@ public class CompleteSignUpData extends Activity {
                 }
             });
         }
+    }
+
+    private void countFirebaseValues() {
+
+        mDatabaseReference.child(currentUserID).child("cart").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Log.e(dataSnapshot.getKey(),dataSnapshot.getChildrenCount() + "");
+                session.setCartValue((int)dataSnapshot.getChildrenCount());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+        mDatabaseReference.child(currentUserID).child("wishlist").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Log.e(dataSnapshot.getKey(),dataSnapshot.getChildrenCount() + "");
+                session.setWishlistValue((int)dataSnapshot.getChildrenCount());
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
     }
 
 }

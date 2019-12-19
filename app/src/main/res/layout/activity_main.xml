@@ -8,10 +8,10 @@
     android:layout_height="match_parent"
     android:background="@color/grey_light">
 
-<!--    <com.google.android.material.appbar.AppBarLayout-->
-<!--        android:id="@+id/appbar"-->
-<!--        android:layout_height="120dp"-->
-<!--        android:layout_width="match_parent">-->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent">
 
 <!--        <com.google.android.material.appbar.CollapsingToolbarLayout-->
 <!--            android:layout_width="match_parent"-->
@@ -29,6 +29,7 @@
                 app:titleTextColor="@color/colorAccent"
                 android:gravity="left"
                 android:background="@color/colorAccent">
+
 
                 <TextView
                     android:textColor="@color/primary"
@@ -74,12 +75,15 @@
                         app:srcCompat="@drawable/cart"
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="15dp"
+                        android:onClick="viewCart"
                         />
 
                 </LinearLayout>
 
             </androidx.appcompat.widget.Toolbar>
-<!--        </com.google.android.material.appbar.CollapsingToolbarLayout>-->
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--        </com.google.android.material.appbar.CollapsingToolbarLayout>-->
 <!--    </com.google.android.material.appbar.AppBarLayout>-->
 
     <androidx.core.widget.NestedScrollView

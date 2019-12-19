@@ -41,7 +41,7 @@
                     app:srcCompat="@drawable/notification"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="15dp"
-                   />
+                    android:onClick="Notifications"/>
 
 
             </LinearLayout>
@@ -117,7 +117,7 @@
                     android:textColor="@android:color/black"
                     android:backgroundTint="#eeeeee"
                     android:text="-"
-                    />
+                    android:onClick="decrement"/>
 
                 <EditText
                     android:id="@+id/quantityProductPage"
@@ -138,7 +138,7 @@
                     android:textColor="@android:color/black"
                     android:backgroundTint="#eeeeee"
                     android:text="+"
-                    />
+                    android:onClick="increment"/>
 
             </LinearLayout>
 
@@ -161,7 +161,7 @@
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:weightSum="2"
-                    >
+                    android:onClick="shareProduct">
                     <ImageView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
@@ -188,8 +188,7 @@
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:weightSum="2"
-                   >
-
+                    android:onClick="similarProduct">
                     <ImageView android:layout_width="30dp"
                         android:layout_height="30dp"
                         app:srcCompat="@drawable/similar"/>
@@ -216,7 +215,7 @@
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:weightSum="2"
-                   >
+                    android:onClick="addToWishList">
 
                     <com.airbnb.lottie.LottieAnimationView
                         android:id="@+id/add_to_wishlist"
@@ -349,7 +348,7 @@
             android:textColor="@color/gen_black"
             android:textStyle="bold"
             android:gravity="center"
-            />
+            android:onClick="addToCart"/>
 
         <TextView
             android:id="@+id/buy_now"
@@ -362,7 +361,7 @@
             android:textColor="@color/gen_white"
             android:textStyle="bold"
             android:gravity="center"
-            />
+            android:onClick="goToCart"/>
 
     </LinearLayout>
 </LinearLayout>

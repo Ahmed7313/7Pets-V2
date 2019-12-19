@@ -77,13 +77,18 @@ public class SignInActivity extends AppCompatActivity {
     private TextView appname,forgotpass,registernow;
     private LottieAnimationView googleSignInAnimation;
     boolean isAnimated=false;
-    private UserSession session;
     ProgressDialog p;
 
     SignInButton googleBtn;
     GoogleSignInClient mGoogleSignInClient;
     private static final int RC_SIGN_IN = 9001;
+    private String email,pass,sessionmobile;
 
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference mDatabaseReference = database.getReference();
+
+    private UserSession session;
+    private String sessionEmail,sessionPass,sessionMobile,sessionName,sessionPhoto;
 
 
     @Override
@@ -510,6 +515,5 @@ public class SignInActivity extends AppCompatActivity {
             super.onPostExecute(o);
         }
     }
-
 
 }

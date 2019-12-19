@@ -1656,6 +1656,7 @@ drawable orders
 drawable password
 drawable paw
 drawable paw2
+drawable paw_orange
 drawable pens
 drawable pet1
 drawable pet2
@@ -1777,6 +1778,7 @@ id action_mode_close_button
 id action_settings
 id action_text
 id actions
+id activity_cart_list
 id activity_chooser_view_content
 id activity_item_details
 id add
@@ -1789,6 +1791,7 @@ id all
 id always
 id animation
 id animation_view
+id appbar
 id appname
 id appointment
 id async
@@ -1810,7 +1813,14 @@ id buttons_panel
 id buy_now
 id cancel_action
 id card_view
+id card_view_individual
+id cardcategory
+id cardimage
+id cardprice
 id cart
+id cart_prcount
+id cart_prprice
+id cart_prtitle
 id cat_food
 id center
 id center_horizontal
@@ -1844,6 +1854,7 @@ id default_center_bottom_indicator
 id default_center_top_indicator
 id default_center_top_left_indicator
 id default_center_top_right_indicator
+id deletecard
 id description
 id description_layout
 id design_bottom_sheet
@@ -1868,6 +1879,7 @@ id editTextPhone
 id editTextPhone_google
 id edit_query
 id email
+id empty_cart
 id end
 id end_padder
 id enterAlways
@@ -1884,6 +1896,7 @@ id fixed
 id forever
 id forget_password
 id forgot_pass
+id frame_container
 id ghost_view
 id gone
 id google_btn_loading_animation
@@ -1898,6 +1911,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id image_cartlist
 id incrementQuantity
 id info
 id invisible
@@ -1910,6 +1924,7 @@ id layoutDots
 id layout_action1
 id layout_action2
 id layout_action3
+id layout_item_desc
 id left
 id light
 id line1
@@ -1935,6 +1950,7 @@ id mtf_label
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id my_recycler_view
 id name
 id navigation_header_container
 id negative
@@ -1978,6 +1994,7 @@ id progress_horizontal
 id quantityProductPage
 id radio
 id rect
+id recyclerview
 id register_now
 id restart
 id reverse
@@ -2032,6 +2049,7 @@ id src_in
 id src_over
 id standard
 id start
+id stats
 id status_bar_latest_event_content
 id sticky_footer
 id sticky_header
@@ -2057,6 +2075,7 @@ id textStart
 id text_action1
 id text_action2
 id text_action3
+id text_action_bottom2
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -2076,6 +2095,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_no_cards
 id unchecked
 id uniform
 id unlabeled
@@ -2147,16 +2167,21 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cart
 layout activity_complete_sign_up_data
 layout activity_dog_food
+layout activity_dogs
 layout activity_individual_product
 layout activity_login
 layout activity_main
+layout activity_order_details
 layout activity_product_details
 layout activity_sign_in
 layout activity_sign_up
 layout activity_splash
 layout activity_welcome
+layout cards_cardview_layout
+layout cart_item_layout
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

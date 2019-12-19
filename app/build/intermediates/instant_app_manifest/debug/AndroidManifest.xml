@@ -32,11 +32,18 @@
         <activity
             android:name="com.noon.a7pets.IndividualProduct"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.noon.a7pets.OrderDetails" />
+        <activity
+            android:name="com.noon.a7pets.Cart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.noon.a7pets.Productscategory.Dogs"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.noon.a7pets.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.noon.a7pets.ProductCategory.DogFood"
+            android:name="com.noon.a7pets.DogFood"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.noon.a7pets.Rgisteration.CompleteSignUpData"
@@ -155,6 +162,12 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.noon.a7pets.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
     </application>
 
 </manifest>
