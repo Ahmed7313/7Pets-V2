@@ -4,22 +4,14 @@
             "outputFile": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\dda3e3c4622d5522a8848d98c4589f82\\jetified-materialdrawer-3.0.9\\res\\values-v11\\values-v11.xml",
+                    "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\df74b3e1f6790140ce8d9e43ed5e3c51\\materialize-1.2.0\\res\\values-v11\\values-v11.xml",
                     "from": {
-                        "startLines": "4,10,14,19,25,29,38,43,47,51",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "213,513,809,1127,1451,1759,2205,2535,2723,2923",
-                        "endLines": "9,13,18,24,28,37,42,46,50,54",
-                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "508,804,1122,1446,1754,2200,2530,2718,2918,3142"
-                    },
-                    "to": {
                         "startLines": "2,8,12,17,23,27,36,41,45,49",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,355,651,969,1293,1601,2047,2377,2565,2765",
+                        "startOffsets": "55,331,615,924,1224,1520,1942,2263,2439,2627",
                         "endLines": "7,11,16,22,26,35,40,44,48,52",
                         "endColumns": "12,12,12,12,12,12,12,12,12,12",
-                        "endOffsets": "350,646,964,1288,1596,2042,2372,2560,2760,2984"
+                        "endOffsets": "326,610,919,1219,1515,1937,2258,2434,2622,2834"
                     }
                 }
             ]

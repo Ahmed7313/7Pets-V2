@@ -118,6 +118,7 @@ public class SignInActivity extends AppCompatActivity {
 
         }
 
+
         progressDialog = new ProgressDialog(SignInActivity.this);
         googleSignInAnimation = findViewById(R.id.google_btn_loading_animation);
         googleSignInAnimation.setVisibility(View.INVISIBLE);
@@ -206,7 +207,7 @@ public class SignInActivity extends AppCompatActivity {
 
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
-        pls_verify_email = (TextView) findViewById(R.id.pls_verify_email);
+        //pls_verify_email = (TextView) findViewById(R.id.pls_verify_email);
         forget_password = (TextView)findViewById(R.id.forget_password);
 
         forget_password.setOnClickListener(new View.OnClickListener() {

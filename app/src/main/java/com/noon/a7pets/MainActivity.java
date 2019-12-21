@@ -4,48 +4,64 @@ package com.noon.a7pets;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.content.res.ResourcesCompat;
-
+import android.provider.ContactsContract;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
-
+import android.widget.Toast;
 
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.DefaultSliderView;
 import com.getkeepsafe.taptargetview.TapTarget;
 import com.getkeepsafe.taptargetview.TapTargetSequence;
 import com.google.firebase.FirebaseApp;
+import com.mikepenz.aboutlibraries.Libs;
+import com.mikepenz.aboutlibraries.LibsBuilder;
+import com.mikepenz.crossfadedrawerlayout.view.CrossfadeDrawerLayout;
+import com.mikepenz.materialdrawer.AccountHeader;
+import com.mikepenz.materialdrawer.AccountHeaderBuilder;
+import com.mikepenz.materialdrawer.Drawer;
+import com.mikepenz.materialdrawer.DrawerBuilder;
+import com.mikepenz.materialdrawer.MiniDrawer;
+import com.mikepenz.materialdrawer.interfaces.ICrossfader;
+import com.mikepenz.materialdrawer.model.DividerDrawerItem;
+import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
+import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
+import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
+import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
+import com.mikepenz.materialdrawer.model.interfaces.IProfile;
+import com.mikepenz.materialdrawer.util.DrawerUIUtils;
+import com.mikepenz.materialize.util.UIUtils;
+import com.noon.a7pets.Productscategory.Dogs;
+import com.noon.a7pets.Rgisteration.WelcomeActivity;
+import com.noon.a7pets.networksync.CheckInternetConnection;
+import com.noon.a7pets.usersession.UserSession;
+import com.webianks.easy_feedback.EasyFeedback;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.content.res.ResourcesCompat;
+import androidx.core.view.GravityCompat;
+
 //import com.mikepenz.aboutlibraries.Libs;
 //import com.mikepenz.aboutlibraries.LibsBuilder;
 //import com.mikepenz.crossfadedrawerlayout.view.CrossfadeDrawerLayout;
 //import com.mikepenz.materialdrawer.AccountHeader;
 //import com.mikepenz.materialdrawer.AccountHeaderBuilder;
-import com.mikepenz.materialdrawer.Drawer;
 //import com.mikepenz.materialdrawer.MiniDrawer;
-import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
-import com.mikepenz.materialdrawer.accountswitcher.AccountHeaderBuilder;
 //import com.mikepenz.materialdrawer.interfaces.ICrossfader;
-import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
-import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 //import com.mikepenz.materialdrawer.util.DrawerUIUtils;
 //import com.mikepenz.materialize.util.UIUtils;
-import com.noon.a7pets.Productscategory.Dogs;
-import com.noon.a7pets.networksync.CheckInternetConnection;
-import com.noon.a7pets.usersession.UserSession;
 //import com.webianks.easy_feedback.EasyFeedback;
-
-import java.util.ArrayList;
-import java.util.HashMap;
 
 //import es.dmoral.toasty.Toasty;
 
 public class MainActivity extends AppCompatActivity {
 
     private SliderLayout sliderShow;
-    private Drawer result;
     //private CrossfadeDrawerLayout crossfadeDrawerLayout = null;
 
 
@@ -56,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
     private String name, email, photo, mobile;
     private String  first_time;
     private TextView textView;
+
+    private CrossfadeDrawerLayout crossfadeDrawerLayout = null;
+    private Drawer result;
 
     private Toolbar toolbar;
     @Override
@@ -75,6 +94,9 @@ public class MainActivity extends AppCompatActivity {
 
         //retrieve session values and display on listviews
         getValues();
+
+        //Navigation Drawer with toolbar
+        inflateNavDrawer();
 
         //Navigation Drawer with toolbar
 //        inflateNavDrawer();
@@ -210,7 +232,8 @@ public class MainActivity extends AppCompatActivity {
     private void inflateNavDrawer() {
 
         //set Custom toolbar to activity -----------------------------------------------------------
-        //setSupportActionBar(toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         // Create the AccountHeader ----------------------------------------------------------------
 
@@ -227,152 +250,152 @@ public class MainActivity extends AppCompatActivity {
                 .withCompactStyle(true)
                 .build();
 
-//        //Adding nav drawer items ------------------------------------------------------------------
-//        PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1).withName(R.string.home).withIcon(R.drawable.home);
-//        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName(R.string.myprofile).withIcon(R.drawable.profile);
-//        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName(R.string.wishlist).withIcon(R.drawable.wishlist);
-//        PrimaryDrawerItem item4 = new PrimaryDrawerItem().withIdentifier(4).withName(R.string.cart).withIcon(R.drawable.cart);
-//        PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName(R.string.logout).withIcon(R.drawable.logout);
-//
-//        SecondaryDrawerItem item7 = new SecondaryDrawerItem().withIdentifier(7).withName("Offers").withIcon(R.drawable.tag);
-//        SecondaryDrawerItem item8 = new SecondaryDrawerItem().withIdentifier(8).withName(R.string.aboutapp).withIcon(R.drawable.credits);
-//        SecondaryDrawerItem item9 = new SecondaryDrawerItem().withIdentifier(9).withName(R.string.feedback).withIcon(R.drawable.feedback);
-//        SecondaryDrawerItem item10 = new SecondaryDrawerItem().withIdentifier(10).withName(R.string.helpcentre).withIcon(R.drawable.helpccenter);
-//
-//        SecondaryDrawerItem item12 = new SecondaryDrawerItem().withIdentifier(12).withName("App Tour").withIcon(R.drawable.tour);
-//        SecondaryDrawerItem item13 = new SecondaryDrawerItem().withIdentifier(13).withName("Explore").withIcon(R.drawable.explore);
+        //Adding nav drawer items ------------------------------------------------------------------
+        PrimaryDrawerItem item1 = new PrimaryDrawerItem().withIdentifier(1 ).withName(R.string.home).withIcon(R.drawable.home);
+        PrimaryDrawerItem item2 = new PrimaryDrawerItem().withIdentifier(2).withName(R.string.myprofile).withIcon(R.drawable.profile);
+        PrimaryDrawerItem item3 = new PrimaryDrawerItem().withIdentifier(3).withName(R.string.wishlist).withIcon(R.drawable.wishlist);
+        PrimaryDrawerItem item4 = new PrimaryDrawerItem().withIdentifier(4).withName(R.string.cart).withIcon(R.drawable.cart);
+        PrimaryDrawerItem item5 = new PrimaryDrawerItem().withIdentifier(5).withName(R.string.logout).withIcon(R.drawable.logout);
+
+        SecondaryDrawerItem item7 = new SecondaryDrawerItem().withIdentifier(7).withName("Offers").withIcon(R.drawable.tag);
+        SecondaryDrawerItem item8 = new SecondaryDrawerItem().withIdentifier(8).withName(R.string.aboutapp).withIcon(R.drawable.credits);
+        SecondaryDrawerItem item9 = new SecondaryDrawerItem().withIdentifier(9).withName(R.string.feedback).withIcon(R.drawable.feedback);
+        SecondaryDrawerItem item10 = new SecondaryDrawerItem().withIdentifier(10).withName(R.string.helpcentre).withIcon(R.drawable.helpccenter);
+
+        SecondaryDrawerItem item12 = new SecondaryDrawerItem().withIdentifier(12).withName("App Tour").withIcon(R.drawable.tour);
+        SecondaryDrawerItem item13 = new SecondaryDrawerItem().withIdentifier(13).withName("Explore").withIcon(R.drawable.explore);
 
 
-//        //creating navbar and adding to the toolbar ------------------------------------------------
-//        result = new DrawerBuilder()
-//                .withActivity(this)
-//                .withToolbar(toolbar)
-//                .withHasStableIds(true)
-//                .withDrawerLayout(R.layout.crossfade_drawer)
-//                .withAccountHeader(headerResult)
-//                .withDrawerWidthDp(72)
-//                .withGenerateMiniDrawer(true)
-//                .withTranslucentStatusBar(true)
-//                .withActionBarDrawerToggleAnimated(true)
-//                .addDrawerItems(
-//                        item1, item2, item3, item4, item5, new DividerDrawerItem(), item7, item8, item9, item10,new DividerDrawerItem(),item12,item13
-//                )
-//                .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
-//                    @Override
-//                    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-//
-//                        switch (position) {
-//
-//                            case 1:
-//                                if (result != null && result.isDrawerOpen()) {
-//                                    result.closeDrawer();
-//                                }
-//                                break;
-//                            case 2:
-//                                startActivity(new Intent(MainActivity.this, Profile.class));
-//                                break;
-//                            case 3:
-//                                startActivity(new Intent(MainActivity.this, Wishlist.class));
-//                                break;
-//                            case 4:
-//                                startActivity(new Intent(MainActivity.this, Cart.class));
-//                                break;
-//                            case 5:
-//                                session.logoutUser();
-//                                finish();
-//                                break;
-//
-//                            case 7:
-//                                startActivity(new Intent(MainActivity.this, NotificationActivity.class));
-//                                break;
-//
-//                            case 8:
-//                                new LibsBuilder()
-//                                        .withFields(R.string.class.getFields())
-//                                        .withActivityTitle(getString(R.string.about_activity_title))
-//                                        .withAboutIconShown(true)
-//                                        .withAboutAppName(getString(R.string.app_name))
-//                                        .withAboutVersionShown(true)
-//                                        .withLicenseShown(true)
-//                                        .withAboutSpecial1(getString(R.string.domain))
-//                                        .withAboutSpecial1Description(getString(R.string.website))
-//                                        .withAboutSpecial2(getString(R.string.licence))
-//                                        .withAboutSpecial2Description(getString(R.string.licencedesc))
-//                                        .withAboutSpecial3(getString(R.string.changelog))
-//                                        .withAboutSpecial3Description(getString(R.string.changes))
-//                                        .withShowLoadingProgress(true)
-//                                        .withAboutDescription(getString(R.string.about_activity_description))
-//                                        .withActivityStyle(Libs.ActivityStyle.LIGHT_DARK_TOOLBAR)
-//                                        .start(MainActivity.this);
-//                                break;
-//                            case 9:
-//                                new EasyFeedback.Builder(MainActivity.this)
-//                                        .withEmail("beingdevofficial@gmail.com")
-//                                        .withSystemInfo()
-//                                        .build()
-//                                        .start();
-//                                break;
-//                            case 10:
-//                                startActivity(new Intent(MainActivity.this, HelpCenter.class));
-//                                break;
-//                            case 12:
-//                                session.setFirstTimeLaunch(true);
-//                                startActivity(new Intent(MainActivity.this, WelcomeActivity.class));
-//                                finish();
-//                                break;
-//                            case 13:
-//                                if (result != null && result.isDrawerOpen()) {
-//                                    result.closeDrawer();
-//                                }
-//                                tapview();
-//                                break;
-//                            default:
-//                                Toast.makeText(MainActivity.this, "Default", Toast.LENGTH_LONG).show();
-//
-//                        }
-//
-//                        return true;
-//                    }
-//                })
-//                .build();
+        //creating navbar and adding to the toolbar ------------------------------------------------
+        result = new DrawerBuilder()
+                .withActivity(this)
+                .withToolbar(toolbar)
+                .withHasStableIds(true)
+                .withDrawerLayout(R.layout.crossfade_drawer)
+                .withAccountHeader(headerResult)
+                .withDrawerWidthDp(72)
+                .withGenerateMiniDrawer(true)
+                .withTranslucentStatusBar(true)
+                .withActionBarDrawerToggleAnimated(true)
+                .addDrawerItems(
+                        item1, item2, item3, item4, item5, new DividerDrawerItem(), item7, item8, item9, item10,new DividerDrawerItem(),item12,item13
+                )
+                .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
+                    @Override
+                    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+
+                        switch (position) {
+
+                            case 1:
+                                if (result != null && result.isDrawerOpen()) {
+                                    result.closeDrawer();
+                                }
+                                break;
+                            case 2:
+                                startActivity(new Intent(MainActivity.this, ContactsContract.Profile.class));
+                                break;
+                            case 3:
+                                //startActivity(new Intent(MainActivity.this, Wishlist.class));
+                                break;
+                            case 4:
+                                startActivity(new Intent(MainActivity.this, Cart.class));
+                                break;
+                            case 5:
+                                session.logoutUser();
+                                finish();
+                                break;
+
+                            case 7:
+                                //startActivity(new Intent(MainActivity.this, NotificationActivity.class));
+                                break;
+
+                            case 8:
+                                new LibsBuilder()
+                                        .withFields(R.string.class.getFields())
+                                        .withActivityTitle(getString(R.string.about_activity_title))
+                                        .withAboutIconShown(true)
+                                        .withAboutAppName(getString(R.string.app_name))
+                                        .withAboutVersionShown(true)
+                                        .withLicenseShown(true)
+                                        .withAboutSpecial1(getString(R.string.domain))
+                                        .withAboutSpecial1Description(getString(R.string.website))
+                                        .withAboutSpecial2(getString(R.string.licence))
+                                        .withAboutSpecial2Description(getString(R.string.licencedesc))
+                                        .withAboutSpecial3(getString(R.string.changelog))
+                                        .withAboutSpecial3Description(getString(R.string.changes))
+                                        .withShowLoadingProgress(true)
+                                        .withAboutDescription(getString(R.string.about_activity_description))
+                                        .withActivityStyle(Libs.ActivityStyle.LIGHT_DARK_TOOLBAR)
+                                        .start(MainActivity.this);
+                                break;
+                            case 9:
+                                new EasyFeedback.Builder(MainActivity.this)
+                                        .withEmail("beingdevofficial@gmail.com")
+                                        .withSystemInfo()
+                                        .build()
+                                        .start();
+                                break;
+                            case 10:
+                                //startActivity(new Intent(MainActivity.this, HelpCenter.class));
+                                break;
+                            case 12:
+                                session.setFirstTimeLaunch(true);
+                                startActivity(new Intent(MainActivity.this, WelcomeActivity.class));
+                                finish();
+                                break;
+                            case 13:
+                                if (result != null && result.isDrawerOpen()) {
+                                    result.closeDrawer();
+                                }
+                                tapview();
+                                break;
+                            default:
+                                Toast.makeText(MainActivity.this, "Default", Toast.LENGTH_LONG).show();
+
+                        }
+
+                        return true;
+                    }
+                })
+                .build();
 
         //Setting crossfader drawer------------------------------------------------------------
 
-//        crossfadeDrawerLayout = (CrossfadeDrawerLayout) result.getDrawerLayout();
-//
-//        //define maxDrawerWidth
-//        crossfadeDrawerLayout.setMaxWidthPx(DrawerUIUtils.getOptimalDrawerWidth(this));
-//
-//        //add second view (which is the miniDrawer)
-//        final MiniDrawer miniResult = result.getMiniDrawer();
-//
-//        //build the view for the MiniDrawer
-//        View view = miniResult.build(this);
-//
-//        //set the background of the MiniDrawer as this would be transparent
-//        view.setBackgroundColor(UIUtils.getThemeColorFromAttrOrRes(this, com.mikepenz.materialdrawer.R.attr.material_drawer_background, com.mikepenz.materialdrawer.R.color.material_drawer_background));
-//
-//        //we do not have the MiniDrawer view during CrossfadeDrawerLayout creation so we will add it here
-//        crossfadeDrawerLayout.getSmallView().addView(view, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-//
-//        //define the crossfader to be used with the miniDrawer. This is required to be able to automatically toggle open / close
-//        miniResult.withCrossFader(new ICrossfader() {
-//            @Override
-//            public void crossfade() {
-//                boolean isFaded = isCrossfaded();
-//                crossfadeDrawerLayout.crossfade(400);
-//
-//                //only close the drawer if we were already faded and want to close it now
-//                if (isFaded) {
-//                    result.getDrawerLayout().closeDrawer(GravityCompat.START);
-//                }
-//            }
-//
-//            @Override
-//            public boolean isCrossfaded() {
-//                return crossfadeDrawerLayout.isCrossfaded();
-//            }
-//        });
+        crossfadeDrawerLayout = (CrossfadeDrawerLayout) result.getDrawerLayout();
+
+        //define maxDrawerWidth
+        crossfadeDrawerLayout.setMaxWidthPx(DrawerUIUtils.getOptimalDrawerWidth(this));
+
+        //add second view (which is the miniDrawer)
+        final MiniDrawer miniResult = result.getMiniDrawer();
+
+        //build the view for the MiniDrawer
+        View view = miniResult.build(this);
+
+        //set the background of the MiniDrawer as this would be transparent
+        view.setBackgroundColor(UIUtils.getThemeColorFromAttrOrRes(this, com.mikepenz.materialdrawer.R.attr.material_drawer_background, com.mikepenz.materialdrawer.R.color.material_drawer_background));
+
+        //we do not have the MiniDrawer view during CrossfadeDrawerLayout creation so we will add it here
+        crossfadeDrawerLayout.getSmallView().addView(view, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+
+        //define the crossfader to be used with the miniDrawer. This is required to be able to automatically toggle open / close
+        miniResult.withCrossFader(new ICrossfader() {
+            @Override
+            public void crossfade() {
+                boolean isFaded = isCrossfaded();
+                crossfadeDrawerLayout.crossfade(400);
+
+                //only close the drawer if we were already faded and want to close it now
+                if (isFaded) {
+                    result.getDrawerLayout().closeDrawer(GravityCompat.START);
+                }
+            }
+
+            @Override
+            public boolean isCrossfaded() {
+                return crossfadeDrawerLayout.isCrossfaded();
+            }
+        });
     }
 
 
@@ -393,7 +416,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-//    public void viewProfile(View view) {
+    //    public void viewProfile(View view) {
 //        startActivity(new Intent(MainActivity.this, Profile.class));
 //    }
 //

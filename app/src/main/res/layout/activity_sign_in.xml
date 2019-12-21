@@ -61,15 +61,6 @@
 
         </com.github.florent37.materialtextfield.MaterialTextField>
 
-        <TextView
-            android:id="@+id/pls_verify_email"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:fontFamily="@font/raleway_medium"
-            android:text="@string/pls_verify_email"
-            android:textAlignment="center"
-            android:visibility="gone" />
 
         <!--<TextView-->
         <!--android:id="@+id/resend_verify_email"-->

@@ -54,7 +54,7 @@ public class Cart extends AppCompatActivity {
     private LottieAnimationView emptycart;
 
     private ArrayList<SingleProductModel> cartcollect;
-    private float totalcost=0;
+    private String totalcost= "0";
     private String totalproducts = "0";
 
 
@@ -201,7 +201,7 @@ public class Cart extends AppCompatActivity {
                 holder.cardcount.setText("Quantity : "+model.getNo_of_items());
                 Picasso.with(Cart.this).load(model.getPrimage()).into(holder.cardimage);
 
-                totalcost += Float.parseFloat(model.getNo_of_items())*Float.parseFloat(model.getPrprice());
+                //totalcost += String.valueOf(Float.parseFloat(model.getNo_of_items())*Float.parseFloat(model.getPrprice()));
                 totalproducts += model.getNo_of_items();
                 cartcollect.add(model);
 
@@ -322,7 +322,7 @@ public class Cart extends AppCompatActivity {
 
     public void checkout(View view) {
         Intent intent = new Intent(Cart.this,OrderDetails.class);
-        intent.putExtra("totalprice",Float.toString(totalcost));
+        intent.putExtra("totalprice",String.valueOf(totalcost));
         intent.putExtra("totalproducts",totalproducts);
         intent.putExtra("cartproducts",cartcollect);
         startActivity(intent);

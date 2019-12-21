@@ -36,6 +36,7 @@
                 android:textAllCaps="false"
                 android:textColor="#009624  "
                 android:textSize="68sp"
+                android:layoutDirection="ltr"
                 android:textStyle="bold|italic" />
 
             <TextView
@@ -44,6 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/logo"
                 android:layout_centerHorizontal="true"
+                android:layoutDirection="ltr"
                 android:layout_marginTop="10dp"
                 android:text="@string/petName"
                 android:textColor="@color/colorPrimary"

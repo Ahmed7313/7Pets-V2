@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/7Pets" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/FirebaseRecyclerAdapter" vcs="Git" />
   </component>
 </project>

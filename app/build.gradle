@@ -37,10 +37,10 @@ dependencies {
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
     implementation 'com.airbnb.android:lottie:3.1.0'
 
+    implementation "com.mikepenz:crossfadedrawerlayout:1.1.0"
+    implementation "com.mikepenz:materialize:1.2.0"
+    implementation "androidx.appcompat:appcompat:1.1.0"
 
-    implementation('com.mikepenz:materialdrawer:3.0.9@aar') {
-        transitive = true
-    }
 //Sign in Buttons Material dependency
     implementation 'com.github.florent37:materialtextfield:1.0.7'
 
@@ -56,6 +56,11 @@ dependencies {
     //Fancy Alert Dialog
     implementation 'com.geniusforapp.fancydialog:FancyDialog:0.1.4'
     implementation 'com.getkeepsafe.taptargetview:taptargetview:1.13.0'
+
+    implementation "com.mikepenz:materialdrawer:6.1.2"
+    implementation 'com.mikepenz:aboutlibraries:7.0.4@aar'
+
+    implementation 'com.webianks.library:easy-feedback:1.0.5'
 
 
     implementation 'de.hdodenhof:circleimageview:3.0.1'

@@ -6,21 +6,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey_light">
+    android:background="@color/grey_light"
+    tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar"
         android:layout_height="?attr/actionBarSize"
         android:layout_width="match_parent">
-
-<!--        <com.google.android.material.appbar.CollapsingToolbarLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            app:toolbarId="@+id/toolbar"-->
-<!--            android:background="@color/gen_white"-->
-<!--            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed"-->
-<!--            app:contentScrim="?attr/colorPrimary">-->
-
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -28,8 +20,18 @@
                 android:layout_height="?attr/actionBarSize"
                 app:titleTextColor="@color/colorAccent"
                 android:gravity="left"
+                android:paddingTop="5dp"
                 android:background="@color/colorAccent">
 
+                <TextView
+                    android:textColor="@color/md_green_800"
+                    android:textSize="28sp"
+                    android:gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:fontFamily="@font/blacklist"
+                    />
 
                 <TextView
                     android:textColor="@color/primary"
@@ -38,7 +40,7 @@
                     android:gravity="start"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/app_name"
+                    android:text="Pets"
                     android:fontFamily="@font/blacklist"
                     android:padding="5dp"/>
 
@@ -143,7 +145,6 @@
                         android:weightSum="10">
 
                         <androidx.cardview.widget.CardView
-                            android:onClick="cardsActivity"
                             style="@style/homegridcard"
                             >
 
