@@ -78,7 +78,7 @@ public class SignUpActivity extends Activity {
     private UploadTask uploadTask;
     private String name,email,password,mobile;
     private TextView appname;
-
+    private Bitmap bitmap;
     private UserSession session;
     private String sessionEmail,sessionPass,sessionMobile,sessionName,sessionPhoto;
 
@@ -169,8 +169,8 @@ public class SignUpActivity extends Activity {
             AMorPM = " PM";
         }
         final String name = editTextFirstName.getText().toString().trim();
-        String username = name;
-        String phoneNumber = editTextPhone.getText().toString().trim();
+        final String username = name;
+        final String phoneNumber = editTextPhone.getText().toString().trim();
         final String email = editTextEmail.getText().toString().trim();
         String userId = mAuth.getCurrentUser().getUid();
         User user;
@@ -189,7 +189,7 @@ public class SignUpActivity extends Activity {
                     currentUser.sendEmailVerification();
 
                     //create shared preference and store data
-                    session.createLoginSession(name,email,mobile,profileImageUrl);
+                    session.createLoginSession(username,email,phoneNumber,bitmap.toString());
 
                     Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
@@ -264,7 +264,7 @@ public class SignUpActivity extends Activity {
             //replace the image in the UI
             pickedImageUri = data.getData();
             try {
-                Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), pickedImageUri);
+                bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), pickedImageUri);
                 userImageSignUp.setImageBitmap(bitmap);
                 uploadProfileImageToFirebase();
             } catch (IOException e) {

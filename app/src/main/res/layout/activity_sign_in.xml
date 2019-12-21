@@ -15,6 +15,11 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="226dp"
+            android:layout_height="184dp"
+            android:src="@drawable/paw" />
+
         <TextView
             android:layout_marginTop="10dp"
             android:textColor="#fff"

@@ -2,8 +2,11 @@ package com.noon.a7pets;
 
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.provider.ContactsContract;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,8 +39,13 @@ import com.noon.a7pets.Productscategory.Dogs;
 import com.noon.a7pets.Rgisteration.WelcomeActivity;
 import com.noon.a7pets.networksync.CheckInternetConnection;
 import com.noon.a7pets.usersession.UserSession;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.RequestCreator;
 import com.webianks.easy_feedback.EasyFeedback;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -46,16 +54,6 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.core.view.GravityCompat;
 
-//import com.mikepenz.aboutlibraries.Libs;
-//import com.mikepenz.aboutlibraries.LibsBuilder;
-//import com.mikepenz.crossfadedrawerlayout.view.CrossfadeDrawerLayout;
-//import com.mikepenz.materialdrawer.AccountHeader;
-//import com.mikepenz.materialdrawer.AccountHeaderBuilder;
-//import com.mikepenz.materialdrawer.MiniDrawer;
-//import com.mikepenz.materialdrawer.interfaces.ICrossfader;
-//import com.mikepenz.materialdrawer.util.DrawerUIUtils;
-//import com.mikepenz.materialize.util.UIUtils;
-//import com.webianks.easy_feedback.EasyFeedback;
 
 //import es.dmoral.toasty.Toasty;
 
@@ -75,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     private CrossfadeDrawerLayout crossfadeDrawerLayout = null;
     private Drawer result;
+    Bitmap profilePhoto;
 
     private Toolbar toolbar;
     @Override
@@ -214,10 +213,11 @@ public class MainActivity extends AppCompatActivity {
 
         //populating Image slider
         ArrayList<String> sliderImages = new ArrayList<>();
-        sliderImages.add("https://firebasestorage.googleapis.com/v0/b/pets-e10e4.appspot.com/o/productsImages%2Fpet1.jpg?alt=media&token=e975efd8-b6eb-4dfb-814a-3e06c51e5f69");
-        sliderImages.add("https://firebasestorage.googleapis.com/v0/b/pets-e10e4.appspot.com/o/productsImages%2Fpet2.jpg?alt=media&token=bcb78d16-8a7f-47e7-9021-a01d8f48c619");
-        sliderImages.add("https://firebasestorage.googleapis.com/v0/b/pets-e10e4.appspot.com/o/productsImages%2Fpet4.png?alt=media&token=05e0a831-18c7-4db6-8028-f2c0b129b6c1");
-        sliderImages.add("https://firebasestorage.googleapis.com/v0/b/pets-e10e4.appspot.com/o/productsImages%2Fpet5.jpg?alt=media&token=1fd5c329-957b-4566-ac92-04823b6dd0ed");
+        sliderImages.add("https://firebasestorage.googleapis.com/v0/b/pets-e10e4.appspot.com/o/offersImages%2Fcard_ofer3.jpg?alt=media&token=a4e82bfb-1791-4251-b973-5cb5c38c095e");
+        sliderImages.add("https://firebasestorage.googleapis.com/v0/b/pets-e10e4.appspot.com/o/offersImages%2Fcard_offer5.jpg?alt=media&token=df36a5e7-250f-47ec-ac23-8001bc18cb03");
+        sliderImages.add("https://firebasestorage.googleapis.com/v0/b/pets-e10e4.appspot.com/o/offersImages%2Fcard_offer4.jpg?alt=media&token=2b216eb2-6ba3-4711-b6e6-990978dd5f30");
+        sliderImages.add("https://firebasestorage.googleapis.com/v0/b/pets-e10e4.appspot.com/o/offersImages%2Fcard_ofer1.png?alt=media&token=2f73d15d-a27c-4a19-8461-c908ccc081ea");
+        sliderImages.add("https://firebasestorage.googleapis.com/v0/b/pets-e10e4.appspot.com/o/offersImages%2Fcard_offer2.jpg?alt=media&token=f591c543-2e5b-4fe4-ab71-8b4975553329");
 
         for (String s : sliderImages) {
             DefaultSliderView sliderView = new DefaultSliderView(this);
@@ -235,13 +235,22 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        String drawableRes= photo;
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+        try {
+            URL url = new URL(drawableRes);
+            profilePhoto = BitmapFactory.decodeStream((InputStream)url.getContent());
+        } catch (IOException e) {
+            //Log.e(TAG, e.getMessage());
+        }
+        
         // Create the AccountHeader ----------------------------------------------------------------
-
         //Profile Making
         IProfile profile = new ProfileDrawerItem()
                 .withName(name)
                 .withEmail(email)
-                .withIcon(photo);
+                .withIcon(profilePhoto);
 
         AccountHeader headerResult = new AccountHeaderBuilder()
                 .withActivity(this)
@@ -292,10 +301,10 @@ public class MainActivity extends AppCompatActivity {
                                 }
                                 break;
                             case 2:
-                                startActivity(new Intent(MainActivity.this, ContactsContract.Profile.class));
+                                startActivity(new Intent(MainActivity.this, Profile.class));
                                 break;
                             case 3:
-                                //startActivity(new Intent(MainActivity.this, Wishlist.class));
+                                startActivity(new Intent(MainActivity.this, Wishlist.class));
                                 break;
                             case 4:
                                 startActivity(new Intent(MainActivity.this, Cart.class));
@@ -416,10 +425,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //    public void viewProfile(View view) {
-//        startActivity(new Intent(MainActivity.this, Profile.class));
-//    }
-//
+        public void viewProfile(View view) {
+        startActivity(new Intent(MainActivity.this, Profile.class));
+    }
+
     public void viewCart(View view) {
         startActivity(new Intent(MainActivity.this, Cart.class));
     }

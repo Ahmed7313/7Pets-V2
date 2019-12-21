@@ -43,7 +43,7 @@ public class CompleteSignUpData extends Activity {
     String currentUserID;
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference mDatabaseReference = database.getReference();
-
+    private User user;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +58,7 @@ public class CompleteSignUpData extends Activity {
         email = intent.getExtras().getString("Email");
 
         editTextPhone = findViewById(R.id.editTextPhone_google);
+        phoneNumber = editTextPhone.getText().toString().trim();
 
 
 
@@ -76,14 +77,13 @@ public class CompleteSignUpData extends Activity {
     private void saveUserInfoToFirebaseDatabase() {
 
 
-        String phoneNumber = editTextPhone.getText().toString().trim();
+        final String phoneNumber = editTextPhone.getText().toString().trim();
         String userId = mAuth.getCurrentUser().getUid();
-        User user;
         DatabaseReference currentUserDb = FirebaseDatabase.getInstance().getReference().child("Users").child(userId);
+        user = new User(username, phoneNumber, email, photoURL);
 
         if (photoURL != null) {
             finishSignInBtn.setVisibility(View.GONE);
-            user = new User(username, phoneNumber, email, photoURL);
             String sessionName = user.getName();
             String sessionMail = user.getEmail();
             String sessionMobile = user.getMobile();
@@ -122,6 +122,15 @@ public class CompleteSignUpData extends Activity {
                     finishSignInBtn.setVisibility(View.VISIBLE);
                     FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
                     currentUser.sendEmailVerification();
+
+                    user = new User(username, phoneNumber, email, null);
+                    String sessionName = user.getName();
+                    String sessionMail = user.getEmail();
+                    String sessionMobile = user.getMobile();
+                    String sessionPhoto = user.getPhoto();
+                    //create shared preference and store data
+                    session.createLoginSession(sessionName,sessionMail,sessionMobile,sessionPhoto);
+
                     //Set the user Device token if he signed in using google
                     FirebaseAuth mAuth = FirebaseAuth.getInstance();
                     currentUserID = mAuth.getCurrentUser().getUid();

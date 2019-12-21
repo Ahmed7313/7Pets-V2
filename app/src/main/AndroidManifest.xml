@@ -12,16 +12,24 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".IndividualProduct"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".OrderDetails"></activity>
-        <activity android:name=".Cart"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Wishlist"
+            android:theme="@style/AppTheme.NoActionBar" ></activity>
+        <activity
+            android:name=".Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".IndividualProduct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OrderDetails" />
+        <activity
+            android:name=".Cart"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Productscategory.Dogs"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -50,7 +58,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Rgisteration.WelcomeActivity" />
+        <activity
+            android:name=".Rgisteration.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />

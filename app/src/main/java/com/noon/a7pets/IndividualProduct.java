@@ -135,9 +135,10 @@ public class IndividualProduct extends AppCompatActivity {
         }
 
         private SingleProductModel getProductObject() {
+            String quantity = quantityProductPage.getText().toString().trim();
             String cardId = model.getCardid();
             return new SingleProductModel(cardId,
-                    quantityProductPage.toString(), useremail, usermobile,
+                    quantity, useremail, usermobile,
                     model.getCardname(), model.getCardprice(), model.getCardimage(),
                     model.carddiscription,customheader.getText().toString(),custommessage.getText().toString());
 

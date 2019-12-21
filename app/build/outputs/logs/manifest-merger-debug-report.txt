@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-69:12
 MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\df03a3c9b648c4c6fff537bcd62f0d84\lottie-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikepenz:crossfadedrawerlayout:1.1.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\326803aeece7bcb24e3e6950b91e5367\crossfadedrawerlayout-1.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.mikepenz:materialdrawer:6.1.2] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\3eb4e7700bf408591a47c4e90d14c02b\materialdrawer-6.1.2\AndroidManifest.xml:2:1-11:12
@@ -12,6 +12,7 @@ MERGED from [com.github.florent37:materialtextfield:1.0.7] C:\Users\Ahmed Adel\.
 MERGED from [com.tomer:fadingtextview:2.5] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\708b90cf809b2303c335654b95144dab\jetified-fadingtextview-2.5\AndroidManifest.xml:2:1-10:12
 MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.13.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\85973f319928891f4cf734b018ac533b\taptargetview-1.13.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\8ab70244bdb66a0f409cd81b227d1830\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
+MERGED from [com.karumi:dexter:6.0.1] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\d74c21d83a75cedc71eddd62d42665e5\dexter-6.0.1\AndroidManifest.xml:17:1-32:12
 MERGED from [com.geniusforapp.fancydialog:FancyDialog:0.1.4] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\23cf34a52c7182999ca77cef2b47761b\jetified-FancyDialog-0.1.4\AndroidManifest.xml:2:1-16:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\3295b8d0bda86d39fcda21b87c31a4e7\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.mikepenz:iconics-core:3.1.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\0e0784073d63200d7b74e58530b1ba4e\iconics-core-3.1.0\AndroidManifest.xml:2:1-11:12
@@ -95,22 +96,22 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ahmed Adel\.
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\0c941d6820f951830db1838fc989db31\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\29c3f8c32dedf212f02b17edfab0c9ff\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\7959410a2b1c2f20979f298fe7ed7b3b\protolite-well-known-types-17.0.0\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-69:12
+INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-69:12
 	package
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:4:5-30
 		INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
 	xmlns:dist
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-59:12
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:1-69:12
 		INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:2:11-69
@@ -179,9 +180,11 @@ MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Ahmed Adel\.gradle\cach
 	android:name
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:11:22-78
 application
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:13:5-57:19
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:13:5-67:19
 MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\df03a3c9b648c4c6fff537bcd62f0d84\lottie-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.1.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\df03a3c9b648c4c6fff537bcd62f0d84\lottie-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.karumi:dexter:6.0.1] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\d74c21d83a75cedc71eddd62d42665e5\dexter-6.0.1\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:6.0.1] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\d74c21d83a75cedc71eddd62d42665e5\dexter-6.0.1\AndroidManifest.xml:26:5-30:19
 MERGED from [com.geniusforapp.fancydialog:FancyDialog:0.1.4] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\23cf34a52c7182999ca77cef2b47761b\jetified-FancyDialog-0.1.4\AndroidManifest.xml:11:5-14:19
 MERGED from [com.geniusforapp.fancydialog:FancyDialog:0.1.4] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\23cf34a52c7182999ca77cef2b47761b\jetified-FancyDialog-0.1.4\AndroidManifest.xml:11:5-14:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\3295b8d0bda86d39fcda21b87c31a4e7\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -255,91 +258,109 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Ahmed Adel\.gr
 	android:roundIcon
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:17:9-41
 	android:icon
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:15:9-36
 	android:allowBackup
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:19:9-40
-activity#com.noon.a7pets.IndividualProduct
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:20:9-21:68
+activity#com.noon.a7pets.Wishlist
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:20:9-21:69
 	android:theme
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:20:19-52
-activity#com.noon.a7pets.OrderDetails
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:22:9-59
-	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:22:19-47
-activity#com.noon.a7pets.Cart
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:23:9-24:58
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:20:19-43
+activity#com.noon.a7pets.Profile
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:22:9-24:59
 	android:theme
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:24:13-56
 	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:23:19-39
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:23:13-36
+activity#com.noon.a7pets.Register
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:25:9-46
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:25:19-43
+activity#com.noon.a7pets.IndividualProduct
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:26:9-28:59
+	android:theme
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:27:13-46
+activity#com.noon.a7pets.OrderDetails
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:29:9-50
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:29:19-47
+activity#com.noon.a7pets.Cart
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:30:9-32:59
+	android:theme
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:32:13-56
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:31:13-33
 activity#com.noon.a7pets.Productscategory.Dogs
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:25:9-27:59
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:33:9-35:59
 	android:theme
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:27:13-56
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:35:13-56
 	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:26:13-50
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:34:13-50
 activity#com.noon.a7pets.LoginActivity
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:28:9-30:59
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:36:9-38:59
 	android:theme
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:30:13-56
-	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:29:13-42
-activity#com.noon.a7pets.DogFood
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:31:9-33:59
-	android:theme
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:33:13-56
-	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:32:13-36
-activity#com.noon.a7pets.Rgisteration.CompleteSignUpData
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:34:9-36:59
-	android:theme
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:36:13-56
-	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:35:13-60
-activity#com.noon.a7pets.Rgisteration.SignUpActivity
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:37:9-39:59
-	android:theme
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:39:13-56
-	android:name
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:38:13-56
-activity#com.noon.a7pets.Rgisteration.SignInActivity
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:40:9-42:59
-	android:theme
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:42:13-56
 	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:37:13-42
+activity#com.noon.a7pets.DogFood
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:39:9-41:59
+	android:theme
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:41:13-56
-activity#com.noon.a7pets.SplashActivity
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:43:9-52:20
-	android:screenOrientation
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:40:13-36
+activity#com.noon.a7pets.Rgisteration.CompleteSignUpData
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:42:9-44:59
 	android:theme
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:43:13-60
+activity#com.noon.a7pets.Rgisteration.SignUpActivity
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:45:9-47:59
+	android:theme
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:47:13-56
+	android:name
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:46:13-56
-	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:44:13-43
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:47:13-51:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:48:17-69
-	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:48:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:50:17-77
-	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:50:27-74
-activity#com.noon.a7pets.Rgisteration.WelcomeActivity
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:53:9-66
-	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:53:19-63
-activity#com.noon.a7pets.MainActivity
-ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:54:9-56:59
+activity#com.noon.a7pets.Rgisteration.SignInActivity
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:48:9-50:59
 	android:theme
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:56:13-56
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:50:13-56
 	android:name
-		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:55:13-41
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:49:13-56
+activity#com.noon.a7pets.SplashActivity
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:51:9-60:20
+	android:screenOrientation
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:53:13-49
+	android:theme
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:54:13-56
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:52:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:58:27-74
+activity#com.noon.a7pets.Rgisteration.WelcomeActivity
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:61:9-63:59
+	android:theme
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:63:13-56
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:62:13-57
+activity#com.noon.a7pets.MainActivity
+ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:64:9-66:59
+	android:theme
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:66:13-56
+	android:name
+		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml:65:13-41
 uses-sdk
 INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
@@ -360,6 +381,8 @@ MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.13.0] C:\Users\Ahmed 
 MERGED from [com.getkeepsafe.taptargetview:taptargetview:1.13.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\85973f319928891f4cf734b018ac533b\taptargetview-1.13.0\AndroidManifest.xml:5:5-44
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\8ab70244bdb66a0f409cd81b227d1830\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
 MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\8ab70244bdb66a0f409cd81b227d1830\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.karumi:dexter:6.0.1] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\d74c21d83a75cedc71eddd62d42665e5\dexter-6.0.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:6.0.1] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\d74c21d83a75cedc71eddd62d42665e5\dexter-6.0.1\AndroidManifest.xml:22:5-24:41
 MERGED from [com.geniusforapp.fancydialog:FancyDialog:0.1.4] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\23cf34a52c7182999ca77cef2b47761b\jetified-FancyDialog-0.1.4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.geniusforapp.fancydialog:FancyDialog:0.1.4] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\23cf34a52c7182999ca77cef2b47761b\jetified-FancyDialog-0.1.4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\3295b8d0bda86d39fcda21b87c31a4e7\material-1.0.0\AndroidManifest.xml:20:5-44
@@ -536,6 +559,12 @@ INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Ahmed Adel\Desktop\7Pets\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:6.0.1] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\d74c21d83a75cedc71eddd62d42665e5\dexter-6.0.1\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:6.0.1] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\d74c21d83a75cedc71eddd62d42665e5\dexter-6.0.1\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:6.0.1] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\d74c21d83a75cedc71eddd62d42665e5\dexter-6.0.1\AndroidManifest.xml:28:13-60
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\Ahmed Adel\.gradle\caches\transforms-2\files-2.1\a399ee21de14ed156dd3ef2e238d94fd\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents

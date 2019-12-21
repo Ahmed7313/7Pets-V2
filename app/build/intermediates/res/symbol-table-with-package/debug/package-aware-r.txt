@@ -1693,6 +1693,11 @@ drawable bubble
 drawable button_rect_normal
 drawable calendar
 drawable card
+drawable card_ofer1
+drawable card_ofer3
+drawable card_offer2
+drawable card_offer4
+drawable card_offer5
 drawable cart
 drawable cartempty
 drawable common_full_open_on_phone
@@ -1912,6 +1917,7 @@ id activity_item_details
 id add
 id add_to_cart
 id add_to_wishlist
+id addressview
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1959,6 +1965,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id confirmpassword
 id container
 id content
 id contentPanel
@@ -2005,6 +2012,7 @@ id editTextPhone
 id editTextPhone_google
 id edit_query
 id email
+id emailview
 id empty_cart
 id end
 id end_padder
@@ -2074,6 +2082,7 @@ id list_item
 id loader_item_id
 id loading_bar
 id login_button
+id login_now
 id logo
 id lottie_layer_name
 id mainView
@@ -2132,6 +2141,7 @@ id media_actions
 id message
 id middle
 id mini
+id mobileview
 id mtf_card
 id mtf_editTextLayout
 id mtf_image
@@ -2140,6 +2150,8 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id my_recycler_view
+id name
+id name_button
 id navigation_header_container
 id negative
 id never
@@ -2149,6 +2161,7 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id notifintro
+id number
 id off
 id on
 id others
@@ -2171,6 +2184,7 @@ id productdesc
 id productimage
 id productname
 id productprice
+id profilepic
 id progressBar
 id progressBarImg
 id progressBar_sign_up
@@ -2181,6 +2195,7 @@ id quantityProductPage
 id radio
 id rect
 id recyclerview
+id register
 id register_now
 id restart
 id reverse
@@ -2285,6 +2300,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updatedetails
 id uploadpic
 id useLogo
 id userImageSignUp
@@ -2362,10 +2378,13 @@ layout activity_main
 layout activity_opensource
 layout activity_order_details
 layout activity_product_details
+layout activity_profile
+layout activity_register
 layout activity_sign_in
 layout activity_sign_up
 layout activity_splash
 layout activity_welcome
+layout activity_wish_list
 layout cards_cardview_layout
 layout cart_item_layout
 layout crossfade_drawer
@@ -5700,6 +5719,7 @@ style CardView
 style CardView_Dark
 style CardView_Light
 style CustomTheme
+style Dexter_Internal_Theme_Transparent
 style Material_DrawerArrowStyle
 style Material_Light_DrawerArrowStyle
 style MaterialBaseBaseTheme

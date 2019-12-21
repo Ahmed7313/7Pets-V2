@@ -20,12 +20,14 @@ import android.widget.TextView;
 import com.noon.a7pets.LoginActivity;
 import com.noon.a7pets.MainActivity;
 import com.noon.a7pets.R;
+import com.noon.a7pets.usersession.UserSession;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 
-public class WelcomeActivity extends Activity {
+public class WelcomeActivity extends AppCompatActivity {
 
     private ViewPager viewPager;
     private MyViewPagerAdapter myViewPagerAdapter;
@@ -33,21 +35,20 @@ public class WelcomeActivity extends Activity {
     private TextView[] dots;
     private int[] layouts;
     private Button btnSkip, btnNext;
-
+    private UserSession prefManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // Checking for first time launch - before calling setContentView()
-
-        if (restorePrefData()) {
-
-            Intent intent = new Intent(WelcomeActivity.this, SignInActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-
+        prefManager = new UserSession(this);
+        if (!prefManager.isFirstTimeLaunch()) {
+            launchHomeScreen();
+            finish();
         }
+
+        UserSession userSession = new UserSession(this);
 
 
         // Making notification bar transparent
@@ -84,12 +85,8 @@ public class WelcomeActivity extends Activity {
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(WelcomeActivity.this, SignInActivity.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
-
-                savePrefsData();            }
+                launchHomeScreen();
+            }
         });
 
         btnNext.setOnClickListener(new View.OnClickListener() {
@@ -103,7 +100,6 @@ public class WelcomeActivity extends Activity {
                     viewPager.setCurrentItem(current);
                 } else {
                     launchHomeScreen();
-
                 }
             }
         });
@@ -132,6 +128,17 @@ public class WelcomeActivity extends Activity {
         return viewPager.getCurrentItem() + i;
     }
 
+    private void launchHomeScreen() {
+        prefManager.setFirstTimeLaunch(false);
+        if(prefManager.isLoggedIn()) {
+            Intent i = new Intent(WelcomeActivity.this, MainActivity.class);
+            startActivity(i);
+        }else{
+            Intent i = new Intent(WelcomeActivity.this, SignInActivity.class);
+            startActivity(i);
+        }
+        finish();
+    }
 
     //  viewpager change listener
     ViewPager.OnPageChangeListener viewPagerPageChangeListener = new ViewPager.OnPageChangeListener() {
@@ -173,35 +180,6 @@ public class WelcomeActivity extends Activity {
             window.setStatusBarColor(Color.TRANSPARENT);
         }
     }
-
-    private Boolean restorePrefData() {
-
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("myPrefs", MODE_PRIVATE);
-        Boolean isIntroActivityOpenedBefore = pref.getBoolean("isIntroOpened", false);
-        return isIntroActivityOpenedBefore;
-
-    }
-
-    private void savePrefsData() {
-
-        SharedPreferences pref = getApplicationContext().getSharedPreferences("myPrefs", MODE_PRIVATE);
-        SharedPreferences.Editor editor = pref.edit();
-        editor.putBoolean("isIntroOpened", true);
-        editor.commit();
-
-    }
-
-    private void launchHomeScreen() {
-        if(restorePrefData()) {
-            Intent i = new Intent(WelcomeActivity.this, MainActivity.class);
-            startActivity(i);
-        }else{
-            Intent i = new Intent(WelcomeActivity.this, SignInActivity.class);
-            startActivity(i);
-        }
-        finish();
-    }
-
 
     /**
      * View pager adapter
