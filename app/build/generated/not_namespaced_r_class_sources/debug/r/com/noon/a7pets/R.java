@@ -174,7 +174,6 @@ public final class R {
      */
     public static final int about_libraries_window_background=0x7f04000b;
     /**
-     * Custom divider drawable to use for elements in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -182,7 +181,6 @@ public final class R {
      */
     public static final int actionBarDivider=0x7f04000c;
     /**
-     * Custom item state list drawable background for action bar items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -190,8 +188,6 @@ public final class R {
      */
     public static final int actionBarItemBackground=0x7f04000d;
     /**
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -199,8 +195,6 @@ public final class R {
      */
     public static final int actionBarPopupTheme=0x7f04000e;
     /**
-     * Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -217,10 +211,6 @@ public final class R {
      */
     public static final int actionBarSize=0x7f04000f;
     /**
-     * Reference to a style for the split Action Bar. This style
-     * controls the split component that holds the menu/action
-     * buttons. actionBarStyle is still used for the primary
-     * bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -228,7 +218,6 @@ public final class R {
      */
     public static final int actionBarSplitStyle=0x7f040010;
     /**
-     * Reference to a style for the Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -243,7 +232,6 @@ public final class R {
      */
     public static final int actionBarTabBarStyle=0x7f040012;
     /**
-     * Default style for tabs within an action bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -258,9 +246,6 @@ public final class R {
      */
     public static final int actionBarTabTextStyle=0x7f040014;
     /**
-     * Reference to a theme that should be used to inflate the
-     * action bar. This will be inherited by any widget inflated
-     * into the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -268,13 +253,6 @@ public final class R {
      */
     public static final int actionBarTheme=0x7f040015;
     /**
-     * Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar. Most of the time
-     * this will be a reference to the current theme, but when
-     * the action bar has a significantly different contrast
-     * profile than the rest of the activity the difference
-     * can become important. If this is set to @null the current
-     * theme will be used.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -282,7 +260,6 @@ public final class R {
      */
     public static final int actionBarWidgetTheme=0x7f040016;
     /**
-     * Default action button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -290,7 +267,6 @@ public final class R {
      */
     public static final int actionButtonStyle=0x7f040017;
     /**
-     * Default ActionBar dropdown style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -298,9 +274,6 @@ public final class R {
      */
     public static final int actionDropDownStyle=0x7f040018;
     /**
-     * An optional layout to be used as an action view.
-     * See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -308,8 +281,6 @@ public final class R {
      */
     public static final int actionLayout=0x7f040019;
     /**
-     * TextAppearance style that will be applied to text that
-     * appears within action menu items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -317,7 +288,6 @@ public final class R {
      */
     public static final int actionMenuTextAppearance=0x7f04001a;
     /**
-     * Color for text that appears within action menu items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -328,7 +298,6 @@ public final class R {
      */
     public static final int actionMenuTextColor=0x7f04001b;
     /**
-     * Background drawable to use for action mode UI
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -343,7 +312,6 @@ public final class R {
      */
     public static final int actionModeCloseButtonStyle=0x7f04001d;
     /**
-     * Drawable to use for the close action mode button
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -351,7 +319,6 @@ public final class R {
      */
     public static final int actionModeCloseDrawable=0x7f04001e;
     /**
-     * Drawable to use for the Copy action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -359,7 +326,6 @@ public final class R {
      */
     public static final int actionModeCopyDrawable=0x7f04001f;
     /**
-     * Drawable to use for the Cut action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -367,7 +333,6 @@ public final class R {
      */
     public static final int actionModeCutDrawable=0x7f040020;
     /**
-     * Drawable to use for the Find action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -375,7 +340,6 @@ public final class R {
      */
     public static final int actionModeFindDrawable=0x7f040021;
     /**
-     * Drawable to use for the Paste action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -383,7 +347,6 @@ public final class R {
      */
     public static final int actionModePasteDrawable=0x7f040022;
     /**
-     * PopupWindow style to use for action modes when showing as a window overlay.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -391,7 +354,6 @@ public final class R {
      */
     public static final int actionModePopupWindowStyle=0x7f040023;
     /**
-     * Drawable to use for the Select all action button in Contextual Action Bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -399,7 +361,6 @@ public final class R {
      */
     public static final int actionModeSelectAllDrawable=0x7f040024;
     /**
-     * Drawable to use for the Share action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -407,7 +368,6 @@ public final class R {
      */
     public static final int actionModeShareDrawable=0x7f040025;
     /**
-     * Background drawable to use for action mode UI in the lower split bar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -422,7 +382,6 @@ public final class R {
      */
     public static final int actionModeStyle=0x7f040027;
     /**
-     * Drawable to use for the Web Search action button in WebView selection action modes
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -444,24 +403,16 @@ public final class R {
      */
     public static final int actionOverflowMenuStyle=0x7f04002a;
     /**
-     * The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.
-     * See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
-     * for more info.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int actionProviderClass=0x7f04002b;
     /**
-     * The name of an optional View class to instantiate and use as an
-     * action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int actionViewClass=0x7f04002c;
     /**
-     * Default ActivityChooserView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -488,7 +439,6 @@ public final class R {
      */
     public static final int alertDialogStyle=0x7f040030;
     /**
-     * Theme to use for alert dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -496,20 +446,15 @@ public final class R {
      */
     public static final int alertDialogTheme=0x7f040031;
     /**
-     * Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int allowStacking=0x7f040032;
     /**
-     * Alpha multiplier applied to the base color.
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
     public static final int alpha=0x7f040033;
     /**
-     * The alphabetic modifier key. This is the modifier when using a keyboard
-     * with alphabetic keys. The values should be kept in sync with KeyEvent
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -526,7 +471,6 @@ public final class R {
      */
     public static final int alphabeticModifiers=0x7f040034;
     /**
-     * The length of the arrow head when formed to make an arrow
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -535,7 +479,6 @@ public final class R {
      */
     public static final int arrowHeadLength=0x7f040035;
     /**
-     * The length of the shaft when formed to make an arrow
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -544,7 +487,6 @@ public final class R {
      */
     public static final int arrowShaftLength=0x7f040036;
     /**
-     * Default AutoCompleteTextView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -552,7 +494,6 @@ public final class R {
      */
     public static final int autoCompleteTextViewStyle=0x7f040037;
     /**
-     * The maximum text size constraint to be used when auto-sizing text.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -561,7 +502,6 @@ public final class R {
      */
     public static final int autoSizeMaxTextSize=0x7f040038;
     /**
-     * The minimum text size constraint to be used when auto-sizing text.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -570,9 +510,6 @@ public final class R {
      */
     public static final int autoSizeMinTextSize=0x7f040039;
     /**
-     * Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
-     * <code>autoSizeStepGranularity</code> if set.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -580,9 +517,6 @@ public final class R {
      */
     public static final int autoSizePresetSizes=0x7f04003a;
     /**
-     * Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>. The default is 1px. Overwrites
-     * <code>autoSizePresetSizes</code> if set.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -591,17 +525,14 @@ public final class R {
      */
     public static final int autoSizeStepGranularity=0x7f04003b;
     /**
-     * Specify the type of auto-size. Note that this feature is not supported by EditText,
-     * works only for TextView.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td>No auto-sizing (default).</td></tr>
-     * <tr><td>uniform</td><td>1</td><td>Uniform horizontal and vertical text size scaling to fit within the
-     * container.</td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      */
     public static final int autoSizeTextType=0x7f04003c;
@@ -611,7 +542,6 @@ public final class R {
      */
     public static final int auto_cycle=0x7f04003d;
     /**
-     * Specifies a background drawable for the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -619,7 +549,6 @@ public final class R {
      */
     public static final int background=0x7f04003e;
     /**
-     * Specifies a background drawable for the bottom component of a split action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -630,7 +559,6 @@ public final class R {
      */
     public static final int backgroundSplit=0x7f04003f;
     /**
-     * Specifies a background drawable for a second stacked row of the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -641,36 +569,28 @@ public final class R {
      */
     public static final int backgroundStacked=0x7f040040;
     /**
-     * Tint to apply to the background.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int backgroundTint=0x7f040041;
     /**
-     * Blending mode used to apply the background tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int backgroundTintMode=0x7f040042;
     /**
-     * The length of the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -774,7 +694,6 @@ public final class R {
      */
     public static final int borderWidth=0x7f04004f;
     /**
-     * Style for buttons without an explicit border, often used in groups.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -883,7 +802,6 @@ public final class R {
      */
     public static final int boxStrokeWidth=0x7f04005d;
     /**
-     * Style for buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -891,7 +809,6 @@ public final class R {
      */
     public static final int buttonBarButtonStyle=0x7f04005e;
     /**
-     * Style for the "negative" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -899,7 +816,6 @@ public final class R {
      */
     public static final int buttonBarNegativeButtonStyle=0x7f04005f;
     /**
-     * Style for the "neutral" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -907,7 +823,6 @@ public final class R {
      */
     public static final int buttonBarNeutralButtonStyle=0x7f040060;
     /**
-     * Style for the "positive" buttons within button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -915,7 +830,6 @@ public final class R {
      */
     public static final int buttonBarPositiveButtonStyle=0x7f040061;
     /**
-     * Style for button bars
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -923,7 +837,6 @@ public final class R {
      */
     public static final int buttonBarStyle=0x7f040062;
     /**
-     * Compat attr to load backported drawable types
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -937,9 +850,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int buttonGravity=0x7f040064;
@@ -976,7 +889,6 @@ public final class R {
      */
     public static final int buttonSize=0x7f040067;
     /**
-     * Normal Button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -984,7 +896,6 @@ public final class R {
      */
     public static final int buttonStyle=0x7f040068;
     /**
-     * Small Button style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -992,43 +903,34 @@ public final class R {
      */
     public static final int buttonStyleSmall=0x7f040069;
     /**
-     * Tint to apply to the button drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int buttonTint=0x7f04006a;
     /**
-     * Blending mode used to apply the button tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int buttonTintMode=0x7f04006b;
     /**
-     * Background color for CardView.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int cardBackgroundColor=0x7f04006c;
     /**
-     * Corner radius for CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1037,7 +939,6 @@ public final class R {
      */
     public static final int cardCornerRadius=0x7f04006d;
     /**
-     * Elevation for CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1046,7 +947,6 @@ public final class R {
      */
     public static final int cardElevation=0x7f04006e;
     /**
-     * Maximum Elevation for CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1055,13 +955,11 @@ public final class R {
      */
     public static final int cardMaxElevation=0x7f04006f;
     /**
-     * Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int cardPreventCornerOverlap=0x7f040070;
     /**
-     * Add padding in API v21+ as well to have the same measurements with previous versions.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -1079,7 +977,6 @@ public final class R {
      */
     public static final int chainUseRtl=0x7f040073;
     /**
-     * Default Checkbox style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1111,7 +1008,6 @@ public final class R {
      */
     public static final int checkedIconVisible=0x7f040078;
     /**
-     * Default CheckedTextView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1277,7 +1173,6 @@ public final class R {
      */
     public static final int civ_circle_background_color=0x7f040090;
     /**
-     * Close button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1325,7 +1220,6 @@ public final class R {
      */
     public static final int closeIconVisible=0x7f040097;
     /**
-     * Specifies a layout to use for the "close" item at the starting edge.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1333,13 +1227,11 @@ public final class R {
      */
     public static final int closeItemLayout=0x7f040098;
     /**
-     * Text to set as the content description for the collapse button.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int collapseContentDescription=0x7f040099;
     /**
-     * Icon drawable to use for the collapse button.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1374,58 +1266,48 @@ public final class R {
      */
     public static final int collapsedTitleTextAppearance=0x7f04009c;
     /**
-     * The drawing color for the bars
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int color=0x7f04009d;
     /**
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorAccent=0x7f04009e;
     /**
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorBackgroundFloating=0x7f04009f;
     /**
-     * The color applied to framework buttons in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorButtonNormal=0x7f0400a0;
     /**
-     * The color applied to framework controls in their activated (ex. checked) state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlActivated=0x7f0400a1;
     /**
-     * The color applied to framework control highlights (ex. ripples, list selectors).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlHighlight=0x7f0400a2;
     /**
-     * The color applied to framework controls in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorControlNormal=0x7f0400a3;
     /**
-     * Color used for error states and things that need to be drawn to
-     * the user's attention.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1436,16 +1318,12 @@ public final class R {
      */
     public static final int colorError=0x7f0400a4;
     /**
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorPrimary=0x7f0400a5;
     /**
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
@@ -1475,14 +1353,12 @@ public final class R {
      */
     public static final int colorSecondary=0x7f0400a8;
     /**
-     * The color applied to framework switch thumbs in their normal state.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int colorSwitchThumbNormal=0x7f0400a9;
     /**
-     * Commit icon shown in the query suggestion row
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1509,14 +1385,11 @@ public final class R {
      */
     public static final int content=0x7f0400ad;
     /**
-     * The content description associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int contentDescription=0x7f0400ae;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1525,8 +1398,6 @@ public final class R {
      */
     public static final int contentInsetEnd=0x7f0400af;
     /**
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1535,8 +1406,6 @@ public final class R {
      */
     public static final int contentInsetEndWithActions=0x7f0400b0;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1545,8 +1414,6 @@ public final class R {
      */
     public static final int contentInsetLeft=0x7f0400b1;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1555,8 +1422,6 @@ public final class R {
      */
     public static final int contentInsetRight=0x7f0400b2;
     /**
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1565,8 +1430,6 @@ public final class R {
      */
     public static final int contentInsetStart=0x7f0400b3;
     /**
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1575,7 +1438,6 @@ public final class R {
      */
     public static final int contentInsetStartWithNavigation=0x7f0400b4;
     /**
-     * Inner padding between the edges of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1584,7 +1446,6 @@ public final class R {
      */
     public static final int contentPadding=0x7f0400b5;
     /**
-     * Inner padding between the bottom edge of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1593,7 +1454,6 @@ public final class R {
      */
     public static final int contentPaddingBottom=0x7f0400b6;
     /**
-     * Inner padding between the left edge of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1602,7 +1462,6 @@ public final class R {
      */
     public static final int contentPaddingLeft=0x7f0400b7;
     /**
-     * Inner padding between the right edge of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1611,7 +1470,6 @@ public final class R {
      */
     public static final int contentPaddingRight=0x7f0400b8;
     /**
-     * Inner padding between the top edge of the Card and children of the CardView.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1626,7 +1484,6 @@ public final class R {
      */
     public static final int contentScrim=0x7f0400ba;
     /**
-     * The background used by framework controls.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1672,7 +1529,6 @@ public final class R {
      */
     public static final int counterTextAppearance=0x7f0400c1;
     /**
-     * Specifies a layout for custom navigation. Overrides navigationMode.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1680,14 +1536,11 @@ public final class R {
      */
     public static final int customNavigationLayout=0x7f0400c2;
     /**
-     * Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int defaultQueryHint=0x7f0400c3;
     /**
-     * Preferred corner radius of dialogs.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1696,7 +1549,6 @@ public final class R {
      */
     public static final int dialogCornerRadius=0x7f0400c4;
     /**
-     * Preferred padding for dialog content.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1705,7 +1557,6 @@ public final class R {
      */
     public static final int dialogPreferredPadding=0x7f0400c5;
     /**
-     * Theme to use for dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1713,7 +1564,6 @@ public final class R {
      */
     public static final int dialogTheme=0x7f0400c6;
     /**
-     * Options affecting how the action bar is displayed.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -1731,7 +1581,6 @@ public final class R {
      */
     public static final int displayOptions=0x7f0400c7;
     /**
-     * Specifies the drawable used for item dividers.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1739,7 +1588,6 @@ public final class R {
      */
     public static final int divider=0x7f0400c8;
     /**
-     * A drawable that may be used as a horizontal divider between visual elements.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1747,7 +1595,6 @@ public final class R {
      */
     public static final int dividerHorizontal=0x7f0400c9;
     /**
-     * Size of padding on either end of a divider.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1756,7 +1603,6 @@ public final class R {
      */
     public static final int dividerPadding=0x7f0400ca;
     /**
-     * A drawable that may be used as a vertical divider between visual elements.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1778,8 +1624,6 @@ public final class R {
      */
     public static final int drawableEndCompat=0x7f0400cd;
     /**
-     * Compound drawables allowing the use of vector drawable when running on older versions
-     * of the platform.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1794,7 +1638,6 @@ public final class R {
      */
     public static final int drawableRightCompat=0x7f0400cf;
     /**
-     * The total size of the drawable
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1810,31 +1653,24 @@ public final class R {
      */
     public static final int drawableStartCompat=0x7f0400d1;
     /**
-     * Tint to apply to the compound (left, top, etc.) drawables.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int drawableTint=0x7f0400d2;
     /**
-     * Blending mode used to apply the compound (left, top, etc.) drawables tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int drawableTintMode=0x7f0400d3;
@@ -1853,7 +1689,6 @@ public final class R {
      */
     public static final int drawerArrowStyle=0x7f0400d5;
     /**
-     * ListPopupWindow compatibility
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1861,7 +1696,6 @@ public final class R {
      */
     public static final int dropDownListViewStyle=0x7f0400d6;
     /**
-     * The preferred item height for dropdown lists.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1870,7 +1704,6 @@ public final class R {
      */
     public static final int dropdownListPreferredItemHeight=0x7f0400d7;
     /**
-     * EditText background drawable.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1878,7 +1711,6 @@ public final class R {
      */
     public static final int editTextBackground=0x7f0400d8;
     /**
-     * EditText text foreground color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1889,7 +1721,6 @@ public final class R {
      */
     public static final int editTextColor=0x7f0400d9;
     /**
-     * Default EditText style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -1897,7 +1728,6 @@ public final class R {
      */
     public static final int editTextStyle=0x7f0400da;
     /**
-     * Elevation for the action bar itself
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -1940,11 +1770,6 @@ public final class R {
      */
     public static final int errorTextAppearance=0x7f0400e0;
     /**
-     * The drawable to show in the button for expanding the activities overflow popup.
-     * <strong>Note:</strong> Clients would like to set this drawable
-     * as a clue about the action the chosen activity will perform. For
-     * example, if share activity is to be chosen the drawable should
-     * give a clue that sharing is to be performed.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2114,8 +1939,6 @@ public final class R {
      */
     public static final int fastScrollVerticalTrackDrawable=0x7f0400f4;
     /**
-     * Distance from the top of the TextView to the first text baseline. If set, this
-     * overrides the value set for paddingTop.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2149,8 +1972,6 @@ public final class R {
      */
     public static final int floatingActionButtonStyle=0x7f0400f6;
     /**
-     * The reference to the font file to be used. This should be a file in the res/font folder
-     * and should therefore have an R reference value. E.g. @font/myfont
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2158,23 +1979,16 @@ public final class R {
      */
     public static final int font=0x7f0400f7;
     /**
-     * The attribute for the font family.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontFamily=0x7f0400f8;
     /**
-     * The authority of the Font Provider to be used for the request.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderAuthority=0x7f0400f9;
     /**
-     * The sets of hashes for the certificates the provider should be signed with. This is
-     * used to verify the identity of the provider, and is only required if the provider is not
-     * part of the system image. This value may point to one list or a list of lists, where each
-     * individual list represents one collection of signature hashes. Refer to your font provider's
-     * documentation for these values.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2182,34 +1996,18 @@ public final class R {
      */
     public static final int fontProviderCerts=0x7f0400fa;
     /**
-     * The strategy to be used when fetching font data from a font provider in XML layouts.
-     * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
-     * choice of API between {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
-     * {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
-     * (async).
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>async</td><td>1</td><td>The async font fetch works as follows.
-     * First, check the local cache, then if the requeted font is not cached, trigger a
-     * request the font and continue with layout inflation. Once the font fetch succeeds, the
-     * target text view will be refreshed with the downloaded font data. The
-     * fontProviderFetchTimeout will be ignored if async loading is specified.</td></tr>
-     * <tr><td>blocking</td><td>0</td><td>The blocking font fetch works as follows.
-     * First, check the local cache, then if the requested font is not cached, request the
-     * font from the provider and wait until it is finished.  You can change the length of
-     * the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-     * default typeface will be used instead.</td></tr>
+     * <tr><td>async</td><td>1</td><td></td></tr>
+     * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
     public static final int fontProviderFetchStrategy=0x7f0400fb;
     /**
-     * The length of the timeout during fetching.
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2217,29 +2015,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>forever</td><td>ffffffff</td><td>A special value for the timeout. In this case, the blocking font fetching will not
-     * timeout and wait until a reply is received from the font provider.</td></tr>
+     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
     public static final int fontProviderFetchTimeout=0x7f0400fc;
     /**
-     * The package for the Font Provider to be used for the request. This is used to verify
-     * the identity of the provider.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderPackage=0x7f0400fd;
     /**
-     * The query to be sent over to the provider. Refer to your font provider's documentation
-     * on the format of this string.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderQuery=0x7f0400fe;
     /**
-     * The style of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any style information in the font's header tables. If
-     * unspecified, the value in the font's header tables will be used.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2252,20 +2042,11 @@ public final class R {
      */
     public static final int fontStyle=0x7f0400ff;
     /**
-     * The variation settings to be applied to the font. The string should be in the following
-     * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
-     * used, or the font used does not support variation settings, this attribute needs not be
-     * specified.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontVariationSettings=0x7f040100;
     /**
-     * The weight of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any weight information in the font's header tables. Must
-     * be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
-     * common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
-     * in the font's header tables will be used.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int fontWeight=0x7f040101;
@@ -2275,7 +2056,6 @@ public final class R {
      */
     public static final int foregroundInsidePadding=0x7f040102;
     /**
-     * The max gap between the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2284,7 +2064,6 @@ public final class R {
      */
     public static final int gapBetweenBars=0x7f040103;
     /**
-     * Go button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2331,7 +2110,6 @@ public final class R {
      */
     public static final int hideMotionSpec=0x7f04010a;
     /**
-     * Set true to hide the action bar on a vertical nested scroll of content.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -2359,7 +2137,6 @@ public final class R {
      */
     public static final int hintTextAppearance=0x7f04010f;
     /**
-     * Specifies a drawable to use for the 'home as up' indicator.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2367,7 +2144,6 @@ public final class R {
      */
     public static final int homeAsUpIndicator=0x7f040110;
     /**
-     * Specifies a layout to use for the "home" section of the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2563,37 +2339,28 @@ public final class R {
      */
     public static final int iconStartPadding=0x7f040124;
     /**
-     * Tint to apply to the icon.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int iconTint=0x7f040125;
     /**
-     * Blending mode used to apply the icon tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the icon with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the icon, but with the icon’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the icon. The icon’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the icon.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int iconTintMode=0x7f040126;
     /**
-     * The default state of the SearchView. If true, it will be iconified when not in
-     * use and expanded when clicked.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -2616,7 +2383,6 @@ public final class R {
      */
     public static final int imageAspectRatioAdjust=0x7f040129;
     /**
-     * ImageButton background drawable.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2624,7 +2390,6 @@ public final class R {
      */
     public static final int imageButtonStyle=0x7f04012a;
     /**
-     * Specifies a style resource to use for an indeterminate progress spinner.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2644,7 +2409,6 @@ public final class R {
      */
     public static final int indicator_visibility=0x7f04012c;
     /**
-     * The maximal number of items initially shown in the activity list.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -2717,8 +2481,6 @@ public final class R {
      */
     public static final int itemIconTint=0x7f040136;
     /**
-     * Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2762,11 +2524,6 @@ public final class R {
      */
     public static final int itemTextColor=0x7f04013c;
     /**
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2788,8 +2545,6 @@ public final class R {
      */
     public static final int labelVisibilityMode=0x7f04013e;
     /**
-     * Distance from the bottom of the TextView to the last text baseline. If set, this
-     * overrides the value set for paddingBottom.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -2798,7 +2553,6 @@ public final class R {
      */
     public static final int lastBaselineToBottomHeight=0x7f04013f;
     /**
-     * The layout to use for the search view.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2806,21 +2560,11 @@ public final class R {
      */
     public static final int layout=0x7f040140;
     /**
-     * Class name of the Layout Manager to be used.
-     * <p/>
-     * The class must extandroidx.recyclerview.widget.RecyclerViewView$LayoutManager
-     * and have either a default constructor or constructor with the signature
-     * (android.content.Context, android.util.AttributeSet, int, int).
-     * <p/>
-     * If the name starts with a '.', application package is prefixed.
-     * Else, if the name contains a '.', the classname is assumed to be a full class name.
-     * Else, the recycler view package naandroidx.appcompat.widgetdget) is prefixed.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int layoutManager=0x7f040141;
     /**
-     * The id of an anchor view that this view should position relative to.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2828,40 +2572,30 @@ public final class R {
      */
     public static final int layout_anchor=0x7f040142;
     /**
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_anchorGravity=0x7f040143;
     /**
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -3293,21 +3027,20 @@ public final class R {
      */
     public static final int layout_constraintWidth_percent=0x7f04016f;
     /**
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
+     * <tr><td>all</td><td>77</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_dodgeInsetEdges=0x7f040170;
@@ -3376,28 +3109,23 @@ public final class R {
      */
     public static final int layout_goneMarginTop=0x7f040178;
     /**
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_insetEdge=0x7f040179;
     /**
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int layout_keyline=0x7f04017a;
@@ -3411,7 +3139,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -3447,8 +3175,6 @@ public final class R {
      */
     public static final int liftOnScroll=0x7f04017e;
     /**
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3465,7 +3191,6 @@ public final class R {
      */
     public static final int lineSpacing=0x7f040180;
     /**
-     * Drawable used as a background for selected list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3473,7 +3198,6 @@ public final class R {
      */
     public static final int listChoiceBackgroundIndicator=0x7f040181;
     /**
-     * Animated Drawable to use for single choice indicators.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3481,7 +3205,6 @@ public final class R {
      */
     public static final int listChoiceIndicatorMultipleAnimated=0x7f040182;
     /**
-     * Animated Drawable to use for multiple choice indicators.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3489,7 +3212,6 @@ public final class R {
      */
     public static final int listChoiceIndicatorSingleAnimated=0x7f040183;
     /**
-     * The list divider used in alert dialogs.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3511,7 +3233,6 @@ public final class R {
      */
     public static final int listLayout=0x7f040186;
     /**
-     * Default menu-style ListView style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3526,7 +3247,6 @@ public final class R {
      */
     public static final int listPopupWindowStyle=0x7f040188;
     /**
-     * The preferred list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3535,7 +3255,6 @@ public final class R {
      */
     public static final int listPreferredItemHeight=0x7f040189;
     /**
-     * A larger, more robust list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3544,7 +3263,6 @@ public final class R {
      */
     public static final int listPreferredItemHeightLarge=0x7f04018a;
     /**
-     * A smaller, sleeker list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3553,7 +3271,6 @@ public final class R {
      */
     public static final int listPreferredItemHeightSmall=0x7f04018b;
     /**
-     * The preferred padding along the end edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3562,7 +3279,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingEnd=0x7f04018c;
     /**
-     * The preferred padding along the left edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3571,7 +3287,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingLeft=0x7f04018d;
     /**
-     * The preferred padding along the right edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3580,7 +3295,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingRight=0x7f04018e;
     /**
-     * The preferred padding along the start edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -3589,7 +3303,6 @@ public final class R {
      */
     public static final int listPreferredItemPaddingStart=0x7f04018f;
     /**
-     * Specifies the drawable used for the application logo.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -3597,8 +3310,6 @@ public final class R {
      */
     public static final int logo=0x7f040190;
     /**
-     * A content description string to describe the appearance of the
-     * associated logo image.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -3653,7 +3364,6 @@ public final class R {
      */
     public static final int lottie_rawRes=0x7f04019a;
     /**
-     * These values must be kept in sync with the RenderMode enum
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -3873,15 +3583,11 @@ public final class R {
      */
     public static final int maxImageSize=0x7f0401b3;
     /**
-     * When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child. If false, all children are
-     * measured normally.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int measureWithLargestChild=0x7f0401b4;
     /**
-     * Menu resource to inflate to be shown in the toolbar
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4121,15 +3827,11 @@ public final class R {
      */
     public static final int multiChoiceItemLayout=0x7f0401dc;
     /**
-     * Text to set as the content description for the navigation button
-     * located at the start of the toolbar.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int navigationContentDescription=0x7f0401dd;
     /**
-     * Icon drawable to use for the navigation button located at
-     * the start of the toolbar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4137,16 +3839,15 @@ public final class R {
      */
     public static final int navigationIcon=0x7f0401de;
     /**
-     * The type of navigation to use.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>listMode</td><td>1</td><td>The action bar will use a selection list for navigation.</td></tr>
-     * <tr><td>normal</td><td>0</td><td>Normal static title text</td></tr>
-     * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
+     * <tr><td>listMode</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
     public static final int navigationMode=0x7f0401df;
@@ -4158,8 +3859,6 @@ public final class R {
      */
     public static final int navigationViewStyle=0x7f0401e0;
     /**
-     * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
-     * keyboard. The values should be kept in sync with KeyEvent
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -4176,13 +3875,11 @@ public final class R {
      */
     public static final int numericModifiers=0x7f0401e1;
     /**
-     * Whether the popup window should overlap its anchor view.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int overlapAnchor=0x7f0401e2;
     /**
-     * Bottom padding to use when no buttons are present.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4191,7 +3888,6 @@ public final class R {
      */
     public static final int paddingBottomNoButtons=0x7f0401e3;
     /**
-     * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4200,7 +3896,6 @@ public final class R {
      */
     public static final int paddingEnd=0x7f0401e4;
     /**
-     * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4209,7 +3904,6 @@ public final class R {
      */
     public static final int paddingStart=0x7f0401e5;
     /**
-     * Top padding to use when no title is present.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4280,7 +3974,6 @@ public final class R {
      */
     public static final int pager_animation_span=0x7f0401ec;
     /**
-     * The background of a panel when it is inset from the left and right edges of the screen.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4288,7 +3981,6 @@ public final class R {
      */
     public static final int panelBackground=0x7f0401ed;
     /**
-     * Default Panel Menu style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4296,7 +3988,6 @@ public final class R {
      */
     public static final int panelMenuListTheme=0x7f0401ee;
     /**
-     * Default Panel Menu width.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4343,7 +4034,6 @@ public final class R {
      */
     public static final int passwordToggleTintMode=0x7f0401f4;
     /**
-     * Default PopupMenu style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4351,8 +4041,6 @@ public final class R {
      */
     public static final int popupMenuStyle=0x7f0401f5;
     /**
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4360,7 +4048,6 @@ public final class R {
      */
     public static final int popupTheme=0x7f0401f6;
     /**
-     * Default PopupWindow style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4368,7 +4055,6 @@ public final class R {
      */
     public static final int popupWindowStyle=0x7f0401f7;
     /**
-     * Whether space should be reserved in layout when an icon is missing.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -4382,7 +4068,6 @@ public final class R {
      */
     public static final int pressedTranslationZ=0x7f0401f9;
     /**
-     * Specifies the horizontal padding on either end for an embedded progress bar.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4391,7 +4076,6 @@ public final class R {
      */
     public static final int progressBarPadding=0x7f0401fa;
     /**
-     * Specifies a style resource to use for an embedded progress bar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4399,7 +4083,6 @@ public final class R {
      */
     public static final int progressBarStyle=0x7f0401fb;
     /**
-     * Background for the section containing the search query
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4407,13 +4090,11 @@ public final class R {
      */
     public static final int queryBackground=0x7f0401fc;
     /**
-     * An optional user-defined query hint string to be displayed in the empty query field.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int queryHint=0x7f0401fd;
     /**
-     * Default RadioButton style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4421,7 +4102,6 @@ public final class R {
      */
     public static final int radioButtonStyle=0x7f0401fe;
     /**
-     * Default RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4429,7 +4109,6 @@ public final class R {
      */
     public static final int ratingBarStyle=0x7f0401ff;
     /**
-     * Indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4437,7 +4116,6 @@ public final class R {
      */
     public static final int ratingBarStyleIndicator=0x7f040200;
     /**
-     * Small indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4487,7 +4165,6 @@ public final class R {
      */
     public static final int scrimVisibleHeightTrigger=0x7f040207;
     /**
-     * Search icon displayed as a text field hint
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4495,7 +4172,6 @@ public final class R {
      */
     public static final int searchHintIcon=0x7f040208;
     /**
-     * Search icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4503,7 +4179,6 @@ public final class R {
      */
     public static final int searchIcon=0x7f040209;
     /**
-     * Style for the search query widget.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4511,7 +4186,6 @@ public final class R {
      */
     public static final int searchViewStyle=0x7f04020a;
     /**
-     * Default SeekBar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4519,9 +4193,6 @@ public final class R {
      */
     public static final int seekBarStyle=0x7f04020b;
     /**
-     * A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4529,7 +4200,6 @@ public final class R {
      */
     public static final int selectableItemBackground=0x7f04020c;
     /**
-     * Background drawable for borderless standalone items that need focus/pressed states.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4610,32 +4280,21 @@ public final class R {
      */
     public static final int shape=0x7f040216;
     /**
-     * How this item should display in the Action Bar, if present.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>always</td><td>2</td><td>Always show this item in an actionbar, even if it would override
-     * the system's limits of how much stuff to put there. This may make
-     * your action bar look bad on some screens. In most cases you should
-     * use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never".</td></tr>
-     * <tr><td>collapseActionView</td><td>8</td><td>This item's action view collapses to a normal menu
-     * item. When expanded, the action view takes over a
-     * larger segment of its container.</td></tr>
-     * <tr><td>ifRoom</td><td>1</td><td>Show this item in an action bar if there is room for it as determined
-     * by the system. Favor this option over "always" where possible.
-     * Mutually exclusive with "never" and "always".</td></tr>
-     * <tr><td>never</td><td>0</td><td>Never show this item in an action bar, show it in the overflow menu instead.
-     * Mutually exclusive with "ifRoom" and "always".</td></tr>
-     * <tr><td>withText</td><td>4</td><td>When this item is shown as an action in the action bar, show a text
-     * label with it even if it has an icon representation.</td></tr>
+     * <tr><td>always</td><td>2</td><td></td></tr>
+     * <tr><td>collapseActionView</td><td>8</td><td></td></tr>
+     * <tr><td>ifRoom</td><td>1</td><td></td></tr>
+     * <tr><td>never</td><td>0</td><td></td></tr>
+     * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
     public static final int showAsAction=0x7f040217;
     /**
-     * Setting for which dividers to show.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -4657,7 +4316,6 @@ public final class R {
      */
     public static final int showMotionSpec=0x7f040219;
     /**
-     * Whether to draw on/off text.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -4723,13 +4381,11 @@ public final class R {
      */
     public static final int spanCount=0x7f040223;
     /**
-     * Whether bars should rotate or not during transition
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int spinBars=0x7f040224;
     /**
-     * Default Spinner style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4737,7 +4393,6 @@ public final class R {
      */
     public static final int spinnerDropDownItemStyle=0x7f040225;
     /**
-     * Default Spinner style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4745,14 +4400,11 @@ public final class R {
      */
     public static final int spinnerStyle=0x7f040226;
     /**
-     * Whether to split the track and leave a gap for the thumb drawable.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int splitTrack=0x7f040227;
     /**
-     * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
-     * when running on older versions of the platform.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4765,7 +4417,6 @@ public final class R {
      */
     public static final int stackFromEnd=0x7f040229;
     /**
-     * State identifier indicating the popup will be above the anchor.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -4791,7 +4442,6 @@ public final class R {
      */
     public static final int state_lifted=0x7f04022e;
     /**
-     * Drawable to display behind the status bar when the view is set to draw behind it.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4822,7 +4472,6 @@ public final class R {
      */
     public static final int strokeWidth=0x7f040232;
     /**
-     * Drawable for the arrow icon indicating a particular item is a submenu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4830,7 +4479,6 @@ public final class R {
      */
     public static final int subMenuArrow=0x7f040233;
     /**
-     * Background for the section containing the action (e.g. voice search)
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4838,7 +4486,6 @@ public final class R {
      */
     public static final int submitBackground=0x7f040234;
     /**
-     * Specifies subtitle text used for navigationMode="normal"
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -4851,14 +4498,12 @@ public final class R {
      */
     public static final int subtitleTextAppearance=0x7f040236;
     /**
-     * A color to apply to the subtitle string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int subtitleTextColor=0x7f040237;
     /**
-     * Specifies a style to use for subtitle text.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4866,7 +4511,6 @@ public final class R {
      */
     public static final int subtitleTextStyle=0x7f040238;
     /**
-     * Layout for query suggestion rows
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4874,7 +4518,6 @@ public final class R {
      */
     public static final int suggestionRowLayout=0x7f040239;
     /**
-     * Minimum width for the switch component
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4883,7 +4526,6 @@ public final class R {
      */
     public static final int switchMinWidth=0x7f04023a;
     /**
-     * Minimum space between the switch and caption text
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -4892,7 +4534,6 @@ public final class R {
      */
     public static final int switchPadding=0x7f04023b;
     /**
-     * Default style for the Switch widget.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4900,7 +4541,6 @@ public final class R {
      */
     public static final int switchStyle=0x7f04023c;
     /**
-     * TextAppearance style for text displayed on the switch thumb.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5111,7 +4751,6 @@ public final class R {
      */
     public static final int tabUnboundedRipple=0x7f040257;
     /**
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5191,7 +4830,6 @@ public final class R {
      */
     public static final int textAppearanceHeadline6=0x7f040262;
     /**
-     * Text color, typeface, size, and style for the text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5199,7 +4837,6 @@ public final class R {
      */
     public static final int textAppearanceLargePopupMenu=0x7f040263;
     /**
-     * The preferred TextAppearance for the primary text of list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5207,7 +4844,6 @@ public final class R {
      */
     public static final int textAppearanceListItem=0x7f040264;
     /**
-     * The preferred TextAppearance for the secondary text of list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5215,7 +4851,6 @@ public final class R {
      */
     public static final int textAppearanceListItemSecondary=0x7f040265;
     /**
-     * The preferred TextAppearance for the primary text of small list items.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5230,7 +4865,6 @@ public final class R {
      */
     public static final int textAppearanceOverline=0x7f040267;
     /**
-     * Text color, typeface, size, and style for header text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5238,7 +4872,6 @@ public final class R {
      */
     public static final int textAppearancePopupMenuHeader=0x7f040268;
     /**
-     * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5246,7 +4879,6 @@ public final class R {
      */
     public static final int textAppearanceSearchResultSubtitle=0x7f040269;
     /**
-     * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5254,7 +4886,6 @@ public final class R {
      */
     public static final int textAppearanceSearchResultTitle=0x7f04026a;
     /**
-     * Text color, typeface, size, and style for small text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5276,7 +4907,6 @@ public final class R {
      */
     public static final int textAppearanceSubtitle2=0x7f04026d;
     /**
-     * Color of list item text in alert dialogs.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5287,7 +4917,6 @@ public final class R {
      */
     public static final int textColorAlertDialogListItem=0x7f04026e;
     /**
-     * Text color for urls in search suggestions, used by things like global search
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5313,11 +4942,6 @@ public final class R {
      */
     public static final int textInputStyle=0x7f040271;
     /**
-     * Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
-     * Before API 24, only the first language tag is used. Starting from API 24,
-     * the string will be converted into a {@link android.os.LocaleList} and then used by
-     * {@link android.widget.TextView}
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -5336,7 +4960,6 @@ public final class R {
      */
     public static final int texts=0x7f040274;
     /**
-     * Deprecated.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5344,7 +4967,6 @@ public final class R {
      */
     public static final int theme=0x7f040275;
     /**
-     * The thickness (stroke size) for the bar paint
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5353,7 +4975,6 @@ public final class R {
      */
     public static final int thickness=0x7f040276;
     /**
-     * Amount of padding on either side of text within the switch thumb.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5362,36 +4983,28 @@ public final class R {
      */
     public static final int thumbTextPadding=0x7f040277;
     /**
-     * Tint to apply to the thumb drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int thumbTint=0x7f040278;
     /**
-     * Blending mode used to apply the thumb tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int thumbTintMode=0x7f040279;
     /**
-     * Drawable displayed at each progress position on a seekbar.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5399,31 +5012,24 @@ public final class R {
      */
     public static final int tickMark=0x7f04027a;
     /**
-     * Tint to apply to the tick mark drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int tickMarkTint=0x7f04027b;
     /**
-     * Blending mode used to apply the tick mark tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int tickMarkTintMode=0x7f04027c;
@@ -5432,31 +5038,24 @@ public final class R {
      */
     public static final int timeout=0x7f04027d;
     /**
-     * Tint to apply to the image source.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int tint=0x7f04027e;
     /**
-     * Blending mode used to apply the image source tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int tintMode=0x7f04027f;
@@ -5471,8 +5070,6 @@ public final class R {
      */
     public static final int titleEnabled=0x7f040281;
     /**
-     * Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5481,9 +5078,6 @@ public final class R {
      */
     public static final int titleMargin=0x7f040282;
     /**
-     * Specifies extra space on the bottom side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5492,9 +5086,6 @@ public final class R {
      */
     public static final int titleMarginBottom=0x7f040283;
     /**
-     * Specifies extra space on the end side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5503,9 +5094,6 @@ public final class R {
      */
     public static final int titleMarginEnd=0x7f040284;
     /**
-     * Specifies extra space on the start side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5514,9 +5102,6 @@ public final class R {
      */
     public static final int titleMarginStart=0x7f040285;
     /**
-     * Specifies extra space on the top side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5525,14 +5110,12 @@ public final class R {
      */
     public static final int titleMarginTop=0x7f040286;
     /**
-     * {@deprecated Use titleMargin}
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    @Deprecated
     public static final int titleMargins=0x7f040287;
     /**
      * <p>May be a reference to another resource, in the form
@@ -5542,14 +5125,12 @@ public final class R {
      */
     public static final int titleTextAppearance=0x7f040288;
     /**
-     * A color to apply to the title string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int titleTextColor=0x7f040289;
     /**
-     * Specifies a style to use for title text.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5564,7 +5145,6 @@ public final class R {
      */
     public static final int toolbarId=0x7f04028b;
     /**
-     * Default Toolar NavigationButtonStyle
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5572,7 +5152,6 @@ public final class R {
      */
     public static final int toolbarNavigationButtonStyle=0x7f04028c;
     /**
-     * Default Toolbar style.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5580,7 +5159,6 @@ public final class R {
      */
     public static final int toolbarStyle=0x7f04028d;
     /**
-     * Foreground color to use for tooltips
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5591,7 +5169,6 @@ public final class R {
      */
     public static final int tooltipForegroundColor=0x7f04028e;
     /**
-     * Background to use for tooltips
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5599,13 +5176,11 @@ public final class R {
      */
     public static final int tooltipFrameBackground=0x7f04028f;
     /**
-     * The tooltip text associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int tooltipText=0x7f040290;
     /**
-     * Drawable to use as the "track" that the switch thumb slides within.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5613,37 +5188,28 @@ public final class R {
      */
     public static final int track=0x7f040291;
     /**
-     * Tint to apply to the track.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
     public static final int trackTint=0x7f040292;
     /**
-     * Blending mode used to apply the track tint.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
     public static final int trackTintMode=0x7f040293;
     /**
-     * The index of the font in the tcc font file. If the font file referenced is not in the
-     * tcc format, this attribute needs not be specified.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int ttcIndex=0x7f040294;
@@ -5731,7 +5297,6 @@ public final class R {
      */
     public static final int visibility=0x7f04029f;
     /**
-     * Voice button icon
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -5739,31 +5304,21 @@ public final class R {
      */
     public static final int voiceIcon=0x7f0402a0;
     /**
-     * Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionBar=0x7f0402a1;
     /**
-     * Flag indicating whether this window's Action Bar should overlay
-     * application content. Does nothing if the window would not
-     * have an Action Bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionBarOverlay=0x7f0402a2;
     /**
-     * Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
     public static final int windowActionModeOverlay=0x7f0402a3;
     /**
-     * A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5776,9 +5331,6 @@ public final class R {
      */
     public static final int windowFixedHeightMajor=0x7f0402a4;
     /**
-     * A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5791,9 +5343,6 @@ public final class R {
      */
     public static final int windowFixedHeightMinor=0x7f0402a5;
     /**
-     * A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5806,9 +5355,6 @@ public final class R {
      */
     public static final int windowFixedWidthMajor=0x7f0402a6;
     /**
-     * A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5821,10 +5367,6 @@ public final class R {
      */
     public static final int windowFixedWidthMinor=0x7f0402a7;
     /**
-     * The minimum width the window is allowed to be, along the major
-     * axis of the screen.  That is, when in landscape.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5837,10 +5379,6 @@ public final class R {
      */
     public static final int windowMinWidthMajor=0x7f0402a8;
     /**
-     * The minimum width the window is allowed to be, along the minor
-     * axis of the screen.  That is, when in portrait.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
@@ -5853,7 +5391,6 @@ public final class R {
      */
     public static final int windowMinWidthMinor=0x7f0402a9;
     /**
-     * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
@@ -7108,355 +6645,368 @@ public final class R {
     public static final int chronometer=0x7f0a0086;
     public static final int clip_horizontal=0x7f0a0087;
     public static final int clip_vertical=0x7f0a0088;
-    public static final int collapseActionView=0x7f0a0089;
-    public static final int confirmpassword=0x7f0a008a;
-    public static final int container=0x7f0a008b;
-    public static final int content=0x7f0a008c;
-    public static final int contentPanel=0x7f0a008d;
-    public static final int content_layout=0x7f0a008e;
-    public static final int coordinator=0x7f0a008f;
-    public static final int custom=0x7f0a0090;
-    public static final int customPanel=0x7f0a0091;
-    public static final int customheader=0x7f0a0092;
-    public static final int custommessage=0x7f0a0093;
-    public static final int daimajia_indicator_wrapper=0x7f0a0094;
-    public static final int daimajia_slider_image=0x7f0a0095;
-    public static final int daimajia_slider_viewpager=0x7f0a0096;
-    public static final int dark=0x7f0a0097;
-    public static final int decor_content_parent=0x7f0a0098;
-    public static final int decrementQuantity=0x7f0a0099;
-    public static final int default_activity_button=0x7f0a009a;
-    public static final int default_bottom_left_indicator=0x7f0a009b;
-    public static final int default_bottom_right_indicator=0x7f0a009c;
-    public static final int default_center_bottom_indicator=0x7f0a009d;
-    public static final int default_center_top_indicator=0x7f0a009e;
-    public static final int default_center_top_left_indicator=0x7f0a009f;
-    public static final int default_center_top_right_indicator=0x7f0a00a0;
-    public static final int deletecard=0x7f0a00a1;
-    public static final int description=0x7f0a00a2;
-    public static final int description_layout=0x7f0a00a3;
-    public static final int design_bottom_sheet=0x7f0a00a4;
-    public static final int design_menu_item_action_area=0x7f0a00a5;
-    public static final int design_menu_item_action_area_stub=0x7f0a00a6;
-    public static final int design_menu_item_text=0x7f0a00a7;
-    public static final int design_navigation_view=0x7f0a00a8;
-    public static final int details_label=0x7f0a00a9;
-    public static final int dialog_button=0x7f0a00aa;
-    public static final int dimensions=0x7f0a00ab;
-    public static final int direct=0x7f0a00ac;
-    public static final int disableHome=0x7f0a00ad;
-    public static final int dog_food=0x7f0a00ae;
-    public static final int dog_food_tap=0x7f0a00af;
-    public static final int editText=0x7f0a00b0;
-    public static final int editTextConfirmPassword=0x7f0a00b1;
-    public static final int editTextEmail=0x7f0a00b2;
-    public static final int editTextFirstName=0x7f0a00b3;
-    public static final int editTextPassword=0x7f0a00b4;
-    public static final int editTextPhone=0x7f0a00b5;
-    public static final int editTextPhone_google=0x7f0a00b6;
-    public static final int edit_query=0x7f0a00b7;
-    public static final int email=0x7f0a00b8;
-    public static final int emailview=0x7f0a00b9;
-    public static final int empty_cart=0x7f0a00ba;
-    public static final int end=0x7f0a00bb;
-    public static final int end_padder=0x7f0a00bc;
-    public static final int enterAlways=0x7f0a00bd;
-    public static final int enterAlwaysCollapsed=0x7f0a00be;
-    public static final int exitUntilCollapsed=0x7f0a00bf;
-    public static final int expand_activities_button=0x7f0a00c0;
-    public static final int expanded_menu=0x7f0a00c1;
-    public static final int fastadapter_item=0x7f0a00c2;
-    public static final int fastadapter_item_adapter=0x7f0a00c3;
-    public static final int fill=0x7f0a00c4;
-    public static final int fill_horizontal=0x7f0a00c5;
-    public static final int fill_vertical=0x7f0a00c6;
-    public static final int filled=0x7f0a00c7;
-    public static final int finish_ggogle_signUp=0x7f0a00c8;
-    public static final int fixed=0x7f0a00c9;
-    public static final int forever=0x7f0a00ca;
-    public static final int forget_password=0x7f0a00cb;
-    public static final int forgot_pass=0x7f0a00cc;
-    public static final int frame_container=0x7f0a00cd;
-    public static final int ghost_view=0x7f0a00ce;
-    public static final int gone=0x7f0a00cf;
-    public static final int google_btn_loading_animation=0x7f0a00d0;
-    public static final int group_divider=0x7f0a00d1;
-    public static final int groups=0x7f0a00d2;
-    public static final int hardware=0x7f0a00d3;
-    public static final int header_item_id=0x7f0a00d4;
-    public static final int highlight=0x7f0a00d5;
-    public static final int home=0x7f0a00d6;
-    public static final int homeAsUp=0x7f0a00d7;
-    public static final int icon=0x7f0a00d8;
-    public static final int icon_group=0x7f0a00d9;
-    public static final int icon_only=0x7f0a00da;
-    public static final int iconics_tag_id=0x7f0a00db;
-    public static final int ifRoom=0x7f0a00dc;
-    public static final int image=0x7f0a00dd;
-    public static final int image_cartlist=0x7f0a00de;
-    public static final int incrementQuantity=0x7f0a00df;
-    public static final int info=0x7f0a00e0;
-    public static final int info_legal=0x7f0a00e1;
-    public static final int invisible=0x7f0a00e2;
-    public static final int italic=0x7f0a00e3;
-    public static final int item_touch_helper_previous_elevation=0x7f0a00e4;
-    public static final int label=0x7f0a00e5;
-    public static final int labeled=0x7f0a00e6;
-    public static final int largeLabel=0x7f0a00e7;
-    public static final int layoutDots=0x7f0a00e8;
-    public static final int layout_action1=0x7f0a00e9;
-    public static final int layout_action2=0x7f0a00ea;
-    public static final int layout_action3=0x7f0a00eb;
-    public static final int layout_item_desc=0x7f0a00ec;
-    public static final int left=0x7f0a00ed;
-    public static final int libraryBottomContainer=0x7f0a00ee;
-    public static final int libraryBottomDivider=0x7f0a00ef;
-    public static final int libraryCreator=0x7f0a00f0;
-    public static final int libraryDescription=0x7f0a00f1;
-    public static final int libraryDescriptionDivider=0x7f0a00f2;
-    public static final int libraryLicense=0x7f0a00f3;
-    public static final int libraryName=0x7f0a00f4;
-    public static final int libraryVersion=0x7f0a00f5;
-    public static final int library_item_id=0x7f0a00f6;
-    public static final int light=0x7f0a00f7;
-    public static final int line1=0x7f0a00f8;
-    public static final int line3=0x7f0a00f9;
-    public static final int listMode=0x7f0a00fa;
-    public static final int list_item=0x7f0a00fb;
-    public static final int loader_item_id=0x7f0a00fc;
-    public static final int loading_bar=0x7f0a00fd;
-    public static final int login_button=0x7f0a00fe;
-    public static final int login_now=0x7f0a00ff;
-    public static final int logo=0x7f0a0100;
-    public static final int lottie_layer_name=0x7f0a0101;
-    public static final int mainView=0x7f0a0102;
-    public static final int main_content_recycle=0x7f0a0103;
-    public static final int masked=0x7f0a0104;
-    public static final int material_drawer_account_header=0x7f0a0105;
-    public static final int material_drawer_account_header_background=0x7f0a0106;
-    public static final int material_drawer_account_header_current=0x7f0a0107;
-    public static final int material_drawer_account_header_email=0x7f0a0108;
-    public static final int material_drawer_account_header_name=0x7f0a0109;
-    public static final int material_drawer_account_header_small_first=0x7f0a010a;
-    public static final int material_drawer_account_header_small_second=0x7f0a010b;
-    public static final int material_drawer_account_header_small_third=0x7f0a010c;
-    public static final int material_drawer_account_header_text_switcher=0x7f0a010d;
-    public static final int material_drawer_animation=0x7f0a010e;
-    public static final int material_drawer_arrow=0x7f0a010f;
-    public static final int material_drawer_arrow_container=0x7f0a0110;
-    public static final int material_drawer_badge=0x7f0a0111;
-    public static final int material_drawer_badge_container=0x7f0a0112;
-    public static final int material_drawer_description=0x7f0a0113;
-    public static final int material_drawer_divider=0x7f0a0114;
-    public static final int material_drawer_email=0x7f0a0115;
-    public static final int material_drawer_icon=0x7f0a0116;
-    public static final int material_drawer_inner_shadow=0x7f0a0117;
-    public static final int material_drawer_item=0x7f0a0118;
-    public static final int material_drawer_item_container=0x7f0a0119;
-    public static final int material_drawer_item_divider=0x7f0a011a;
-    public static final int material_drawer_item_expandable=0x7f0a011b;
-    public static final int material_drawer_item_expandable_badge=0x7f0a011c;
-    public static final int material_drawer_item_mini=0x7f0a011d;
-    public static final int material_drawer_item_mini_profile=0x7f0a011e;
-    public static final int material_drawer_item_primary=0x7f0a011f;
-    public static final int material_drawer_item_primary_switch=0x7f0a0120;
-    public static final int material_drawer_item_primary_toggle=0x7f0a0121;
-    public static final int material_drawer_item_profile=0x7f0a0122;
-    public static final int material_drawer_item_profile_setting=0x7f0a0123;
-    public static final int material_drawer_item_secondary=0x7f0a0124;
-    public static final int material_drawer_item_secondary_switch=0x7f0a0125;
-    public static final int material_drawer_item_secondary_toggle=0x7f0a0126;
-    public static final int material_drawer_item_section=0x7f0a0127;
-    public static final int material_drawer_layout=0x7f0a0128;
-    public static final int material_drawer_menu_default_group=0x7f0a0129;
-    public static final int material_drawer_name=0x7f0a012a;
-    public static final int material_drawer_profileIcon=0x7f0a012b;
-    public static final int material_drawer_profile_header=0x7f0a012c;
-    public static final int material_drawer_recycler_view=0x7f0a012d;
-    public static final int material_drawer_slider_layout=0x7f0a012e;
-    public static final int material_drawer_statusbar_guideline=0x7f0a012f;
-    public static final int material_drawer_sticky_footer=0x7f0a0130;
-    public static final int material_drawer_sticky_header=0x7f0a0131;
-    public static final int material_drawer_switch=0x7f0a0132;
-    public static final int material_drawer_text_guideline=0x7f0a0133;
-    public static final int material_drawer_toggle=0x7f0a0134;
-    public static final int materialize_root=0x7f0a0135;
-    public static final int media_actions=0x7f0a0136;
-    public static final int message=0x7f0a0137;
-    public static final int middle=0x7f0a0138;
-    public static final int mini=0x7f0a0139;
-    public static final int mobileview=0x7f0a013a;
-    public static final int mtf_card=0x7f0a013b;
-    public static final int mtf_editTextLayout=0x7f0a013c;
-    public static final int mtf_image=0x7f0a013d;
-    public static final int mtf_label=0x7f0a013e;
-    public static final int mtrl_child_content_container=0x7f0a013f;
-    public static final int mtrl_internal_children_alpha_tag=0x7f0a0140;
-    public static final int multiply=0x7f0a0141;
-    public static final int my_recycler_view=0x7f0a0142;
-    public static final int name=0x7f0a0143;
-    public static final int name_button=0x7f0a0144;
-    public static final int navigation_header_container=0x7f0a0145;
-    public static final int negative=0x7f0a0146;
-    public static final int never=0x7f0a0147;
-    public static final int none=0x7f0a0148;
-    public static final int normal=0x7f0a0149;
-    public static final int notification_background=0x7f0a014a;
-    public static final int notification_main_column=0x7f0a014b;
-    public static final int notification_main_column_container=0x7f0a014c;
-    public static final int notifintro=0x7f0a014d;
-    public static final int number=0x7f0a014e;
-    public static final int off=0x7f0a014f;
-    public static final int on=0x7f0a0150;
-    public static final int others=0x7f0a0151;
-    public static final int outline=0x7f0a0152;
-    public static final int oval=0x7f0a0153;
-    public static final int packed=0x7f0a0154;
-    public static final int parallax=0x7f0a0155;
-    public static final int parent=0x7f0a0156;
-    public static final int parentPanel=0x7f0a0157;
-    public static final int parent_matrix=0x7f0a0158;
-    public static final int password=0x7f0a0159;
-    public static final int percent=0x7f0a015a;
-    public static final int pin=0x7f0a015b;
-    public static final int position=0x7f0a015c;
-    public static final int product_cardview=0x7f0a015d;
-    public static final int product_image=0x7f0a015e;
-    public static final int product_name=0x7f0a015f;
-    public static final int product_price=0x7f0a0160;
-    public static final int productdesc=0x7f0a0161;
-    public static final int productimage=0x7f0a0162;
-    public static final int productname=0x7f0a0163;
-    public static final int productprice=0x7f0a0164;
-    public static final int profilepic=0x7f0a0165;
-    public static final int progressBar=0x7f0a0166;
-    public static final int progressBarImg=0x7f0a0167;
-    public static final int progressBar_sign_up=0x7f0a0168;
-    public static final int progressBar_sign_up_google=0x7f0a0169;
-    public static final int progress_circular=0x7f0a016a;
-    public static final int progress_horizontal=0x7f0a016b;
-    public static final int quantityProductPage=0x7f0a016c;
-    public static final int radio=0x7f0a016d;
-    public static final int rect=0x7f0a016e;
-    public static final int recyclerview=0x7f0a016f;
-    public static final int register=0x7f0a0170;
-    public static final int register_now=0x7f0a0171;
-    public static final int restart=0x7f0a0172;
-    public static final int reverse=0x7f0a0173;
-    public static final int right=0x7f0a0174;
-    public static final int right_icon=0x7f0a0175;
-    public static final int right_side=0x7f0a0176;
-    public static final int rippleForegroundListenerView=0x7f0a0177;
-    public static final int save_image_matrix=0x7f0a0178;
-    public static final int save_non_transition_alpha=0x7f0a0179;
-    public static final int save_scale_type=0x7f0a017a;
-    public static final int screen=0x7f0a017b;
-    public static final int scroll=0x7f0a017c;
-    public static final int scrollIndicatorDown=0x7f0a017d;
-    public static final int scrollIndicatorUp=0x7f0a017e;
-    public static final int scrollView=0x7f0a017f;
-    public static final int scrollable=0x7f0a0180;
-    public static final int scrollbar=0x7f0a0181;
-    public static final int search_badge=0x7f0a0182;
-    public static final int search_bar=0x7f0a0183;
-    public static final int search_button=0x7f0a0184;
-    public static final int search_close_btn=0x7f0a0185;
-    public static final int search_edit_frame=0x7f0a0186;
-    public static final int search_go_btn=0x7f0a0187;
-    public static final int search_mag_icon=0x7f0a0188;
-    public static final int search_plate=0x7f0a0189;
-    public static final int search_src_text=0x7f0a018a;
-    public static final int search_voice_btn=0x7f0a018b;
-    public static final int selectContainer=0x7f0a018c;
-    public static final int selectImage=0x7f0a018d;
-    public static final int select_dialog_listview=0x7f0a018e;
-    public static final int selected=0x7f0a018f;
-    public static final int selectedImageView=0x7f0a0190;
-    public static final int seven=0x7f0a0191;
-    public static final int shortcut=0x7f0a0192;
-    public static final int showCustom=0x7f0a0193;
-    public static final int showHome=0x7f0a0194;
-    public static final int showTitle=0x7f0a0195;
-    public static final int signInText=0x7f0a0196;
-    public static final int signIn_google_btn=0x7f0a0197;
-    public static final int signUpText=0x7f0a0198;
-    public static final int slider=0x7f0a0199;
-    public static final int smallLabel=0x7f0a019a;
-    public static final int snackbar_action=0x7f0a019b;
-    public static final int snackbar_text=0x7f0a019c;
-    public static final int snap=0x7f0a019d;
-    public static final int snapMargins=0x7f0a019e;
-    public static final int software=0x7f0a019f;
-    public static final int spacer=0x7f0a01a0;
-    public static final int split_action_bar=0x7f0a01a1;
-    public static final int spread=0x7f0a01a2;
-    public static final int spread_inside=0x7f0a01a3;
-    public static final int src_atop=0x7f0a01a4;
-    public static final int src_in=0x7f0a01a5;
-    public static final int src_over=0x7f0a01a6;
-    public static final int standard=0x7f0a01a7;
-    public static final int start=0x7f0a01a8;
-    public static final int stats=0x7f0a01a9;
-    public static final int status_bar_latest_event_content=0x7f0a01aa;
-    public static final int stretch=0x7f0a01ab;
-    public static final int sub_title=0x7f0a01ac;
-    public static final int submenuarrow=0x7f0a01ad;
-    public static final int submitSuggestion=0x7f0a01ae;
-    public static final int submit_area=0x7f0a01af;
-    public static final int tabMode=0x7f0a01b0;
-    public static final int tag_accessibility_actions=0x7f0a01b1;
-    public static final int tag_accessibility_clickable_spans=0x7f0a01b2;
-    public static final int tag_accessibility_heading=0x7f0a01b3;
-    public static final int tag_accessibility_pane_title=0x7f0a01b4;
-    public static final int tag_screen_reader_focusable=0x7f0a01b5;
-    public static final int tag_transition_group=0x7f0a01b6;
-    public static final int tag_unhandled_key_event_manager=0x7f0a01b7;
-    public static final int tag_unhandled_key_listeners=0x7f0a01b8;
-    public static final int text=0x7f0a01b9;
-    public static final int text2=0x7f0a01ba;
-    public static final int textSpacerNoButtons=0x7f0a01bb;
-    public static final int textSpacerNoTitle=0x7f0a01bc;
-    public static final int textStart=0x7f0a01bd;
-    public static final int text_action1=0x7f0a01be;
-    public static final int text_action2=0x7f0a01bf;
-    public static final int text_action3=0x7f0a01c0;
-    public static final int text_action_bottom2=0x7f0a01c1;
-    public static final int text_input_password_toggle=0x7f0a01c2;
-    public static final int textinput_counter=0x7f0a01c3;
-    public static final int textinput_error=0x7f0a01c4;
-    public static final int textinput_helper_text=0x7f0a01c5;
-    public static final int time=0x7f0a01c6;
-    public static final int title=0x7f0a01c7;
-    public static final int titleDividerNoCustom=0x7f0a01c8;
-    public static final int title_template=0x7f0a01c9;
-    public static final int toolbar=0x7f0a01ca;
-    public static final int toolbarwrap=0x7f0a01cb;
-    public static final int top=0x7f0a01cc;
-    public static final int topPanel=0x7f0a01cd;
-    public static final int touch_outside=0x7f0a01ce;
-    public static final int transition_current_scene=0x7f0a01cf;
-    public static final int transition_layout_save=0x7f0a01d0;
-    public static final int transition_position=0x7f0a01d1;
-    public static final int transition_scene_layoutid_cache=0x7f0a01d2;
-    public static final int transition_transform=0x7f0a01d3;
-    public static final int tv_no_cards=0x7f0a01d4;
-    public static final int unchecked=0x7f0a01d5;
-    public static final int uniform=0x7f0a01d6;
-    public static final int unlabeled=0x7f0a01d7;
-    public static final int up=0x7f0a01d8;
-    public static final int updatedetails=0x7f0a01d9;
-    public static final int uploadpic=0x7f0a01da;
-    public static final int useLogo=0x7f0a01db;
-    public static final int userImageSignUp=0x7f0a01dc;
-    public static final int verify_email_text=0x7f0a01dd;
-    public static final int view_offset_helper=0x7f0a01de;
-    public static final int view_pager=0x7f0a01df;
-    public static final int view_profile=0x7f0a01e0;
-    public static final int visible=0x7f0a01e1;
-    public static final int wide=0x7f0a01e2;
-    public static final int withText=0x7f0a01e3;
-    public static final int wrap=0x7f0a01e4;
-    public static final int wrap_content=0x7f0a01e5;
+    public static final int cod=0x7f0a0089;
+    public static final int collapseActionView=0x7f0a008a;
+    public static final int confirmpassword=0x7f0a008b;
+    public static final int container=0x7f0a008c;
+    public static final int content=0x7f0a008d;
+    public static final int contentPanel=0x7f0a008e;
+    public static final int content_layout=0x7f0a008f;
+    public static final int coordinator=0x7f0a0090;
+    public static final int custom=0x7f0a0091;
+    public static final int customPanel=0x7f0a0092;
+    public static final int customheader=0x7f0a0093;
+    public static final int custommessage=0x7f0a0094;
+    public static final int daimajia_indicator_wrapper=0x7f0a0095;
+    public static final int daimajia_slider_image=0x7f0a0096;
+    public static final int daimajia_slider_viewpager=0x7f0a0097;
+    public static final int dark=0x7f0a0098;
+    public static final int decor_content_parent=0x7f0a0099;
+    public static final int decrementQuantity=0x7f0a009a;
+    public static final int default_activity_button=0x7f0a009b;
+    public static final int default_bottom_left_indicator=0x7f0a009c;
+    public static final int default_bottom_right_indicator=0x7f0a009d;
+    public static final int default_center_bottom_indicator=0x7f0a009e;
+    public static final int default_center_top_indicator=0x7f0a009f;
+    public static final int default_center_top_left_indicator=0x7f0a00a0;
+    public static final int default_center_top_right_indicator=0x7f0a00a1;
+    public static final int deletecard=0x7f0a00a2;
+    public static final int delivery_date=0x7f0a00a3;
+    public static final int description=0x7f0a00a4;
+    public static final int description_layout=0x7f0a00a5;
+    public static final int design_bottom_sheet=0x7f0a00a6;
+    public static final int design_menu_item_action_area=0x7f0a00a7;
+    public static final int design_menu_item_action_area_stub=0x7f0a00a8;
+    public static final int design_menu_item_text=0x7f0a00a9;
+    public static final int design_navigation_view=0x7f0a00aa;
+    public static final int details_label=0x7f0a00ab;
+    public static final int dialog_button=0x7f0a00ac;
+    public static final int dimensions=0x7f0a00ad;
+    public static final int direct=0x7f0a00ae;
+    public static final int disableHome=0x7f0a00af;
+    public static final int dog_food=0x7f0a00b0;
+    public static final int dog_food_tap=0x7f0a00b1;
+    public static final int editText=0x7f0a00b2;
+    public static final int editTextConfirmPassword=0x7f0a00b3;
+    public static final int editTextEmail=0x7f0a00b4;
+    public static final int editTextFirstName=0x7f0a00b5;
+    public static final int editTextPassword=0x7f0a00b6;
+    public static final int editTextPhone=0x7f0a00b7;
+    public static final int editTextPhone_google=0x7f0a00b8;
+    public static final int edit_query=0x7f0a00b9;
+    public static final int email=0x7f0a00ba;
+    public static final int emailview=0x7f0a00bb;
+    public static final int empty_cart=0x7f0a00bc;
+    public static final int end=0x7f0a00bd;
+    public static final int end_padder=0x7f0a00be;
+    public static final int enterAlways=0x7f0a00bf;
+    public static final int enterAlwaysCollapsed=0x7f0a00c0;
+    public static final int exitUntilCollapsed=0x7f0a00c1;
+    public static final int expand_activities_button=0x7f0a00c2;
+    public static final int expanded_menu=0x7f0a00c3;
+    public static final int fastadapter_item=0x7f0a00c4;
+    public static final int fastadapter_item_adapter=0x7f0a00c5;
+    public static final int fill=0x7f0a00c6;
+    public static final int fill_horizontal=0x7f0a00c7;
+    public static final int fill_vertical=0x7f0a00c8;
+    public static final int filled=0x7f0a00c9;
+    public static final int finish_ggogle_signUp=0x7f0a00ca;
+    public static final int fixed=0x7f0a00cb;
+    public static final int forever=0x7f0a00cc;
+    public static final int forget_password=0x7f0a00cd;
+    public static final int forgot_pass=0x7f0a00ce;
+    public static final int frame_container=0x7f0a00cf;
+    public static final int ghost_view=0x7f0a00d0;
+    public static final int gone=0x7f0a00d1;
+    public static final int google_btn_loading_animation=0x7f0a00d2;
+    public static final int group_divider=0x7f0a00d3;
+    public static final int groups=0x7f0a00d4;
+    public static final int hardware=0x7f0a00d5;
+    public static final int header_item_id=0x7f0a00d6;
+    public static final int highlight=0x7f0a00d7;
+    public static final int home=0x7f0a00d8;
+    public static final int homeAsUp=0x7f0a00d9;
+    public static final int icon=0x7f0a00da;
+    public static final int icon_group=0x7f0a00db;
+    public static final int icon_only=0x7f0a00dc;
+    public static final int iconics_tag_id=0x7f0a00dd;
+    public static final int ifRoom=0x7f0a00de;
+    public static final int image=0x7f0a00df;
+    public static final int image_cartlist=0x7f0a00e0;
+    public static final int incrementQuantity=0x7f0a00e1;
+    public static final int info=0x7f0a00e2;
+    public static final int info_legal=0x7f0a00e3;
+    public static final int invisible=0x7f0a00e4;
+    public static final int italic=0x7f0a00e5;
+    public static final int item_touch_helper_previous_elevation=0x7f0a00e6;
+    public static final int label=0x7f0a00e7;
+    public static final int labeled=0x7f0a00e8;
+    public static final int largeLabel=0x7f0a00e9;
+    public static final int layoutDots=0x7f0a00ea;
+    public static final int layout_action1=0x7f0a00eb;
+    public static final int layout_action2=0x7f0a00ec;
+    public static final int layout_action3=0x7f0a00ed;
+    public static final int layout_item_desc=0x7f0a00ee;
+    public static final int left=0x7f0a00ef;
+    public static final int libraryBottomContainer=0x7f0a00f0;
+    public static final int libraryBottomDivider=0x7f0a00f1;
+    public static final int libraryCreator=0x7f0a00f2;
+    public static final int libraryDescription=0x7f0a00f3;
+    public static final int libraryDescriptionDivider=0x7f0a00f4;
+    public static final int libraryLicense=0x7f0a00f5;
+    public static final int libraryName=0x7f0a00f6;
+    public static final int libraryVersion=0x7f0a00f7;
+    public static final int library_item_id=0x7f0a00f8;
+    public static final int light=0x7f0a00f9;
+    public static final int line1=0x7f0a00fa;
+    public static final int line3=0x7f0a00fb;
+    public static final int listMode=0x7f0a00fc;
+    public static final int list_item=0x7f0a00fd;
+    public static final int loader_item_id=0x7f0a00fe;
+    public static final int loading_bar=0x7f0a00ff;
+    public static final int login_button=0x7f0a0100;
+    public static final int login_now=0x7f0a0101;
+    public static final int logo=0x7f0a0102;
+    public static final int lottie_layer_name=0x7f0a0103;
+    public static final int mainView=0x7f0a0104;
+    public static final int main_content_recycle=0x7f0a0105;
+    public static final int masked=0x7f0a0106;
+    public static final int material_drawer_account_header=0x7f0a0107;
+    public static final int material_drawer_account_header_background=0x7f0a0108;
+    public static final int material_drawer_account_header_current=0x7f0a0109;
+    public static final int material_drawer_account_header_email=0x7f0a010a;
+    public static final int material_drawer_account_header_name=0x7f0a010b;
+    public static final int material_drawer_account_header_small_first=0x7f0a010c;
+    public static final int material_drawer_account_header_small_second=0x7f0a010d;
+    public static final int material_drawer_account_header_small_third=0x7f0a010e;
+    public static final int material_drawer_account_header_text_switcher=0x7f0a010f;
+    public static final int material_drawer_animation=0x7f0a0110;
+    public static final int material_drawer_arrow=0x7f0a0111;
+    public static final int material_drawer_arrow_container=0x7f0a0112;
+    public static final int material_drawer_badge=0x7f0a0113;
+    public static final int material_drawer_badge_container=0x7f0a0114;
+    public static final int material_drawer_description=0x7f0a0115;
+    public static final int material_drawer_divider=0x7f0a0116;
+    public static final int material_drawer_email=0x7f0a0117;
+    public static final int material_drawer_icon=0x7f0a0118;
+    public static final int material_drawer_inner_shadow=0x7f0a0119;
+    public static final int material_drawer_item=0x7f0a011a;
+    public static final int material_drawer_item_container=0x7f0a011b;
+    public static final int material_drawer_item_divider=0x7f0a011c;
+    public static final int material_drawer_item_expandable=0x7f0a011d;
+    public static final int material_drawer_item_expandable_badge=0x7f0a011e;
+    public static final int material_drawer_item_mini=0x7f0a011f;
+    public static final int material_drawer_item_mini_profile=0x7f0a0120;
+    public static final int material_drawer_item_primary=0x7f0a0121;
+    public static final int material_drawer_item_primary_switch=0x7f0a0122;
+    public static final int material_drawer_item_primary_toggle=0x7f0a0123;
+    public static final int material_drawer_item_profile=0x7f0a0124;
+    public static final int material_drawer_item_profile_setting=0x7f0a0125;
+    public static final int material_drawer_item_secondary=0x7f0a0126;
+    public static final int material_drawer_item_secondary_switch=0x7f0a0127;
+    public static final int material_drawer_item_secondary_toggle=0x7f0a0128;
+    public static final int material_drawer_item_section=0x7f0a0129;
+    public static final int material_drawer_layout=0x7f0a012a;
+    public static final int material_drawer_menu_default_group=0x7f0a012b;
+    public static final int material_drawer_name=0x7f0a012c;
+    public static final int material_drawer_profileIcon=0x7f0a012d;
+    public static final int material_drawer_profile_header=0x7f0a012e;
+    public static final int material_drawer_recycler_view=0x7f0a012f;
+    public static final int material_drawer_slider_layout=0x7f0a0130;
+    public static final int material_drawer_statusbar_guideline=0x7f0a0131;
+    public static final int material_drawer_sticky_footer=0x7f0a0132;
+    public static final int material_drawer_sticky_header=0x7f0a0133;
+    public static final int material_drawer_switch=0x7f0a0134;
+    public static final int material_drawer_text_guideline=0x7f0a0135;
+    public static final int material_drawer_toggle=0x7f0a0136;
+    public static final int materialize_root=0x7f0a0137;
+    public static final int media_actions=0x7f0a0138;
+    public static final int message=0x7f0a0139;
+    public static final int middle=0x7f0a013a;
+    public static final int mini=0x7f0a013b;
+    public static final int mobileview=0x7f0a013c;
+    public static final int mtf_card=0x7f0a013d;
+    public static final int mtf_editTextLayout=0x7f0a013e;
+    public static final int mtf_image=0x7f0a013f;
+    public static final int mtf_label=0x7f0a0140;
+    public static final int mtrl_child_content_container=0x7f0a0141;
+    public static final int mtrl_internal_children_alpha_tag=0x7f0a0142;
+    public static final int multiply=0x7f0a0143;
+    public static final int my_recycler_view=0x7f0a0144;
+    public static final int name=0x7f0a0145;
+    public static final int name_button=0x7f0a0146;
+    public static final int navigation_header_container=0x7f0a0147;
+    public static final int negative=0x7f0a0148;
+    public static final int never=0x7f0a0149;
+    public static final int no_of_items=0x7f0a014a;
+    public static final int none=0x7f0a014b;
+    public static final int normal=0x7f0a014c;
+    public static final int notification_background=0x7f0a014d;
+    public static final int notification_main_column=0x7f0a014e;
+    public static final int notification_main_column_container=0x7f0a014f;
+    public static final int notifintro=0x7f0a0150;
+    public static final int number=0x7f0a0151;
+    public static final int off=0x7f0a0152;
+    public static final int on=0x7f0a0153;
+    public static final int orderaddress=0x7f0a0154;
+    public static final int orderemail=0x7f0a0155;
+    public static final int orderid=0x7f0a0156;
+    public static final int ordername=0x7f0a0157;
+    public static final int ordernumber=0x7f0a0158;
+    public static final int orderpincode=0x7f0a0159;
+    public static final int others=0x7f0a015a;
+    public static final int outline=0x7f0a015b;
+    public static final int oval=0x7f0a015c;
+    public static final int packed=0x7f0a015d;
+    public static final int parallax=0x7f0a015e;
+    public static final int parent=0x7f0a015f;
+    public static final int parentPanel=0x7f0a0160;
+    public static final int parent_matrix=0x7f0a0161;
+    public static final int password=0x7f0a0162;
+    public static final int payatm=0x7f0a0163;
+    public static final int paypal=0x7f0a0164;
+    public static final int percent=0x7f0a0165;
+    public static final int pin=0x7f0a0166;
+    public static final int position=0x7f0a0167;
+    public static final int product_cardview=0x7f0a0168;
+    public static final int product_image=0x7f0a0169;
+    public static final int product_name=0x7f0a016a;
+    public static final int product_price=0x7f0a016b;
+    public static final int productdesc=0x7f0a016c;
+    public static final int productimage=0x7f0a016d;
+    public static final int productname=0x7f0a016e;
+    public static final int productprice=0x7f0a016f;
+    public static final int profilepic=0x7f0a0170;
+    public static final int progressBar=0x7f0a0171;
+    public static final int progressBarImg=0x7f0a0172;
+    public static final int progressBar_sign_up=0x7f0a0173;
+    public static final int progressBar_sign_up_google=0x7f0a0174;
+    public static final int progress_circular=0x7f0a0175;
+    public static final int progress_horizontal=0x7f0a0176;
+    public static final int quantityProductPage=0x7f0a0177;
+    public static final int rGroup=0x7f0a0178;
+    public static final int radio=0x7f0a0179;
+    public static final int rect=0x7f0a017a;
+    public static final int recyclerview=0x7f0a017b;
+    public static final int register=0x7f0a017c;
+    public static final int register_now=0x7f0a017d;
+    public static final int restart=0x7f0a017e;
+    public static final int reverse=0x7f0a017f;
+    public static final int right=0x7f0a0180;
+    public static final int right_icon=0x7f0a0181;
+    public static final int right_side=0x7f0a0182;
+    public static final int rippleForegroundListenerView=0x7f0a0183;
+    public static final int save_image_matrix=0x7f0a0184;
+    public static final int save_non_transition_alpha=0x7f0a0185;
+    public static final int save_scale_type=0x7f0a0186;
+    public static final int screen=0x7f0a0187;
+    public static final int scroll=0x7f0a0188;
+    public static final int scrollIndicatorDown=0x7f0a0189;
+    public static final int scrollIndicatorUp=0x7f0a018a;
+    public static final int scrollView=0x7f0a018b;
+    public static final int scrollable=0x7f0a018c;
+    public static final int scrollbar=0x7f0a018d;
+    public static final int search_badge=0x7f0a018e;
+    public static final int search_bar=0x7f0a018f;
+    public static final int search_button=0x7f0a0190;
+    public static final int search_close_btn=0x7f0a0191;
+    public static final int search_edit_frame=0x7f0a0192;
+    public static final int search_go_btn=0x7f0a0193;
+    public static final int search_mag_icon=0x7f0a0194;
+    public static final int search_plate=0x7f0a0195;
+    public static final int search_src_text=0x7f0a0196;
+    public static final int search_voice_btn=0x7f0a0197;
+    public static final int selectContainer=0x7f0a0198;
+    public static final int selectImage=0x7f0a0199;
+    public static final int select_dialog_listview=0x7f0a019a;
+    public static final int selected=0x7f0a019b;
+    public static final int selectedImageView=0x7f0a019c;
+    public static final int seven=0x7f0a019d;
+    public static final int shortcut=0x7f0a019e;
+    public static final int showCustom=0x7f0a019f;
+    public static final int showHome=0x7f0a01a0;
+    public static final int showTitle=0x7f0a01a1;
+    public static final int signInText=0x7f0a01a2;
+    public static final int signIn_google_btn=0x7f0a01a3;
+    public static final int signUpText=0x7f0a01a4;
+    public static final int slider=0x7f0a01a5;
+    public static final int smallLabel=0x7f0a01a6;
+    public static final int snackbar_action=0x7f0a01a7;
+    public static final int snackbar_text=0x7f0a01a8;
+    public static final int snap=0x7f0a01a9;
+    public static final int snapMargins=0x7f0a01aa;
+    public static final int software=0x7f0a01ab;
+    public static final int spacer=0x7f0a01ac;
+    public static final int split_action_bar=0x7f0a01ad;
+    public static final int spread=0x7f0a01ae;
+    public static final int spread_inside=0x7f0a01af;
+    public static final int src_atop=0x7f0a01b0;
+    public static final int src_in=0x7f0a01b1;
+    public static final int src_over=0x7f0a01b2;
+    public static final int standard=0x7f0a01b3;
+    public static final int start=0x7f0a01b4;
+    public static final int stats=0x7f0a01b5;
+    public static final int status_bar_latest_event_content=0x7f0a01b6;
+    public static final int stretch=0x7f0a01b7;
+    public static final int sub_title=0x7f0a01b8;
+    public static final int submenuarrow=0x7f0a01b9;
+    public static final int submitSuggestion=0x7f0a01ba;
+    public static final int submit_area=0x7f0a01bb;
+    public static final int tabMode=0x7f0a01bc;
+    public static final int tag_accessibility_actions=0x7f0a01bd;
+    public static final int tag_accessibility_clickable_spans=0x7f0a01be;
+    public static final int tag_accessibility_heading=0x7f0a01bf;
+    public static final int tag_accessibility_pane_title=0x7f0a01c0;
+    public static final int tag_screen_reader_focusable=0x7f0a01c1;
+    public static final int tag_transition_group=0x7f0a01c2;
+    public static final int tag_unhandled_key_event_manager=0x7f0a01c3;
+    public static final int tag_unhandled_key_listeners=0x7f0a01c4;
+    public static final int text=0x7f0a01c5;
+    public static final int text2=0x7f0a01c6;
+    public static final int textSpacerNoButtons=0x7f0a01c7;
+    public static final int textSpacerNoTitle=0x7f0a01c8;
+    public static final int textStart=0x7f0a01c9;
+    public static final int text_action1=0x7f0a01ca;
+    public static final int text_action2=0x7f0a01cb;
+    public static final int text_action3=0x7f0a01cc;
+    public static final int text_action_bottom2=0x7f0a01cd;
+    public static final int text_input_password_toggle=0x7f0a01ce;
+    public static final int textinput_counter=0x7f0a01cf;
+    public static final int textinput_error=0x7f0a01d0;
+    public static final int textinput_helper_text=0x7f0a01d1;
+    public static final int time=0x7f0a01d2;
+    public static final int title=0x7f0a01d3;
+    public static final int titleDividerNoCustom=0x7f0a01d4;
+    public static final int title_template=0x7f0a01d5;
+    public static final int toolbar=0x7f0a01d6;
+    public static final int toolbarwrap=0x7f0a01d7;
+    public static final int top=0x7f0a01d8;
+    public static final int topPanel=0x7f0a01d9;
+    public static final int total_amount=0x7f0a01da;
+    public static final int touch_outside=0x7f0a01db;
+    public static final int transition_current_scene=0x7f0a01dc;
+    public static final int transition_layout_save=0x7f0a01dd;
+    public static final int transition_position=0x7f0a01de;
+    public static final int transition_scene_layoutid_cache=0x7f0a01df;
+    public static final int transition_transform=0x7f0a01e0;
+    public static final int tv_no_cards=0x7f0a01e1;
+    public static final int unchecked=0x7f0a01e2;
+    public static final int uniform=0x7f0a01e3;
+    public static final int unlabeled=0x7f0a01e4;
+    public static final int up=0x7f0a01e5;
+    public static final int updatedetails=0x7f0a01e6;
+    public static final int uploadpic=0x7f0a01e7;
+    public static final int useLogo=0x7f0a01e8;
+    public static final int userImageSignUp=0x7f0a01e9;
+    public static final int verify_email_text=0x7f0a01ea;
+    public static final int view_offset_helper=0x7f0a01eb;
+    public static final int view_pager=0x7f0a01ec;
+    public static final int view_profile=0x7f0a01ed;
+    public static final int visible=0x7f0a01ee;
+    public static final int wide=0x7f0a01ef;
+    public static final int withText=0x7f0a01f0;
+    public static final int wrap=0x7f0a01f1;
+    public static final int wrap_content=0x7f0a01f2;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0b0000;
@@ -7527,92 +7077,93 @@ public final class R {
     public static final int activity_main=0x7f0d0022;
     public static final int activity_opensource=0x7f0d0023;
     public static final int activity_order_details=0x7f0d0024;
-    public static final int activity_product_details=0x7f0d0025;
-    public static final int activity_profile=0x7f0d0026;
-    public static final int activity_register=0x7f0d0027;
-    public static final int activity_sign_in=0x7f0d0028;
-    public static final int activity_sign_up=0x7f0d0029;
-    public static final int activity_splash=0x7f0d002a;
-    public static final int activity_welcome=0x7f0d002b;
-    public static final int activity_wish_list=0x7f0d002c;
-    public static final int cards_cardview_layout=0x7f0d002d;
-    public static final int cart_item_layout=0x7f0d002e;
-    public static final int crossfade_drawer=0x7f0d002f;
-    public static final int custom_dialog=0x7f0d0030;
-    public static final int design_bottom_navigation_item=0x7f0d0031;
-    public static final int design_bottom_sheet_dialog=0x7f0d0032;
-    public static final int design_layout_snackbar=0x7f0d0033;
-    public static final int design_layout_snackbar_include=0x7f0d0034;
-    public static final int design_layout_tab_icon=0x7f0d0035;
-    public static final int design_layout_tab_text=0x7f0d0036;
-    public static final int design_menu_item_action_area=0x7f0d0037;
-    public static final int design_navigation_item=0x7f0d0038;
-    public static final int design_navigation_item_header=0x7f0d0039;
-    public static final int design_navigation_item_separator=0x7f0d003a;
-    public static final int design_navigation_item_subheader=0x7f0d003b;
-    public static final int design_navigation_menu=0x7f0d003c;
-    public static final int design_navigation_menu_item=0x7f0d003d;
-    public static final int design_text_input_password_icon=0x7f0d003e;
-    public static final int dialog_alert=0x7f0d003f;
-    public static final int feedback_layout=0x7f0d0040;
-    public static final int fragment_opensource=0x7f0d0041;
-    public static final int indicator_layout=0x7f0d0042;
-    public static final int kprogresshud_hud=0x7f0d0043;
-    public static final int listheader_opensource=0x7f0d0044;
-    public static final int listitem_opensource=0x7f0d0045;
-    public static final int listloader_opensource=0x7f0d0046;
-    public static final int material_drawer=0x7f0d0047;
-    public static final int material_drawer_compact_header=0x7f0d0048;
-    public static final int material_drawer_fits_not=0x7f0d0049;
-    public static final int material_drawer_header=0x7f0d004a;
-    public static final int material_drawer_item_container=0x7f0d004b;
-    public static final int material_drawer_item_divider=0x7f0d004c;
-    public static final int material_drawer_item_expandable=0x7f0d004d;
-    public static final int material_drawer_item_expandable_badge=0x7f0d004e;
-    public static final int material_drawer_item_mini=0x7f0d004f;
-    public static final int material_drawer_item_mini_profile=0x7f0d0050;
-    public static final int material_drawer_item_primary=0x7f0d0051;
-    public static final int material_drawer_item_profile=0x7f0d0052;
-    public static final int material_drawer_item_profile_setting=0x7f0d0053;
-    public static final int material_drawer_item_secondary=0x7f0d0054;
-    public static final int material_drawer_item_secondary_switch=0x7f0d0055;
-    public static final int material_drawer_item_secondary_toggle=0x7f0d0056;
-    public static final int material_drawer_item_section=0x7f0d0057;
-    public static final int material_drawer_item_switch=0x7f0d0058;
-    public static final int material_drawer_item_toggle=0x7f0d0059;
-    public static final int material_drawer_recycler_view=0x7f0d005a;
-    public static final int material_drawer_slider=0x7f0d005b;
-    public static final int materialize=0x7f0d005c;
-    public static final int mtf_layout=0x7f0d005d;
-    public static final int mtrl_layout_snackbar=0x7f0d005e;
-    public static final int mtrl_layout_snackbar_include=0x7f0d005f;
-    public static final int notification_action=0x7f0d0060;
-    public static final int notification_action_tombstone=0x7f0d0061;
-    public static final int notification_media_action=0x7f0d0062;
-    public static final int notification_media_cancel_action=0x7f0d0063;
-    public static final int notification_template_big_media=0x7f0d0064;
-    public static final int notification_template_big_media_custom=0x7f0d0065;
-    public static final int notification_template_big_media_narrow=0x7f0d0066;
-    public static final int notification_template_big_media_narrow_custom=0x7f0d0067;
-    public static final int notification_template_custom_big=0x7f0d0068;
-    public static final int notification_template_icon_group=0x7f0d0069;
-    public static final int notification_template_lines_media=0x7f0d006a;
-    public static final int notification_template_media=0x7f0d006b;
-    public static final int notification_template_media_custom=0x7f0d006c;
-    public static final int notification_template_part_chronometer=0x7f0d006d;
-    public static final int notification_template_part_time=0x7f0d006e;
-    public static final int raw_items=0x7f0d006f;
-    public static final int render_type_default=0x7f0d0070;
-    public static final int render_type_text=0x7f0d0071;
-    public static final int select_dialog_item_material=0x7f0d0072;
-    public static final int select_dialog_multichoice_material=0x7f0d0073;
-    public static final int select_dialog_singlechoice_material=0x7f0d0074;
-    public static final int slider_layout=0x7f0d0075;
-    public static final int support_simple_spinner_dropdown_item=0x7f0d0076;
-    public static final int welcome_slide1=0x7f0d0077;
-    public static final int welcome_slide2=0x7f0d0078;
-    public static final int welcome_slide3=0x7f0d0079;
-    public static final int welcome_slide4=0x7f0d007a;
+    public static final int activity_order_placed=0x7f0d0025;
+    public static final int activity_product_details=0x7f0d0026;
+    public static final int activity_profile=0x7f0d0027;
+    public static final int activity_register=0x7f0d0028;
+    public static final int activity_sign_in=0x7f0d0029;
+    public static final int activity_sign_up=0x7f0d002a;
+    public static final int activity_splash=0x7f0d002b;
+    public static final int activity_welcome=0x7f0d002c;
+    public static final int activity_wish_list=0x7f0d002d;
+    public static final int cards_cardview_layout=0x7f0d002e;
+    public static final int cart_item_layout=0x7f0d002f;
+    public static final int crossfade_drawer=0x7f0d0030;
+    public static final int custom_dialog=0x7f0d0031;
+    public static final int design_bottom_navigation_item=0x7f0d0032;
+    public static final int design_bottom_sheet_dialog=0x7f0d0033;
+    public static final int design_layout_snackbar=0x7f0d0034;
+    public static final int design_layout_snackbar_include=0x7f0d0035;
+    public static final int design_layout_tab_icon=0x7f0d0036;
+    public static final int design_layout_tab_text=0x7f0d0037;
+    public static final int design_menu_item_action_area=0x7f0d0038;
+    public static final int design_navigation_item=0x7f0d0039;
+    public static final int design_navigation_item_header=0x7f0d003a;
+    public static final int design_navigation_item_separator=0x7f0d003b;
+    public static final int design_navigation_item_subheader=0x7f0d003c;
+    public static final int design_navigation_menu=0x7f0d003d;
+    public static final int design_navigation_menu_item=0x7f0d003e;
+    public static final int design_text_input_password_icon=0x7f0d003f;
+    public static final int dialog_alert=0x7f0d0040;
+    public static final int feedback_layout=0x7f0d0041;
+    public static final int fragment_opensource=0x7f0d0042;
+    public static final int indicator_layout=0x7f0d0043;
+    public static final int kprogresshud_hud=0x7f0d0044;
+    public static final int listheader_opensource=0x7f0d0045;
+    public static final int listitem_opensource=0x7f0d0046;
+    public static final int listloader_opensource=0x7f0d0047;
+    public static final int material_drawer=0x7f0d0048;
+    public static final int material_drawer_compact_header=0x7f0d0049;
+    public static final int material_drawer_fits_not=0x7f0d004a;
+    public static final int material_drawer_header=0x7f0d004b;
+    public static final int material_drawer_item_container=0x7f0d004c;
+    public static final int material_drawer_item_divider=0x7f0d004d;
+    public static final int material_drawer_item_expandable=0x7f0d004e;
+    public static final int material_drawer_item_expandable_badge=0x7f0d004f;
+    public static final int material_drawer_item_mini=0x7f0d0050;
+    public static final int material_drawer_item_mini_profile=0x7f0d0051;
+    public static final int material_drawer_item_primary=0x7f0d0052;
+    public static final int material_drawer_item_profile=0x7f0d0053;
+    public static final int material_drawer_item_profile_setting=0x7f0d0054;
+    public static final int material_drawer_item_secondary=0x7f0d0055;
+    public static final int material_drawer_item_secondary_switch=0x7f0d0056;
+    public static final int material_drawer_item_secondary_toggle=0x7f0d0057;
+    public static final int material_drawer_item_section=0x7f0d0058;
+    public static final int material_drawer_item_switch=0x7f0d0059;
+    public static final int material_drawer_item_toggle=0x7f0d005a;
+    public static final int material_drawer_recycler_view=0x7f0d005b;
+    public static final int material_drawer_slider=0x7f0d005c;
+    public static final int materialize=0x7f0d005d;
+    public static final int mtf_layout=0x7f0d005e;
+    public static final int mtrl_layout_snackbar=0x7f0d005f;
+    public static final int mtrl_layout_snackbar_include=0x7f0d0060;
+    public static final int notification_action=0x7f0d0061;
+    public static final int notification_action_tombstone=0x7f0d0062;
+    public static final int notification_media_action=0x7f0d0063;
+    public static final int notification_media_cancel_action=0x7f0d0064;
+    public static final int notification_template_big_media=0x7f0d0065;
+    public static final int notification_template_big_media_custom=0x7f0d0066;
+    public static final int notification_template_big_media_narrow=0x7f0d0067;
+    public static final int notification_template_big_media_narrow_custom=0x7f0d0068;
+    public static final int notification_template_custom_big=0x7f0d0069;
+    public static final int notification_template_icon_group=0x7f0d006a;
+    public static final int notification_template_lines_media=0x7f0d006b;
+    public static final int notification_template_media=0x7f0d006c;
+    public static final int notification_template_media_custom=0x7f0d006d;
+    public static final int notification_template_part_chronometer=0x7f0d006e;
+    public static final int notification_template_part_time=0x7f0d006f;
+    public static final int raw_items=0x7f0d0070;
+    public static final int render_type_default=0x7f0d0071;
+    public static final int render_type_text=0x7f0d0072;
+    public static final int select_dialog_item_material=0x7f0d0073;
+    public static final int select_dialog_multichoice_material=0x7f0d0074;
+    public static final int select_dialog_singlechoice_material=0x7f0d0075;
+    public static final int slider_layout=0x7f0d0076;
+    public static final int support_simple_spinner_dropdown_item=0x7f0d0077;
+    public static final int welcome_slide1=0x7f0d0078;
+    public static final int welcome_slide2=0x7f0d0079;
+    public static final int welcome_slide3=0x7f0d007a;
+    public static final int welcome_slide4=0x7f0d007b;
   }
   public static final class menu {
     public static final int menu_main=0x7f0e0000;
@@ -7684,2987 +7235,2990 @@ public final class R {
     public static final int character_counter_content_description=0x7f11002b;
     public static final int character_counter_pattern=0x7f11002c;
     public static final int click_again=0x7f11002d;
-    public static final int common_google_play_services_enable_button=0x7f11002e;
-    public static final int common_google_play_services_enable_text=0x7f11002f;
-    public static final int common_google_play_services_enable_title=0x7f110030;
-    public static final int common_google_play_services_install_button=0x7f110031;
-    public static final int common_google_play_services_install_text=0x7f110032;
-    public static final int common_google_play_services_install_title=0x7f110033;
-    public static final int common_google_play_services_notification_channel_name=0x7f110034;
-    public static final int common_google_play_services_notification_ticker=0x7f110035;
-    public static final int common_google_play_services_unknown_issue=0x7f110036;
-    public static final int common_google_play_services_unsupported_text=0x7f110037;
-    public static final int common_google_play_services_update_button=0x7f110038;
-    public static final int common_google_play_services_update_text=0x7f110039;
-    public static final int common_google_play_services_update_title=0x7f11003a;
-    public static final int common_google_play_services_updating_text=0x7f11003b;
-    public static final int common_google_play_services_wear_update_text=0x7f11003c;
-    public static final int common_open_on_phone=0x7f11003d;
-    public static final int common_signin_button_text=0x7f11003e;
-    public static final int common_signin_button_text_long=0x7f11003f;
-    public static final int crossfadedrawerlayout_lib_version=0x7f110040;
-    public static final int default_web_client_id=0x7f110041;
-    public static final int define_AboutLibraries=0x7f110042;
-    public static final int define_AndroidIconics=0x7f110043;
-    public static final int define_crossfadedrawerlayout=0x7f110044;
-    public static final int define_fastadapter=0x7f110045;
-    public static final int define_int_ActionBarPullToRefresh=0x7f110046;
-    public static final int define_int_ActionBarSherlock=0x7f110047;
-    public static final int define_int_ActiveAndroid=0x7f110048;
-    public static final int define_int_AdjustableImageView=0x7f110049;
-    public static final int define_int_AndroidRandomColor=0x7f11004a;
-    public static final int define_int_AndroidTimesSquare=0x7f11004b;
-    public static final int define_int_AndroidViewPagerIndicator=0x7f11004c;
-    public static final int define_int_AppCompat=0x7f11004d;
-    public static final int define_int_Butterknife=0x7f11004e;
-    public static final int define_int_CircleImageView=0x7f11004f;
-    public static final int define_int_CircularImageView=0x7f110050;
-    public static final int define_int_ClansFloatingActionButton=0x7f110051;
-    public static final int define_int_Crashlytics=0x7f110052;
-    public static final int define_int_Crouton=0x7f110053;
-    public static final int define_int_Dagger=0x7f110054;
-    public static final int define_int_Dagger2=0x7f110055;
-    public static final int define_int_ErrorView=0x7f110056;
-    public static final int define_int_Eventbus=0x7f110057;
-    public static final int define_int_FButton=0x7f110058;
-    public static final int define_int_Facebook=0x7f110059;
-    public static final int define_int_FloatingActionButton=0x7f11005a;
-    public static final int define_int_GooglePlayServices=0x7f11005b;
-    public static final int define_int_HoloGraphLibrary=0x7f11005c;
-    public static final int define_int_Icepick=0x7f11005d;
-    public static final int define_int_JCIFS=0x7f11005e;
-    public static final int define_int_JScience=0x7f11005f;
-    public static final int define_int_JavaAesCrypto=0x7f110060;
-    public static final int define_int_Jsoup=0x7f110061;
-    public static final int define_int_LeakCanary=0x7f110062;
-    public static final int define_int_LoganSquare=0x7f110063;
-    public static final int define_int_MarkView=0x7f110064;
-    public static final int define_int_MaterialRangeBar=0x7f110065;
-    public static final int define_int_MaterialishProgress=0x7f110066;
-    public static final int define_int_NanoTasks=0x7f110067;
-    public static final int define_int_NineOldAndroids=0x7f110068;
-    public static final int define_int_OkHttp=0x7f110069;
-    public static final int define_int_Otto=0x7f11006a;
-    public static final int define_int_PagerSlidingTabStrip=0x7f11006b;
-    public static final int define_int_Paper=0x7f11006c;
-    public static final int define_int_Paralloid=0x7f11006d;
-    public static final int define_int_Picasso=0x7f11006e;
-    public static final int define_int_ProcessPhoenix=0x7f11006f;
-    public static final int define_int_QuickReturn=0x7f110070;
-    public static final int define_int_Realm=0x7f110071;
-    public static final int define_int_RealmRecyclerView=0x7f110072;
-    public static final int define_int_RealmSearchView=0x7f110073;
-    public static final int define_int_RecyclerRenderers=0x7f110074;
-    public static final int define_int_Retrofit=0x7f110075;
-    public static final int define_int_RxBinding=0x7f110076;
-    public static final int define_int_ShowcaseView=0x7f110077;
-    public static final int define_int_SuperRecyclerView=0x7f110078;
-    public static final int define_int_SupportLibrary=0x7f110079;
-    public static final int define_int_Timber=0x7f11007a;
-    public static final int define_int_Unsplash=0x7f11007b;
-    public static final int define_int_WilliamChart=0x7f11007c;
-    public static final int define_int_acra=0x7f11007d;
-    public static final int define_int_ahbottomnavigation=0x7f11007e;
-    public static final int define_int_alexei=0x7f11007f;
-    public static final int define_int_amulyakharetextdrawable=0x7f110080;
-    public static final int define_int_androidBetterpickers=0x7f110081;
-    public static final int define_int_androidIconify=0x7f110082;
-    public static final int define_int_androidStyledDialogs=0x7f110083;
-    public static final int define_int_android_advancedrecyclerview=0x7f110084;
-    public static final int define_int_android_floating_action_button=0x7f110085;
-    public static final int define_int_android_gif_drawable=0x7f110086;
-    public static final int define_int_android_image_cropper=0x7f110087;
-    public static final int define_int_android_job=0x7f110088;
-    public static final int define_int_android_maps_utils=0x7f110089;
-    public static final int define_int_android_platlogo=0x7f11008a;
-    public static final int define_int_android_shape_imageview=0x7f11008b;
-    public static final int define_int_android_textview_linkbuilder=0x7f11008c;
-    public static final int define_int_android_upload_service=0x7f11008d;
-    public static final int define_int_androidannotations=0x7f11008e;
-    public static final int define_int_androidasyncservice=0x7f11008f;
-    public static final int define_int_androidcountrypicker=0x7f110090;
-    public static final int define_int_androideasingfunctions=0x7f110091;
-    public static final int define_int_androidfillableloaders=0x7f110092;
-    public static final int define_int_androidflowlayout=0x7f110093;
-    public static final int define_int_androidholocolorpicker=0x7f110094;
-    public static final int define_int_androidin_appbillingv3=0x7f110095;
-    public static final int define_int_androidmaterialintroscreen=0x7f110096;
-    public static final int define_int_androidroundcornerprogressbar=0x7f110097;
-    public static final int define_int_androidslidinguppanel=0x7f110098;
-    public static final int define_int_androidstrictmodecompat=0x7f110099;
-    public static final int define_int_androidswipelayout=0x7f11009a;
-    public static final int define_int_androiduniversalimageloader=0x7f11009b;
-    public static final int define_int_androidviewanimations=0x7f11009c;
-    public static final int define_int_androidviewhover=0x7f11009d;
-    public static final int define_int_anko=0x7f11009e;
-    public static final int define_int_apachemina=0x7f11009f;
-    public static final int define_int_appauth=0x7f1100a0;
-    public static final int define_int_appcompat_v7=0x7f1100a1;
-    public static final int define_int_appintro=0x7f1100a2;
-    public static final int define_int_aspectratioimageview=0x7f1100a3;
-    public static final int define_int_assent=0x7f1100a4;
-    public static final int define_int_autodispose=0x7f1100a5;
-    public static final int define_int_avatar_view=0x7f1100a6;
-    public static final int define_int_betterlinkmovementmethod=0x7f1100a7;
-    public static final int define_int_bottomsheet=0x7f1100a8;
-    public static final int define_int_bridge=0x7f1100a9;
-    public static final int define_int_caldroid=0x7f1100aa;
-    public static final int define_int_calligraphy=0x7f1100ab;
-    public static final int define_int_cardlibrary=0x7f1100ac;
-    public static final int define_int_cardsuiForAndroid=0x7f1100ad;
-    public static final int define_int_circleindicator=0x7f1100ae;
-    public static final int define_int_cloudrail=0x7f1100af;
-    public static final int define_int_colorpicker=0x7f1100b0;
-    public static final int define_int_colorpickercollection=0x7f1100b1;
-    public static final int define_int_commonscompress=0x7f1100b2;
-    public static final int define_int_commonscsv=0x7f1100b3;
-    public static final int define_int_commonsio=0x7f1100b4;
-    public static final int define_int_commonslang3=0x7f1100b5;
-    public static final int define_int_concurrenttrees=0x7f1100b6;
-    public static final int define_int_constraint_layout=0x7f1100b7;
-    public static final int define_int_context_menu_android=0x7f1100b8;
-    public static final int define_int_customactivityoncrash=0x7f1100b9;
-    public static final int define_int_customtabshelper=0x7f1100ba;
-    public static final int define_int_dav4jvm=0x7f1100bb;
-    public static final int define_int_dbflow=0x7f1100bc;
-    public static final int define_int_ddplist=0x7f1100bd;
-    public static final int define_int_design=0x7f1100be;
-    public static final int define_int_discreteseekbar=0x7f1100bf;
-    public static final int define_int_dynamicrecyclerview=0x7f1100c0;
-    public static final int define_int_earl=0x7f1100c1;
-    public static final int define_int_easy_pref=0x7f1100c2;
-    public static final int define_int_easyandroidanimations=0x7f1100c3;
-    public static final int define_int_eclipsepahoandroidservice=0x7f1100c4;
-    public static final int define_int_emoji=0x7f1100c5;
-    public static final int define_int_encryption=0x7f1100c6;
-    public static final int define_int_epoxy=0x7f1100c7;
-    public static final int define_int_exomedia=0x7f1100c8;
-    public static final int define_int_exoplayer=0x7f1100c9;
-    public static final int define_int_fakeit=0x7f1100ca;
-    public static final int define_int_flexboxlayout=0x7f1100cb;
-    public static final int define_int_floatingsearchview=0x7f1100cc;
-    public static final int define_int_foursquareAndroidOauth=0x7f1100cd;
-    public static final int define_int_ftpserver=0x7f1100ce;
-    public static final int define_int_glide=0x7f1100cf;
-    public static final int define_int_gradle_retrolambda=0x7f1100d0;
-    public static final int define_int_greendao=0x7f1100d1;
-    public static final int define_int_gson=0x7f1100d2;
-    public static final int define_int_gsonjodatimeserialisers=0x7f1100d3;
-    public static final int define_int_guava=0x7f1100d4;
-    public static final int define_int_hawk=0x7f1100d5;
-    public static final int define_int_hellocharts=0x7f1100d6;
-    public static final int define_int_hockeyapp=0x7f1100d7;
-    public static final int define_int_httpclient_android=0x7f1100d8;
-    public static final int define_int_imagepicker=0x7f1100d9;
-    public static final int define_int_intellijannotations=0x7f1100da;
-    public static final int define_int_ion=0x7f1100db;
-    public static final int define_int_jackson=0x7f1100dc;
-    public static final int define_int_jmdns=0x7f1100dd;
-    public static final int define_int_jodaTime=0x7f1100de;
-    public static final int define_int_jodatimeandroid=0x7f1100df;
-    public static final int define_int_junrar=0x7f1100e0;
-    public static final int define_int_kluent=0x7f1100e1;
-    public static final int define_int_konfetti=0x7f1100e2;
-    public static final int define_int_koptional=0x7f1100e3;
-    public static final int define_int_kotterknife=0x7f1100e4;
-    public static final int define_int_ldialogs=0x7f1100e5;
-    public static final int define_int_libphonenumber=0x7f1100e6;
-    public static final int define_int_libsuperuser=0x7f1100e7;
-    public static final int define_int_loadsir=0x7f1100e8;
-    public static final int define_int_lottie=0x7f1100e9;
-    public static final int define_int_magisterjava=0x7f1100ea;
-    public static final int define_int_material_tap_target_prompt=0x7f1100eb;
-    public static final int define_int_materialaboutlibrary=0x7f1100ec;
-    public static final int define_int_materialbadgetextview=0x7f1100ed;
-    public static final int define_int_materialdesigndimens=0x7f1100ee;
-    public static final int define_int_materialdialogs=0x7f1100ef;
-    public static final int define_int_materialdrawerkt=0x7f1100f0;
-    public static final int define_int_materialedittext=0x7f1100f1;
-    public static final int define_int_materialicons=0x7f1100f2;
-    public static final int define_int_materialmenu=0x7f1100f3;
-    public static final int define_int_materialnumberpicker=0x7f1100f4;
-    public static final int define_int_materialpreference=0x7f1100f5;
-    public static final int define_int_materialprogressbar=0x7f1100f6;
-    public static final int define_int_materialratingbar=0x7f1100f7;
-    public static final int define_int_mixpanelandroid=0x7f1100f8;
-    public static final int define_int_mockito=0x7f1100f9;
-    public static final int define_int_mosby=0x7f1100fa;
-    public static final int define_int_moshi=0x7f1100fb;
-    public static final int define_int_mpandroidchart=0x7f1100fc;
-    public static final int define_int_multidex=0x7f1100fd;
-    public static final int define_int_observablescrollview=0x7f1100fe;
-    public static final int define_int_okio=0x7f1100ff;
-    public static final int define_int_ollie=0x7f110100;
-    public static final int define_int_parallaxscroll=0x7f110101;
-    public static final int define_int_paymill=0x7f110102;
-    public static final int define_int_permissionsdispatcher=0x7f110103;
-    public static final int define_int_photoview=0x7f110104;
-    public static final int define_int_priorityjobqueue=0x7f110105;
-    public static final int define_int_qcircledesigntemplate=0x7f110106;
-    public static final int define_int_qslide=0x7f110107;
-    public static final int define_int_rapiddecoder=0x7f110108;
-    public static final int define_int_reactivenetwork=0x7f110109;
-    public static final int define_int_rebound=0x7f11010a;
-    public static final int define_int_recyclerview_v7=0x7f11010b;
-    public static final int define_int_recyclerviewanimators=0x7f11010c;
-    public static final int define_int_recyclerviewsnap=0x7f11010d;
-    public static final int define_int_retrolambda=0x7f11010e;
-    public static final int define_int_robolectric=0x7f11010f;
-    public static final int define_int_robotocalendarview=0x7f110110;
-    public static final int define_int_rxandroid=0x7f110111;
-    public static final int define_int_rxjava=0x7f110112;
-    public static final int define_int_rxkotlin=0x7f110113;
-    public static final int define_int_rxlifecycle=0x7f110114;
-    public static final int define_int_seismic=0x7f110115;
-    public static final int define_int_side_menu_android=0x7f110116;
-    public static final int define_int_simpleratingview=0x7f110117;
-    public static final int define_int_slf4j=0x7f110118;
-    public static final int define_int_smarttablayout=0x7f110119;
-    public static final int define_int_smsverifycatcher=0x7f11011a;
-    public static final int define_int_snackbar=0x7f11011b;
-    public static final int define_int_spongycastle=0x7f11011c;
-    public static final int define_int_sshj=0x7f11011d;
-    public static final int define_int_stephenmaterialnumberpicker=0x7f11011e;
-    public static final int define_int_sticky_headers_recyclerview=0x7f11011f;
-    public static final int define_int_stickylistheaders=0x7f110120;
-    public static final int define_int_stream=0x7f110121;
-    public static final int define_int_subsamplingpdfdecoder=0x7f110122;
-    public static final int define_int_subsamplingscaleimageview=0x7f110123;
-    public static final int define_int_sugarorm=0x7f110124;
-    public static final int define_int_support_annotations=0x7f110125;
-    public static final int define_int_support_cardview=0x7f110126;
-    public static final int define_int_support_gridlayout=0x7f110127;
-    public static final int define_int_support_v4=0x7f110128;
-    public static final int define_int_swipemenulistview=0x7f110129;
-    public static final int define_int_switchdatetimepicker=0x7f11012a;
-    public static final int define_int_systembartint=0x7f11012b;
-    public static final int define_int_tablayouthelper=0x7f11012c;
-    public static final int define_int_textdrawable=0x7f11012d;
-    public static final int define_int_threeten=0x7f11012e;
-    public static final int define_int_threetenandroidbackport=0x7f11012f;
-    public static final int define_int_useravatarspack=0x7f110130;
-    public static final int define_int_volley=0x7f110131;
-    public static final int define_int_volleyplus=0x7f110132;
-    public static final int define_int_zxing=0x7f110133;
-    public static final int define_license_Apache_2_0=0x7f110134;
-    public static final int define_license_SIL_OFL_1_1=0x7f110135;
-    public static final int define_license_bsd_2=0x7f110136;
-    public static final int define_license_bsd_3=0x7f110137;
-    public static final int define_license_cc0_10=0x7f110138;
-    public static final int define_license_cc30=0x7f110139;
-    public static final int define_license_cc40=0x7f11013a;
-    public static final int define_license_gpl_2_0=0x7f11013b;
-    public static final int define_license_gpl_3_0=0x7f11013c;
-    public static final int define_license_lgpl_2_1=0x7f11013d;
-    public static final int define_license_lgpl_3_0=0x7f11013e;
-    public static final int define_license_mit=0x7f11013f;
-    public static final int define_license_mpl_2_0=0x7f110140;
-    public static final int define_materialdrawer=0x7f110141;
-    public static final int define_materialize=0x7f110142;
-    public static final int domain=0x7f110143;
-    public static final int dummy_button=0x7f110144;
-    public static final int dummy_content=0x7f110145;
-    public static final int ext_support_lib_version=0x7f110146;
-    public static final int fab_transformation_scrim_behavior=0x7f110147;
-    public static final int fab_transformation_sheet_behavior=0x7f110148;
-    public static final int fastadapter_lib_version=0x7f110149;
-    public static final int feedback=0x7f11014a;
-    public static final int feedback_mail_subject=0x7f11014b;
-    public static final int file_name_device_info=0x7f11014c;
-    public static final int file_name_device_log=0x7f11014d;
-    public static final int firebase_database_url=0x7f11014e;
-    public static final int forget=0x7f11014f;
-    public static final int forgot=0x7f110150;
-    public static final int from=0x7f110151;
-    public static final int gcm_defaultSenderId=0x7f110152;
-    public static final int google_api_key=0x7f110153;
-    public static final int google_app_id=0x7f110154;
-    public static final int google_crash_reporting_api_key=0x7f110155;
-    public static final int google_storage_bucket=0x7f110156;
-    public static final int hello_world=0x7f110157;
-    public static final int help=0x7f110158;
-    public static final int helpcentre=0x7f110159;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f11015a;
-    public static final int home=0x7f11015b;
-    public static final int iconics_lib_version=0x7f11015c;
-    public static final int info_fedback_legal_and=0x7f11015d;
-    public static final int info_fedback_legal_log_data=0x7f11015e;
-    public static final int info_fedback_legal_start=0x7f11015f;
-    public static final int info_fedback_legal_system_info=0x7f110160;
-    public static final int info_fedback_legal_will_be_sent=0x7f110161;
-    public static final int items_incart=0x7f110162;
-    public static final int library_AboutLibraries_author=0x7f110163;
-    public static final int library_AboutLibraries_authorWebsite=0x7f110164;
-    public static final int library_AboutLibraries_isOpenSource=0x7f110165;
-    public static final int library_AboutLibraries_libraryDescription=0x7f110166;
-    public static final int library_AboutLibraries_libraryName=0x7f110167;
-    public static final int library_AboutLibraries_libraryVersion=0x7f110168;
-    public static final int library_AboutLibraries_libraryWebsite=0x7f110169;
-    public static final int library_AboutLibraries_licenseId=0x7f11016a;
-    public static final int library_AboutLibraries_owner=0x7f11016b;
-    public static final int library_AboutLibraries_repositoryLink=0x7f11016c;
-    public static final int library_AboutLibraries_year=0x7f11016d;
-    public static final int library_ActionBarPullToRefresh_author=0x7f11016e;
-    public static final int library_ActionBarPullToRefresh_classPath=0x7f11016f;
-    public static final int library_ActionBarPullToRefresh_isOpenSource=0x7f110170;
-    public static final int library_ActionBarPullToRefresh_libraryDescription=0x7f110171;
-    public static final int library_ActionBarPullToRefresh_libraryName=0x7f110172;
-    public static final int library_ActionBarPullToRefresh_libraryVersion=0x7f110173;
-    public static final int library_ActionBarPullToRefresh_libraryWebsite=0x7f110174;
-    public static final int library_ActionBarPullToRefresh_licenseId=0x7f110175;
-    public static final int library_ActionBarPullToRefresh_owner=0x7f110176;
-    public static final int library_ActionBarPullToRefresh_repositoryLink=0x7f110177;
-    public static final int library_ActionBarPullToRefresh_year=0x7f110178;
-    public static final int library_ActionBarSherlock_author=0x7f110179;
-    public static final int library_ActionBarSherlock_authorWebsite=0x7f11017a;
-    public static final int library_ActionBarSherlock_classPath=0x7f11017b;
-    public static final int library_ActionBarSherlock_isOpenSource=0x7f11017c;
-    public static final int library_ActionBarSherlock_libraryDescription=0x7f11017d;
-    public static final int library_ActionBarSherlock_libraryName=0x7f11017e;
-    public static final int library_ActionBarSherlock_libraryVersion=0x7f11017f;
-    public static final int library_ActionBarSherlock_libraryWebsite=0x7f110180;
-    public static final int library_ActionBarSherlock_licenseId=0x7f110181;
-    public static final int library_ActionBarSherlock_licenseVersion=0x7f110182;
-    public static final int library_ActionBarSherlock_owner=0x7f110183;
-    public static final int library_ActionBarSherlock_repositoryLink=0x7f110184;
-    public static final int library_ActionBarSherlock_year=0x7f110185;
-    public static final int library_ActiveAndroid_author=0x7f110186;
-    public static final int library_ActiveAndroid_authorWebsite=0x7f110187;
-    public static final int library_ActiveAndroid_classPath=0x7f110188;
-    public static final int library_ActiveAndroid_isOpenSource=0x7f110189;
-    public static final int library_ActiveAndroid_libraryDescription=0x7f11018a;
-    public static final int library_ActiveAndroid_libraryName=0x7f11018b;
-    public static final int library_ActiveAndroid_libraryVersion=0x7f11018c;
-    public static final int library_ActiveAndroid_libraryWebsite=0x7f11018d;
-    public static final int library_ActiveAndroid_licenseId=0x7f11018e;
-    public static final int library_ActiveAndroid_owner=0x7f11018f;
-    public static final int library_ActiveAndroid_repositoryLink=0x7f110190;
-    public static final int library_ActiveAndroid_year=0x7f110191;
-    public static final int library_AdjustableImageView_author=0x7f110192;
-    public static final int library_AdjustableImageView_authorWebsite=0x7f110193;
-    public static final int library_AdjustableImageView_classPath=0x7f110194;
-    public static final int library_AdjustableImageView_isOpenSource=0x7f110195;
-    public static final int library_AdjustableImageView_libraryDescription=0x7f110196;
-    public static final int library_AdjustableImageView_libraryName=0x7f110197;
-    public static final int library_AdjustableImageView_libraryVersion=0x7f110198;
-    public static final int library_AdjustableImageView_libraryWebsite=0x7f110199;
-    public static final int library_AdjustableImageView_licenseId=0x7f11019a;
-    public static final int library_AdjustableImageView_repositoryLink=0x7f11019b;
-    public static final int library_AndroidIconics_author=0x7f11019c;
-    public static final int library_AndroidIconics_authorWebsite=0x7f11019d;
-    public static final int library_AndroidIconics_isOpenSource=0x7f11019e;
-    public static final int library_AndroidIconics_libraryDescription=0x7f11019f;
-    public static final int library_AndroidIconics_libraryName=0x7f1101a0;
-    public static final int library_AndroidIconics_libraryVersion=0x7f1101a1;
-    public static final int library_AndroidIconics_libraryWebsite=0x7f1101a2;
-    public static final int library_AndroidIconics_licenseId=0x7f1101a3;
-    public static final int library_AndroidIconics_owner=0x7f1101a4;
-    public static final int library_AndroidIconics_repositoryLink=0x7f1101a5;
-    public static final int library_AndroidIconics_year=0x7f1101a6;
-    public static final int library_AndroidRandomColor_author=0x7f1101a7;
-    public static final int library_AndroidRandomColor_authorWebsite=0x7f1101a8;
-    public static final int library_AndroidRandomColor_classPath=0x7f1101a9;
-    public static final int library_AndroidRandomColor_isOpenSource=0x7f1101aa;
-    public static final int library_AndroidRandomColor_libraryDescription=0x7f1101ab;
-    public static final int library_AndroidRandomColor_libraryName=0x7f1101ac;
-    public static final int library_AndroidRandomColor_libraryVersion=0x7f1101ad;
-    public static final int library_AndroidRandomColor_libraryWebsite=0x7f1101ae;
-    public static final int library_AndroidRandomColor_licenseId=0x7f1101af;
-    public static final int library_AndroidRandomColor_repositoryLink=0x7f1101b0;
-    public static final int library_AndroidTimesSquare_author=0x7f1101b1;
-    public static final int library_AndroidTimesSquare_classPath=0x7f1101b2;
-    public static final int library_AndroidTimesSquare_isOpenSource=0x7f1101b3;
-    public static final int library_AndroidTimesSquare_libraryDescription=0x7f1101b4;
-    public static final int library_AndroidTimesSquare_libraryName=0x7f1101b5;
-    public static final int library_AndroidTimesSquare_libraryVersion=0x7f1101b6;
-    public static final int library_AndroidTimesSquare_libraryWebsite=0x7f1101b7;
-    public static final int library_AndroidTimesSquare_licenseId=0x7f1101b8;
-    public static final int library_AndroidTimesSquare_owner=0x7f1101b9;
-    public static final int library_AndroidTimesSquare_repositoryLink=0x7f1101ba;
-    public static final int library_AndroidTimesSquare_year=0x7f1101bb;
-    public static final int library_AndroidViewPagerIndicator_author=0x7f1101bc;
-    public static final int library_AndroidViewPagerIndicator_authorWebsite=0x7f1101bd;
-    public static final int library_AndroidViewPagerIndicator_classPath=0x7f1101be;
-    public static final int library_AndroidViewPagerIndicator_isOpenSource=0x7f1101bf;
-    public static final int library_AndroidViewPagerIndicator_libraryDescription=0x7f1101c0;
-    public static final int library_AndroidViewPagerIndicator_libraryName=0x7f1101c1;
-    public static final int library_AndroidViewPagerIndicator_libraryVersion=0x7f1101c2;
-    public static final int library_AndroidViewPagerIndicator_libraryWebsite=0x7f1101c3;
-    public static final int library_AndroidViewPagerIndicator_licenseId=0x7f1101c4;
-    public static final int library_AndroidViewPagerIndicator_owner=0x7f1101c5;
-    public static final int library_AndroidViewPagerIndicator_repositoryLink=0x7f1101c6;
-    public static final int library_AndroidViewPagerIndicator_year=0x7f1101c7;
-    public static final int library_AppCompat_author=0x7f1101c8;
-    public static final int library_AppCompat_authorWebsite=0x7f1101c9;
-    public static final int library_AppCompat_isOpenSource=0x7f1101ca;
-    public static final int library_AppCompat_libraryDescription=0x7f1101cb;
-    public static final int library_AppCompat_libraryName=0x7f1101cc;
-    public static final int library_AppCompat_libraryWebsite=0x7f1101cd;
-    public static final int library_AppCompat_licenseId=0x7f1101ce;
-    public static final int library_AppCompat_owner=0x7f1101cf;
-    public static final int library_AppCompat_repositoryLink=0x7f1101d0;
-    public static final int library_AppCompat_year=0x7f1101d1;
-    public static final int library_Butterknife_author=0x7f1101d2;
-    public static final int library_Butterknife_classPath=0x7f1101d3;
-    public static final int library_Butterknife_isOpenSource=0x7f1101d4;
-    public static final int library_Butterknife_libraryDescription=0x7f1101d5;
-    public static final int library_Butterknife_libraryName=0x7f1101d6;
-    public static final int library_Butterknife_libraryVersion=0x7f1101d7;
-    public static final int library_Butterknife_libraryWebsite=0x7f1101d8;
-    public static final int library_Butterknife_licenseId=0x7f1101d9;
-    public static final int library_Butterknife_owner=0x7f1101da;
-    public static final int library_Butterknife_repositoryLink=0x7f1101db;
-    public static final int library_Butterknife_year=0x7f1101dc;
-    public static final int library_CircleImageView_author=0x7f1101dd;
-    public static final int library_CircleImageView_authorWebsite=0x7f1101de;
-    public static final int library_CircleImageView_classPath=0x7f1101df;
-    public static final int library_CircleImageView_isOpenSource=0x7f1101e0;
-    public static final int library_CircleImageView_libraryDescription=0x7f1101e1;
-    public static final int library_CircleImageView_libraryName=0x7f1101e2;
-    public static final int library_CircleImageView_libraryVersion=0x7f1101e3;
-    public static final int library_CircleImageView_libraryWebsite=0x7f1101e4;
-    public static final int library_CircleImageView_licenseId=0x7f1101e5;
-    public static final int library_CircleImageView_repositoryLink=0x7f1101e6;
-    public static final int library_CircularImageView_author=0x7f1101e7;
-    public static final int library_CircularImageView_authorWebsite=0x7f1101e8;
-    public static final int library_CircularImageView_classPath=0x7f1101e9;
-    public static final int library_CircularImageView_isOpenSource=0x7f1101ea;
-    public static final int library_CircularImageView_libraryDescription=0x7f1101eb;
-    public static final int library_CircularImageView_libraryName=0x7f1101ec;
-    public static final int library_CircularImageView_libraryVersion=0x7f1101ed;
-    public static final int library_CircularImageView_libraryWebsite=0x7f1101ee;
-    public static final int library_CircularImageView_licenseId=0x7f1101ef;
-    public static final int library_CircularImageView_repositoryLink=0x7f1101f0;
-    public static final int library_ClansFloatingActionButton_author=0x7f1101f1;
-    public static final int library_ClansFloatingActionButton_authorWebsite=0x7f1101f2;
-    public static final int library_ClansFloatingActionButton_classPath=0x7f1101f3;
-    public static final int library_ClansFloatingActionButton_isOpenSource=0x7f1101f4;
-    public static final int library_ClansFloatingActionButton_libraryDescription=0x7f1101f5;
-    public static final int library_ClansFloatingActionButton_libraryName=0x7f1101f6;
-    public static final int library_ClansFloatingActionButton_libraryVersion=0x7f1101f7;
-    public static final int library_ClansFloatingActionButton_libraryWebsite=0x7f1101f8;
-    public static final int library_ClansFloatingActionButton_licenseId=0x7f1101f9;
-    public static final int library_ClansFloatingActionButton_repositoryLink=0x7f1101fa;
-    public static final int library_Crashlytics_author=0x7f1101fb;
-    public static final int library_Crashlytics_authorWebsite=0x7f1101fc;
-    public static final int library_Crashlytics_classPath=0x7f1101fd;
-    public static final int library_Crashlytics_isOpenSource=0x7f1101fe;
-    public static final int library_Crashlytics_libraryDescription=0x7f1101ff;
-    public static final int library_Crashlytics_libraryName=0x7f110200;
-    public static final int library_Crashlytics_libraryVersion=0x7f110201;
-    public static final int library_Crashlytics_libraryWebsite=0x7f110202;
-    public static final int library_Crashlytics_licenseId=0x7f110203;
-    public static final int library_Crashlytics_owner=0x7f110204;
-    public static final int library_Crashlytics_repositoryLink=0x7f110205;
-    public static final int library_Crashlytics_year=0x7f110206;
-    public static final int library_Crouton_author=0x7f110207;
-    public static final int library_Crouton_authorWebsite=0x7f110208;
-    public static final int library_Crouton_classPath=0x7f110209;
-    public static final int library_Crouton_isOpenSource=0x7f11020a;
-    public static final int library_Crouton_libraryDescription=0x7f11020b;
-    public static final int library_Crouton_libraryName=0x7f11020c;
-    public static final int library_Crouton_libraryVersion=0x7f11020d;
-    public static final int library_Crouton_libraryWebsite=0x7f11020e;
-    public static final int library_Crouton_licenseId=0x7f11020f;
-    public static final int library_Crouton_owner=0x7f110210;
-    public static final int library_Crouton_repositoryLink=0x7f110211;
-    public static final int library_Crouton_year=0x7f110212;
-    public static final int library_Dagger2_author=0x7f110213;
-    public static final int library_Dagger2_classPath=0x7f110214;
-    public static final int library_Dagger2_isOpenSource=0x7f110215;
-    public static final int library_Dagger2_libraryDescription=0x7f110216;
-    public static final int library_Dagger2_libraryName=0x7f110217;
-    public static final int library_Dagger2_libraryVersion=0x7f110218;
-    public static final int library_Dagger2_libraryWebsite=0x7f110219;
-    public static final int library_Dagger2_licenseId=0x7f11021a;
-    public static final int library_Dagger2_owner=0x7f11021b;
-    public static final int library_Dagger2_repositoryLink=0x7f11021c;
-    public static final int library_Dagger2_year=0x7f11021d;
-    public static final int library_Dagger_author=0x7f11021e;
-    public static final int library_Dagger_classPath=0x7f11021f;
-    public static final int library_Dagger_isOpenSource=0x7f110220;
-    public static final int library_Dagger_libraryDescription=0x7f110221;
-    public static final int library_Dagger_libraryName=0x7f110222;
-    public static final int library_Dagger_libraryVersion=0x7f110223;
-    public static final int library_Dagger_libraryWebsite=0x7f110224;
-    public static final int library_Dagger_licenseId=0x7f110225;
-    public static final int library_Dagger_owner=0x7f110226;
-    public static final int library_Dagger_repositoryLink=0x7f110227;
-    public static final int library_Dagger_year=0x7f110228;
-    public static final int library_ErrorView_author=0x7f110229;
-    public static final int library_ErrorView_authorWebsite=0x7f11022a;
-    public static final int library_ErrorView_classPath=0x7f11022b;
-    public static final int library_ErrorView_isOpenSource=0x7f11022c;
-    public static final int library_ErrorView_libraryDescription=0x7f11022d;
-    public static final int library_ErrorView_libraryName=0x7f11022e;
-    public static final int library_ErrorView_libraryVersion=0x7f11022f;
-    public static final int library_ErrorView_libraryWebsite=0x7f110230;
-    public static final int library_ErrorView_licenseId=0x7f110231;
-    public static final int library_ErrorView_repositoryLink=0x7f110232;
-    public static final int library_Eventbus_author=0x7f110233;
-    public static final int library_Eventbus_classPath=0x7f110234;
-    public static final int library_Eventbus_isOpenSource=0x7f110235;
-    public static final int library_Eventbus_libraryDescription=0x7f110236;
-    public static final int library_Eventbus_libraryName=0x7f110237;
-    public static final int library_Eventbus_libraryVersion=0x7f110238;
-    public static final int library_Eventbus_libraryWebsite=0x7f110239;
-    public static final int library_Eventbus_licenseId=0x7f11023a;
-    public static final int library_Eventbus_owner=0x7f11023b;
-    public static final int library_Eventbus_repositoryLink=0x7f11023c;
-    public static final int library_Eventbus_year=0x7f11023d;
-    public static final int library_FButton_author=0x7f11023e;
-    public static final int library_FButton_authorWebsite=0x7f11023f;
-    public static final int library_FButton_classPath=0x7f110240;
-    public static final int library_FButton_isOpenSource=0x7f110241;
-    public static final int library_FButton_libraryDescription=0x7f110242;
-    public static final int library_FButton_libraryName=0x7f110243;
-    public static final int library_FButton_libraryVersion=0x7f110244;
-    public static final int library_FButton_libraryWebsite=0x7f110245;
-    public static final int library_FButton_licenseId=0x7f110246;
-    public static final int library_FButton_owner=0x7f110247;
-    public static final int library_FButton_repositoryLink=0x7f110248;
-    public static final int library_FButton_year=0x7f110249;
-    public static final int library_Facebook_author=0x7f11024a;
-    public static final int library_Facebook_authorWebsite=0x7f11024b;
-    public static final int library_Facebook_classPath=0x7f11024c;
-    public static final int library_Facebook_isOpenSource=0x7f11024d;
-    public static final int library_Facebook_libraryDescription=0x7f11024e;
-    public static final int library_Facebook_libraryName=0x7f11024f;
-    public static final int library_Facebook_libraryWebsite=0x7f110250;
-    public static final int library_Facebook_licenseId=0x7f110251;
-    public static final int library_Facebook_owner=0x7f110252;
-    public static final int library_Facebook_repositoryLink=0x7f110253;
-    public static final int library_Facebook_year=0x7f110254;
-    public static final int library_FloatingActionButton_author=0x7f110255;
-    public static final int library_FloatingActionButton_authorWebsite=0x7f110256;
-    public static final int library_FloatingActionButton_isOpenSource=0x7f110257;
-    public static final int library_FloatingActionButton_libraryDescription=0x7f110258;
-    public static final int library_FloatingActionButton_libraryName=0x7f110259;
-    public static final int library_FloatingActionButton_libraryVersion=0x7f11025a;
-    public static final int library_FloatingActionButton_libraryWebsite=0x7f11025b;
-    public static final int library_FloatingActionButton_licenseId=0x7f11025c;
-    public static final int library_FloatingActionButton_repositoryLink=0x7f11025d;
-    public static final int library_GooglePlayServices_author=0x7f11025e;
-    public static final int library_GooglePlayServices_authorWebsite=0x7f11025f;
-    public static final int library_GooglePlayServices_classPath=0x7f110260;
-    public static final int library_GooglePlayServices_isOpenSource=0x7f110261;
-    public static final int library_GooglePlayServices_libraryDescription=0x7f110262;
-    public static final int library_GooglePlayServices_libraryName=0x7f110263;
-    public static final int library_GooglePlayServices_libraryVersion=0x7f110264;
-    public static final int library_GooglePlayServices_libraryWebsite=0x7f110265;
-    public static final int library_GooglePlayServices_licenseId=0x7f110266;
-    public static final int library_GooglePlayServices_owner=0x7f110267;
-    public static final int library_GooglePlayServices_repositoryLink=0x7f110268;
-    public static final int library_GooglePlayServices_year=0x7f110269;
-    public static final int library_HoloGraphLibrary_author=0x7f11026a;
-    public static final int library_HoloGraphLibrary_authorWebsite=0x7f11026b;
-    public static final int library_HoloGraphLibrary_classPath=0x7f11026c;
-    public static final int library_HoloGraphLibrary_isOpenSource=0x7f11026d;
-    public static final int library_HoloGraphLibrary_libraryDescription=0x7f11026e;
-    public static final int library_HoloGraphLibrary_libraryName=0x7f11026f;
-    public static final int library_HoloGraphLibrary_libraryVersion=0x7f110270;
-    public static final int library_HoloGraphLibrary_libraryWebsite=0x7f110271;
-    public static final int library_HoloGraphLibrary_licenseId=0x7f110272;
-    public static final int library_HoloGraphLibrary_owner=0x7f110273;
-    public static final int library_HoloGraphLibrary_repositoryLink=0x7f110274;
-    public static final int library_HoloGraphLibrary_year=0x7f110275;
-    public static final int library_Icepick_author=0x7f110276;
-    public static final int library_Icepick_authorWebsite=0x7f110277;
-    public static final int library_Icepick_classPath=0x7f110278;
-    public static final int library_Icepick_isOpenSource=0x7f110279;
-    public static final int library_Icepick_libraryDescription=0x7f11027a;
-    public static final int library_Icepick_libraryName=0x7f11027b;
-    public static final int library_Icepick_libraryVersion=0x7f11027c;
-    public static final int library_Icepick_libraryWebsite=0x7f11027d;
-    public static final int library_Icepick_licenseId=0x7f11027e;
-    public static final int library_Icepick_repositoryLink=0x7f11027f;
-    public static final int library_JCIFS_author=0x7f110280;
-    public static final int library_JCIFS_authorWebsite=0x7f110281;
-    public static final int library_JCIFS_classPath=0x7f110282;
-    public static final int library_JCIFS_isOpenSource=0x7f110283;
-    public static final int library_JCIFS_libraryDescription=0x7f110284;
-    public static final int library_JCIFS_libraryName=0x7f110285;
-    public static final int library_JCIFS_libraryVersion=0x7f110286;
-    public static final int library_JCIFS_libraryWebsite=0x7f110287;
-    public static final int library_JCIFS_licenseId=0x7f110288;
-    public static final int library_JCIFS_repositoryLink=0x7f110289;
-    public static final int library_JScience_author=0x7f11028a;
-    public static final int library_JScience_authorWebsite=0x7f11028b;
-    public static final int library_JScience_classPath=0x7f11028c;
-    public static final int library_JScience_isOpenSource=0x7f11028d;
-    public static final int library_JScience_libraryDescription=0x7f11028e;
-    public static final int library_JScience_libraryName=0x7f11028f;
-    public static final int library_JScience_libraryVersion=0x7f110290;
-    public static final int library_JScience_libraryWebsite=0x7f110291;
-    public static final int library_JScience_licenseId=0x7f110292;
-    public static final int library_JScience_repositoryLink=0x7f110293;
-    public static final int library_JavaAesCrypto_author=0x7f110294;
-    public static final int library_JavaAesCrypto_authorWebsite=0x7f110295;
-    public static final int library_JavaAesCrypto_classPath=0x7f110296;
-    public static final int library_JavaAesCrypto_isOpenSource=0x7f110297;
-    public static final int library_JavaAesCrypto_libraryDescription=0x7f110298;
-    public static final int library_JavaAesCrypto_libraryName=0x7f110299;
-    public static final int library_JavaAesCrypto_libraryVersion=0x7f11029a;
-    public static final int library_JavaAesCrypto_libraryWebsite=0x7f11029b;
-    public static final int library_JavaAesCrypto_licenseId=0x7f11029c;
-    public static final int library_JavaAesCrypto_repositoryLink=0x7f11029d;
-    public static final int library_Jsoup_author=0x7f11029e;
-    public static final int library_Jsoup_authorWebsite=0x7f11029f;
-    public static final int library_Jsoup_classPath=0x7f1102a0;
-    public static final int library_Jsoup_isOpenSource=0x7f1102a1;
-    public static final int library_Jsoup_libraryDescription=0x7f1102a2;
-    public static final int library_Jsoup_libraryName=0x7f1102a3;
-    public static final int library_Jsoup_libraryVersion=0x7f1102a4;
-    public static final int library_Jsoup_libraryWebsite=0x7f1102a5;
-    public static final int library_Jsoup_licenseId=0x7f1102a6;
-    public static final int library_Jsoup_repositoryLink=0x7f1102a7;
-    public static final int library_LeakCanary_author=0x7f1102a8;
-    public static final int library_LeakCanary_authorWebsite=0x7f1102a9;
-    public static final int library_LeakCanary_classPath=0x7f1102aa;
-    public static final int library_LeakCanary_isOpenSource=0x7f1102ab;
-    public static final int library_LeakCanary_libraryDescription=0x7f1102ac;
-    public static final int library_LeakCanary_libraryName=0x7f1102ad;
-    public static final int library_LeakCanary_libraryVersion=0x7f1102ae;
-    public static final int library_LeakCanary_libraryWebsite=0x7f1102af;
-    public static final int library_LeakCanary_licenseId=0x7f1102b0;
-    public static final int library_LeakCanary_repositoryLink=0x7f1102b1;
-    public static final int library_LoganSquare_author=0x7f1102b2;
-    public static final int library_LoganSquare_authorWebsite=0x7f1102b3;
-    public static final int library_LoganSquare_classPath=0x7f1102b4;
-    public static final int library_LoganSquare_isOpenSource=0x7f1102b5;
-    public static final int library_LoganSquare_libraryDescription=0x7f1102b6;
-    public static final int library_LoganSquare_libraryName=0x7f1102b7;
-    public static final int library_LoganSquare_libraryVersion=0x7f1102b8;
-    public static final int library_LoganSquare_libraryWebsite=0x7f1102b9;
-    public static final int library_LoganSquare_licenseId=0x7f1102ba;
-    public static final int library_LoganSquare_owner=0x7f1102bb;
-    public static final int library_LoganSquare_repositoryLink=0x7f1102bc;
-    public static final int library_LoganSquare_year=0x7f1102bd;
-    public static final int library_MarkView_author=0x7f1102be;
-    public static final int library_MarkView_authorWebsite=0x7f1102bf;
-    public static final int library_MarkView_classPath=0x7f1102c0;
-    public static final int library_MarkView_isOpenSource=0x7f1102c1;
-    public static final int library_MarkView_libraryDescription=0x7f1102c2;
-    public static final int library_MarkView_libraryName=0x7f1102c3;
-    public static final int library_MarkView_libraryVersion=0x7f1102c4;
-    public static final int library_MarkView_libraryWebsite=0x7f1102c5;
-    public static final int library_MarkView_licenseId=0x7f1102c6;
-    public static final int library_MarkView_repositoryLink=0x7f1102c7;
-    public static final int library_MaterialRangeBar_author=0x7f1102c8;
-    public static final int library_MaterialRangeBar_authorWebsite=0x7f1102c9;
-    public static final int library_MaterialRangeBar_classPath=0x7f1102ca;
-    public static final int library_MaterialRangeBar_isOpenSource=0x7f1102cb;
-    public static final int library_MaterialRangeBar_libraryDescription=0x7f1102cc;
-    public static final int library_MaterialRangeBar_libraryName=0x7f1102cd;
-    public static final int library_MaterialRangeBar_libraryVersion=0x7f1102ce;
-    public static final int library_MaterialRangeBar_libraryWebsite=0x7f1102cf;
-    public static final int library_MaterialRangeBar_licenseId=0x7f1102d0;
-    public static final int library_MaterialRangeBar_repositoryLink=0x7f1102d1;
-    public static final int library_MaterialishProgress_author=0x7f1102d2;
-    public static final int library_MaterialishProgress_authorWebsite=0x7f1102d3;
-    public static final int library_MaterialishProgress_classPath=0x7f1102d4;
-    public static final int library_MaterialishProgress_isOpenSource=0x7f1102d5;
-    public static final int library_MaterialishProgress_libraryDescription=0x7f1102d6;
-    public static final int library_MaterialishProgress_libraryName=0x7f1102d7;
-    public static final int library_MaterialishProgress_libraryVersion=0x7f1102d8;
-    public static final int library_MaterialishProgress_libraryWebsite=0x7f1102d9;
-    public static final int library_MaterialishProgress_licenseId=0x7f1102da;
-    public static final int library_MaterialishProgress_repositoryLink=0x7f1102db;
-    public static final int library_NanoTasks_author=0x7f1102dc;
-    public static final int library_NanoTasks_authorWebsite=0x7f1102dd;
-    public static final int library_NanoTasks_classPath=0x7f1102de;
-    public static final int library_NanoTasks_isOpenSource=0x7f1102df;
-    public static final int library_NanoTasks_libraryDescription=0x7f1102e0;
-    public static final int library_NanoTasks_libraryName=0x7f1102e1;
-    public static final int library_NanoTasks_libraryVersion=0x7f1102e2;
-    public static final int library_NanoTasks_libraryWebsite=0x7f1102e3;
-    public static final int library_NanoTasks_licenseId=0x7f1102e4;
-    public static final int library_NanoTasks_repositoryLink=0x7f1102e5;
-    public static final int library_NineOldAndroids_author=0x7f1102e6;
-    public static final int library_NineOldAndroids_authorWebsite=0x7f1102e7;
-    public static final int library_NineOldAndroids_classPath=0x7f1102e8;
-    public static final int library_NineOldAndroids_isOpenSource=0x7f1102e9;
-    public static final int library_NineOldAndroids_libraryDescription=0x7f1102ea;
-    public static final int library_NineOldAndroids_libraryName=0x7f1102eb;
-    public static final int library_NineOldAndroids_libraryVersion=0x7f1102ec;
-    public static final int library_NineOldAndroids_libraryWebsite=0x7f1102ed;
-    public static final int library_NineOldAndroids_licenseId=0x7f1102ee;
-    public static final int library_NineOldAndroids_owner=0x7f1102ef;
-    public static final int library_NineOldAndroids_repositoryLink=0x7f1102f0;
-    public static final int library_NineOldAndroids_year=0x7f1102f1;
-    public static final int library_OkHttp_author=0x7f1102f2;
-    public static final int library_OkHttp_classPath=0x7f1102f3;
-    public static final int library_OkHttp_isOpenSource=0x7f1102f4;
-    public static final int library_OkHttp_libraryDescription=0x7f1102f5;
-    public static final int library_OkHttp_libraryName=0x7f1102f6;
-    public static final int library_OkHttp_libraryVersion=0x7f1102f7;
-    public static final int library_OkHttp_libraryWebsite=0x7f1102f8;
-    public static final int library_OkHttp_licenseId=0x7f1102f9;
-    public static final int library_OkHttp_owner=0x7f1102fa;
-    public static final int library_OkHttp_repositoryLink=0x7f1102fb;
-    public static final int library_OkHttp_year=0x7f1102fc;
-    public static final int library_Otto_author=0x7f1102fd;
-    public static final int library_Otto_authorWebsite=0x7f1102fe;
-    public static final int library_Otto_classPath=0x7f1102ff;
-    public static final int library_Otto_isOpenSource=0x7f110300;
-    public static final int library_Otto_libraryDescription=0x7f110301;
-    public static final int library_Otto_libraryName=0x7f110302;
-    public static final int library_Otto_libraryVersion=0x7f110303;
-    public static final int library_Otto_libraryWebsite=0x7f110304;
-    public static final int library_Otto_licenseId=0x7f110305;
-    public static final int library_Otto_owner=0x7f110306;
-    public static final int library_Otto_repositoryLink=0x7f110307;
-    public static final int library_Otto_year=0x7f110308;
-    public static final int library_PagerSlidingTabStrip_author=0x7f110309;
-    public static final int library_PagerSlidingTabStrip_classPath=0x7f11030a;
-    public static final int library_PagerSlidingTabStrip_isOpenSource=0x7f11030b;
-    public static final int library_PagerSlidingTabStrip_libraryDescription=0x7f11030c;
-    public static final int library_PagerSlidingTabStrip_libraryName=0x7f11030d;
-    public static final int library_PagerSlidingTabStrip_libraryVersion=0x7f11030e;
-    public static final int library_PagerSlidingTabStrip_libraryWebsite=0x7f11030f;
-    public static final int library_PagerSlidingTabStrip_licenseId=0x7f110310;
-    public static final int library_PagerSlidingTabStrip_owner=0x7f110311;
-    public static final int library_PagerSlidingTabStrip_repositoryLink=0x7f110312;
-    public static final int library_PagerSlidingTabStrip_year=0x7f110313;
-    public static final int library_Paper_author=0x7f110314;
-    public static final int library_Paper_authorWebsite=0x7f110315;
-    public static final int library_Paper_isOpenSource=0x7f110316;
-    public static final int library_Paper_libraryDescription=0x7f110317;
-    public static final int library_Paper_libraryName=0x7f110318;
-    public static final int library_Paper_libraryVersion=0x7f110319;
-    public static final int library_Paper_libraryWebsite=0x7f11031a;
-    public static final int library_Paper_licenseId=0x7f11031b;
-    public static final int library_Paper_repositoryLink=0x7f11031c;
-    public static final int library_Paralloid_author=0x7f11031d;
-    public static final int library_Paralloid_classPath=0x7f11031e;
-    public static final int library_Paralloid_isOpenSource=0x7f11031f;
-    public static final int library_Paralloid_libraryDescription=0x7f110320;
-    public static final int library_Paralloid_libraryName=0x7f110321;
-    public static final int library_Paralloid_libraryVersion=0x7f110322;
-    public static final int library_Paralloid_libraryWebsite=0x7f110323;
-    public static final int library_Paralloid_licenseId=0x7f110324;
-    public static final int library_Paralloid_owner=0x7f110325;
-    public static final int library_Paralloid_repositoryLink=0x7f110326;
-    public static final int library_Paralloid_year=0x7f110327;
-    public static final int library_Picasso_author=0x7f110328;
-    public static final int library_Picasso_classPath=0x7f110329;
-    public static final int library_Picasso_isOpenSource=0x7f11032a;
-    public static final int library_Picasso_libraryDescription=0x7f11032b;
-    public static final int library_Picasso_libraryName=0x7f11032c;
-    public static final int library_Picasso_libraryVersion=0x7f11032d;
-    public static final int library_Picasso_libraryWebsite=0x7f11032e;
-    public static final int library_Picasso_licenseId=0x7f11032f;
-    public static final int library_Picasso_owner=0x7f110330;
-    public static final int library_Picasso_repositoryLink=0x7f110331;
-    public static final int library_Picasso_year=0x7f110332;
-    public static final int library_ProcessPhoenix_author=0x7f110333;
-    public static final int library_ProcessPhoenix_authorWebsite=0x7f110334;
-    public static final int library_ProcessPhoenix_classPath=0x7f110335;
-    public static final int library_ProcessPhoenix_isOpenSource=0x7f110336;
-    public static final int library_ProcessPhoenix_libraryDescription=0x7f110337;
-    public static final int library_ProcessPhoenix_libraryName=0x7f110338;
-    public static final int library_ProcessPhoenix_libraryVersion=0x7f110339;
-    public static final int library_ProcessPhoenix_libraryWebsite=0x7f11033a;
-    public static final int library_ProcessPhoenix_licenseId=0x7f11033b;
-    public static final int library_ProcessPhoenix_repositoryLink=0x7f11033c;
-    public static final int library_QuickReturn_author=0x7f11033d;
-    public static final int library_QuickReturn_authorWebsite=0x7f11033e;
-    public static final int library_QuickReturn_isOpenSource=0x7f11033f;
-    public static final int library_QuickReturn_libraryDescription=0x7f110340;
-    public static final int library_QuickReturn_libraryName=0x7f110341;
-    public static final int library_QuickReturn_libraryVersion=0x7f110342;
-    public static final int library_QuickReturn_libraryWebsite=0x7f110343;
-    public static final int library_QuickReturn_licenseId=0x7f110344;
-    public static final int library_QuickReturn_repositoryLink=0x7f110345;
-    public static final int library_RealmRecyclerView_author=0x7f110346;
-    public static final int library_RealmRecyclerView_authorWebsite=0x7f110347;
-    public static final int library_RealmRecyclerView_classPath=0x7f110348;
-    public static final int library_RealmRecyclerView_isOpenSource=0x7f110349;
-    public static final int library_RealmRecyclerView_libraryDescription=0x7f11034a;
-    public static final int library_RealmRecyclerView_libraryName=0x7f11034b;
-    public static final int library_RealmRecyclerView_libraryVersion=0x7f11034c;
-    public static final int library_RealmRecyclerView_libraryWebsite=0x7f11034d;
-    public static final int library_RealmRecyclerView_licenseId=0x7f11034e;
-    public static final int library_RealmRecyclerView_repositoryLink=0x7f11034f;
-    public static final int library_RealmSearchView_author=0x7f110350;
-    public static final int library_RealmSearchView_authorWebsite=0x7f110351;
-    public static final int library_RealmSearchView_classPath=0x7f110352;
-    public static final int library_RealmSearchView_isOpenSource=0x7f110353;
-    public static final int library_RealmSearchView_libraryDescription=0x7f110354;
-    public static final int library_RealmSearchView_libraryName=0x7f110355;
-    public static final int library_RealmSearchView_libraryVersion=0x7f110356;
-    public static final int library_RealmSearchView_libraryWebsite=0x7f110357;
-    public static final int library_RealmSearchView_licenseId=0x7f110358;
-    public static final int library_RealmSearchView_repositoryLink=0x7f110359;
-    public static final int library_Realm_author=0x7f11035a;
-    public static final int library_Realm_authorWebsite=0x7f11035b;
-    public static final int library_Realm_classPath=0x7f11035c;
-    public static final int library_Realm_isOpenSource=0x7f11035d;
-    public static final int library_Realm_libraryDescription=0x7f11035e;
-    public static final int library_Realm_libraryName=0x7f11035f;
-    public static final int library_Realm_libraryVersion=0x7f110360;
-    public static final int library_Realm_libraryWebsite=0x7f110361;
-    public static final int library_Realm_licenseId=0x7f110362;
-    public static final int library_Realm_repositoryLink=0x7f110363;
-    public static final int library_RecyclerRenderers_author=0x7f110364;
-    public static final int library_RecyclerRenderers_authorWebsite=0x7f110365;
-    public static final int library_RecyclerRenderers_classPath=0x7f110366;
-    public static final int library_RecyclerRenderers_isOpenSource=0x7f110367;
-    public static final int library_RecyclerRenderers_libraryDescription=0x7f110368;
-    public static final int library_RecyclerRenderers_libraryName=0x7f110369;
-    public static final int library_RecyclerRenderers_libraryVersion=0x7f11036a;
-    public static final int library_RecyclerRenderers_libraryWebsite=0x7f11036b;
-    public static final int library_RecyclerRenderers_licenseId=0x7f11036c;
-    public static final int library_RecyclerRenderers_repositoryLink=0x7f11036d;
-    public static final int library_Retrofit_author=0x7f11036e;
-    public static final int library_Retrofit_classPath=0x7f11036f;
-    public static final int library_Retrofit_isOpenSource=0x7f110370;
-    public static final int library_Retrofit_libraryDescription=0x7f110371;
-    public static final int library_Retrofit_libraryName=0x7f110372;
-    public static final int library_Retrofit_libraryVersion=0x7f110373;
-    public static final int library_Retrofit_libraryWebsite=0x7f110374;
-    public static final int library_Retrofit_licenseId=0x7f110375;
-    public static final int library_Retrofit_owner=0x7f110376;
-    public static final int library_Retrofit_repositoryLink=0x7f110377;
-    public static final int library_Retrofit_year=0x7f110378;
-    public static final int library_RxBinding_author=0x7f110379;
-    public static final int library_RxBinding_classPath=0x7f11037a;
-    public static final int library_RxBinding_isOpenSource=0x7f11037b;
-    public static final int library_RxBinding_libraryDescription=0x7f11037c;
-    public static final int library_RxBinding_libraryName=0x7f11037d;
-    public static final int library_RxBinding_libraryVersion=0x7f11037e;
-    public static final int library_RxBinding_libraryWebsite=0x7f11037f;
-    public static final int library_RxBinding_licenseId=0x7f110380;
-    public static final int library_RxBinding_owner=0x7f110381;
-    public static final int library_RxBinding_repositoryLink=0x7f110382;
-    public static final int library_RxBinding_year=0x7f110383;
-    public static final int library_ShowcaseView_author=0x7f110384;
-    public static final int library_ShowcaseView_authorWebsite=0x7f110385;
-    public static final int library_ShowcaseView_classPath=0x7f110386;
-    public static final int library_ShowcaseView_isOpenSource=0x7f110387;
-    public static final int library_ShowcaseView_libraryDescription=0x7f110388;
-    public static final int library_ShowcaseView_libraryName=0x7f110389;
-    public static final int library_ShowcaseView_libraryVersion=0x7f11038a;
-    public static final int library_ShowcaseView_libraryWebsite=0x7f11038b;
-    public static final int library_ShowcaseView_licenseId=0x7f11038c;
-    public static final int library_ShowcaseView_owner=0x7f11038d;
-    public static final int library_ShowcaseView_repositoryLink=0x7f11038e;
-    public static final int library_ShowcaseView_year=0x7f11038f;
-    public static final int library_SuperRecyclerView_author=0x7f110390;
-    public static final int library_SuperRecyclerView_authorWebsite=0x7f110391;
-    public static final int library_SuperRecyclerView_classPath=0x7f110392;
-    public static final int library_SuperRecyclerView_isOpenSource=0x7f110393;
-    public static final int library_SuperRecyclerView_libraryDescription=0x7f110394;
-    public static final int library_SuperRecyclerView_libraryName=0x7f110395;
-    public static final int library_SuperRecyclerView_libraryVersion=0x7f110396;
-    public static final int library_SuperRecyclerView_libraryWebsite=0x7f110397;
-    public static final int library_SuperRecyclerView_licenseId=0x7f110398;
-    public static final int library_SuperRecyclerView_repositoryLink=0x7f110399;
-    public static final int library_SupportLibrary_author=0x7f11039a;
-    public static final int library_SupportLibrary_authorWebsite=0x7f11039b;
-    public static final int library_SupportLibrary_isOpenSource=0x7f11039c;
-    public static final int library_SupportLibrary_libraryDescription=0x7f11039d;
-    public static final int library_SupportLibrary_libraryName=0x7f11039e;
-    public static final int library_SupportLibrary_libraryWebsite=0x7f11039f;
-    public static final int library_SupportLibrary_licenseId=0x7f1103a0;
-    public static final int library_SupportLibrary_owner=0x7f1103a1;
-    public static final int library_SupportLibrary_repositoryLink=0x7f1103a2;
-    public static final int library_SupportLibrary_year=0x7f1103a3;
-    public static final int library_Timber_author=0x7f1103a4;
-    public static final int library_Timber_classPath=0x7f1103a5;
-    public static final int library_Timber_isOpenSource=0x7f1103a6;
-    public static final int library_Timber_libraryDescription=0x7f1103a7;
-    public static final int library_Timber_libraryName=0x7f1103a8;
-    public static final int library_Timber_libraryVersion=0x7f1103a9;
-    public static final int library_Timber_libraryWebsite=0x7f1103aa;
-    public static final int library_Timber_licenseId=0x7f1103ab;
-    public static final int library_Timber_owner=0x7f1103ac;
-    public static final int library_Timber_repositoryLink=0x7f1103ad;
-    public static final int library_Timber_year=0x7f1103ae;
-    public static final int library_Unsplash_author=0x7f1103af;
-    public static final int library_Unsplash_classPath=0x7f1103b0;
-    public static final int library_Unsplash_isOpenSource=0x7f1103b1;
-    public static final int library_Unsplash_libraryDescription=0x7f1103b2;
-    public static final int library_Unsplash_libraryName=0x7f1103b3;
-    public static final int library_Unsplash_libraryVersion=0x7f1103b4;
-    public static final int library_Unsplash_libraryWebsite=0x7f1103b5;
-    public static final int library_Unsplash_licenseId=0x7f1103b6;
-    public static final int library_Unsplash_owner=0x7f1103b7;
-    public static final int library_Unsplash_repositoryLink=0x7f1103b8;
-    public static final int library_Unsplash_year=0x7f1103b9;
-    public static final int library_WilliamChart_author=0x7f1103ba;
-    public static final int library_WilliamChart_authorWebsite=0x7f1103bb;
-    public static final int library_WilliamChart_isOpenSource=0x7f1103bc;
-    public static final int library_WilliamChart_libraryDescription=0x7f1103bd;
-    public static final int library_WilliamChart_libraryName=0x7f1103be;
-    public static final int library_WilliamChart_libraryVersion=0x7f1103bf;
-    public static final int library_WilliamChart_libraryWebsite=0x7f1103c0;
-    public static final int library_WilliamChart_licenseId=0x7f1103c1;
-    public static final int library_WilliamChart_repositoryLink=0x7f1103c2;
-    public static final int library_acra_author=0x7f1103c3;
-    public static final int library_acra_authorWebsite=0x7f1103c4;
-    public static final int library_acra_classPath=0x7f1103c5;
-    public static final int library_acra_isOpenSource=0x7f1103c6;
-    public static final int library_acra_libraryDescription=0x7f1103c7;
-    public static final int library_acra_libraryName=0x7f1103c8;
-    public static final int library_acra_libraryVersion=0x7f1103c9;
-    public static final int library_acra_libraryWebsite=0x7f1103ca;
-    public static final int library_acra_licenseId=0x7f1103cb;
-    public static final int library_acra_repositoryLink=0x7f1103cc;
-    public static final int library_ahbottomnavigation_author=0x7f1103cd;
-    public static final int library_ahbottomnavigation_authorWebsite=0x7f1103ce;
-    public static final int library_ahbottomnavigation_classPath=0x7f1103cf;
-    public static final int library_ahbottomnavigation_isOpenSource=0x7f1103d0;
-    public static final int library_ahbottomnavigation_libraryDescription=0x7f1103d1;
-    public static final int library_ahbottomnavigation_libraryName=0x7f1103d2;
-    public static final int library_ahbottomnavigation_libraryVersion=0x7f1103d3;
-    public static final int library_ahbottomnavigation_libraryWebsite=0x7f1103d4;
-    public static final int library_ahbottomnavigation_licenseId=0x7f1103d5;
-    public static final int library_ahbottomnavigation_repositoryLink=0x7f1103d6;
-    public static final int library_alexei_author=0x7f1103d7;
-    public static final int library_alexei_authorWebsite=0x7f1103d8;
-    public static final int library_alexei_classPath=0x7f1103d9;
-    public static final int library_alexei_isOpenSource=0x7f1103da;
-    public static final int library_alexei_libraryDescription=0x7f1103db;
-    public static final int library_alexei_libraryName=0x7f1103dc;
-    public static final int library_alexei_libraryVersion=0x7f1103dd;
-    public static final int library_alexei_libraryWebsite=0x7f1103de;
-    public static final int library_alexei_licenseId=0x7f1103df;
-    public static final int library_alexei_repositoryLink=0x7f1103e0;
-    public static final int library_amulyakharetextdrawable_author=0x7f1103e1;
-    public static final int library_amulyakharetextdrawable_authorWebsite=0x7f1103e2;
-    public static final int library_amulyakharetextdrawable_classPath=0x7f1103e3;
-    public static final int library_amulyakharetextdrawable_isOpenSource=0x7f1103e4;
-    public static final int library_amulyakharetextdrawable_libraryDescription=0x7f1103e5;
-    public static final int library_amulyakharetextdrawable_libraryName=0x7f1103e6;
-    public static final int library_amulyakharetextdrawable_libraryVersion=0x7f1103e7;
-    public static final int library_amulyakharetextdrawable_libraryWebsite=0x7f1103e8;
-    public static final int library_amulyakharetextdrawable_licenseId=0x7f1103e9;
-    public static final int library_amulyakharetextdrawable_repositoryLink=0x7f1103ea;
-    public static final int library_androidBetterpickers_author=0x7f1103eb;
-    public static final int library_androidBetterpickers_authorWebsite=0x7f1103ec;
-    public static final int library_androidBetterpickers_classPath=0x7f1103ed;
-    public static final int library_androidBetterpickers_isOpenSource=0x7f1103ee;
-    public static final int library_androidBetterpickers_libraryDescription=0x7f1103ef;
-    public static final int library_androidBetterpickers_libraryName=0x7f1103f0;
-    public static final int library_androidBetterpickers_libraryVersion=0x7f1103f1;
-    public static final int library_androidBetterpickers_libraryWebsite=0x7f1103f2;
-    public static final int library_androidBetterpickers_licenseId=0x7f1103f3;
-    public static final int library_androidBetterpickers_owner=0x7f1103f4;
-    public static final int library_androidBetterpickers_repositoryLink=0x7f1103f5;
-    public static final int library_androidBetterpickers_year=0x7f1103f6;
-    public static final int library_androidIconify_author=0x7f1103f7;
-    public static final int library_androidIconify_authorWebsite=0x7f1103f8;
-    public static final int library_androidIconify_classPath=0x7f1103f9;
-    public static final int library_androidIconify_isOpenSource=0x7f1103fa;
-    public static final int library_androidIconify_libraryDescription=0x7f1103fb;
-    public static final int library_androidIconify_libraryName=0x7f1103fc;
-    public static final int library_androidIconify_libraryVersion=0x7f1103fd;
-    public static final int library_androidIconify_libraryWebsite=0x7f1103fe;
-    public static final int library_androidIconify_licenseId=0x7f1103ff;
-    public static final int library_androidIconify_owner=0x7f110400;
-    public static final int library_androidIconify_repositoryLink=0x7f110401;
-    public static final int library_androidIconify_year=0x7f110402;
-    public static final int library_androidStyledDialogs_author=0x7f110403;
-    public static final int library_androidStyledDialogs_authorWebsite=0x7f110404;
-    public static final int library_androidStyledDialogs_classPath=0x7f110405;
-    public static final int library_androidStyledDialogs_isOpenSource=0x7f110406;
-    public static final int library_androidStyledDialogs_libraryDescription=0x7f110407;
-    public static final int library_androidStyledDialogs_libraryName=0x7f110408;
-    public static final int library_androidStyledDialogs_libraryVersion=0x7f110409;
-    public static final int library_androidStyledDialogs_libraryWebsite=0x7f11040a;
-    public static final int library_androidStyledDialogs_licenseId=0x7f11040b;
-    public static final int library_androidStyledDialogs_owner=0x7f11040c;
-    public static final int library_androidStyledDialogs_repositoryLink=0x7f11040d;
-    public static final int library_androidStyledDialogs_year=0x7f11040e;
-    public static final int library_android_advancedrecyclerview_author=0x7f11040f;
-    public static final int library_android_advancedrecyclerview_authorWebsite=0x7f110410;
-    public static final int library_android_advancedrecyclerview_classPath=0x7f110411;
-    public static final int library_android_advancedrecyclerview_isOpenSource=0x7f110412;
-    public static final int library_android_advancedrecyclerview_libraryDescription=0x7f110413;
-    public static final int library_android_advancedrecyclerview_libraryName=0x7f110414;
-    public static final int library_android_advancedrecyclerview_libraryVersion=0x7f110415;
-    public static final int library_android_advancedrecyclerview_libraryWebsite=0x7f110416;
-    public static final int library_android_advancedrecyclerview_licenseId=0x7f110417;
-    public static final int library_android_advancedrecyclerview_repositoryLink=0x7f110418;
-    public static final int library_android_floating_action_button_author=0x7f110419;
-    public static final int library_android_floating_action_button_authorWebsite=0x7f11041a;
-    public static final int library_android_floating_action_button_classPath=0x7f11041b;
-    public static final int library_android_floating_action_button_isOpenSource=0x7f11041c;
-    public static final int library_android_floating_action_button_libraryDescription=0x7f11041d;
-    public static final int library_android_floating_action_button_libraryName=0x7f11041e;
-    public static final int library_android_floating_action_button_libraryVersion=0x7f11041f;
-    public static final int library_android_floating_action_button_libraryWebsite=0x7f110420;
-    public static final int library_android_floating_action_button_licenseId=0x7f110421;
-    public static final int library_android_floating_action_button_repositoryLink=0x7f110422;
-    public static final int library_android_gif_drawable_author=0x7f110423;
-    public static final int library_android_gif_drawable_authorWebsite=0x7f110424;
-    public static final int library_android_gif_drawable_classPath=0x7f110425;
-    public static final int library_android_gif_drawable_isOpenSource=0x7f110426;
-    public static final int library_android_gif_drawable_libraryDescription=0x7f110427;
-    public static final int library_android_gif_drawable_libraryName=0x7f110428;
-    public static final int library_android_gif_drawable_libraryVersion=0x7f110429;
-    public static final int library_android_gif_drawable_libraryWebsite=0x7f11042a;
-    public static final int library_android_gif_drawable_licenseId=0x7f11042b;
-    public static final int library_android_gif_drawable_repositoryLink=0x7f11042c;
-    public static final int library_android_image_cropper_author=0x7f11042d;
-    public static final int library_android_image_cropper_authorWebsite=0x7f11042e;
-    public static final int library_android_image_cropper_classPath=0x7f11042f;
-    public static final int library_android_image_cropper_isOpenSource=0x7f110430;
-    public static final int library_android_image_cropper_libraryDescription=0x7f110431;
-    public static final int library_android_image_cropper_libraryName=0x7f110432;
-    public static final int library_android_image_cropper_libraryVersion=0x7f110433;
-    public static final int library_android_image_cropper_libraryWebsite=0x7f110434;
-    public static final int library_android_image_cropper_licenseId=0x7f110435;
-    public static final int library_android_image_cropper_repositoryLink=0x7f110436;
-    public static final int library_android_job_author=0x7f110437;
-    public static final int library_android_job_authorWebsite=0x7f110438;
-    public static final int library_android_job_classPath=0x7f110439;
-    public static final int library_android_job_isOpenSource=0x7f11043a;
-    public static final int library_android_job_libraryDescription=0x7f11043b;
-    public static final int library_android_job_libraryName=0x7f11043c;
-    public static final int library_android_job_libraryVersion=0x7f11043d;
-    public static final int library_android_job_libraryWebsite=0x7f11043e;
-    public static final int library_android_job_licenseId=0x7f11043f;
-    public static final int library_android_job_repositoryLink=0x7f110440;
-    public static final int library_android_maps_utils_author=0x7f110441;
-    public static final int library_android_maps_utils_authorWebsite=0x7f110442;
-    public static final int library_android_maps_utils_classPath=0x7f110443;
-    public static final int library_android_maps_utils_isOpenSource=0x7f110444;
-    public static final int library_android_maps_utils_libraryDescription=0x7f110445;
-    public static final int library_android_maps_utils_libraryName=0x7f110446;
-    public static final int library_android_maps_utils_libraryVersion=0x7f110447;
-    public static final int library_android_maps_utils_libraryWebsite=0x7f110448;
-    public static final int library_android_maps_utils_licenseId=0x7f110449;
-    public static final int library_android_maps_utils_repositoryLink=0x7f11044a;
-    public static final int library_android_platlogo_author=0x7f11044b;
-    public static final int library_android_platlogo_authorWebsite=0x7f11044c;
-    public static final int library_android_platlogo_classPath=0x7f11044d;
-    public static final int library_android_platlogo_isOpenSource=0x7f11044e;
-    public static final int library_android_platlogo_libraryDescription=0x7f11044f;
-    public static final int library_android_platlogo_libraryName=0x7f110450;
-    public static final int library_android_platlogo_libraryVersion=0x7f110451;
-    public static final int library_android_platlogo_libraryWebsite=0x7f110452;
-    public static final int library_android_platlogo_licenseId=0x7f110453;
-    public static final int library_android_platlogo_repositoryLink=0x7f110454;
-    public static final int library_android_shape_imageview_author=0x7f110455;
-    public static final int library_android_shape_imageview_authorWebsite=0x7f110456;
-    public static final int library_android_shape_imageview_classPath=0x7f110457;
-    public static final int library_android_shape_imageview_isOpenSource=0x7f110458;
-    public static final int library_android_shape_imageview_libraryDescription=0x7f110459;
-    public static final int library_android_shape_imageview_libraryName=0x7f11045a;
-    public static final int library_android_shape_imageview_libraryVersion=0x7f11045b;
-    public static final int library_android_shape_imageview_libraryWebsite=0x7f11045c;
-    public static final int library_android_shape_imageview_licenseId=0x7f11045d;
-    public static final int library_android_shape_imageview_repositoryLink=0x7f11045e;
-    public static final int library_android_textview_linkbuilder_author=0x7f11045f;
-    public static final int library_android_textview_linkbuilder_authorWebsite=0x7f110460;
-    public static final int library_android_textview_linkbuilder_classPath=0x7f110461;
-    public static final int library_android_textview_linkbuilder_isOpenSource=0x7f110462;
-    public static final int library_android_textview_linkbuilder_libraryDescription=0x7f110463;
-    public static final int library_android_textview_linkbuilder_libraryName=0x7f110464;
-    public static final int library_android_textview_linkbuilder_libraryVersion=0x7f110465;
-    public static final int library_android_textview_linkbuilder_libraryWebsite=0x7f110466;
-    public static final int library_android_textview_linkbuilder_licenseId=0x7f110467;
-    public static final int library_android_textview_linkbuilder_repositoryLink=0x7f110468;
-    public static final int library_android_upload_service_author=0x7f110469;
-    public static final int library_android_upload_service_authorWebsite=0x7f11046a;
-    public static final int library_android_upload_service_classPath=0x7f11046b;
-    public static final int library_android_upload_service_isOpenSource=0x7f11046c;
-    public static final int library_android_upload_service_libraryDescription=0x7f11046d;
-    public static final int library_android_upload_service_libraryName=0x7f11046e;
-    public static final int library_android_upload_service_libraryVersion=0x7f11046f;
-    public static final int library_android_upload_service_libraryWebsite=0x7f110470;
-    public static final int library_android_upload_service_licenseId=0x7f110471;
-    public static final int library_android_upload_service_owner=0x7f110472;
-    public static final int library_android_upload_service_repositoryLink=0x7f110473;
-    public static final int library_android_upload_service_year=0x7f110474;
-    public static final int library_androidannotations_author=0x7f110475;
-    public static final int library_androidannotations_authorWebsite=0x7f110476;
-    public static final int library_androidannotations_classPath=0x7f110477;
-    public static final int library_androidannotations_isOpenSource=0x7f110478;
-    public static final int library_androidannotations_libraryDescription=0x7f110479;
-    public static final int library_androidannotations_libraryName=0x7f11047a;
-    public static final int library_androidannotations_libraryVersion=0x7f11047b;
-    public static final int library_androidannotations_libraryWebsite=0x7f11047c;
-    public static final int library_androidannotations_licenseId=0x7f11047d;
-    public static final int library_androidannotations_repositoryLink=0x7f11047e;
-    public static final int library_androidasyncservice_author=0x7f11047f;
-    public static final int library_androidasyncservice_authorWebsite=0x7f110480;
-    public static final int library_androidasyncservice_classPath=0x7f110481;
-    public static final int library_androidasyncservice_isOpenSource=0x7f110482;
-    public static final int library_androidasyncservice_libraryDescription=0x7f110483;
-    public static final int library_androidasyncservice_libraryName=0x7f110484;
-    public static final int library_androidasyncservice_libraryVersion=0x7f110485;
-    public static final int library_androidasyncservice_libraryWebsite=0x7f110486;
-    public static final int library_androidasyncservice_licenseId=0x7f110487;
-    public static final int library_androidasyncservice_repositoryLink=0x7f110488;
-    public static final int library_androidcountrypicker_author=0x7f110489;
-    public static final int library_androidcountrypicker_authorWebsite=0x7f11048a;
-    public static final int library_androidcountrypicker_classPath=0x7f11048b;
-    public static final int library_androidcountrypicker_isOpenSource=0x7f11048c;
-    public static final int library_androidcountrypicker_libraryDescription=0x7f11048d;
-    public static final int library_androidcountrypicker_libraryName=0x7f11048e;
-    public static final int library_androidcountrypicker_libraryVersion=0x7f11048f;
-    public static final int library_androidcountrypicker_libraryWebsite=0x7f110490;
-    public static final int library_androidcountrypicker_licenseId=0x7f110491;
-    public static final int library_androidcountrypicker_repositoryLink=0x7f110492;
-    public static final int library_androideasingfunctions_author=0x7f110493;
-    public static final int library_androideasingfunctions_authorWebsite=0x7f110494;
-    public static final int library_androideasingfunctions_classPath=0x7f110495;
-    public static final int library_androideasingfunctions_isOpenSource=0x7f110496;
-    public static final int library_androideasingfunctions_libraryDescription=0x7f110497;
-    public static final int library_androideasingfunctions_libraryName=0x7f110498;
-    public static final int library_androideasingfunctions_libraryVersion=0x7f110499;
-    public static final int library_androideasingfunctions_libraryWebsite=0x7f11049a;
-    public static final int library_androideasingfunctions_licenseId=0x7f11049b;
-    public static final int library_androideasingfunctions_repositoryLink=0x7f11049c;
-    public static final int library_androidfillableloaders_author=0x7f11049d;
-    public static final int library_androidfillableloaders_authorWebsite=0x7f11049e;
-    public static final int library_androidfillableloaders_classPath=0x7f11049f;
-    public static final int library_androidfillableloaders_isOpenSource=0x7f1104a0;
-    public static final int library_androidfillableloaders_libraryDescription=0x7f1104a1;
-    public static final int library_androidfillableloaders_libraryName=0x7f1104a2;
-    public static final int library_androidfillableloaders_libraryVersion=0x7f1104a3;
-    public static final int library_androidfillableloaders_libraryWebsite=0x7f1104a4;
-    public static final int library_androidfillableloaders_licenseId=0x7f1104a5;
-    public static final int library_androidfillableloaders_repositoryLink=0x7f1104a6;
-    public static final int library_androidflowlayout_author=0x7f1104a7;
-    public static final int library_androidflowlayout_authorWebsite=0x7f1104a8;
-    public static final int library_androidflowlayout_classPath=0x7f1104a9;
-    public static final int library_androidflowlayout_isOpenSource=0x7f1104aa;
-    public static final int library_androidflowlayout_libraryDescription=0x7f1104ab;
-    public static final int library_androidflowlayout_libraryName=0x7f1104ac;
-    public static final int library_androidflowlayout_libraryVersion=0x7f1104ad;
-    public static final int library_androidflowlayout_libraryWebsite=0x7f1104ae;
-    public static final int library_androidflowlayout_licenseId=0x7f1104af;
-    public static final int library_androidflowlayout_repositoryLink=0x7f1104b0;
-    public static final int library_androidholocolorpicker_author=0x7f1104b1;
-    public static final int library_androidholocolorpicker_authorWebsite=0x7f1104b2;
-    public static final int library_androidholocolorpicker_classPath=0x7f1104b3;
-    public static final int library_androidholocolorpicker_isOpenSource=0x7f1104b4;
-    public static final int library_androidholocolorpicker_libraryDescription=0x7f1104b5;
-    public static final int library_androidholocolorpicker_libraryName=0x7f1104b6;
-    public static final int library_androidholocolorpicker_libraryVersion=0x7f1104b7;
-    public static final int library_androidholocolorpicker_libraryWebsite=0x7f1104b8;
-    public static final int library_androidholocolorpicker_licenseId=0x7f1104b9;
-    public static final int library_androidholocolorpicker_repositoryLink=0x7f1104ba;
-    public static final int library_androidin_appbillingv3_author=0x7f1104bb;
-    public static final int library_androidin_appbillingv3_authorWebsite=0x7f1104bc;
-    public static final int library_androidin_appbillingv3_classPath=0x7f1104bd;
-    public static final int library_androidin_appbillingv3_isOpenSource=0x7f1104be;
-    public static final int library_androidin_appbillingv3_libraryDescription=0x7f1104bf;
-    public static final int library_androidin_appbillingv3_libraryName=0x7f1104c0;
-    public static final int library_androidin_appbillingv3_libraryVersion=0x7f1104c1;
-    public static final int library_androidin_appbillingv3_libraryWebsite=0x7f1104c2;
-    public static final int library_androidin_appbillingv3_licenseId=0x7f1104c3;
-    public static final int library_androidin_appbillingv3_repositoryLink=0x7f1104c4;
-    public static final int library_androidmaterialintroscreen_author=0x7f1104c5;
-    public static final int library_androidmaterialintroscreen_authorWebsite=0x7f1104c6;
-    public static final int library_androidmaterialintroscreen_classPath=0x7f1104c7;
-    public static final int library_androidmaterialintroscreen_isOpenSource=0x7f1104c8;
-    public static final int library_androidmaterialintroscreen_libraryDescription=0x7f1104c9;
-    public static final int library_androidmaterialintroscreen_libraryName=0x7f1104ca;
-    public static final int library_androidmaterialintroscreen_libraryVersion=0x7f1104cb;
-    public static final int library_androidmaterialintroscreen_libraryWebsite=0x7f1104cc;
-    public static final int library_androidmaterialintroscreen_licenseId=0x7f1104cd;
-    public static final int library_androidmaterialintroscreen_repositoryLink=0x7f1104ce;
-    public static final int library_androidroundcornerprogressbar_author=0x7f1104cf;
-    public static final int library_androidroundcornerprogressbar_authorWebsite=0x7f1104d0;
-    public static final int library_androidroundcornerprogressbar_classPath=0x7f1104d1;
-    public static final int library_androidroundcornerprogressbar_isOpenSource=0x7f1104d2;
-    public static final int library_androidroundcornerprogressbar_libraryDescription=0x7f1104d3;
-    public static final int library_androidroundcornerprogressbar_libraryName=0x7f1104d4;
-    public static final int library_androidroundcornerprogressbar_libraryVersion=0x7f1104d5;
-    public static final int library_androidroundcornerprogressbar_libraryWebsite=0x7f1104d6;
-    public static final int library_androidroundcornerprogressbar_licenseId=0x7f1104d7;
-    public static final int library_androidroundcornerprogressbar_repositoryLink=0x7f1104d8;
-    public static final int library_androidslidinguppanel_author=0x7f1104d9;
-    public static final int library_androidslidinguppanel_authorWebsite=0x7f1104da;
-    public static final int library_androidslidinguppanel_classPath=0x7f1104db;
-    public static final int library_androidslidinguppanel_isOpenSource=0x7f1104dc;
-    public static final int library_androidslidinguppanel_libraryDescription=0x7f1104dd;
-    public static final int library_androidslidinguppanel_libraryName=0x7f1104de;
-    public static final int library_androidslidinguppanel_libraryVersion=0x7f1104df;
-    public static final int library_androidslidinguppanel_libraryWebsite=0x7f1104e0;
-    public static final int library_androidslidinguppanel_licenseId=0x7f1104e1;
-    public static final int library_androidslidinguppanel_repositoryLink=0x7f1104e2;
-    public static final int library_androidstrictmodecompat_author=0x7f1104e3;
-    public static final int library_androidstrictmodecompat_authorWebsite=0x7f1104e4;
-    public static final int library_androidstrictmodecompat_classPath=0x7f1104e5;
-    public static final int library_androidstrictmodecompat_isOpenSource=0x7f1104e6;
-    public static final int library_androidstrictmodecompat_libraryDescription=0x7f1104e7;
-    public static final int library_androidstrictmodecompat_libraryName=0x7f1104e8;
-    public static final int library_androidstrictmodecompat_libraryVersion=0x7f1104e9;
-    public static final int library_androidstrictmodecompat_libraryWebsite=0x7f1104ea;
-    public static final int library_androidstrictmodecompat_licenseId=0x7f1104eb;
-    public static final int library_androidstrictmodecompat_repositoryLink=0x7f1104ec;
-    public static final int library_androidswipelayout_author=0x7f1104ed;
-    public static final int library_androidswipelayout_authorWebsite=0x7f1104ee;
-    public static final int library_androidswipelayout_classPath=0x7f1104ef;
-    public static final int library_androidswipelayout_isOpenSource=0x7f1104f0;
-    public static final int library_androidswipelayout_libraryDescription=0x7f1104f1;
-    public static final int library_androidswipelayout_libraryName=0x7f1104f2;
-    public static final int library_androidswipelayout_libraryVersion=0x7f1104f3;
-    public static final int library_androidswipelayout_libraryWebsite=0x7f1104f4;
-    public static final int library_androidswipelayout_licenseId=0x7f1104f5;
-    public static final int library_androidswipelayout_repositoryLink=0x7f1104f6;
-    public static final int library_androiduniversalimageloader_author=0x7f1104f7;
-    public static final int library_androiduniversalimageloader_authorWebsite=0x7f1104f8;
-    public static final int library_androiduniversalimageloader_classPath=0x7f1104f9;
-    public static final int library_androiduniversalimageloader_isOpenSource=0x7f1104fa;
-    public static final int library_androiduniversalimageloader_libraryDescription=0x7f1104fb;
-    public static final int library_androiduniversalimageloader_libraryName=0x7f1104fc;
-    public static final int library_androiduniversalimageloader_libraryVersion=0x7f1104fd;
-    public static final int library_androiduniversalimageloader_libraryWebsite=0x7f1104fe;
-    public static final int library_androiduniversalimageloader_licenseId=0x7f1104ff;
-    public static final int library_androiduniversalimageloader_repositoryLink=0x7f110500;
-    public static final int library_androidviewanimations_author=0x7f110501;
-    public static final int library_androidviewanimations_authorWebsite=0x7f110502;
-    public static final int library_androidviewanimations_classPath=0x7f110503;
-    public static final int library_androidviewanimations_isOpenSource=0x7f110504;
-    public static final int library_androidviewanimations_libraryDescription=0x7f110505;
-    public static final int library_androidviewanimations_libraryName=0x7f110506;
-    public static final int library_androidviewanimations_libraryVersion=0x7f110507;
-    public static final int library_androidviewanimations_libraryWebsite=0x7f110508;
-    public static final int library_androidviewanimations_licenseId=0x7f110509;
-    public static final int library_androidviewanimations_repositoryLink=0x7f11050a;
-    public static final int library_androidviewhover_author=0x7f11050b;
-    public static final int library_androidviewhover_authorWebsite=0x7f11050c;
-    public static final int library_androidviewhover_classPath=0x7f11050d;
-    public static final int library_androidviewhover_isOpenSource=0x7f11050e;
-    public static final int library_androidviewhover_libraryDescription=0x7f11050f;
-    public static final int library_androidviewhover_libraryName=0x7f110510;
-    public static final int library_androidviewhover_libraryVersion=0x7f110511;
-    public static final int library_androidviewhover_libraryWebsite=0x7f110512;
-    public static final int library_androidviewhover_licenseId=0x7f110513;
-    public static final int library_androidviewhover_repositoryLink=0x7f110514;
-    public static final int library_anko_author=0x7f110515;
-    public static final int library_anko_authorWebsite=0x7f110516;
-    public static final int library_anko_classPath=0x7f110517;
-    public static final int library_anko_isOpenSource=0x7f110518;
-    public static final int library_anko_libraryDescription=0x7f110519;
-    public static final int library_anko_libraryName=0x7f11051a;
-    public static final int library_anko_libraryVersion=0x7f11051b;
-    public static final int library_anko_libraryWebsite=0x7f11051c;
-    public static final int library_anko_licenseId=0x7f11051d;
-    public static final int library_anko_repositoryLink=0x7f11051e;
-    public static final int library_apachemina_author=0x7f11051f;
-    public static final int library_apachemina_authorWebsite=0x7f110520;
-    public static final int library_apachemina_classPath=0x7f110521;
-    public static final int library_apachemina_isOpenSource=0x7f110522;
-    public static final int library_apachemina_libraryDescription=0x7f110523;
-    public static final int library_apachemina_libraryName=0x7f110524;
-    public static final int library_apachemina_libraryVersion=0x7f110525;
-    public static final int library_apachemina_libraryWebsite=0x7f110526;
-    public static final int library_apachemina_licenseId=0x7f110527;
-    public static final int library_apachemina_repositoryLink=0x7f110528;
-    public static final int library_appauth_author=0x7f110529;
-    public static final int library_appauth_authorWebsite=0x7f11052a;
-    public static final int library_appauth_classPath=0x7f11052b;
-    public static final int library_appauth_isOpenSource=0x7f11052c;
-    public static final int library_appauth_libraryDescription=0x7f11052d;
-    public static final int library_appauth_libraryName=0x7f11052e;
-    public static final int library_appauth_libraryVersion=0x7f11052f;
-    public static final int library_appauth_libraryWebsite=0x7f110530;
-    public static final int library_appauth_licenseId=0x7f110531;
-    public static final int library_appauth_owner=0x7f110532;
-    public static final int library_appauth_repositoryLink=0x7f110533;
-    public static final int library_appauth_year=0x7f110534;
-    public static final int library_appcompat_v7_author=0x7f110535;
-    public static final int library_appcompat_v7_authorWebsite=0x7f110536;
-    public static final int library_appcompat_v7_classPath=0x7f110537;
-    public static final int library_appcompat_v7_isOpenSource=0x7f110538;
-    public static final int library_appcompat_v7_libraryDescription=0x7f110539;
-    public static final int library_appcompat_v7_libraryName=0x7f11053a;
-    public static final int library_appcompat_v7_libraryVersion=0x7f11053b;
-    public static final int library_appcompat_v7_libraryWebsite=0x7f11053c;
-    public static final int library_appcompat_v7_licenseId=0x7f11053d;
-    public static final int library_appcompat_v7_owner=0x7f11053e;
-    public static final int library_appcompat_v7_repositoryLink=0x7f11053f;
-    public static final int library_appcompat_v7_year=0x7f110540;
-    public static final int library_appintro_author=0x7f110541;
-    public static final int library_appintro_authorWebsite=0x7f110542;
-    public static final int library_appintro_classPath=0x7f110543;
-    public static final int library_appintro_isOpenSource=0x7f110544;
-    public static final int library_appintro_libraryDescription=0x7f110545;
-    public static final int library_appintro_libraryName=0x7f110546;
-    public static final int library_appintro_libraryVersion=0x7f110547;
-    public static final int library_appintro_libraryWebsite=0x7f110548;
-    public static final int library_appintro_licenseId=0x7f110549;
-    public static final int library_appintro_repositoryLink=0x7f11054a;
-    public static final int library_aspectratioimageview_author=0x7f11054b;
-    public static final int library_aspectratioimageview_authorWebsite=0x7f11054c;
-    public static final int library_aspectratioimageview_classPath=0x7f11054d;
-    public static final int library_aspectratioimageview_isOpenSource=0x7f11054e;
-    public static final int library_aspectratioimageview_libraryDescription=0x7f11054f;
-    public static final int library_aspectratioimageview_libraryName=0x7f110550;
-    public static final int library_aspectratioimageview_libraryVersion=0x7f110551;
-    public static final int library_aspectratioimageview_libraryWebsite=0x7f110552;
-    public static final int library_aspectratioimageview_licenseId=0x7f110553;
-    public static final int library_aspectratioimageview_repositoryLink=0x7f110554;
-    public static final int library_assent_author=0x7f110555;
-    public static final int library_assent_authorWebsite=0x7f110556;
-    public static final int library_assent_classPath=0x7f110557;
-    public static final int library_assent_isOpenSource=0x7f110558;
-    public static final int library_assent_libraryDescription=0x7f110559;
-    public static final int library_assent_libraryName=0x7f11055a;
-    public static final int library_assent_libraryVersion=0x7f11055b;
-    public static final int library_assent_libraryWebsite=0x7f11055c;
-    public static final int library_assent_licenseId=0x7f11055d;
-    public static final int library_assent_repositoryLink=0x7f11055e;
-    public static final int library_autodispose_author=0x7f11055f;
-    public static final int library_autodispose_authorWebsite=0x7f110560;
-    public static final int library_autodispose_classPath=0x7f110561;
-    public static final int library_autodispose_isOpenSource=0x7f110562;
-    public static final int library_autodispose_libraryDescription=0x7f110563;
-    public static final int library_autodispose_libraryName=0x7f110564;
-    public static final int library_autodispose_libraryVersion=0x7f110565;
-    public static final int library_autodispose_libraryWebsite=0x7f110566;
-    public static final int library_autodispose_licenseId=0x7f110567;
-    public static final int library_autodispose_repositoryLink=0x7f110568;
-    public static final int library_avatar_view_author=0x7f110569;
-    public static final int library_avatar_view_authorWebsite=0x7f11056a;
-    public static final int library_avatar_view_classPath=0x7f11056b;
-    public static final int library_avatar_view_isOpenSource=0x7f11056c;
-    public static final int library_avatar_view_libraryDescription=0x7f11056d;
-    public static final int library_avatar_view_libraryName=0x7f11056e;
-    public static final int library_avatar_view_libraryVersion=0x7f11056f;
-    public static final int library_avatar_view_libraryWebsite=0x7f110570;
-    public static final int library_avatar_view_licenseId=0x7f110571;
-    public static final int library_avatar_view_repositoryLink=0x7f110572;
-    public static final int library_betterlinkmovementmethod_author=0x7f110573;
-    public static final int library_betterlinkmovementmethod_authorWebsite=0x7f110574;
-    public static final int library_betterlinkmovementmethod_classPath=0x7f110575;
-    public static final int library_betterlinkmovementmethod_isOpenSource=0x7f110576;
-    public static final int library_betterlinkmovementmethod_libraryDescription=0x7f110577;
-    public static final int library_betterlinkmovementmethod_libraryName=0x7f110578;
-    public static final int library_betterlinkmovementmethod_libraryVersion=0x7f110579;
-    public static final int library_betterlinkmovementmethod_libraryWebsite=0x7f11057a;
-    public static final int library_betterlinkmovementmethod_licenseId=0x7f11057b;
-    public static final int library_betterlinkmovementmethod_repositoryLink=0x7f11057c;
-    public static final int library_bottomsheet_author=0x7f11057d;
-    public static final int library_bottomsheet_authorWebsite=0x7f11057e;
-    public static final int library_bottomsheet_classPath=0x7f11057f;
-    public static final int library_bottomsheet_isOpenSource=0x7f110580;
-    public static final int library_bottomsheet_libraryDescription=0x7f110581;
-    public static final int library_bottomsheet_libraryName=0x7f110582;
-    public static final int library_bottomsheet_libraryVersion=0x7f110583;
-    public static final int library_bottomsheet_libraryWebsite=0x7f110584;
-    public static final int library_bottomsheet_licenseContent=0x7f110585;
-    public static final int library_bottomsheet_licenseLink=0x7f110586;
-    public static final int library_bottomsheet_licenseVersion=0x7f110587;
-    public static final int library_bottomsheet_repositoryLink=0x7f110588;
-    public static final int library_bridge_author=0x7f110589;
-    public static final int library_bridge_authorWebsite=0x7f11058a;
-    public static final int library_bridge_classPath=0x7f11058b;
-    public static final int library_bridge_isOpenSource=0x7f11058c;
-    public static final int library_bridge_libraryDescription=0x7f11058d;
-    public static final int library_bridge_libraryName=0x7f11058e;
-    public static final int library_bridge_libraryVersion=0x7f11058f;
-    public static final int library_bridge_libraryWebsite=0x7f110590;
-    public static final int library_bridge_licenseId=0x7f110591;
-    public static final int library_bridge_repositoryLink=0x7f110592;
-    public static final int library_caldroid_author=0x7f110593;
-    public static final int library_caldroid_authorWebsite=0x7f110594;
-    public static final int library_caldroid_classPath=0x7f110595;
-    public static final int library_caldroid_isOpenSource=0x7f110596;
-    public static final int library_caldroid_libraryDescription=0x7f110597;
-    public static final int library_caldroid_libraryName=0x7f110598;
-    public static final int library_caldroid_libraryVersion=0x7f110599;
-    public static final int library_caldroid_libraryWebsite=0x7f11059a;
-    public static final int library_caldroid_licenseId=0x7f11059b;
-    public static final int library_caldroid_owner=0x7f11059c;
-    public static final int library_caldroid_repositoryLink=0x7f11059d;
-    public static final int library_caldroid_year=0x7f11059e;
-    public static final int library_calligraphy_author=0x7f11059f;
-    public static final int library_calligraphy_authorWebsite=0x7f1105a0;
-    public static final int library_calligraphy_classPath=0x7f1105a1;
-    public static final int library_calligraphy_isOpenSource=0x7f1105a2;
-    public static final int library_calligraphy_libraryDescription=0x7f1105a3;
-    public static final int library_calligraphy_libraryName=0x7f1105a4;
-    public static final int library_calligraphy_libraryVersion=0x7f1105a5;
-    public static final int library_calligraphy_libraryWebsite=0x7f1105a6;
-    public static final int library_calligraphy_licenseId=0x7f1105a7;
-    public static final int library_calligraphy_owner=0x7f1105a8;
-    public static final int library_calligraphy_repositoryLink=0x7f1105a9;
-    public static final int library_calligraphy_year=0x7f1105aa;
-    public static final int library_cardlibrary_author=0x7f1105ab;
-    public static final int library_cardlibrary_authorWebsite=0x7f1105ac;
-    public static final int library_cardlibrary_classPath=0x7f1105ad;
-    public static final int library_cardlibrary_isOpenSource=0x7f1105ae;
-    public static final int library_cardlibrary_libraryDescription=0x7f1105af;
-    public static final int library_cardlibrary_libraryName=0x7f1105b0;
-    public static final int library_cardlibrary_libraryVersion=0x7f1105b1;
-    public static final int library_cardlibrary_libraryWebsite=0x7f1105b2;
-    public static final int library_cardlibrary_licenseId=0x7f1105b3;
-    public static final int library_cardlibrary_repositoryLink=0x7f1105b4;
-    public static final int library_cardsuiForAndroid_author=0x7f1105b5;
-    public static final int library_cardsuiForAndroid_authorWebsite=0x7f1105b6;
-    public static final int library_cardsuiForAndroid_classPath=0x7f1105b7;
-    public static final int library_cardsuiForAndroid_isOpenSource=0x7f1105b8;
-    public static final int library_cardsuiForAndroid_libraryDescription=0x7f1105b9;
-    public static final int library_cardsuiForAndroid_libraryName=0x7f1105ba;
-    public static final int library_cardsuiForAndroid_libraryVersion=0x7f1105bb;
-    public static final int library_cardsuiForAndroid_libraryWebsite=0x7f1105bc;
-    public static final int library_cardsuiForAndroid_licenseId=0x7f1105bd;
-    public static final int library_cardsuiForAndroid_owner=0x7f1105be;
-    public static final int library_cardsuiForAndroid_repositoryLink=0x7f1105bf;
-    public static final int library_cardsuiForAndroid_year=0x7f1105c0;
-    public static final int library_circleindicator_author=0x7f1105c1;
-    public static final int library_circleindicator_authorWebsite=0x7f1105c2;
-    public static final int library_circleindicator_classPath=0x7f1105c3;
-    public static final int library_circleindicator_isOpenSource=0x7f1105c4;
-    public static final int library_circleindicator_libraryDescription=0x7f1105c5;
-    public static final int library_circleindicator_libraryName=0x7f1105c6;
-    public static final int library_circleindicator_libraryVersion=0x7f1105c7;
-    public static final int library_circleindicator_libraryWebsite=0x7f1105c8;
-    public static final int library_circleindicator_licenseId=0x7f1105c9;
-    public static final int library_circleindicator_owner=0x7f1105ca;
-    public static final int library_circleindicator_repositoryLink=0x7f1105cb;
-    public static final int library_circleindicator_year=0x7f1105cc;
-    public static final int library_cloudrail_author=0x7f1105cd;
-    public static final int library_cloudrail_authorWebsite=0x7f1105ce;
-    public static final int library_cloudrail_classPath=0x7f1105cf;
-    public static final int library_cloudrail_isOpenSource=0x7f1105d0;
-    public static final int library_cloudrail_libraryDescription=0x7f1105d1;
-    public static final int library_cloudrail_libraryName=0x7f1105d2;
-    public static final int library_cloudrail_libraryVersion=0x7f1105d3;
-    public static final int library_cloudrail_libraryWebsite=0x7f1105d4;
-    public static final int library_cloudrail_licenseId=0x7f1105d5;
-    public static final int library_colorpicker_author=0x7f1105d6;
-    public static final int library_colorpicker_authorWebsite=0x7f1105d7;
-    public static final int library_colorpicker_classPath=0x7f1105d8;
-    public static final int library_colorpicker_isOpenSource=0x7f1105d9;
-    public static final int library_colorpicker_libraryDescription=0x7f1105da;
-    public static final int library_colorpicker_libraryName=0x7f1105db;
-    public static final int library_colorpicker_libraryWebsite=0x7f1105dc;
-    public static final int library_colorpicker_licenseId=0x7f1105dd;
-    public static final int library_colorpicker_repositoryLink=0x7f1105de;
-    public static final int library_colorpickercollection_author=0x7f1105df;
-    public static final int library_colorpickercollection_authorWebsite=0x7f1105e0;
-    public static final int library_colorpickercollection_classPath=0x7f1105e1;
-    public static final int library_colorpickercollection_isOpenSource=0x7f1105e2;
-    public static final int library_colorpickercollection_libraryDescription=0x7f1105e3;
-    public static final int library_colorpickercollection_libraryName=0x7f1105e4;
-    public static final int library_colorpickercollection_libraryVersion=0x7f1105e5;
-    public static final int library_colorpickercollection_libraryWebsite=0x7f1105e6;
-    public static final int library_colorpickercollection_licenseId=0x7f1105e7;
-    public static final int library_colorpickercollection_repositoryLink=0x7f1105e8;
-    public static final int library_commonscompress_author=0x7f1105e9;
-    public static final int library_commonscompress_authorWebsite=0x7f1105ea;
-    public static final int library_commonscompress_classPath=0x7f1105eb;
-    public static final int library_commonscompress_isOpenSource=0x7f1105ec;
-    public static final int library_commonscompress_libraryDescription=0x7f1105ed;
-    public static final int library_commonscompress_libraryName=0x7f1105ee;
-    public static final int library_commonscompress_libraryVersion=0x7f1105ef;
-    public static final int library_commonscompress_libraryWebsite=0x7f1105f0;
-    public static final int library_commonscompress_licenseId=0x7f1105f1;
-    public static final int library_commonscompress_repositoryLink=0x7f1105f2;
-    public static final int library_commonscsv_author=0x7f1105f3;
-    public static final int library_commonscsv_authorWebsite=0x7f1105f4;
-    public static final int library_commonscsv_classPath=0x7f1105f5;
-    public static final int library_commonscsv_isOpenSource=0x7f1105f6;
-    public static final int library_commonscsv_libraryDescription=0x7f1105f7;
-    public static final int library_commonscsv_libraryName=0x7f1105f8;
-    public static final int library_commonscsv_libraryVersion=0x7f1105f9;
-    public static final int library_commonscsv_libraryWebsite=0x7f1105fa;
-    public static final int library_commonscsv_licenseId=0x7f1105fb;
-    public static final int library_commonscsv_repositoryLink=0x7f1105fc;
-    public static final int library_commonsio_author=0x7f1105fd;
-    public static final int library_commonsio_authorWebsite=0x7f1105fe;
-    public static final int library_commonsio_classPath=0x7f1105ff;
-    public static final int library_commonsio_isOpenSource=0x7f110600;
-    public static final int library_commonsio_libraryDescription=0x7f110601;
-    public static final int library_commonsio_libraryName=0x7f110602;
-    public static final int library_commonsio_libraryVersion=0x7f110603;
-    public static final int library_commonsio_libraryWebsite=0x7f110604;
-    public static final int library_commonsio_licenseId=0x7f110605;
-    public static final int library_commonsio_repositoryLink=0x7f110606;
-    public static final int library_commonslang3_author=0x7f110607;
-    public static final int library_commonslang3_authorWebsite=0x7f110608;
-    public static final int library_commonslang3_classPath=0x7f110609;
-    public static final int library_commonslang3_isOpenSource=0x7f11060a;
-    public static final int library_commonslang3_libraryDescription=0x7f11060b;
-    public static final int library_commonslang3_libraryName=0x7f11060c;
-    public static final int library_commonslang3_libraryVersion=0x7f11060d;
-    public static final int library_commonslang3_libraryWebsite=0x7f11060e;
-    public static final int library_commonslang3_licenseId=0x7f11060f;
-    public static final int library_commonslang3_repositoryLink=0x7f110610;
-    public static final int library_concurrenttrees_author=0x7f110611;
-    public static final int library_concurrenttrees_authorWebsite=0x7f110612;
-    public static final int library_concurrenttrees_classPath=0x7f110613;
-    public static final int library_concurrenttrees_isOpenSource=0x7f110614;
-    public static final int library_concurrenttrees_libraryDescription=0x7f110615;
-    public static final int library_concurrenttrees_libraryName=0x7f110616;
-    public static final int library_concurrenttrees_libraryVersion=0x7f110617;
-    public static final int library_concurrenttrees_libraryWebsite=0x7f110618;
-    public static final int library_concurrenttrees_licenseId=0x7f110619;
-    public static final int library_concurrenttrees_repositoryLink=0x7f11061a;
-    public static final int library_constraint_layout_author=0x7f11061b;
-    public static final int library_constraint_layout_authorWebsite=0x7f11061c;
-    public static final int library_constraint_layout_classPath=0x7f11061d;
-    public static final int library_constraint_layout_isOpenSource=0x7f11061e;
-    public static final int library_constraint_layout_libraryDescription=0x7f11061f;
-    public static final int library_constraint_layout_libraryName=0x7f110620;
-    public static final int library_constraint_layout_libraryVersion=0x7f110621;
-    public static final int library_constraint_layout_libraryWebsite=0x7f110622;
-    public static final int library_constraint_layout_licenseId=0x7f110623;
-    public static final int library_constraint_layout_owner=0x7f110624;
-    public static final int library_constraint_layout_repositoryLink=0x7f110625;
-    public static final int library_constraint_layout_year=0x7f110626;
-    public static final int library_context_menu_android_author=0x7f110627;
-    public static final int library_context_menu_android_authorWebsite=0x7f110628;
-    public static final int library_context_menu_android_classPath=0x7f110629;
-    public static final int library_context_menu_android_isOpenSource=0x7f11062a;
-    public static final int library_context_menu_android_libraryDescription=0x7f11062b;
-    public static final int library_context_menu_android_libraryName=0x7f11062c;
-    public static final int library_context_menu_android_libraryVersion=0x7f11062d;
-    public static final int library_context_menu_android_libraryWebsite=0x7f11062e;
-    public static final int library_context_menu_android_licenseId=0x7f11062f;
-    public static final int library_context_menu_android_repositoryLink=0x7f110630;
-    public static final int library_crossfadedrawerlayout_author=0x7f110631;
-    public static final int library_crossfadedrawerlayout_authorWebsite=0x7f110632;
-    public static final int library_crossfadedrawerlayout_isOpenSource=0x7f110633;
-    public static final int library_crossfadedrawerlayout_libraryDescription=0x7f110634;
-    public static final int library_crossfadedrawerlayout_libraryName=0x7f110635;
-    public static final int library_crossfadedrawerlayout_libraryVersion=0x7f110636;
-    public static final int library_crossfadedrawerlayout_libraryWebsite=0x7f110637;
-    public static final int library_crossfadedrawerlayout_licenseId=0x7f110638;
-    public static final int library_crossfadedrawerlayout_owner=0x7f110639;
-    public static final int library_crossfadedrawerlayout_repositoryLink=0x7f11063a;
-    public static final int library_crossfadedrawerlayout_year=0x7f11063b;
-    public static final int library_customactivityoncrash_author=0x7f11063c;
-    public static final int library_customactivityoncrash_authorWebsite=0x7f11063d;
-    public static final int library_customactivityoncrash_classPath=0x7f11063e;
-    public static final int library_customactivityoncrash_isOpenSource=0x7f11063f;
-    public static final int library_customactivityoncrash_libraryDescription=0x7f110640;
-    public static final int library_customactivityoncrash_libraryName=0x7f110641;
-    public static final int library_customactivityoncrash_libraryVersion=0x7f110642;
-    public static final int library_customactivityoncrash_libraryWebsite=0x7f110643;
-    public static final int library_customactivityoncrash_licenseId=0x7f110644;
-    public static final int library_customactivityoncrash_repositoryLink=0x7f110645;
-    public static final int library_customtabshelper_author=0x7f110646;
-    public static final int library_customtabshelper_authorWebsite=0x7f110647;
-    public static final int library_customtabshelper_classPath=0x7f110648;
-    public static final int library_customtabshelper_isOpenSource=0x7f110649;
-    public static final int library_customtabshelper_libraryDescription=0x7f11064a;
-    public static final int library_customtabshelper_libraryName=0x7f11064b;
-    public static final int library_customtabshelper_libraryVersion=0x7f11064c;
-    public static final int library_customtabshelper_libraryWebsite=0x7f11064d;
-    public static final int library_customtabshelper_licenseId=0x7f11064e;
-    public static final int library_customtabshelper_repositoryLink=0x7f11064f;
-    public static final int library_dav4jvm_author=0x7f110650;
-    public static final int library_dav4jvm_authorWebsite=0x7f110651;
-    public static final int library_dav4jvm_classPath=0x7f110652;
-    public static final int library_dav4jvm_isOpenSource=0x7f110653;
-    public static final int library_dav4jvm_libraryDescription=0x7f110654;
-    public static final int library_dav4jvm_libraryName=0x7f110655;
-    public static final int library_dav4jvm_libraryWebsite=0x7f110656;
-    public static final int library_dav4jvm_licenseId=0x7f110657;
-    public static final int library_dav4jvm_repositoryLink=0x7f110658;
-    public static final int library_dbflow_author=0x7f110659;
-    public static final int library_dbflow_authorWebsite=0x7f11065a;
-    public static final int library_dbflow_classPath=0x7f11065b;
-    public static final int library_dbflow_isOpenSource=0x7f11065c;
-    public static final int library_dbflow_libraryDescription=0x7f11065d;
-    public static final int library_dbflow_libraryName=0x7f11065e;
-    public static final int library_dbflow_libraryVersion=0x7f11065f;
-    public static final int library_dbflow_libraryWebsite=0x7f110660;
-    public static final int library_dbflow_licenseId=0x7f110661;
-    public static final int library_dbflow_repositoryLink=0x7f110662;
-    public static final int library_ddplist_author=0x7f110663;
-    public static final int library_ddplist_classPath=0x7f110664;
-    public static final int library_ddplist_isOpenSource=0x7f110665;
-    public static final int library_ddplist_libraryDescription=0x7f110666;
-    public static final int library_ddplist_libraryName=0x7f110667;
-    public static final int library_ddplist_libraryVersion=0x7f110668;
-    public static final int library_ddplist_libraryWebsite=0x7f110669;
-    public static final int library_ddplist_licenseId=0x7f11066a;
-    public static final int library_ddplist_owner=0x7f11066b;
-    public static final int library_ddplist_repositoryLink=0x7f11066c;
-    public static final int library_ddplist_year=0x7f11066d;
-    public static final int library_design_author=0x7f11066e;
-    public static final int library_design_authorWebsite=0x7f11066f;
-    public static final int library_design_classPath=0x7f110670;
-    public static final int library_design_isOpenSource=0x7f110671;
-    public static final int library_design_libraryDescription=0x7f110672;
-    public static final int library_design_libraryName=0x7f110673;
-    public static final int library_design_libraryVersion=0x7f110674;
-    public static final int library_design_libraryWebsite=0x7f110675;
-    public static final int library_design_licenseId=0x7f110676;
-    public static final int library_design_owner=0x7f110677;
-    public static final int library_design_repositoryLink=0x7f110678;
-    public static final int library_design_year=0x7f110679;
-    public static final int library_discreteseekbar_author=0x7f11067a;
-    public static final int library_discreteseekbar_authorWebsite=0x7f11067b;
-    public static final int library_discreteseekbar_classPath=0x7f11067c;
-    public static final int library_discreteseekbar_isOpenSource=0x7f11067d;
-    public static final int library_discreteseekbar_libraryDescription=0x7f11067e;
-    public static final int library_discreteseekbar_libraryName=0x7f11067f;
-    public static final int library_discreteseekbar_libraryVersion=0x7f110680;
-    public static final int library_discreteseekbar_libraryWebsite=0x7f110681;
-    public static final int library_discreteseekbar_licenseId=0x7f110682;
-    public static final int library_discreteseekbar_repositoryLink=0x7f110683;
-    public static final int library_dynamicrecyclerview_author=0x7f110684;
-    public static final int library_dynamicrecyclerview_authorWebsite=0x7f110685;
-    public static final int library_dynamicrecyclerview_classPath=0x7f110686;
-    public static final int library_dynamicrecyclerview_isOpenSource=0x7f110687;
-    public static final int library_dynamicrecyclerview_libraryDescription=0x7f110688;
-    public static final int library_dynamicrecyclerview_libraryName=0x7f110689;
-    public static final int library_dynamicrecyclerview_libraryVersion=0x7f11068a;
-    public static final int library_dynamicrecyclerview_libraryWebsite=0x7f11068b;
-    public static final int library_dynamicrecyclerview_licenseId=0x7f11068c;
-    public static final int library_dynamicrecyclerview_repositoryLink=0x7f11068d;
-    public static final int library_earl_author=0x7f11068e;
-    public static final int library_earl_authorWebsite=0x7f11068f;
-    public static final int library_earl_classPath=0x7f110690;
-    public static final int library_earl_isOpenSource=0x7f110691;
-    public static final int library_earl_libraryDescription=0x7f110692;
-    public static final int library_earl_libraryName=0x7f110693;
-    public static final int library_earl_libraryVersion=0x7f110694;
-    public static final int library_earl_libraryWebsite=0x7f110695;
-    public static final int library_earl_licenseId=0x7f110696;
-    public static final int library_earl_repositoryLink=0x7f110697;
-    public static final int library_easy_pref_author=0x7f110698;
-    public static final int library_easy_pref_authorWebsite=0x7f110699;
-    public static final int library_easy_pref_classPath=0x7f11069a;
-    public static final int library_easy_pref_isOpenSource=0x7f11069b;
-    public static final int library_easy_pref_libraryDescription=0x7f11069c;
-    public static final int library_easy_pref_libraryName=0x7f11069d;
-    public static final int library_easy_pref_libraryVersion=0x7f11069e;
-    public static final int library_easy_pref_libraryWebsite=0x7f11069f;
-    public static final int library_easy_pref_licenseId=0x7f1106a0;
-    public static final int library_easy_pref_repositoryLink=0x7f1106a1;
-    public static final int library_easyandroidanimations_author=0x7f1106a2;
-    public static final int library_easyandroidanimations_authorWebsite=0x7f1106a3;
-    public static final int library_easyandroidanimations_classPath=0x7f1106a4;
-    public static final int library_easyandroidanimations_isOpenSource=0x7f1106a5;
-    public static final int library_easyandroidanimations_libraryDescription=0x7f1106a6;
-    public static final int library_easyandroidanimations_libraryName=0x7f1106a7;
-    public static final int library_easyandroidanimations_libraryVersion=0x7f1106a8;
-    public static final int library_easyandroidanimations_libraryWebsite=0x7f1106a9;
-    public static final int library_easyandroidanimations_licenseId=0x7f1106aa;
-    public static final int library_easyandroidanimations_repositoryLink=0x7f1106ab;
-    public static final int library_eclipsepahoandroidservice_author=0x7f1106ac;
-    public static final int library_eclipsepahoandroidservice_authorWebsite=0x7f1106ad;
-    public static final int library_eclipsepahoandroidservice_classPath=0x7f1106ae;
-    public static final int library_eclipsepahoandroidservice_isOpenSource=0x7f1106af;
-    public static final int library_eclipsepahoandroidservice_libraryDescription=0x7f1106b0;
-    public static final int library_eclipsepahoandroidservice_libraryName=0x7f1106b1;
-    public static final int library_eclipsepahoandroidservice_libraryVersion=0x7f1106b2;
-    public static final int library_eclipsepahoandroidservice_libraryWebsite=0x7f1106b3;
-    public static final int library_eclipsepahoandroidservice_licenseId=0x7f1106b4;
-    public static final int library_eclipsepahoandroidservice_repositoryLink=0x7f1106b5;
-    public static final int library_emoji_author=0x7f1106b6;
-    public static final int library_emoji_authorWebsite=0x7f1106b7;
-    public static final int library_emoji_classPath=0x7f1106b8;
-    public static final int library_emoji_isOpenSource=0x7f1106b9;
-    public static final int library_emoji_libraryDescription=0x7f1106ba;
-    public static final int library_emoji_libraryName=0x7f1106bb;
-    public static final int library_emoji_libraryVersion=0x7f1106bc;
-    public static final int library_emoji_libraryWebsite=0x7f1106bd;
-    public static final int library_emoji_licenseId=0x7f1106be;
-    public static final int library_emoji_repositoryLink=0x7f1106bf;
-    public static final int library_encryption_author=0x7f1106c0;
-    public static final int library_encryption_classPath=0x7f1106c1;
-    public static final int library_encryption_isOpenSource=0x7f1106c2;
-    public static final int library_encryption_libraryDescription=0x7f1106c3;
-    public static final int library_encryption_libraryName=0x7f1106c4;
-    public static final int library_encryption_libraryVersion=0x7f1106c5;
-    public static final int library_encryption_libraryWebsite=0x7f1106c6;
-    public static final int library_encryption_licenseId=0x7f1106c7;
-    public static final int library_encryption_owner=0x7f1106c8;
-    public static final int library_encryption_repositoryLink=0x7f1106c9;
-    public static final int library_encryption_year=0x7f1106ca;
-    public static final int library_epoxy_author=0x7f1106cb;
-    public static final int library_epoxy_classPath=0x7f1106cc;
-    public static final int library_epoxy_isOpenSource=0x7f1106cd;
-    public static final int library_epoxy_libraryDescription=0x7f1106ce;
-    public static final int library_epoxy_libraryName=0x7f1106cf;
-    public static final int library_epoxy_libraryVersion=0x7f1106d0;
-    public static final int library_epoxy_libraryWebsite=0x7f1106d1;
-    public static final int library_epoxy_licenseId=0x7f1106d2;
-    public static final int library_epoxy_repositoryLink=0x7f1106d3;
-    public static final int library_exomedia_author=0x7f1106d4;
-    public static final int library_exomedia_authorWebsite=0x7f1106d5;
-    public static final int library_exomedia_classPath=0x7f1106d6;
-    public static final int library_exomedia_isOpenSource=0x7f1106d7;
-    public static final int library_exomedia_libraryDescription=0x7f1106d8;
-    public static final int library_exomedia_libraryName=0x7f1106d9;
-    public static final int library_exomedia_libraryVersion=0x7f1106da;
-    public static final int library_exomedia_libraryWebsite=0x7f1106db;
-    public static final int library_exomedia_licenseId=0x7f1106dc;
-    public static final int library_exomedia_repositoryLink=0x7f1106dd;
-    public static final int library_exoplayer_author=0x7f1106de;
-    public static final int library_exoplayer_authorWebsite=0x7f1106df;
-    public static final int library_exoplayer_classPath=0x7f1106e0;
-    public static final int library_exoplayer_isOpenSource=0x7f1106e1;
-    public static final int library_exoplayer_libraryDescription=0x7f1106e2;
-    public static final int library_exoplayer_libraryName=0x7f1106e3;
-    public static final int library_exoplayer_libraryVersion=0x7f1106e4;
-    public static final int library_exoplayer_libraryWebsite=0x7f1106e5;
-    public static final int library_exoplayer_licenseId=0x7f1106e6;
-    public static final int library_exoplayer_repositoryLink=0x7f1106e7;
-    public static final int library_fakeit_author=0x7f1106e8;
-    public static final int library_fakeit_authorWebsite=0x7f1106e9;
-    public static final int library_fakeit_classPath=0x7f1106ea;
-    public static final int library_fakeit_isOpenSource=0x7f1106eb;
-    public static final int library_fakeit_libraryDescription=0x7f1106ec;
-    public static final int library_fakeit_libraryName=0x7f1106ed;
-    public static final int library_fakeit_libraryVersion=0x7f1106ee;
-    public static final int library_fakeit_libraryWebsite=0x7f1106ef;
-    public static final int library_fakeit_licenseId=0x7f1106f0;
-    public static final int library_fakeit_repositoryLink=0x7f1106f1;
-    public static final int library_fastadapter_author=0x7f1106f2;
-    public static final int library_fastadapter_authorWebsite=0x7f1106f3;
-    public static final int library_fastadapter_isOpenSource=0x7f1106f4;
-    public static final int library_fastadapter_libraryDescription=0x7f1106f5;
-    public static final int library_fastadapter_libraryName=0x7f1106f6;
-    public static final int library_fastadapter_libraryVersion=0x7f1106f7;
-    public static final int library_fastadapter_libraryWebsite=0x7f1106f8;
-    public static final int library_fastadapter_licenseId=0x7f1106f9;
-    public static final int library_fastadapter_owner=0x7f1106fa;
-    public static final int library_fastadapter_repositoryLink=0x7f1106fb;
-    public static final int library_fastadapter_year=0x7f1106fc;
-    public static final int library_flexboxlayout_author=0x7f1106fd;
-    public static final int library_flexboxlayout_authorWebsite=0x7f1106fe;
-    public static final int library_flexboxlayout_classPath=0x7f1106ff;
-    public static final int library_flexboxlayout_isOpenSource=0x7f110700;
-    public static final int library_flexboxlayout_libraryDescription=0x7f110701;
-    public static final int library_flexboxlayout_libraryName=0x7f110702;
-    public static final int library_flexboxlayout_libraryVersion=0x7f110703;
-    public static final int library_flexboxlayout_libraryWebsite=0x7f110704;
-    public static final int library_flexboxlayout_licenseId=0x7f110705;
-    public static final int library_flexboxlayout_repositoryLink=0x7f110706;
-    public static final int library_floatingsearchview_author=0x7f110707;
-    public static final int library_floatingsearchview_authorWebsite=0x7f110708;
-    public static final int library_floatingsearchview_classPath=0x7f110709;
-    public static final int library_floatingsearchview_isOpenSource=0x7f11070a;
-    public static final int library_floatingsearchview_libraryDescription=0x7f11070b;
-    public static final int library_floatingsearchview_libraryName=0x7f11070c;
-    public static final int library_floatingsearchview_libraryVersion=0x7f11070d;
-    public static final int library_floatingsearchview_libraryWebsite=0x7f11070e;
-    public static final int library_floatingsearchview_licenseId=0x7f11070f;
-    public static final int library_floatingsearchview_repositoryLink=0x7f110710;
-    public static final int library_foursquareAndroidOauth_author=0x7f110711;
-    public static final int library_foursquareAndroidOauth_classPath=0x7f110712;
-    public static final int library_foursquareAndroidOauth_isOpenSource=0x7f110713;
-    public static final int library_foursquareAndroidOauth_libraryDescription=0x7f110714;
-    public static final int library_foursquareAndroidOauth_libraryName=0x7f110715;
-    public static final int library_foursquareAndroidOauth_libraryVersion=0x7f110716;
-    public static final int library_foursquareAndroidOauth_libraryWebsite=0x7f110717;
-    public static final int library_foursquareAndroidOauth_licenseId=0x7f110718;
-    public static final int library_foursquareAndroidOauth_owner=0x7f110719;
-    public static final int library_foursquareAndroidOauth_repositoryLink=0x7f11071a;
-    public static final int library_foursquareAndroidOauth_year=0x7f11071b;
-    public static final int library_ftpserver_author=0x7f11071c;
-    public static final int library_ftpserver_authorWebsite=0x7f11071d;
-    public static final int library_ftpserver_classPath=0x7f11071e;
-    public static final int library_ftpserver_isOpenSource=0x7f11071f;
-    public static final int library_ftpserver_libraryDescription=0x7f110720;
-    public static final int library_ftpserver_libraryName=0x7f110721;
-    public static final int library_ftpserver_libraryVersion=0x7f110722;
-    public static final int library_ftpserver_libraryWebsite=0x7f110723;
-    public static final int library_ftpserver_licenseId=0x7f110724;
-    public static final int library_ftpserver_repositoryLink=0x7f110725;
-    public static final int library_glide_author=0x7f110726;
-    public static final int library_glide_authorWebsite=0x7f110727;
-    public static final int library_glide_classPath=0x7f110728;
-    public static final int library_glide_isOpenSource=0x7f110729;
-    public static final int library_glide_libraryDescription=0x7f11072a;
-    public static final int library_glide_libraryName=0x7f11072b;
-    public static final int library_glide_libraryVersion=0x7f11072c;
-    public static final int library_glide_libraryWebsite=0x7f11072d;
-    public static final int library_glide_licenseContent=0x7f11072e;
-    public static final int library_glide_licenseLink=0x7f11072f;
-    public static final int library_glide_licenseVersion=0x7f110730;
-    public static final int library_glide_repositoryLink=0x7f110731;
-    public static final int library_gradle_retrolambda_author=0x7f110732;
-    public static final int library_gradle_retrolambda_authorWebsite=0x7f110733;
-    public static final int library_gradle_retrolambda_classPath=0x7f110734;
-    public static final int library_gradle_retrolambda_isOpenSource=0x7f110735;
-    public static final int library_gradle_retrolambda_libraryDescription=0x7f110736;
-    public static final int library_gradle_retrolambda_libraryName=0x7f110737;
-    public static final int library_gradle_retrolambda_libraryVersion=0x7f110738;
-    public static final int library_gradle_retrolambda_libraryWebsite=0x7f110739;
-    public static final int library_gradle_retrolambda_licenseId=0x7f11073a;
-    public static final int library_gradle_retrolambda_repositoryLink=0x7f11073b;
-    public static final int library_greendao_author=0x7f11073c;
-    public static final int library_greendao_authorWebsite=0x7f11073d;
-    public static final int library_greendao_classPath=0x7f11073e;
-    public static final int library_greendao_isOpenSource=0x7f11073f;
-    public static final int library_greendao_libraryDescription=0x7f110740;
-    public static final int library_greendao_libraryName=0x7f110741;
-    public static final int library_greendao_libraryVersion=0x7f110742;
-    public static final int library_greendao_libraryWebsite=0x7f110743;
-    public static final int library_greendao_licenseId=0x7f110744;
-    public static final int library_greendao_repositoryLink=0x7f110745;
-    public static final int library_gson_author=0x7f110746;
-    public static final int library_gson_classPath=0x7f110747;
-    public static final int library_gson_isOpenSource=0x7f110748;
-    public static final int library_gson_libraryDescription=0x7f110749;
-    public static final int library_gson_libraryName=0x7f11074a;
-    public static final int library_gson_libraryVersion=0x7f11074b;
-    public static final int library_gson_libraryWebsite=0x7f11074c;
-    public static final int library_gson_licenseId=0x7f11074d;
-    public static final int library_gson_owner=0x7f11074e;
-    public static final int library_gson_repositoryLink=0x7f11074f;
-    public static final int library_gson_year=0x7f110750;
-    public static final int library_gsonjodatimeserialisers_author=0x7f110751;
-    public static final int library_gsonjodatimeserialisers_authorWebsite=0x7f110752;
-    public static final int library_gsonjodatimeserialisers_classPath=0x7f110753;
-    public static final int library_gsonjodatimeserialisers_isOpenSource=0x7f110754;
-    public static final int library_gsonjodatimeserialisers_libraryDescription=0x7f110755;
-    public static final int library_gsonjodatimeserialisers_libraryName=0x7f110756;
-    public static final int library_gsonjodatimeserialisers_libraryVersion=0x7f110757;
-    public static final int library_gsonjodatimeserialisers_libraryWebsite=0x7f110758;
-    public static final int library_gsonjodatimeserialisers_licenseId=0x7f110759;
-    public static final int library_gsonjodatimeserialisers_repositoryLink=0x7f11075a;
-    public static final int library_guava_author=0x7f11075b;
-    public static final int library_guava_authorWebsite=0x7f11075c;
-    public static final int library_guava_classPath=0x7f11075d;
-    public static final int library_guava_isOpenSource=0x7f11075e;
-    public static final int library_guava_libraryDescription=0x7f11075f;
-    public static final int library_guava_libraryName=0x7f110760;
-    public static final int library_guava_libraryVersion=0x7f110761;
-    public static final int library_guava_libraryWebsite=0x7f110762;
-    public static final int library_guava_licenseId=0x7f110763;
-    public static final int library_guava_repositoryLink=0x7f110764;
-    public static final int library_hawk_author=0x7f110765;
-    public static final int library_hawk_authorWebsite=0x7f110766;
-    public static final int library_hawk_classPath=0x7f110767;
-    public static final int library_hawk_isOpenSource=0x7f110768;
-    public static final int library_hawk_libraryDescription=0x7f110769;
-    public static final int library_hawk_libraryName=0x7f11076a;
-    public static final int library_hawk_libraryVersion=0x7f11076b;
-    public static final int library_hawk_libraryWebsite=0x7f11076c;
-    public static final int library_hawk_licenseId=0x7f11076d;
-    public static final int library_hawk_repositoryLink=0x7f11076e;
-    public static final int library_hellocharts_author=0x7f11076f;
-    public static final int library_hellocharts_authorWebsite=0x7f110770;
-    public static final int library_hellocharts_classPath=0x7f110771;
-    public static final int library_hellocharts_isOpenSource=0x7f110772;
-    public static final int library_hellocharts_libraryDescription=0x7f110773;
-    public static final int library_hellocharts_libraryName=0x7f110774;
-    public static final int library_hellocharts_libraryVersion=0x7f110775;
-    public static final int library_hellocharts_libraryWebsite=0x7f110776;
-    public static final int library_hellocharts_licenseId=0x7f110777;
-    public static final int library_hellocharts_repositoryLink=0x7f110778;
-    public static final int library_hockeyapp_author=0x7f110779;
-    public static final int library_hockeyapp_authorWebsite=0x7f11077a;
-    public static final int library_hockeyapp_classPath=0x7f11077b;
-    public static final int library_hockeyapp_isOpenSource=0x7f11077c;
-    public static final int library_hockeyapp_libraryDescription=0x7f11077d;
-    public static final int library_hockeyapp_libraryName=0x7f11077e;
-    public static final int library_hockeyapp_libraryVersion=0x7f11077f;
-    public static final int library_hockeyapp_libraryWebsite=0x7f110780;
-    public static final int library_hockeyapp_licenseId=0x7f110781;
-    public static final int library_hockeyapp_owner=0x7f110782;
-    public static final int library_hockeyapp_repositoryLink=0x7f110783;
-    public static final int library_hockeyapp_year=0x7f110784;
-    public static final int library_httpclient_android_author=0x7f110785;
-    public static final int library_httpclient_android_authorWebsite=0x7f110786;
-    public static final int library_httpclient_android_classPath=0x7f110787;
-    public static final int library_httpclient_android_isOpenSource=0x7f110788;
-    public static final int library_httpclient_android_libraryDescription=0x7f110789;
-    public static final int library_httpclient_android_libraryName=0x7f11078a;
-    public static final int library_httpclient_android_libraryVersion=0x7f11078b;
-    public static final int library_httpclient_android_libraryWebsite=0x7f11078c;
-    public static final int library_httpclient_android_licenseId=0x7f11078d;
-    public static final int library_httpclient_android_repositoryLink=0x7f11078e;
-    public static final int library_imagepicker_author=0x7f11078f;
-    public static final int library_imagepicker_authorWebsite=0x7f110790;
-    public static final int library_imagepicker_classPath=0x7f110791;
-    public static final int library_imagepicker_isOpenSource=0x7f110792;
-    public static final int library_imagepicker_libraryDescription=0x7f110793;
-    public static final int library_imagepicker_libraryName=0x7f110794;
-    public static final int library_imagepicker_libraryVersion=0x7f110795;
-    public static final int library_imagepicker_libraryWebsite=0x7f110796;
-    public static final int library_imagepicker_licenseId=0x7f110797;
-    public static final int library_imagepicker_repositoryLink=0x7f110798;
-    public static final int library_intellijannotations_author=0x7f110799;
-    public static final int library_intellijannotations_classPath=0x7f11079a;
-    public static final int library_intellijannotations_isOpenSource=0x7f11079b;
-    public static final int library_intellijannotations_libraryDescription=0x7f11079c;
-    public static final int library_intellijannotations_libraryName=0x7f11079d;
-    public static final int library_intellijannotations_libraryVersion=0x7f11079e;
-    public static final int library_intellijannotations_libraryWebsite=0x7f11079f;
-    public static final int library_intellijannotations_licenseId=0x7f1107a0;
-    public static final int library_intellijannotations_owner=0x7f1107a1;
-    public static final int library_intellijannotations_year=0x7f1107a2;
-    public static final int library_ion_author=0x7f1107a3;
-    public static final int library_ion_authorWebsite=0x7f1107a4;
-    public static final int library_ion_classPath=0x7f1107a5;
-    public static final int library_ion_isOpenSource=0x7f1107a6;
-    public static final int library_ion_libraryDescription=0x7f1107a7;
-    public static final int library_ion_libraryName=0x7f1107a8;
-    public static final int library_ion_libraryVersion=0x7f1107a9;
-    public static final int library_ion_libraryWebsite=0x7f1107aa;
-    public static final int library_ion_licenseId=0x7f1107ab;
-    public static final int library_ion_repositoryLink=0x7f1107ac;
-    public static final int library_jackson_author=0x7f1107ad;
-    public static final int library_jackson_authorWebsite=0x7f1107ae;
-    public static final int library_jackson_classPath=0x7f1107af;
-    public static final int library_jackson_isOpenSource=0x7f1107b0;
-    public static final int library_jackson_libraryDescription=0x7f1107b1;
-    public static final int library_jackson_libraryName=0x7f1107b2;
-    public static final int library_jackson_libraryVersion=0x7f1107b3;
-    public static final int library_jackson_libraryWebsite=0x7f1107b4;
-    public static final int library_jackson_licenseId=0x7f1107b5;
-    public static final int library_jackson_repositoryLink=0x7f1107b6;
-    public static final int library_jmdns_author=0x7f1107b7;
-    public static final int library_jmdns_authorWebsite=0x7f1107b8;
-    public static final int library_jmdns_classPath=0x7f1107b9;
-    public static final int library_jmdns_isOpenSource=0x7f1107ba;
-    public static final int library_jmdns_libraryDescription=0x7f1107bb;
-    public static final int library_jmdns_libraryName=0x7f1107bc;
-    public static final int library_jmdns_libraryVersion=0x7f1107bd;
-    public static final int library_jmdns_libraryWebsite=0x7f1107be;
-    public static final int library_jmdns_licenseId=0x7f1107bf;
-    public static final int library_jmdns_repositoryLink=0x7f1107c0;
-    public static final int library_jodaTime_author=0x7f1107c1;
-    public static final int library_jodaTime_authorWebsite=0x7f1107c2;
-    public static final int library_jodaTime_classPath=0x7f1107c3;
-    public static final int library_jodaTime_isOpenSource=0x7f1107c4;
-    public static final int library_jodaTime_libraryDescription=0x7f1107c5;
-    public static final int library_jodaTime_libraryName=0x7f1107c6;
-    public static final int library_jodaTime_libraryVersion=0x7f1107c7;
-    public static final int library_jodaTime_libraryWebsite=0x7f1107c8;
-    public static final int library_jodaTime_licenseId=0x7f1107c9;
-    public static final int library_jodaTime_owner=0x7f1107ca;
-    public static final int library_jodaTime_repositoryLink=0x7f1107cb;
-    public static final int library_jodaTime_year=0x7f1107cc;
-    public static final int library_jodatimeandroid_author=0x7f1107cd;
-    public static final int library_jodatimeandroid_authorWebsite=0x7f1107ce;
-    public static final int library_jodatimeandroid_classPath=0x7f1107cf;
-    public static final int library_jodatimeandroid_isOpenSource=0x7f1107d0;
-    public static final int library_jodatimeandroid_libraryDescription=0x7f1107d1;
-    public static final int library_jodatimeandroid_libraryName=0x7f1107d2;
-    public static final int library_jodatimeandroid_libraryVersion=0x7f1107d3;
-    public static final int library_jodatimeandroid_libraryWebsite=0x7f1107d4;
-    public static final int library_jodatimeandroid_licenseId=0x7f1107d5;
-    public static final int library_jodatimeandroid_repositoryLink=0x7f1107d6;
-    public static final int library_junrar_author=0x7f1107d7;
-    public static final int library_junrar_authorWebsite=0x7f1107d8;
-    public static final int library_junrar_classPath=0x7f1107d9;
-    public static final int library_junrar_isOpenSource=0x7f1107da;
-    public static final int library_junrar_libraryDescription=0x7f1107db;
-    public static final int library_junrar_libraryName=0x7f1107dc;
-    public static final int library_junrar_libraryVersion=0x7f1107dd;
-    public static final int library_junrar_licenseId=0x7f1107de;
-    public static final int library_junrar_repositoryLink=0x7f1107df;
-    public static final int library_kluent_author=0x7f1107e0;
-    public static final int library_kluent_authorWebsite=0x7f1107e1;
-    public static final int library_kluent_classPath=0x7f1107e2;
-    public static final int library_kluent_isOpenSource=0x7f1107e3;
-    public static final int library_kluent_libraryDescription=0x7f1107e4;
-    public static final int library_kluent_libraryName=0x7f1107e5;
-    public static final int library_kluent_libraryVersion=0x7f1107e6;
-    public static final int library_kluent_libraryWebsite=0x7f1107e7;
-    public static final int library_kluent_licenseId=0x7f1107e8;
-    public static final int library_kluent_repositoryLink=0x7f1107e9;
-    public static final int library_konfetti_author=0x7f1107ea;
-    public static final int library_konfetti_authorWebsite=0x7f1107eb;
-    public static final int library_konfetti_classPath=0x7f1107ec;
-    public static final int library_konfetti_isOpenSource=0x7f1107ed;
-    public static final int library_konfetti_libraryDescription=0x7f1107ee;
-    public static final int library_konfetti_libraryName=0x7f1107ef;
-    public static final int library_konfetti_libraryVersion=0x7f1107f0;
-    public static final int library_konfetti_libraryWebsite=0x7f1107f1;
-    public static final int library_konfetti_licenseContent=0x7f1107f2;
-    public static final int library_konfetti_licenseLink=0x7f1107f3;
-    public static final int library_konfetti_licenseVersion=0x7f1107f4;
-    public static final int library_konfetti_repositoryLink=0x7f1107f5;
-    public static final int library_koptional_author=0x7f1107f6;
-    public static final int library_koptional_authorWebsite=0x7f1107f7;
-    public static final int library_koptional_classPath=0x7f1107f8;
-    public static final int library_koptional_isOpenSource=0x7f1107f9;
-    public static final int library_koptional_libraryDescription=0x7f1107fa;
-    public static final int library_koptional_libraryName=0x7f1107fb;
-    public static final int library_koptional_libraryVersion=0x7f1107fc;
-    public static final int library_koptional_libraryWebsite=0x7f1107fd;
-    public static final int library_koptional_licenseId=0x7f1107fe;
-    public static final int library_koptional_repositoryLink=0x7f1107ff;
-    public static final int library_kotterknife_author=0x7f110800;
-    public static final int library_kotterknife_authorWebsite=0x7f110801;
-    public static final int library_kotterknife_classPath=0x7f110802;
-    public static final int library_kotterknife_isOpenSource=0x7f110803;
-    public static final int library_kotterknife_libraryDescription=0x7f110804;
-    public static final int library_kotterknife_libraryName=0x7f110805;
-    public static final int library_kotterknife_libraryVersion=0x7f110806;
-    public static final int library_kotterknife_libraryWebsite=0x7f110807;
-    public static final int library_kotterknife_licenseId=0x7f110808;
-    public static final int library_kotterknife_repositoryLink=0x7f110809;
-    public static final int library_ldialogs_author=0x7f11080a;
-    public static final int library_ldialogs_authorWebsite=0x7f11080b;
-    public static final int library_ldialogs_classPath=0x7f11080c;
-    public static final int library_ldialogs_isOpenSource=0x7f11080d;
-    public static final int library_ldialogs_libraryDescription=0x7f11080e;
-    public static final int library_ldialogs_libraryName=0x7f11080f;
-    public static final int library_ldialogs_libraryVersion=0x7f110810;
-    public static final int library_ldialogs_libraryWebsite=0x7f110811;
-    public static final int library_ldialogs_licenseId=0x7f110812;
-    public static final int library_ldialogs_repositoryLink=0x7f110813;
-    public static final int library_libphonenumber_author=0x7f110814;
-    public static final int library_libphonenumber_authorWebsite=0x7f110815;
-    public static final int library_libphonenumber_isOpenSource=0x7f110816;
-    public static final int library_libphonenumber_libraryDescription=0x7f110817;
-    public static final int library_libphonenumber_libraryName=0x7f110818;
-    public static final int library_libphonenumber_libraryVersion=0x7f110819;
-    public static final int library_libphonenumber_libraryWebsite=0x7f11081a;
-    public static final int library_libphonenumber_licenseId=0x7f11081b;
-    public static final int library_libphonenumber_repositoryLink=0x7f11081c;
-    public static final int library_libsuperuser_author=0x7f11081d;
-    public static final int library_libsuperuser_authorWebsite=0x7f11081e;
-    public static final int library_libsuperuser_classPath=0x7f11081f;
-    public static final int library_libsuperuser_isOpenSource=0x7f110820;
-    public static final int library_libsuperuser_libraryDescription=0x7f110821;
-    public static final int library_libsuperuser_libraryName=0x7f110822;
-    public static final int library_libsuperuser_libraryVersion=0x7f110823;
-    public static final int library_libsuperuser_libraryWebsite=0x7f110824;
-    public static final int library_libsuperuser_licenseId=0x7f110825;
-    public static final int library_libsuperuser_repositoryLink=0x7f110826;
-    public static final int library_loadsir_author=0x7f110827;
-    public static final int library_loadsir_authorWebsite=0x7f110828;
-    public static final int library_loadsir_classPath=0x7f110829;
-    public static final int library_loadsir_isOpenSource=0x7f11082a;
-    public static final int library_loadsir_libraryDescription=0x7f11082b;
-    public static final int library_loadsir_libraryName=0x7f11082c;
-    public static final int library_loadsir_libraryWebsite=0x7f11082d;
-    public static final int library_loadsir_licenseId=0x7f11082e;
-    public static final int library_loadsir_repositoryLink=0x7f11082f;
-    public static final int library_lottie_author=0x7f110830;
-    public static final int library_lottie_authorWebsite=0x7f110831;
-    public static final int library_lottie_classPath=0x7f110832;
-    public static final int library_lottie_isOpenSource=0x7f110833;
-    public static final int library_lottie_libraryDescription=0x7f110834;
-    public static final int library_lottie_libraryName=0x7f110835;
-    public static final int library_lottie_libraryVersion=0x7f110836;
-    public static final int library_lottie_libraryWebsite=0x7f110837;
-    public static final int library_lottie_licenseId=0x7f110838;
-    public static final int library_lottie_repositoryLink=0x7f110839;
-    public static final int library_magisterjava_author=0x7f11083a;
-    public static final int library_magisterjava_authorWebsite=0x7f11083b;
-    public static final int library_magisterjava_classPath=0x7f11083c;
-    public static final int library_magisterjava_isOpenSource=0x7f11083d;
-    public static final int library_magisterjava_libraryDescription=0x7f11083e;
-    public static final int library_magisterjava_libraryName=0x7f11083f;
-    public static final int library_magisterjava_libraryVersion=0x7f110840;
-    public static final int library_magisterjava_licenseId=0x7f110841;
-    public static final int library_magisterjava_repositoryLink=0x7f110842;
-    public static final int library_material_tap_target_prompt_author=0x7f110843;
-    public static final int library_material_tap_target_prompt_authorWebsite=0x7f110844;
-    public static final int library_material_tap_target_prompt_classPath=0x7f110845;
-    public static final int library_material_tap_target_prompt_isOpenSource=0x7f110846;
-    public static final int library_material_tap_target_prompt_libraryDescription=0x7f110847;
-    public static final int library_material_tap_target_prompt_libraryName=0x7f110848;
-    public static final int library_material_tap_target_prompt_libraryVersion=0x7f110849;
-    public static final int library_material_tap_target_prompt_libraryWebsite=0x7f11084a;
-    public static final int library_material_tap_target_prompt_licenseId=0x7f11084b;
-    public static final int library_material_tap_target_prompt_repositoryLink=0x7f11084c;
-    public static final int library_materialaboutlibrary_author=0x7f11084d;
-    public static final int library_materialaboutlibrary_authorWebsite=0x7f11084e;
-    public static final int library_materialaboutlibrary_classPath=0x7f11084f;
-    public static final int library_materialaboutlibrary_isOpenSource=0x7f110850;
-    public static final int library_materialaboutlibrary_libraryDescription=0x7f110851;
-    public static final int library_materialaboutlibrary_libraryName=0x7f110852;
-    public static final int library_materialaboutlibrary_libraryVersion=0x7f110853;
-    public static final int library_materialaboutlibrary_libraryWebsite=0x7f110854;
-    public static final int library_materialaboutlibrary_licenseId=0x7f110855;
-    public static final int library_materialaboutlibrary_owner=0x7f110856;
-    public static final int library_materialaboutlibrary_repositoryLink=0x7f110857;
-    public static final int library_materialaboutlibrary_year=0x7f110858;
-    public static final int library_materialbadgetextview_author=0x7f110859;
-    public static final int library_materialbadgetextview_authorWebsite=0x7f11085a;
-    public static final int library_materialbadgetextview_classPath=0x7f11085b;
-    public static final int library_materialbadgetextview_isOpenSource=0x7f11085c;
-    public static final int library_materialbadgetextview_libraryDescription=0x7f11085d;
-    public static final int library_materialbadgetextview_libraryName=0x7f11085e;
-    public static final int library_materialbadgetextview_libraryVersion=0x7f11085f;
-    public static final int library_materialbadgetextview_libraryWebsite=0x7f110860;
-    public static final int library_materialbadgetextview_licenseId=0x7f110861;
-    public static final int library_materialbadgetextview_repositoryLink=0x7f110862;
-    public static final int library_materialdesigndimens_author=0x7f110863;
-    public static final int library_materialdesigndimens_authorWebsite=0x7f110864;
-    public static final int library_materialdesigndimens_isOpenSource=0x7f110865;
-    public static final int library_materialdesigndimens_libraryDescription=0x7f110866;
-    public static final int library_materialdesigndimens_libraryName=0x7f110867;
-    public static final int library_materialdesigndimens_libraryVersion=0x7f110868;
-    public static final int library_materialdesigndimens_libraryWebsite=0x7f110869;
-    public static final int library_materialdesigndimens_licenseId=0x7f11086a;
-    public static final int library_materialdesigndimens_repositoryLink=0x7f11086b;
-    public static final int library_materialdialogs_author=0x7f11086c;
-    public static final int library_materialdialogs_authorWebsite=0x7f11086d;
-    public static final int library_materialdialogs_classPath=0x7f11086e;
-    public static final int library_materialdialogs_isOpenSource=0x7f11086f;
-    public static final int library_materialdialogs_libraryDescription=0x7f110870;
-    public static final int library_materialdialogs_libraryName=0x7f110871;
-    public static final int library_materialdialogs_libraryVersion=0x7f110872;
-    public static final int library_materialdialogs_libraryWebsite=0x7f110873;
-    public static final int library_materialdialogs_licenseId=0x7f110874;
-    public static final int library_materialdialogs_owner=0x7f110875;
-    public static final int library_materialdialogs_repositoryLink=0x7f110876;
-    public static final int library_materialdialogs_year=0x7f110877;
-    public static final int library_materialdrawer_author=0x7f110878;
-    public static final int library_materialdrawer_authorWebsite=0x7f110879;
-    public static final int library_materialdrawer_isOpenSource=0x7f11087a;
-    public static final int library_materialdrawer_libraryDescription=0x7f11087b;
-    public static final int library_materialdrawer_libraryName=0x7f11087c;
-    public static final int library_materialdrawer_libraryVersion=0x7f11087d;
-    public static final int library_materialdrawer_libraryWebsite=0x7f11087e;
-    public static final int library_materialdrawer_licenseId=0x7f11087f;
-    public static final int library_materialdrawer_owner=0x7f110880;
-    public static final int library_materialdrawer_repositoryLink=0x7f110881;
-    public static final int library_materialdrawer_year=0x7f110882;
-    public static final int library_materialdrawerkt_author=0x7f110883;
-    public static final int library_materialdrawerkt_authorWebsite=0x7f110884;
-    public static final int library_materialdrawerkt_classPath=0x7f110885;
-    public static final int library_materialdrawerkt_isOpenSource=0x7f110886;
-    public static final int library_materialdrawerkt_libraryDescription=0x7f110887;
-    public static final int library_materialdrawerkt_libraryName=0x7f110888;
-    public static final int library_materialdrawerkt_libraryVersion=0x7f110889;
-    public static final int library_materialdrawerkt_libraryWebsite=0x7f11088a;
-    public static final int library_materialdrawerkt_licenseId=0x7f11088b;
-    public static final int library_materialdrawerkt_owner=0x7f11088c;
-    public static final int library_materialdrawerkt_repositoryLink=0x7f11088d;
-    public static final int library_materialdrawerkt_year=0x7f11088e;
-    public static final int library_materialedittext_author=0x7f11088f;
-    public static final int library_materialedittext_authorWebsite=0x7f110890;
-    public static final int library_materialedittext_classPath=0x7f110891;
-    public static final int library_materialedittext_isOpenSource=0x7f110892;
-    public static final int library_materialedittext_libraryDescription=0x7f110893;
-    public static final int library_materialedittext_libraryName=0x7f110894;
-    public static final int library_materialedittext_libraryVersion=0x7f110895;
-    public static final int library_materialedittext_libraryWebsite=0x7f110896;
-    public static final int library_materialedittext_licenseId=0x7f110897;
-    public static final int library_materialedittext_repositoryLink=0x7f110898;
-    public static final int library_materialicons_author=0x7f110899;
-    public static final int library_materialicons_authorWebsite=0x7f11089a;
-    public static final int library_materialicons_classPath=0x7f11089b;
-    public static final int library_materialicons_isOpenSource=0x7f11089c;
-    public static final int library_materialicons_libraryDescription=0x7f11089d;
-    public static final int library_materialicons_libraryName=0x7f11089e;
-    public static final int library_materialicons_libraryVersion=0x7f11089f;
-    public static final int library_materialicons_libraryWebsite=0x7f1108a0;
-    public static final int library_materialicons_licenseId=0x7f1108a1;
-    public static final int library_materialicons_repositoryLink=0x7f1108a2;
-    public static final int library_materialize_author=0x7f1108a3;
-    public static final int library_materialize_authorWebsite=0x7f1108a4;
-    public static final int library_materialize_isOpenSource=0x7f1108a5;
-    public static final int library_materialize_libraryDescription=0x7f1108a6;
-    public static final int library_materialize_libraryName=0x7f1108a7;
-    public static final int library_materialize_libraryVersion=0x7f1108a8;
-    public static final int library_materialize_libraryWebsite=0x7f1108a9;
-    public static final int library_materialize_licenseId=0x7f1108aa;
-    public static final int library_materialize_owner=0x7f1108ab;
-    public static final int library_materialize_repositoryLink=0x7f1108ac;
-    public static final int library_materialize_year=0x7f1108ad;
-    public static final int library_materialmenu_author=0x7f1108ae;
-    public static final int library_materialmenu_authorWebsite=0x7f1108af;
-    public static final int library_materialmenu_classPath=0x7f1108b0;
-    public static final int library_materialmenu_isOpenSource=0x7f1108b1;
-    public static final int library_materialmenu_libraryDescription=0x7f1108b2;
-    public static final int library_materialmenu_libraryName=0x7f1108b3;
-    public static final int library_materialmenu_libraryVersion=0x7f1108b4;
-    public static final int library_materialmenu_libraryWebsite=0x7f1108b5;
-    public static final int library_materialmenu_licenseId=0x7f1108b6;
-    public static final int library_materialmenu_owner=0x7f1108b7;
-    public static final int library_materialmenu_repositoryLink=0x7f1108b8;
-    public static final int library_materialmenu_year=0x7f1108b9;
-    public static final int library_materialnumberpicker_author=0x7f1108ba;
-    public static final int library_materialnumberpicker_authorWebsite=0x7f1108bb;
-    public static final int library_materialnumberpicker_classPath=0x7f1108bc;
-    public static final int library_materialnumberpicker_isOpenSource=0x7f1108bd;
-    public static final int library_materialnumberpicker_libraryDescription=0x7f1108be;
-    public static final int library_materialnumberpicker_libraryName=0x7f1108bf;
-    public static final int library_materialnumberpicker_libraryVersion=0x7f1108c0;
-    public static final int library_materialnumberpicker_libraryWebsite=0x7f1108c1;
-    public static final int library_materialnumberpicker_licenseId=0x7f1108c2;
-    public static final int library_materialnumberpicker_repositoryLink=0x7f1108c3;
-    public static final int library_materialpreference_author=0x7f1108c4;
-    public static final int library_materialpreference_authorWebsite=0x7f1108c5;
-    public static final int library_materialpreference_classPath=0x7f1108c6;
-    public static final int library_materialpreference_isOpenSource=0x7f1108c7;
-    public static final int library_materialpreference_libraryDescription=0x7f1108c8;
-    public static final int library_materialpreference_libraryName=0x7f1108c9;
-    public static final int library_materialpreference_libraryVersion=0x7f1108ca;
-    public static final int library_materialpreference_libraryWebsite=0x7f1108cb;
-    public static final int library_materialpreference_licenseId=0x7f1108cc;
-    public static final int library_materialpreference_repositoryLink=0x7f1108cd;
-    public static final int library_materialprogressbar_author=0x7f1108ce;
-    public static final int library_materialprogressbar_authorWebsite=0x7f1108cf;
-    public static final int library_materialprogressbar_classPath=0x7f1108d0;
-    public static final int library_materialprogressbar_isOpenSource=0x7f1108d1;
-    public static final int library_materialprogressbar_libraryDescription=0x7f1108d2;
-    public static final int library_materialprogressbar_libraryName=0x7f1108d3;
-    public static final int library_materialprogressbar_libraryVersion=0x7f1108d4;
-    public static final int library_materialprogressbar_libraryWebsite=0x7f1108d5;
-    public static final int library_materialprogressbar_licenseId=0x7f1108d6;
-    public static final int library_materialprogressbar_repositoryLink=0x7f1108d7;
-    public static final int library_materialratingbar_author=0x7f1108d8;
-    public static final int library_materialratingbar_authorWebsite=0x7f1108d9;
-    public static final int library_materialratingbar_classPath=0x7f1108da;
-    public static final int library_materialratingbar_isOpenSource=0x7f1108db;
-    public static final int library_materialratingbar_libraryDescription=0x7f1108dc;
-    public static final int library_materialratingbar_libraryName=0x7f1108dd;
-    public static final int library_materialratingbar_libraryVersion=0x7f1108de;
-    public static final int library_materialratingbar_libraryWebsite=0x7f1108df;
-    public static final int library_materialratingbar_licenseId=0x7f1108e0;
-    public static final int library_materialratingbar_repositoryLink=0x7f1108e1;
-    public static final int library_mixpanelandroid_author=0x7f1108e2;
-    public static final int library_mixpanelandroid_authorWebsite=0x7f1108e3;
-    public static final int library_mixpanelandroid_classPath=0x7f1108e4;
-    public static final int library_mixpanelandroid_isOpenSource=0x7f1108e5;
-    public static final int library_mixpanelandroid_libraryDescription=0x7f1108e6;
-    public static final int library_mixpanelandroid_libraryName=0x7f1108e7;
-    public static final int library_mixpanelandroid_libraryVersion=0x7f1108e8;
-    public static final int library_mixpanelandroid_libraryWebsite=0x7f1108e9;
-    public static final int library_mixpanelandroid_licenseId=0x7f1108ea;
-    public static final int library_mixpanelandroid_repositoryLink=0x7f1108eb;
-    public static final int library_mockito_author=0x7f1108ec;
-    public static final int library_mockito_authorWebsite=0x7f1108ed;
-    public static final int library_mockito_classPath=0x7f1108ee;
-    public static final int library_mockito_isOpenSource=0x7f1108ef;
-    public static final int library_mockito_libraryDescription=0x7f1108f0;
-    public static final int library_mockito_libraryName=0x7f1108f1;
-    public static final int library_mockito_libraryVersion=0x7f1108f2;
-    public static final int library_mockito_libraryWebsite=0x7f1108f3;
-    public static final int library_mockito_licenseId=0x7f1108f4;
-    public static final int library_mockito_repositoryLink=0x7f1108f5;
-    public static final int library_mosby_author=0x7f1108f6;
-    public static final int library_mosby_authorWebsite=0x7f1108f7;
-    public static final int library_mosby_classPath=0x7f1108f8;
-    public static final int library_mosby_isOpenSource=0x7f1108f9;
-    public static final int library_mosby_libraryDescription=0x7f1108fa;
-    public static final int library_mosby_libraryName=0x7f1108fb;
-    public static final int library_mosby_libraryVersion=0x7f1108fc;
-    public static final int library_mosby_libraryWebsite=0x7f1108fd;
-    public static final int library_mosby_licenseId=0x7f1108fe;
-    public static final int library_mosby_repositoryLink=0x7f1108ff;
-    public static final int library_moshi_author=0x7f110900;
-    public static final int library_moshi_authorWebsite=0x7f110901;
-    public static final int library_moshi_classPath=0x7f110902;
-    public static final int library_moshi_isOpenSource=0x7f110903;
-    public static final int library_moshi_libraryDescription=0x7f110904;
-    public static final int library_moshi_libraryName=0x7f110905;
-    public static final int library_moshi_libraryVersion=0x7f110906;
-    public static final int library_moshi_libraryWebsite=0x7f110907;
-    public static final int library_moshi_licenseId=0x7f110908;
-    public static final int library_moshi_repositoryLink=0x7f110909;
-    public static final int library_mpandroidchart_author=0x7f11090a;
-    public static final int library_mpandroidchart_authorWebsite=0x7f11090b;
-    public static final int library_mpandroidchart_classPath=0x7f11090c;
-    public static final int library_mpandroidchart_isOpenSource=0x7f11090d;
-    public static final int library_mpandroidchart_libraryDescription=0x7f11090e;
-    public static final int library_mpandroidchart_libraryName=0x7f11090f;
-    public static final int library_mpandroidchart_libraryVersion=0x7f110910;
-    public static final int library_mpandroidchart_libraryWebsite=0x7f110911;
-    public static final int library_mpandroidchart_licenseId=0x7f110912;
-    public static final int library_mpandroidchart_owner=0x7f110913;
-    public static final int library_mpandroidchart_repositoryLink=0x7f110914;
-    public static final int library_mpandroidchart_year=0x7f110915;
-    public static final int library_multidex_author=0x7f110916;
-    public static final int library_multidex_authorWebsite=0x7f110917;
-    public static final int library_multidex_classPath=0x7f110918;
-    public static final int library_multidex_isOpenSource=0x7f110919;
-    public static final int library_multidex_libraryDescription=0x7f11091a;
-    public static final int library_multidex_libraryName=0x7f11091b;
-    public static final int library_multidex_libraryVersion=0x7f11091c;
-    public static final int library_multidex_libraryWebsite=0x7f11091d;
-    public static final int library_multidex_licenseId=0x7f11091e;
-    public static final int library_multidex_owner=0x7f11091f;
-    public static final int library_multidex_repositoryLink=0x7f110920;
-    public static final int library_multidex_year=0x7f110921;
-    public static final int library_observablescrollview_author=0x7f110922;
-    public static final int library_observablescrollview_authorWebsite=0x7f110923;
-    public static final int library_observablescrollview_classPath=0x7f110924;
-    public static final int library_observablescrollview_isOpenSource=0x7f110925;
-    public static final int library_observablescrollview_libraryDescription=0x7f110926;
-    public static final int library_observablescrollview_libraryName=0x7f110927;
-    public static final int library_observablescrollview_libraryVersion=0x7f110928;
-    public static final int library_observablescrollview_libraryWebsite=0x7f110929;
-    public static final int library_observablescrollview_licenseId=0x7f11092a;
-    public static final int library_observablescrollview_repositoryLink=0x7f11092b;
-    public static final int library_okio_author=0x7f11092c;
-    public static final int library_okio_authorWebsite=0x7f11092d;
-    public static final int library_okio_classPath=0x7f11092e;
-    public static final int library_okio_isOpenSource=0x7f11092f;
-    public static final int library_okio_libraryDescription=0x7f110930;
-    public static final int library_okio_libraryName=0x7f110931;
-    public static final int library_okio_libraryVersion=0x7f110932;
-    public static final int library_okio_libraryWebsite=0x7f110933;
-    public static final int library_okio_licenseId=0x7f110934;
-    public static final int library_okio_owner=0x7f110935;
-    public static final int library_okio_repositoryLink=0x7f110936;
-    public static final int library_okio_year=0x7f110937;
-    public static final int library_ollie_author=0x7f110938;
-    public static final int library_ollie_authorWebsite=0x7f110939;
-    public static final int library_ollie_classPath=0x7f11093a;
-    public static final int library_ollie_isOpenSource=0x7f11093b;
-    public static final int library_ollie_libraryDescription=0x7f11093c;
-    public static final int library_ollie_libraryName=0x7f11093d;
-    public static final int library_ollie_libraryVersion=0x7f11093e;
-    public static final int library_ollie_libraryWebsite=0x7f11093f;
-    public static final int library_ollie_licenseId=0x7f110940;
-    public static final int library_ollie_repositoryLink=0x7f110941;
-    public static final int library_parallaxscroll_author=0x7f110942;
-    public static final int library_parallaxscroll_authorWebsite=0x7f110943;
-    public static final int library_parallaxscroll_classPath=0x7f110944;
-    public static final int library_parallaxscroll_isOpenSource=0x7f110945;
-    public static final int library_parallaxscroll_libraryDescription=0x7f110946;
-    public static final int library_parallaxscroll_libraryName=0x7f110947;
-    public static final int library_parallaxscroll_libraryVersion=0x7f110948;
-    public static final int library_parallaxscroll_libraryWebsite=0x7f110949;
-    public static final int library_parallaxscroll_licenseId=0x7f11094a;
-    public static final int library_parallaxscroll_repositoryLink=0x7f11094b;
-    public static final int library_paymill_author=0x7f11094c;
-    public static final int library_paymill_authorWebsite=0x7f11094d;
-    public static final int library_paymill_classPath=0x7f11094e;
-    public static final int library_paymill_isOpenSource=0x7f11094f;
-    public static final int library_paymill_libraryDescription=0x7f110950;
-    public static final int library_paymill_libraryName=0x7f110951;
-    public static final int library_paymill_libraryVersion=0x7f110952;
-    public static final int library_paymill_libraryWebsite=0x7f110953;
-    public static final int library_paymill_repositoryLink=0x7f110954;
-    public static final int library_permissionsdispatcher_author=0x7f110955;
-    public static final int library_permissionsdispatcher_authorWebsite=0x7f110956;
-    public static final int library_permissionsdispatcher_classPath=0x7f110957;
-    public static final int library_permissionsdispatcher_isOpenSource=0x7f110958;
-    public static final int library_permissionsdispatcher_libraryDescription=0x7f110959;
-    public static final int library_permissionsdispatcher_libraryName=0x7f11095a;
-    public static final int library_permissionsdispatcher_libraryVersion=0x7f11095b;
-    public static final int library_permissionsdispatcher_libraryWebsite=0x7f11095c;
-    public static final int library_permissionsdispatcher_licenseId=0x7f11095d;
-    public static final int library_permissionsdispatcher_repositoryLink=0x7f11095e;
-    public static final int library_photoview_author=0x7f11095f;
-    public static final int library_photoview_authorWebsite=0x7f110960;
-    public static final int library_photoview_classPath=0x7f110961;
-    public static final int library_photoview_isOpenSource=0x7f110962;
-    public static final int library_photoview_libraryDescription=0x7f110963;
-    public static final int library_photoview_libraryName=0x7f110964;
-    public static final int library_photoview_libraryVersion=0x7f110965;
-    public static final int library_photoview_libraryWebsite=0x7f110966;
-    public static final int library_photoview_licenseId=0x7f110967;
-    public static final int library_photoview_owner=0x7f110968;
-    public static final int library_photoview_repositoryLink=0x7f110969;
-    public static final int library_photoview_year=0x7f11096a;
-    public static final int library_priorityjobqueue_author=0x7f11096b;
-    public static final int library_priorityjobqueue_authorWebsite=0x7f11096c;
-    public static final int library_priorityjobqueue_classPath=0x7f11096d;
-    public static final int library_priorityjobqueue_isOpenSource=0x7f11096e;
-    public static final int library_priorityjobqueue_libraryDescription=0x7f11096f;
-    public static final int library_priorityjobqueue_libraryName=0x7f110970;
-    public static final int library_priorityjobqueue_libraryVersion=0x7f110971;
-    public static final int library_priorityjobqueue_libraryWebsite=0x7f110972;
-    public static final int library_priorityjobqueue_licenseId=0x7f110973;
-    public static final int library_priorityjobqueue_repositoryLink=0x7f110974;
-    public static final int library_qcircledesigntemplate_author=0x7f110975;
-    public static final int library_qcircledesigntemplate_authorWebsite=0x7f110976;
-    public static final int library_qcircledesigntemplate_classPath=0x7f110977;
-    public static final int library_qcircledesigntemplate_isOpenSource=0x7f110978;
-    public static final int library_qcircledesigntemplate_libraryDescription=0x7f110979;
-    public static final int library_qcircledesigntemplate_libraryName=0x7f11097a;
-    public static final int library_qcircledesigntemplate_libraryVersion=0x7f11097b;
-    public static final int library_qcircledesigntemplate_libraryWebsite=0x7f11097c;
-    public static final int library_qcircledesigntemplate_licenseId=0x7f11097d;
-    public static final int library_qcircledesigntemplate_repositoryLink=0x7f11097e;
-    public static final int library_qslide_author=0x7f11097f;
-    public static final int library_qslide_authorWebsite=0x7f110980;
-    public static final int library_qslide_isOpenSource=0x7f110981;
-    public static final int library_qslide_libraryDescription=0x7f110982;
-    public static final int library_qslide_libraryName=0x7f110983;
-    public static final int library_qslide_libraryVersion=0x7f110984;
-    public static final int library_qslide_libraryWebsite=0x7f110985;
-    public static final int library_qslide_licenseId=0x7f110986;
-    public static final int library_rapiddecoder_author=0x7f110987;
-    public static final int library_rapiddecoder_authorWebsite=0x7f110988;
-    public static final int library_rapiddecoder_classPath=0x7f110989;
-    public static final int library_rapiddecoder_isOpenSource=0x7f11098a;
-    public static final int library_rapiddecoder_libraryDescription=0x7f11098b;
-    public static final int library_rapiddecoder_libraryName=0x7f11098c;
-    public static final int library_rapiddecoder_libraryVersion=0x7f11098d;
-    public static final int library_rapiddecoder_libraryWebsite=0x7f11098e;
-    public static final int library_rapiddecoder_licenseId=0x7f11098f;
-    public static final int library_rapiddecoder_repositoryLink=0x7f110990;
-    public static final int library_reactivenetwork_author=0x7f110991;
-    public static final int library_reactivenetwork_authorWebsite=0x7f110992;
-    public static final int library_reactivenetwork_classPath=0x7f110993;
-    public static final int library_reactivenetwork_isOpenSource=0x7f110994;
-    public static final int library_reactivenetwork_libraryDescription=0x7f110995;
-    public static final int library_reactivenetwork_libraryName=0x7f110996;
-    public static final int library_reactivenetwork_libraryVersion=0x7f110997;
-    public static final int library_reactivenetwork_libraryWebsite=0x7f110998;
-    public static final int library_reactivenetwork_licenseId=0x7f110999;
-    public static final int library_reactivenetwork_owner=0x7f11099a;
-    public static final int library_reactivenetwork_repositoryLink=0x7f11099b;
-    public static final int library_reactivenetwork_year=0x7f11099c;
-    public static final int library_rebound_author=0x7f11099d;
-    public static final int library_rebound_authorWebsite=0x7f11099e;
-    public static final int library_rebound_classPath=0x7f11099f;
-    public static final int library_rebound_isOpenSource=0x7f1109a0;
-    public static final int library_rebound_libraryDescription=0x7f1109a1;
-    public static final int library_rebound_libraryName=0x7f1109a2;
-    public static final int library_rebound_libraryVersion=0x7f1109a3;
-    public static final int library_rebound_libraryWebsite=0x7f1109a4;
-    public static final int library_rebound_licenseId=0x7f1109a5;
-    public static final int library_rebound_repositoryLink=0x7f1109a6;
-    public static final int library_recyclerview_v7_author=0x7f1109a7;
-    public static final int library_recyclerview_v7_authorWebsite=0x7f1109a8;
-    public static final int library_recyclerview_v7_classPath=0x7f1109a9;
-    public static final int library_recyclerview_v7_isOpenSource=0x7f1109aa;
-    public static final int library_recyclerview_v7_libraryDescription=0x7f1109ab;
-    public static final int library_recyclerview_v7_libraryName=0x7f1109ac;
-    public static final int library_recyclerview_v7_libraryVersion=0x7f1109ad;
-    public static final int library_recyclerview_v7_libraryWebsite=0x7f1109ae;
-    public static final int library_recyclerview_v7_licenseId=0x7f1109af;
-    public static final int library_recyclerview_v7_owner=0x7f1109b0;
-    public static final int library_recyclerview_v7_repositoryLink=0x7f1109b1;
-    public static final int library_recyclerview_v7_year=0x7f1109b2;
-    public static final int library_recyclerviewanimators_author=0x7f1109b3;
-    public static final int library_recyclerviewanimators_authorWebsite=0x7f1109b4;
-    public static final int library_recyclerviewanimators_classPath=0x7f1109b5;
-    public static final int library_recyclerviewanimators_isOpenSource=0x7f1109b6;
-    public static final int library_recyclerviewanimators_libraryDescription=0x7f1109b7;
-    public static final int library_recyclerviewanimators_libraryName=0x7f1109b8;
-    public static final int library_recyclerviewanimators_libraryVersion=0x7f1109b9;
-    public static final int library_recyclerviewanimators_libraryWebsite=0x7f1109ba;
-    public static final int library_recyclerviewanimators_licenseId=0x7f1109bb;
-    public static final int library_recyclerviewanimators_repositoryLink=0x7f1109bc;
-    public static final int library_recyclerviewsnap_author=0x7f1109bd;
-    public static final int library_recyclerviewsnap_authorWebsite=0x7f1109be;
-    public static final int library_recyclerviewsnap_classPath=0x7f1109bf;
-    public static final int library_recyclerviewsnap_isOpenSource=0x7f1109c0;
-    public static final int library_recyclerviewsnap_libraryDescription=0x7f1109c1;
-    public static final int library_recyclerviewsnap_libraryName=0x7f1109c2;
-    public static final int library_recyclerviewsnap_libraryVersion=0x7f1109c3;
-    public static final int library_recyclerviewsnap_libraryWebsite=0x7f1109c4;
-    public static final int library_recyclerviewsnap_licenseId=0x7f1109c5;
-    public static final int library_recyclerviewsnap_repositoryLink=0x7f1109c6;
-    public static final int library_retrolambda_author=0x7f1109c7;
-    public static final int library_retrolambda_authorWebsite=0x7f1109c8;
-    public static final int library_retrolambda_classPath=0x7f1109c9;
-    public static final int library_retrolambda_isOpenSource=0x7f1109ca;
-    public static final int library_retrolambda_libraryDescription=0x7f1109cb;
-    public static final int library_retrolambda_libraryName=0x7f1109cc;
-    public static final int library_retrolambda_libraryVersion=0x7f1109cd;
-    public static final int library_retrolambda_libraryWebsite=0x7f1109ce;
-    public static final int library_retrolambda_licenseId=0x7f1109cf;
-    public static final int library_retrolambda_repositoryLink=0x7f1109d0;
-    public static final int library_robolectric_author=0x7f1109d1;
-    public static final int library_robolectric_authorWebsite=0x7f1109d2;
-    public static final int library_robolectric_classPath=0x7f1109d3;
-    public static final int library_robolectric_isOpenSource=0x7f1109d4;
-    public static final int library_robolectric_libraryDescription=0x7f1109d5;
-    public static final int library_robolectric_libraryName=0x7f1109d6;
-    public static final int library_robolectric_libraryVersion=0x7f1109d7;
-    public static final int library_robolectric_libraryWebsite=0x7f1109d8;
-    public static final int library_robolectric_licenseId=0x7f1109d9;
-    public static final int library_robolectric_repositoryLink=0x7f1109da;
-    public static final int library_robotocalendarview_author=0x7f1109db;
-    public static final int library_robotocalendarview_authorWebsite=0x7f1109dc;
-    public static final int library_robotocalendarview_classPath=0x7f1109dd;
-    public static final int library_robotocalendarview_isOpenSource=0x7f1109de;
-    public static final int library_robotocalendarview_libraryDescription=0x7f1109df;
-    public static final int library_robotocalendarview_libraryName=0x7f1109e0;
-    public static final int library_robotocalendarview_libraryVersion=0x7f1109e1;
-    public static final int library_robotocalendarview_libraryWebsite=0x7f1109e2;
-    public static final int library_robotocalendarview_licenseId=0x7f1109e3;
-    public static final int library_robotocalendarview_repositoryLink=0x7f1109e4;
-    public static final int library_rxandroid_author=0x7f1109e5;
-    public static final int library_rxandroid_authorWebsite=0x7f1109e6;
-    public static final int library_rxandroid_classPath=0x7f1109e7;
-    public static final int library_rxandroid_isOpenSource=0x7f1109e8;
-    public static final int library_rxandroid_libraryDescription=0x7f1109e9;
-    public static final int library_rxandroid_libraryName=0x7f1109ea;
-    public static final int library_rxandroid_libraryVersion=0x7f1109eb;
-    public static final int library_rxandroid_libraryWebsite=0x7f1109ec;
-    public static final int library_rxandroid_licenseId=0x7f1109ed;
-    public static final int library_rxandroid_owner=0x7f1109ee;
-    public static final int library_rxandroid_repositoryLink=0x7f1109ef;
-    public static final int library_rxandroid_year=0x7f1109f0;
-    public static final int library_rxjava_author=0x7f1109f1;
-    public static final int library_rxjava_authorWebsite=0x7f1109f2;
-    public static final int library_rxjava_classPath=0x7f1109f3;
-    public static final int library_rxjava_isOpenSource=0x7f1109f4;
-    public static final int library_rxjava_libraryDescription=0x7f1109f5;
-    public static final int library_rxjava_libraryName=0x7f1109f6;
-    public static final int library_rxjava_libraryVersion=0x7f1109f7;
-    public static final int library_rxjava_libraryWebsite=0x7f1109f8;
-    public static final int library_rxjava_licenseId=0x7f1109f9;
-    public static final int library_rxjava_owner=0x7f1109fa;
-    public static final int library_rxjava_repositoryLink=0x7f1109fb;
-    public static final int library_rxjava_year=0x7f1109fc;
-    public static final int library_rxkotlin_author=0x7f1109fd;
-    public static final int library_rxkotlin_authorWebsite=0x7f1109fe;
-    public static final int library_rxkotlin_classPath=0x7f1109ff;
-    public static final int library_rxkotlin_isOpenSource=0x7f110a00;
-    public static final int library_rxkotlin_libraryDescription=0x7f110a01;
-    public static final int library_rxkotlin_libraryName=0x7f110a02;
-    public static final int library_rxkotlin_libraryVersion=0x7f110a03;
-    public static final int library_rxkotlin_libraryWebsite=0x7f110a04;
-    public static final int library_rxkotlin_licenseId=0x7f110a05;
-    public static final int library_rxkotlin_owner=0x7f110a06;
-    public static final int library_rxkotlin_repositoryLink=0x7f110a07;
-    public static final int library_rxkotlin_year=0x7f110a08;
-    public static final int library_rxlifecycle_author=0x7f110a09;
-    public static final int library_rxlifecycle_authorWebsite=0x7f110a0a;
-    public static final int library_rxlifecycle_classPath=0x7f110a0b;
-    public static final int library_rxlifecycle_isOpenSource=0x7f110a0c;
-    public static final int library_rxlifecycle_libraryDescription=0x7f110a0d;
-    public static final int library_rxlifecycle_libraryName=0x7f110a0e;
-    public static final int library_rxlifecycle_libraryVersion=0x7f110a0f;
-    public static final int library_rxlifecycle_libraryWebsite=0x7f110a10;
-    public static final int library_rxlifecycle_licenseId=0x7f110a11;
-    public static final int library_rxlifecycle_owner=0x7f110a12;
-    public static final int library_rxlifecycle_repositoryLink=0x7f110a13;
-    public static final int library_rxlifecycle_year=0x7f110a14;
-    public static final int library_seismic_author=0x7f110a15;
-    public static final int library_seismic_authorWebsite=0x7f110a16;
-    public static final int library_seismic_classPath=0x7f110a17;
-    public static final int library_seismic_isOpenSource=0x7f110a18;
-    public static final int library_seismic_libraryDescription=0x7f110a19;
-    public static final int library_seismic_libraryName=0x7f110a1a;
-    public static final int library_seismic_libraryVersion=0x7f110a1b;
-    public static final int library_seismic_libraryWebsite=0x7f110a1c;
-    public static final int library_seismic_licenseId=0x7f110a1d;
-    public static final int library_seismic_owner=0x7f110a1e;
-    public static final int library_seismic_repositoryLink=0x7f110a1f;
-    public static final int library_seismic_year=0x7f110a20;
-    public static final int library_side_menu_android_author=0x7f110a21;
-    public static final int library_side_menu_android_authorWebsite=0x7f110a22;
-    public static final int library_side_menu_android_classPath=0x7f110a23;
-    public static final int library_side_menu_android_isOpenSource=0x7f110a24;
-    public static final int library_side_menu_android_libraryDescription=0x7f110a25;
-    public static final int library_side_menu_android_libraryName=0x7f110a26;
-    public static final int library_side_menu_android_libraryVersion=0x7f110a27;
-    public static final int library_side_menu_android_libraryWebsite=0x7f110a28;
-    public static final int library_side_menu_android_licenseId=0x7f110a29;
-    public static final int library_side_menu_android_repositoryLink=0x7f110a2a;
-    public static final int library_simpleratingview_author=0x7f110a2b;
-    public static final int library_simpleratingview_authorWebsite=0x7f110a2c;
-    public static final int library_simpleratingview_classPath=0x7f110a2d;
-    public static final int library_simpleratingview_isOpenSource=0x7f110a2e;
-    public static final int library_simpleratingview_libraryDescription=0x7f110a2f;
-    public static final int library_simpleratingview_libraryName=0x7f110a30;
-    public static final int library_simpleratingview_libraryVersion=0x7f110a31;
-    public static final int library_simpleratingview_libraryWebsite=0x7f110a32;
-    public static final int library_simpleratingview_licenseId=0x7f110a33;
-    public static final int library_simpleratingview_repositoryLink=0x7f110a34;
-    public static final int library_slf4j_author=0x7f110a35;
-    public static final int library_slf4j_authorWebsite=0x7f110a36;
-    public static final int library_slf4j_classPath=0x7f110a37;
-    public static final int library_slf4j_isOpenSource=0x7f110a38;
-    public static final int library_slf4j_libraryDescription=0x7f110a39;
-    public static final int library_slf4j_libraryName=0x7f110a3a;
-    public static final int library_slf4j_libraryVersion=0x7f110a3b;
-    public static final int library_slf4j_libraryWebsite=0x7f110a3c;
-    public static final int library_slf4j_licenseContent=0x7f110a3d;
-    public static final int library_slf4j_licenseId=0x7f110a3e;
-    public static final int library_slf4j_repositoryLink=0x7f110a3f;
-    public static final int library_smarttablayout_author=0x7f110a40;
-    public static final int library_smarttablayout_authorWebsite=0x7f110a41;
-    public static final int library_smarttablayout_classPath=0x7f110a42;
-    public static final int library_smarttablayout_isOpenSource=0x7f110a43;
-    public static final int library_smarttablayout_libraryDescription=0x7f110a44;
-    public static final int library_smarttablayout_libraryName=0x7f110a45;
-    public static final int library_smarttablayout_libraryVersion=0x7f110a46;
-    public static final int library_smarttablayout_libraryWebsite=0x7f110a47;
-    public static final int library_smarttablayout_licenseId=0x7f110a48;
-    public static final int library_smarttablayout_repositoryLink=0x7f110a49;
-    public static final int library_smsverifycatcher_author=0x7f110a4a;
-    public static final int library_smsverifycatcher_authorWebsite=0x7f110a4b;
-    public static final int library_smsverifycatcher_classPath=0x7f110a4c;
-    public static final int library_smsverifycatcher_isOpenSource=0x7f110a4d;
-    public static final int library_smsverifycatcher_libraryDescription=0x7f110a4e;
-    public static final int library_smsverifycatcher_libraryName=0x7f110a4f;
-    public static final int library_smsverifycatcher_libraryVersion=0x7f110a50;
-    public static final int library_smsverifycatcher_libraryWebsite=0x7f110a51;
-    public static final int library_smsverifycatcher_licenseId=0x7f110a52;
-    public static final int library_smsverifycatcher_repositoryLink=0x7f110a53;
-    public static final int library_snackbar_author=0x7f110a54;
-    public static final int library_snackbar_authorWebsite=0x7f110a55;
-    public static final int library_snackbar_classPath=0x7f110a56;
-    public static final int library_snackbar_isOpenSource=0x7f110a57;
-    public static final int library_snackbar_libraryDescription=0x7f110a58;
-    public static final int library_snackbar_libraryName=0x7f110a59;
-    public static final int library_snackbar_libraryVersion=0x7f110a5a;
-    public static final int library_snackbar_libraryWebsite=0x7f110a5b;
-    public static final int library_snackbar_licenseId=0x7f110a5c;
-    public static final int library_snackbar_repositoryLink=0x7f110a5d;
-    public static final int library_spongycastle_author=0x7f110a5e;
-    public static final int library_spongycastle_authorWebsite=0x7f110a5f;
-    public static final int library_spongycastle_classPath=0x7f110a60;
-    public static final int library_spongycastle_isOpenSource=0x7f110a61;
-    public static final int library_spongycastle_libraryDescription=0x7f110a62;
-    public static final int library_spongycastle_libraryName=0x7f110a63;
-    public static final int library_spongycastle_libraryVersion=0x7f110a64;
-    public static final int library_spongycastle_libraryWebsite=0x7f110a65;
-    public static final int library_spongycastle_licenseContent=0x7f110a66;
-    public static final int library_spongycastle_licenseId=0x7f110a67;
-    public static final int library_spongycastle_repositoryLink=0x7f110a68;
-    public static final int library_sshj_author=0x7f110a69;
-    public static final int library_sshj_authorWebsite=0x7f110a6a;
-    public static final int library_sshj_classPath=0x7f110a6b;
-    public static final int library_sshj_isOpenSource=0x7f110a6c;
-    public static final int library_sshj_libraryDescription=0x7f110a6d;
-    public static final int library_sshj_libraryName=0x7f110a6e;
-    public static final int library_sshj_libraryVersion=0x7f110a6f;
-    public static final int library_sshj_libraryWebsite=0x7f110a70;
-    public static final int library_sshj_licenseContent=0x7f110a71;
-    public static final int library_sshj_licenseId=0x7f110a72;
-    public static final int library_sshj_repositoryLink=0x7f110a73;
-    public static final int library_stephenmaterialnumberpicker_author=0x7f110a74;
-    public static final int library_stephenmaterialnumberpicker_authorWebsite=0x7f110a75;
-    public static final int library_stephenmaterialnumberpicker_classPath=0x7f110a76;
-    public static final int library_stephenmaterialnumberpicker_isOpenSource=0x7f110a77;
-    public static final int library_stephenmaterialnumberpicker_libraryDescription=0x7f110a78;
-    public static final int library_stephenmaterialnumberpicker_libraryName=0x7f110a79;
-    public static final int library_stephenmaterialnumberpicker_libraryVersion=0x7f110a7a;
-    public static final int library_stephenmaterialnumberpicker_libraryWebsite=0x7f110a7b;
-    public static final int library_stephenmaterialnumberpicker_licenseId=0x7f110a7c;
-    public static final int library_stephenmaterialnumberpicker_repositoryLink=0x7f110a7d;
-    public static final int library_sticky_headers_recyclerview_author=0x7f110a7e;
-    public static final int library_sticky_headers_recyclerview_authorWebsite=0x7f110a7f;
-    public static final int library_sticky_headers_recyclerview_classPath=0x7f110a80;
-    public static final int library_sticky_headers_recyclerview_isOpenSource=0x7f110a81;
-    public static final int library_sticky_headers_recyclerview_libraryDescription=0x7f110a82;
-    public static final int library_sticky_headers_recyclerview_libraryName=0x7f110a83;
-    public static final int library_sticky_headers_recyclerview_libraryVersion=0x7f110a84;
-    public static final int library_sticky_headers_recyclerview_libraryWebsite=0x7f110a85;
-    public static final int library_sticky_headers_recyclerview_licenseId=0x7f110a86;
-    public static final int library_sticky_headers_recyclerview_repositoryLink=0x7f110a87;
-    public static final int library_stickylistheaders_author=0x7f110a88;
-    public static final int library_stickylistheaders_authorWebsite=0x7f110a89;
-    public static final int library_stickylistheaders_classPath=0x7f110a8a;
-    public static final int library_stickylistheaders_isOpenSource=0x7f110a8b;
-    public static final int library_stickylistheaders_libraryDescription=0x7f110a8c;
-    public static final int library_stickylistheaders_libraryName=0x7f110a8d;
-    public static final int library_stickylistheaders_libraryVersion=0x7f110a8e;
-    public static final int library_stickylistheaders_libraryWebsite=0x7f110a8f;
-    public static final int library_stickylistheaders_licenseId=0x7f110a90;
-    public static final int library_stickylistheaders_repositoryLink=0x7f110a91;
-    public static final int library_stream_author=0x7f110a92;
-    public static final int library_stream_authorWebsite=0x7f110a93;
-    public static final int library_stream_classPath=0x7f110a94;
-    public static final int library_stream_isOpenSource=0x7f110a95;
-    public static final int library_stream_libraryDescription=0x7f110a96;
-    public static final int library_stream_libraryName=0x7f110a97;
-    public static final int library_stream_libraryVersion=0x7f110a98;
-    public static final int library_stream_libraryWebsite=0x7f110a99;
-    public static final int library_stream_licenseId=0x7f110a9a;
-    public static final int library_stream_repositoryLink=0x7f110a9b;
-    public static final int library_subsamplingpdfdecoder_author=0x7f110a9c;
-    public static final int library_subsamplingpdfdecoder_authorWebsite=0x7f110a9d;
-    public static final int library_subsamplingpdfdecoder_classPath=0x7f110a9e;
-    public static final int library_subsamplingpdfdecoder_isOpenSource=0x7f110a9f;
-    public static final int library_subsamplingpdfdecoder_libraryDescription=0x7f110aa0;
-    public static final int library_subsamplingpdfdecoder_libraryName=0x7f110aa1;
-    public static final int library_subsamplingpdfdecoder_libraryVersion=0x7f110aa2;
-    public static final int library_subsamplingpdfdecoder_libraryWebsite=0x7f110aa3;
-    public static final int library_subsamplingpdfdecoder_licenseId=0x7f110aa4;
-    public static final int library_subsamplingpdfdecoder_repositoryLink=0x7f110aa5;
-    public static final int library_subsamplingscaleimageview_author=0x7f110aa6;
-    public static final int library_subsamplingscaleimageview_authorWebsite=0x7f110aa7;
-    public static final int library_subsamplingscaleimageview_classPath=0x7f110aa8;
-    public static final int library_subsamplingscaleimageview_isOpenSource=0x7f110aa9;
-    public static final int library_subsamplingscaleimageview_libraryDescription=0x7f110aaa;
-    public static final int library_subsamplingscaleimageview_libraryName=0x7f110aab;
-    public static final int library_subsamplingscaleimageview_libraryVersion=0x7f110aac;
-    public static final int library_subsamplingscaleimageview_libraryWebsite=0x7f110aad;
-    public static final int library_subsamplingscaleimageview_licenseId=0x7f110aae;
-    public static final int library_subsamplingscaleimageview_repositoryLink=0x7f110aaf;
-    public static final int library_sugarorm_author=0x7f110ab0;
-    public static final int library_sugarorm_authorWebsite=0x7f110ab1;
-    public static final int library_sugarorm_classPath=0x7f110ab2;
-    public static final int library_sugarorm_isOpenSource=0x7f110ab3;
-    public static final int library_sugarorm_libraryDescription=0x7f110ab4;
-    public static final int library_sugarorm_libraryName=0x7f110ab5;
-    public static final int library_sugarorm_libraryVersion=0x7f110ab6;
-    public static final int library_sugarorm_libraryWebsite=0x7f110ab7;
-    public static final int library_sugarorm_repositoryLink=0x7f110ab8;
-    public static final int library_support_annotations_author=0x7f110ab9;
-    public static final int library_support_annotations_authorWebsite=0x7f110aba;
-    public static final int library_support_annotations_classPath=0x7f110abb;
-    public static final int library_support_annotations_isOpenSource=0x7f110abc;
-    public static final int library_support_annotations_libraryDescription=0x7f110abd;
-    public static final int library_support_annotations_libraryName=0x7f110abe;
-    public static final int library_support_annotations_libraryVersion=0x7f110abf;
-    public static final int library_support_annotations_libraryWebsite=0x7f110ac0;
-    public static final int library_support_annotations_licenseId=0x7f110ac1;
-    public static final int library_support_annotations_owner=0x7f110ac2;
-    public static final int library_support_annotations_repositoryLink=0x7f110ac3;
-    public static final int library_support_annotations_year=0x7f110ac4;
-    public static final int library_support_cardview_author=0x7f110ac5;
-    public static final int library_support_cardview_authorWebsite=0x7f110ac6;
-    public static final int library_support_cardview_classPath=0x7f110ac7;
-    public static final int library_support_cardview_isOpenSource=0x7f110ac8;
-    public static final int library_support_cardview_libraryDescription=0x7f110ac9;
-    public static final int library_support_cardview_libraryName=0x7f110aca;
-    public static final int library_support_cardview_libraryVersion=0x7f110acb;
-    public static final int library_support_cardview_libraryWebsite=0x7f110acc;
-    public static final int library_support_cardview_licenseId=0x7f110acd;
-    public static final int library_support_cardview_owner=0x7f110ace;
-    public static final int library_support_cardview_repositoryLink=0x7f110acf;
-    public static final int library_support_cardview_year=0x7f110ad0;
-    public static final int library_support_gridlayout_author=0x7f110ad1;
-    public static final int library_support_gridlayout_authorWebsite=0x7f110ad2;
-    public static final int library_support_gridlayout_classPath=0x7f110ad3;
-    public static final int library_support_gridlayout_isOpenSource=0x7f110ad4;
-    public static final int library_support_gridlayout_libraryDescription=0x7f110ad5;
-    public static final int library_support_gridlayout_libraryName=0x7f110ad6;
-    public static final int library_support_gridlayout_libraryVersion=0x7f110ad7;
-    public static final int library_support_gridlayout_libraryWebsite=0x7f110ad8;
-    public static final int library_support_gridlayout_licenseId=0x7f110ad9;
-    public static final int library_support_gridlayout_owner=0x7f110ada;
-    public static final int library_support_gridlayout_repositoryLink=0x7f110adb;
-    public static final int library_support_gridlayout_year=0x7f110adc;
-    public static final int library_support_v4_author=0x7f110add;
-    public static final int library_support_v4_authorWebsite=0x7f110ade;
-    public static final int library_support_v4_classPath=0x7f110adf;
-    public static final int library_support_v4_isOpenSource=0x7f110ae0;
-    public static final int library_support_v4_libraryDescription=0x7f110ae1;
-    public static final int library_support_v4_libraryName=0x7f110ae2;
-    public static final int library_support_v4_libraryVersion=0x7f110ae3;
-    public static final int library_support_v4_libraryWebsite=0x7f110ae4;
-    public static final int library_support_v4_licenseId=0x7f110ae5;
-    public static final int library_support_v4_owner=0x7f110ae6;
-    public static final int library_support_v4_repositoryLink=0x7f110ae7;
-    public static final int library_support_v4_year=0x7f110ae8;
-    public static final int library_swipemenulistview_author=0x7f110ae9;
-    public static final int library_swipemenulistview_authorWebsite=0x7f110aea;
-    public static final int library_swipemenulistview_classPath=0x7f110aeb;
-    public static final int library_swipemenulistview_isOpenSource=0x7f110aec;
-    public static final int library_swipemenulistview_libraryDescription=0x7f110aed;
-    public static final int library_swipemenulistview_libraryName=0x7f110aee;
-    public static final int library_swipemenulistview_libraryVersion=0x7f110aef;
-    public static final int library_swipemenulistview_libraryWebsite=0x7f110af0;
-    public static final int library_swipemenulistview_licenseId=0x7f110af1;
-    public static final int library_swipemenulistview_repositoryLink=0x7f110af2;
-    public static final int library_switchdatetimepicker_author=0x7f110af3;
-    public static final int library_switchdatetimepicker_authorWebsite=0x7f110af4;
-    public static final int library_switchdatetimepicker_classPath=0x7f110af5;
-    public static final int library_switchdatetimepicker_isOpenSource=0x7f110af6;
-    public static final int library_switchdatetimepicker_libraryDescription=0x7f110af7;
-    public static final int library_switchdatetimepicker_libraryName=0x7f110af8;
-    public static final int library_switchdatetimepicker_libraryVersion=0x7f110af9;
-    public static final int library_switchdatetimepicker_libraryWebsite=0x7f110afa;
-    public static final int library_switchdatetimepicker_licenseId=0x7f110afb;
-    public static final int library_switchdatetimepicker_repositoryLink=0x7f110afc;
-    public static final int library_systembartint_author=0x7f110afd;
-    public static final int library_systembartint_authorWebsite=0x7f110afe;
-    public static final int library_systembartint_classPath=0x7f110aff;
-    public static final int library_systembartint_isOpenSource=0x7f110b00;
-    public static final int library_systembartint_libraryDescription=0x7f110b01;
-    public static final int library_systembartint_libraryName=0x7f110b02;
-    public static final int library_systembartint_libraryVersion=0x7f110b03;
-    public static final int library_systembartint_libraryWebsite=0x7f110b04;
-    public static final int library_systembartint_licenseId=0x7f110b05;
-    public static final int library_systembartint_owner=0x7f110b06;
-    public static final int library_systembartint_repositoryLink=0x7f110b07;
-    public static final int library_systembartint_year=0x7f110b08;
-    public static final int library_tablayouthelper_author=0x7f110b09;
-    public static final int library_tablayouthelper_authorWebsite=0x7f110b0a;
-    public static final int library_tablayouthelper_classPath=0x7f110b0b;
-    public static final int library_tablayouthelper_isOpenSource=0x7f110b0c;
-    public static final int library_tablayouthelper_libraryDescription=0x7f110b0d;
-    public static final int library_tablayouthelper_libraryName=0x7f110b0e;
-    public static final int library_tablayouthelper_libraryVersion=0x7f110b0f;
-    public static final int library_tablayouthelper_libraryWebsite=0x7f110b10;
-    public static final int library_tablayouthelper_licenseId=0x7f110b11;
-    public static final int library_tablayouthelper_repositoryLink=0x7f110b12;
-    public static final int library_textdrawable_author=0x7f110b13;
-    public static final int library_textdrawable_authorWebsite=0x7f110b14;
-    public static final int library_textdrawable_classPath=0x7f110b15;
-    public static final int library_textdrawable_isOpenSource=0x7f110b16;
-    public static final int library_textdrawable_libraryDescription=0x7f110b17;
-    public static final int library_textdrawable_libraryName=0x7f110b18;
-    public static final int library_textdrawable_libraryVersion=0x7f110b19;
-    public static final int library_textdrawable_libraryWebsite=0x7f110b1a;
-    public static final int library_textdrawable_licenseId=0x7f110b1b;
-    public static final int library_textdrawable_repositoryLink=0x7f110b1c;
-    public static final int library_threeten_author=0x7f110b1d;
-    public static final int library_threeten_authorWebsite=0x7f110b1e;
-    public static final int library_threeten_classPath=0x7f110b1f;
-    public static final int library_threeten_isOpenSource=0x7f110b20;
-    public static final int library_threeten_libraryDescription=0x7f110b21;
-    public static final int library_threeten_libraryName=0x7f110b22;
-    public static final int library_threeten_libraryVersion=0x7f110b23;
-    public static final int library_threeten_libraryWebsite=0x7f110b24;
-    public static final int library_threeten_licenseContent=0x7f110b25;
-    public static final int library_threeten_licenseLink=0x7f110b26;
-    public static final int library_threeten_licenseVersion=0x7f110b27;
-    public static final int library_threeten_repositoryLink=0x7f110b28;
-    public static final int library_threetenandroidbackport_author=0x7f110b29;
-    public static final int library_threetenandroidbackport_authorWebsite=0x7f110b2a;
-    public static final int library_threetenandroidbackport_classPath=0x7f110b2b;
-    public static final int library_threetenandroidbackport_isOpenSource=0x7f110b2c;
-    public static final int library_threetenandroidbackport_libraryDescription=0x7f110b2d;
-    public static final int library_threetenandroidbackport_libraryName=0x7f110b2e;
-    public static final int library_threetenandroidbackport_libraryVersion=0x7f110b2f;
-    public static final int library_threetenandroidbackport_libraryWebsite=0x7f110b30;
-    public static final int library_threetenandroidbackport_licenseId=0x7f110b31;
-    public static final int library_threetenandroidbackport_repositoryLink=0x7f110b32;
-    public static final int library_useravatarspack_author=0x7f110b33;
-    public static final int library_useravatarspack_authorWebsite=0x7f110b34;
-    public static final int library_useravatarspack_classPath=0x7f110b35;
-    public static final int library_useravatarspack_isOpenSource=0x7f110b36;
-    public static final int library_useravatarspack_libraryDescription=0x7f110b37;
-    public static final int library_useravatarspack_libraryName=0x7f110b38;
-    public static final int library_useravatarspack_libraryVersion=0x7f110b39;
-    public static final int library_useravatarspack_libraryWebsite=0x7f110b3a;
-    public static final int library_useravatarspack_licenseId=0x7f110b3b;
-    public static final int library_useravatarspack_repositoryLink=0x7f110b3c;
-    public static final int library_volley_author=0x7f110b3d;
-    public static final int library_volley_classPath=0x7f110b3e;
-    public static final int library_volley_isOpenSource=0x7f110b3f;
-    public static final int library_volley_libraryDescription=0x7f110b40;
-    public static final int library_volley_libraryName=0x7f110b41;
-    public static final int library_volley_libraryVersion=0x7f110b42;
-    public static final int library_volley_libraryWebsite=0x7f110b43;
-    public static final int library_volley_licenseId=0x7f110b44;
-    public static final int library_volley_repositoryLink=0x7f110b45;
-    public static final int library_volleyplus_author=0x7f110b46;
-    public static final int library_volleyplus_authorWebsite=0x7f110b47;
-    public static final int library_volleyplus_classPath=0x7f110b48;
-    public static final int library_volleyplus_isOpenSource=0x7f110b49;
-    public static final int library_volleyplus_libraryDescription=0x7f110b4a;
-    public static final int library_volleyplus_libraryName=0x7f110b4b;
-    public static final int library_volleyplus_libraryVersion=0x7f110b4c;
-    public static final int library_volleyplus_libraryWebsite=0x7f110b4d;
-    public static final int library_volleyplus_licenseId=0x7f110b4e;
-    public static final int library_volleyplus_repositoryLink=0x7f110b4f;
-    public static final int library_zxing_author=0x7f110b50;
-    public static final int library_zxing_authorWebsite=0x7f110b51;
-    public static final int library_zxing_classPath=0x7f110b52;
-    public static final int library_zxing_isOpenSource=0x7f110b53;
-    public static final int library_zxing_libraryDescription=0x7f110b54;
-    public static final int library_zxing_libraryName=0x7f110b55;
-    public static final int library_zxing_libraryVersion=0x7f110b56;
-    public static final int library_zxing_libraryWebsite=0x7f110b57;
-    public static final int library_zxing_licenseId=0x7f110b58;
-    public static final int library_zxing_repositoryLink=0x7f110b59;
-    public static final int libray_paymill_licenseContent=0x7f110b5a;
-    public static final int libray_paymill_licenseLink=0x7f110b5b;
-    public static final int libray_paymill_licenseVersion=0x7f110b5c;
-    public static final int libray_sugarorm_licenseContent=0x7f110b5d;
-    public static final int licence=0x7f110b5e;
-    public static final int licencedesc=0x7f110b5f;
-    public static final int license_Apache_2_0_licenseDescription=0x7f110b60;
-    public static final int license_Apache_2_0_licenseName=0x7f110b61;
-    public static final int license_Apache_2_0_licenseShortDescription=0x7f110b62;
-    public static final int license_Apache_2_0_licenseWebsite=0x7f110b63;
-    public static final int license_SIL_OFL_1_1_licenseDescription=0x7f110b64;
-    public static final int license_SIL_OFL_1_1_licenseName=0x7f110b65;
-    public static final int license_SIL_OFL_1_1_licenseShortDescription=0x7f110b66;
-    public static final int license_SIL_OFL_1_1_licenseWebsite=0x7f110b67;
-    public static final int license_bsd_2_licenseDescription=0x7f110b68;
-    public static final int license_bsd_2_licenseName=0x7f110b69;
-    public static final int license_bsd_2_licenseShortDescription=0x7f110b6a;
-    public static final int license_bsd_2_licenseWebsite=0x7f110b6b;
-    public static final int license_bsd_3_licenseDescription=0x7f110b6c;
-    public static final int license_bsd_3_licenseName=0x7f110b6d;
-    public static final int license_bsd_3_licenseShortDescription=0x7f110b6e;
-    public static final int license_bsd_3_licenseWebsite=0x7f110b6f;
-    public static final int license_cc0_10_licenseDescription=0x7f110b70;
-    public static final int license_cc0_10_licenseName=0x7f110b71;
-    public static final int license_cc0_10_licenseShortDescription=0x7f110b72;
-    public static final int license_cc0_10_licenseWebsite=0x7f110b73;
-    public static final int license_cc30_licenseDescription=0x7f110b74;
-    public static final int license_cc30_licenseName=0x7f110b75;
-    public static final int license_cc30_licenseShortDescription=0x7f110b76;
-    public static final int license_cc30_licenseWebsite=0x7f110b77;
-    public static final int license_cc40_licenseDescription=0x7f110b78;
-    public static final int license_cc40_licenseName=0x7f110b79;
-    public static final int license_cc40_licenseShortDescription=0x7f110b7a;
-    public static final int license_cc40_licenseWebsite=0x7f110b7b;
-    public static final int license_gpl_2_0_licenseDescription=0x7f110b7c;
-    public static final int license_gpl_2_0_licenseName=0x7f110b7d;
-    public static final int license_gpl_2_0_licenseShortDescription=0x7f110b7e;
-    public static final int license_gpl_2_0_licenseWebsite=0x7f110b7f;
-    public static final int license_gpl_3_0_licenseDescription=0x7f110b80;
-    public static final int license_gpl_3_0_licenseName=0x7f110b81;
-    public static final int license_gpl_3_0_licenseShortDescription=0x7f110b82;
-    public static final int license_gpl_3_0_licenseWebsite=0x7f110b83;
-    public static final int license_lgpl_2_1_licenseDescription=0x7f110b84;
-    public static final int license_lgpl_2_1_licenseName=0x7f110b85;
-    public static final int license_lgpl_2_1_licenseShortDescription=0x7f110b86;
-    public static final int license_lgpl_2_1_licenseWebsite=0x7f110b87;
-    public static final int license_lgpl_3_0_licenseDescription=0x7f110b88;
-    public static final int license_lgpl_3_0_licenseName=0x7f110b89;
-    public static final int license_lgpl_3_0_licenseShortDescription=0x7f110b8a;
-    public static final int license_lgpl_3_0_licenseWebsite=0x7f110b8b;
-    public static final int license_mit_licenseDescription=0x7f110b8c;
-    public static final int license_mit_licenseName=0x7f110b8d;
-    public static final int license_mit_licenseShortDescription=0x7f110b8e;
-    public static final int license_mit_licenseWebsite=0x7f110b8f;
-    public static final int license_mpl_2_0_licenseDescription=0x7f110b90;
-    public static final int license_mpl_2_0_licenseName=0x7f110b91;
-    public static final int license_mpl_2_0_licenseShortDescription=0x7f110b92;
-    public static final int license_mpl_2_0_licenseWebsite=0x7f110b93;
-    public static final int login=0x7f110b94;
-    public static final int login_now=0x7f110b95;
-    public static final int logout=0x7f110b96;
-    public static final int magic_points=0x7f110b97;
-    public static final int material_drawer_close=0x7f110b98;
-    public static final int material_drawer_open=0x7f110b99;
-    public static final int materialdrawer_lib_version=0x7f110b9a;
-    public static final int materialize_lib_version=0x7f110b9b;
-    public static final int mtrl_chip_close_icon_content_description=0x7f110b9c;
-    public static final int my_profile=0x7f110b9d;
-    public static final int myorders=0x7f110b9e;
-    public static final int myprofile=0x7f110b9f;
-    public static final int next=0x7f110ba0;
-    public static final int noconnection=0x7f110ba1;
-    public static final int ok=0x7f110ba2;
-    public static final int orderdetails=0x7f110ba3;
-    public static final int orders_placed=0x7f110ba4;
-    public static final int password_toggle_content_description=0x7f110ba5;
-    public static final int path_password_eye=0x7f110ba6;
-    public static final int path_password_eye_mask_strike_through=0x7f110ba7;
-    public static final int path_password_eye_mask_visible=0x7f110ba8;
-    public static final int path_password_strike_through=0x7f110ba9;
-    public static final int petName=0x7f110baa;
-    public static final int play_again=0x7f110bab;
-    public static final int play_again_desc=0x7f110bac;
-    public static final int please_write=0x7f110bad;
-    public static final int project_id=0x7f110bae;
-    public static final int rate=0x7f110baf;
-    public static final int register=0x7f110bb0;
-    public static final int register_now=0x7f110bb1;
-    public static final int registermail1=0x7f110bb2;
-    public static final int search_menu_title=0x7f110bb3;
-    public static final int select_category=0x7f110bb4;
-    public static final int select_image=0x7f110bb5;
-    public static final int select_picture_title=0x7f110bb6;
-    public static final int send_feedback=0x7f110bb7;
-    public static final int send_feedback_two=0x7f110bb8;
-    public static final int send_otp=0x7f110bb9;
-    public static final int send_password1=0x7f110bba;
-    public static final int send_password2=0x7f110bbb;
-    public static final int skip=0x7f110bbc;
-    public static final int slide_1_desc=0x7f110bbd;
-    public static final int slide_1_title=0x7f110bbe;
-    public static final int slide_2_desc=0x7f110bbf;
-    public static final int slide_2_title=0x7f110bc0;
-    public static final int slide_3_desc=0x7f110bc1;
-    public static final int slide_3_title=0x7f110bc2;
-    public static final int slide_4_desc=0x7f110bc3;
-    public static final int slide_4_title=0x7f110bc4;
-    public static final int space=0x7f110bc5;
-    public static final int start=0x7f110bc6;
-    public static final int status_bar_notification_info_overflow=0x7f110bc7;
-    public static final int system_info=0x7f110bc8;
-    public static final int title_activity_main=0x7f110bc9;
-    public static final int title_activity_process_order=0x7f110bca;
-    public static final int title_activity_registration=0x7f110bcb;
-    public static final int title_activity_welcome=0x7f110bcc;
-    public static final int update=0x7f110bcd;
-    public static final int update_details=0x7f110bce;
-    public static final int version=0x7f110bcf;
-    public static final int website=0x7f110bd0;
-    public static final int wishlist=0x7f110bd1;
-    public static final int your_input=0x7f110bd2;
+    public static final int cod=0x7f11002e;
+    public static final int common_google_play_services_enable_button=0x7f11002f;
+    public static final int common_google_play_services_enable_text=0x7f110030;
+    public static final int common_google_play_services_enable_title=0x7f110031;
+    public static final int common_google_play_services_install_button=0x7f110032;
+    public static final int common_google_play_services_install_text=0x7f110033;
+    public static final int common_google_play_services_install_title=0x7f110034;
+    public static final int common_google_play_services_notification_channel_name=0x7f110035;
+    public static final int common_google_play_services_notification_ticker=0x7f110036;
+    public static final int common_google_play_services_unknown_issue=0x7f110037;
+    public static final int common_google_play_services_unsupported_text=0x7f110038;
+    public static final int common_google_play_services_update_button=0x7f110039;
+    public static final int common_google_play_services_update_text=0x7f11003a;
+    public static final int common_google_play_services_update_title=0x7f11003b;
+    public static final int common_google_play_services_updating_text=0x7f11003c;
+    public static final int common_google_play_services_wear_update_text=0x7f11003d;
+    public static final int common_open_on_phone=0x7f11003e;
+    public static final int common_signin_button_text=0x7f11003f;
+    public static final int common_signin_button_text_long=0x7f110040;
+    public static final int crossfadedrawerlayout_lib_version=0x7f110041;
+    public static final int default_web_client_id=0x7f110042;
+    public static final int define_AboutLibraries=0x7f110043;
+    public static final int define_AndroidIconics=0x7f110044;
+    public static final int define_crossfadedrawerlayout=0x7f110045;
+    public static final int define_fastadapter=0x7f110046;
+    public static final int define_int_ActionBarPullToRefresh=0x7f110047;
+    public static final int define_int_ActionBarSherlock=0x7f110048;
+    public static final int define_int_ActiveAndroid=0x7f110049;
+    public static final int define_int_AdjustableImageView=0x7f11004a;
+    public static final int define_int_AndroidRandomColor=0x7f11004b;
+    public static final int define_int_AndroidTimesSquare=0x7f11004c;
+    public static final int define_int_AndroidViewPagerIndicator=0x7f11004d;
+    public static final int define_int_AppCompat=0x7f11004e;
+    public static final int define_int_Butterknife=0x7f11004f;
+    public static final int define_int_CircleImageView=0x7f110050;
+    public static final int define_int_CircularImageView=0x7f110051;
+    public static final int define_int_ClansFloatingActionButton=0x7f110052;
+    public static final int define_int_Crashlytics=0x7f110053;
+    public static final int define_int_Crouton=0x7f110054;
+    public static final int define_int_Dagger=0x7f110055;
+    public static final int define_int_Dagger2=0x7f110056;
+    public static final int define_int_ErrorView=0x7f110057;
+    public static final int define_int_Eventbus=0x7f110058;
+    public static final int define_int_FButton=0x7f110059;
+    public static final int define_int_Facebook=0x7f11005a;
+    public static final int define_int_FloatingActionButton=0x7f11005b;
+    public static final int define_int_GooglePlayServices=0x7f11005c;
+    public static final int define_int_HoloGraphLibrary=0x7f11005d;
+    public static final int define_int_Icepick=0x7f11005e;
+    public static final int define_int_JCIFS=0x7f11005f;
+    public static final int define_int_JScience=0x7f110060;
+    public static final int define_int_JavaAesCrypto=0x7f110061;
+    public static final int define_int_Jsoup=0x7f110062;
+    public static final int define_int_LeakCanary=0x7f110063;
+    public static final int define_int_LoganSquare=0x7f110064;
+    public static final int define_int_MarkView=0x7f110065;
+    public static final int define_int_MaterialRangeBar=0x7f110066;
+    public static final int define_int_MaterialishProgress=0x7f110067;
+    public static final int define_int_NanoTasks=0x7f110068;
+    public static final int define_int_NineOldAndroids=0x7f110069;
+    public static final int define_int_OkHttp=0x7f11006a;
+    public static final int define_int_Otto=0x7f11006b;
+    public static final int define_int_PagerSlidingTabStrip=0x7f11006c;
+    public static final int define_int_Paper=0x7f11006d;
+    public static final int define_int_Paralloid=0x7f11006e;
+    public static final int define_int_Picasso=0x7f11006f;
+    public static final int define_int_ProcessPhoenix=0x7f110070;
+    public static final int define_int_QuickReturn=0x7f110071;
+    public static final int define_int_Realm=0x7f110072;
+    public static final int define_int_RealmRecyclerView=0x7f110073;
+    public static final int define_int_RealmSearchView=0x7f110074;
+    public static final int define_int_RecyclerRenderers=0x7f110075;
+    public static final int define_int_Retrofit=0x7f110076;
+    public static final int define_int_RxBinding=0x7f110077;
+    public static final int define_int_ShowcaseView=0x7f110078;
+    public static final int define_int_SuperRecyclerView=0x7f110079;
+    public static final int define_int_SupportLibrary=0x7f11007a;
+    public static final int define_int_Timber=0x7f11007b;
+    public static final int define_int_Unsplash=0x7f11007c;
+    public static final int define_int_WilliamChart=0x7f11007d;
+    public static final int define_int_acra=0x7f11007e;
+    public static final int define_int_ahbottomnavigation=0x7f11007f;
+    public static final int define_int_alexei=0x7f110080;
+    public static final int define_int_amulyakharetextdrawable=0x7f110081;
+    public static final int define_int_androidBetterpickers=0x7f110082;
+    public static final int define_int_androidIconify=0x7f110083;
+    public static final int define_int_androidStyledDialogs=0x7f110084;
+    public static final int define_int_android_advancedrecyclerview=0x7f110085;
+    public static final int define_int_android_floating_action_button=0x7f110086;
+    public static final int define_int_android_gif_drawable=0x7f110087;
+    public static final int define_int_android_image_cropper=0x7f110088;
+    public static final int define_int_android_job=0x7f110089;
+    public static final int define_int_android_maps_utils=0x7f11008a;
+    public static final int define_int_android_platlogo=0x7f11008b;
+    public static final int define_int_android_shape_imageview=0x7f11008c;
+    public static final int define_int_android_textview_linkbuilder=0x7f11008d;
+    public static final int define_int_android_upload_service=0x7f11008e;
+    public static final int define_int_androidannotations=0x7f11008f;
+    public static final int define_int_androidasyncservice=0x7f110090;
+    public static final int define_int_androidcountrypicker=0x7f110091;
+    public static final int define_int_androideasingfunctions=0x7f110092;
+    public static final int define_int_androidfillableloaders=0x7f110093;
+    public static final int define_int_androidflowlayout=0x7f110094;
+    public static final int define_int_androidholocolorpicker=0x7f110095;
+    public static final int define_int_androidin_appbillingv3=0x7f110096;
+    public static final int define_int_androidmaterialintroscreen=0x7f110097;
+    public static final int define_int_androidroundcornerprogressbar=0x7f110098;
+    public static final int define_int_androidslidinguppanel=0x7f110099;
+    public static final int define_int_androidstrictmodecompat=0x7f11009a;
+    public static final int define_int_androidswipelayout=0x7f11009b;
+    public static final int define_int_androiduniversalimageloader=0x7f11009c;
+    public static final int define_int_androidviewanimations=0x7f11009d;
+    public static final int define_int_androidviewhover=0x7f11009e;
+    public static final int define_int_anko=0x7f11009f;
+    public static final int define_int_apachemina=0x7f1100a0;
+    public static final int define_int_appauth=0x7f1100a1;
+    public static final int define_int_appcompat_v7=0x7f1100a2;
+    public static final int define_int_appintro=0x7f1100a3;
+    public static final int define_int_aspectratioimageview=0x7f1100a4;
+    public static final int define_int_assent=0x7f1100a5;
+    public static final int define_int_autodispose=0x7f1100a6;
+    public static final int define_int_avatar_view=0x7f1100a7;
+    public static final int define_int_betterlinkmovementmethod=0x7f1100a8;
+    public static final int define_int_bottomsheet=0x7f1100a9;
+    public static final int define_int_bridge=0x7f1100aa;
+    public static final int define_int_caldroid=0x7f1100ab;
+    public static final int define_int_calligraphy=0x7f1100ac;
+    public static final int define_int_cardlibrary=0x7f1100ad;
+    public static final int define_int_cardsuiForAndroid=0x7f1100ae;
+    public static final int define_int_circleindicator=0x7f1100af;
+    public static final int define_int_cloudrail=0x7f1100b0;
+    public static final int define_int_colorpicker=0x7f1100b1;
+    public static final int define_int_colorpickercollection=0x7f1100b2;
+    public static final int define_int_commonscompress=0x7f1100b3;
+    public static final int define_int_commonscsv=0x7f1100b4;
+    public static final int define_int_commonsio=0x7f1100b5;
+    public static final int define_int_commonslang3=0x7f1100b6;
+    public static final int define_int_concurrenttrees=0x7f1100b7;
+    public static final int define_int_constraint_layout=0x7f1100b8;
+    public static final int define_int_context_menu_android=0x7f1100b9;
+    public static final int define_int_customactivityoncrash=0x7f1100ba;
+    public static final int define_int_customtabshelper=0x7f1100bb;
+    public static final int define_int_dav4jvm=0x7f1100bc;
+    public static final int define_int_dbflow=0x7f1100bd;
+    public static final int define_int_ddplist=0x7f1100be;
+    public static final int define_int_design=0x7f1100bf;
+    public static final int define_int_discreteseekbar=0x7f1100c0;
+    public static final int define_int_dynamicrecyclerview=0x7f1100c1;
+    public static final int define_int_earl=0x7f1100c2;
+    public static final int define_int_easy_pref=0x7f1100c3;
+    public static final int define_int_easyandroidanimations=0x7f1100c4;
+    public static final int define_int_eclipsepahoandroidservice=0x7f1100c5;
+    public static final int define_int_emoji=0x7f1100c6;
+    public static final int define_int_encryption=0x7f1100c7;
+    public static final int define_int_epoxy=0x7f1100c8;
+    public static final int define_int_exomedia=0x7f1100c9;
+    public static final int define_int_exoplayer=0x7f1100ca;
+    public static final int define_int_fakeit=0x7f1100cb;
+    public static final int define_int_flexboxlayout=0x7f1100cc;
+    public static final int define_int_floatingsearchview=0x7f1100cd;
+    public static final int define_int_foursquareAndroidOauth=0x7f1100ce;
+    public static final int define_int_ftpserver=0x7f1100cf;
+    public static final int define_int_glide=0x7f1100d0;
+    public static final int define_int_gradle_retrolambda=0x7f1100d1;
+    public static final int define_int_greendao=0x7f1100d2;
+    public static final int define_int_gson=0x7f1100d3;
+    public static final int define_int_gsonjodatimeserialisers=0x7f1100d4;
+    public static final int define_int_guava=0x7f1100d5;
+    public static final int define_int_hawk=0x7f1100d6;
+    public static final int define_int_hellocharts=0x7f1100d7;
+    public static final int define_int_hockeyapp=0x7f1100d8;
+    public static final int define_int_httpclient_android=0x7f1100d9;
+    public static final int define_int_imagepicker=0x7f1100da;
+    public static final int define_int_intellijannotations=0x7f1100db;
+    public static final int define_int_ion=0x7f1100dc;
+    public static final int define_int_jackson=0x7f1100dd;
+    public static final int define_int_jmdns=0x7f1100de;
+    public static final int define_int_jodaTime=0x7f1100df;
+    public static final int define_int_jodatimeandroid=0x7f1100e0;
+    public static final int define_int_junrar=0x7f1100e1;
+    public static final int define_int_kluent=0x7f1100e2;
+    public static final int define_int_konfetti=0x7f1100e3;
+    public static final int define_int_koptional=0x7f1100e4;
+    public static final int define_int_kotterknife=0x7f1100e5;
+    public static final int define_int_ldialogs=0x7f1100e6;
+    public static final int define_int_libphonenumber=0x7f1100e7;
+    public static final int define_int_libsuperuser=0x7f1100e8;
+    public static final int define_int_loadsir=0x7f1100e9;
+    public static final int define_int_lottie=0x7f1100ea;
+    public static final int define_int_magisterjava=0x7f1100eb;
+    public static final int define_int_material_tap_target_prompt=0x7f1100ec;
+    public static final int define_int_materialaboutlibrary=0x7f1100ed;
+    public static final int define_int_materialbadgetextview=0x7f1100ee;
+    public static final int define_int_materialdesigndimens=0x7f1100ef;
+    public static final int define_int_materialdialogs=0x7f1100f0;
+    public static final int define_int_materialdrawerkt=0x7f1100f1;
+    public static final int define_int_materialedittext=0x7f1100f2;
+    public static final int define_int_materialicons=0x7f1100f3;
+    public static final int define_int_materialmenu=0x7f1100f4;
+    public static final int define_int_materialnumberpicker=0x7f1100f5;
+    public static final int define_int_materialpreference=0x7f1100f6;
+    public static final int define_int_materialprogressbar=0x7f1100f7;
+    public static final int define_int_materialratingbar=0x7f1100f8;
+    public static final int define_int_mixpanelandroid=0x7f1100f9;
+    public static final int define_int_mockito=0x7f1100fa;
+    public static final int define_int_mosby=0x7f1100fb;
+    public static final int define_int_moshi=0x7f1100fc;
+    public static final int define_int_mpandroidchart=0x7f1100fd;
+    public static final int define_int_multidex=0x7f1100fe;
+    public static final int define_int_observablescrollview=0x7f1100ff;
+    public static final int define_int_okio=0x7f110100;
+    public static final int define_int_ollie=0x7f110101;
+    public static final int define_int_parallaxscroll=0x7f110102;
+    public static final int define_int_paymill=0x7f110103;
+    public static final int define_int_permissionsdispatcher=0x7f110104;
+    public static final int define_int_photoview=0x7f110105;
+    public static final int define_int_priorityjobqueue=0x7f110106;
+    public static final int define_int_qcircledesigntemplate=0x7f110107;
+    public static final int define_int_qslide=0x7f110108;
+    public static final int define_int_rapiddecoder=0x7f110109;
+    public static final int define_int_reactivenetwork=0x7f11010a;
+    public static final int define_int_rebound=0x7f11010b;
+    public static final int define_int_recyclerview_v7=0x7f11010c;
+    public static final int define_int_recyclerviewanimators=0x7f11010d;
+    public static final int define_int_recyclerviewsnap=0x7f11010e;
+    public static final int define_int_retrolambda=0x7f11010f;
+    public static final int define_int_robolectric=0x7f110110;
+    public static final int define_int_robotocalendarview=0x7f110111;
+    public static final int define_int_rxandroid=0x7f110112;
+    public static final int define_int_rxjava=0x7f110113;
+    public static final int define_int_rxkotlin=0x7f110114;
+    public static final int define_int_rxlifecycle=0x7f110115;
+    public static final int define_int_seismic=0x7f110116;
+    public static final int define_int_side_menu_android=0x7f110117;
+    public static final int define_int_simpleratingview=0x7f110118;
+    public static final int define_int_slf4j=0x7f110119;
+    public static final int define_int_smarttablayout=0x7f11011a;
+    public static final int define_int_smsverifycatcher=0x7f11011b;
+    public static final int define_int_snackbar=0x7f11011c;
+    public static final int define_int_spongycastle=0x7f11011d;
+    public static final int define_int_sshj=0x7f11011e;
+    public static final int define_int_stephenmaterialnumberpicker=0x7f11011f;
+    public static final int define_int_sticky_headers_recyclerview=0x7f110120;
+    public static final int define_int_stickylistheaders=0x7f110121;
+    public static final int define_int_stream=0x7f110122;
+    public static final int define_int_subsamplingpdfdecoder=0x7f110123;
+    public static final int define_int_subsamplingscaleimageview=0x7f110124;
+    public static final int define_int_sugarorm=0x7f110125;
+    public static final int define_int_support_annotations=0x7f110126;
+    public static final int define_int_support_cardview=0x7f110127;
+    public static final int define_int_support_gridlayout=0x7f110128;
+    public static final int define_int_support_v4=0x7f110129;
+    public static final int define_int_swipemenulistview=0x7f11012a;
+    public static final int define_int_switchdatetimepicker=0x7f11012b;
+    public static final int define_int_systembartint=0x7f11012c;
+    public static final int define_int_tablayouthelper=0x7f11012d;
+    public static final int define_int_textdrawable=0x7f11012e;
+    public static final int define_int_threeten=0x7f11012f;
+    public static final int define_int_threetenandroidbackport=0x7f110130;
+    public static final int define_int_useravatarspack=0x7f110131;
+    public static final int define_int_volley=0x7f110132;
+    public static final int define_int_volleyplus=0x7f110133;
+    public static final int define_int_zxing=0x7f110134;
+    public static final int define_license_Apache_2_0=0x7f110135;
+    public static final int define_license_SIL_OFL_1_1=0x7f110136;
+    public static final int define_license_bsd_2=0x7f110137;
+    public static final int define_license_bsd_3=0x7f110138;
+    public static final int define_license_cc0_10=0x7f110139;
+    public static final int define_license_cc30=0x7f11013a;
+    public static final int define_license_cc40=0x7f11013b;
+    public static final int define_license_gpl_2_0=0x7f11013c;
+    public static final int define_license_gpl_3_0=0x7f11013d;
+    public static final int define_license_lgpl_2_1=0x7f11013e;
+    public static final int define_license_lgpl_3_0=0x7f11013f;
+    public static final int define_license_mit=0x7f110140;
+    public static final int define_license_mpl_2_0=0x7f110141;
+    public static final int define_materialdrawer=0x7f110142;
+    public static final int define_materialize=0x7f110143;
+    public static final int domain=0x7f110144;
+    public static final int dummy_button=0x7f110145;
+    public static final int dummy_content=0x7f110146;
+    public static final int ext_support_lib_version=0x7f110147;
+    public static final int fab_transformation_scrim_behavior=0x7f110148;
+    public static final int fab_transformation_sheet_behavior=0x7f110149;
+    public static final int fastadapter_lib_version=0x7f11014a;
+    public static final int feedback=0x7f11014b;
+    public static final int feedback_mail_subject=0x7f11014c;
+    public static final int file_name_device_info=0x7f11014d;
+    public static final int file_name_device_log=0x7f11014e;
+    public static final int firebase_database_url=0x7f11014f;
+    public static final int forget=0x7f110150;
+    public static final int forgot=0x7f110151;
+    public static final int from=0x7f110152;
+    public static final int gcm_defaultSenderId=0x7f110153;
+    public static final int google_api_key=0x7f110154;
+    public static final int google_app_id=0x7f110155;
+    public static final int google_crash_reporting_api_key=0x7f110156;
+    public static final int google_storage_bucket=0x7f110157;
+    public static final int hello_world=0x7f110158;
+    public static final int help=0x7f110159;
+    public static final int helpcentre=0x7f11015a;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f11015b;
+    public static final int home=0x7f11015c;
+    public static final int iconics_lib_version=0x7f11015d;
+    public static final int info_fedback_legal_and=0x7f11015e;
+    public static final int info_fedback_legal_log_data=0x7f11015f;
+    public static final int info_fedback_legal_start=0x7f110160;
+    public static final int info_fedback_legal_system_info=0x7f110161;
+    public static final int info_fedback_legal_will_be_sent=0x7f110162;
+    public static final int items_incart=0x7f110163;
+    public static final int library_AboutLibraries_author=0x7f110164;
+    public static final int library_AboutLibraries_authorWebsite=0x7f110165;
+    public static final int library_AboutLibraries_isOpenSource=0x7f110166;
+    public static final int library_AboutLibraries_libraryDescription=0x7f110167;
+    public static final int library_AboutLibraries_libraryName=0x7f110168;
+    public static final int library_AboutLibraries_libraryVersion=0x7f110169;
+    public static final int library_AboutLibraries_libraryWebsite=0x7f11016a;
+    public static final int library_AboutLibraries_licenseId=0x7f11016b;
+    public static final int library_AboutLibraries_owner=0x7f11016c;
+    public static final int library_AboutLibraries_repositoryLink=0x7f11016d;
+    public static final int library_AboutLibraries_year=0x7f11016e;
+    public static final int library_ActionBarPullToRefresh_author=0x7f11016f;
+    public static final int library_ActionBarPullToRefresh_classPath=0x7f110170;
+    public static final int library_ActionBarPullToRefresh_isOpenSource=0x7f110171;
+    public static final int library_ActionBarPullToRefresh_libraryDescription=0x7f110172;
+    public static final int library_ActionBarPullToRefresh_libraryName=0x7f110173;
+    public static final int library_ActionBarPullToRefresh_libraryVersion=0x7f110174;
+    public static final int library_ActionBarPullToRefresh_libraryWebsite=0x7f110175;
+    public static final int library_ActionBarPullToRefresh_licenseId=0x7f110176;
+    public static final int library_ActionBarPullToRefresh_owner=0x7f110177;
+    public static final int library_ActionBarPullToRefresh_repositoryLink=0x7f110178;
+    public static final int library_ActionBarPullToRefresh_year=0x7f110179;
+    public static final int library_ActionBarSherlock_author=0x7f11017a;
+    public static final int library_ActionBarSherlock_authorWebsite=0x7f11017b;
+    public static final int library_ActionBarSherlock_classPath=0x7f11017c;
+    public static final int library_ActionBarSherlock_isOpenSource=0x7f11017d;
+    public static final int library_ActionBarSherlock_libraryDescription=0x7f11017e;
+    public static final int library_ActionBarSherlock_libraryName=0x7f11017f;
+    public static final int library_ActionBarSherlock_libraryVersion=0x7f110180;
+    public static final int library_ActionBarSherlock_libraryWebsite=0x7f110181;
+    public static final int library_ActionBarSherlock_licenseId=0x7f110182;
+    public static final int library_ActionBarSherlock_licenseVersion=0x7f110183;
+    public static final int library_ActionBarSherlock_owner=0x7f110184;
+    public static final int library_ActionBarSherlock_repositoryLink=0x7f110185;
+    public static final int library_ActionBarSherlock_year=0x7f110186;
+    public static final int library_ActiveAndroid_author=0x7f110187;
+    public static final int library_ActiveAndroid_authorWebsite=0x7f110188;
+    public static final int library_ActiveAndroid_classPath=0x7f110189;
+    public static final int library_ActiveAndroid_isOpenSource=0x7f11018a;
+    public static final int library_ActiveAndroid_libraryDescription=0x7f11018b;
+    public static final int library_ActiveAndroid_libraryName=0x7f11018c;
+    public static final int library_ActiveAndroid_libraryVersion=0x7f11018d;
+    public static final int library_ActiveAndroid_libraryWebsite=0x7f11018e;
+    public static final int library_ActiveAndroid_licenseId=0x7f11018f;
+    public static final int library_ActiveAndroid_owner=0x7f110190;
+    public static final int library_ActiveAndroid_repositoryLink=0x7f110191;
+    public static final int library_ActiveAndroid_year=0x7f110192;
+    public static final int library_AdjustableImageView_author=0x7f110193;
+    public static final int library_AdjustableImageView_authorWebsite=0x7f110194;
+    public static final int library_AdjustableImageView_classPath=0x7f110195;
+    public static final int library_AdjustableImageView_isOpenSource=0x7f110196;
+    public static final int library_AdjustableImageView_libraryDescription=0x7f110197;
+    public static final int library_AdjustableImageView_libraryName=0x7f110198;
+    public static final int library_AdjustableImageView_libraryVersion=0x7f110199;
+    public static final int library_AdjustableImageView_libraryWebsite=0x7f11019a;
+    public static final int library_AdjustableImageView_licenseId=0x7f11019b;
+    public static final int library_AdjustableImageView_repositoryLink=0x7f11019c;
+    public static final int library_AndroidIconics_author=0x7f11019d;
+    public static final int library_AndroidIconics_authorWebsite=0x7f11019e;
+    public static final int library_AndroidIconics_isOpenSource=0x7f11019f;
+    public static final int library_AndroidIconics_libraryDescription=0x7f1101a0;
+    public static final int library_AndroidIconics_libraryName=0x7f1101a1;
+    public static final int library_AndroidIconics_libraryVersion=0x7f1101a2;
+    public static final int library_AndroidIconics_libraryWebsite=0x7f1101a3;
+    public static final int library_AndroidIconics_licenseId=0x7f1101a4;
+    public static final int library_AndroidIconics_owner=0x7f1101a5;
+    public static final int library_AndroidIconics_repositoryLink=0x7f1101a6;
+    public static final int library_AndroidIconics_year=0x7f1101a7;
+    public static final int library_AndroidRandomColor_author=0x7f1101a8;
+    public static final int library_AndroidRandomColor_authorWebsite=0x7f1101a9;
+    public static final int library_AndroidRandomColor_classPath=0x7f1101aa;
+    public static final int library_AndroidRandomColor_isOpenSource=0x7f1101ab;
+    public static final int library_AndroidRandomColor_libraryDescription=0x7f1101ac;
+    public static final int library_AndroidRandomColor_libraryName=0x7f1101ad;
+    public static final int library_AndroidRandomColor_libraryVersion=0x7f1101ae;
+    public static final int library_AndroidRandomColor_libraryWebsite=0x7f1101af;
+    public static final int library_AndroidRandomColor_licenseId=0x7f1101b0;
+    public static final int library_AndroidRandomColor_repositoryLink=0x7f1101b1;
+    public static final int library_AndroidTimesSquare_author=0x7f1101b2;
+    public static final int library_AndroidTimesSquare_classPath=0x7f1101b3;
+    public static final int library_AndroidTimesSquare_isOpenSource=0x7f1101b4;
+    public static final int library_AndroidTimesSquare_libraryDescription=0x7f1101b5;
+    public static final int library_AndroidTimesSquare_libraryName=0x7f1101b6;
+    public static final int library_AndroidTimesSquare_libraryVersion=0x7f1101b7;
+    public static final int library_AndroidTimesSquare_libraryWebsite=0x7f1101b8;
+    public static final int library_AndroidTimesSquare_licenseId=0x7f1101b9;
+    public static final int library_AndroidTimesSquare_owner=0x7f1101ba;
+    public static final int library_AndroidTimesSquare_repositoryLink=0x7f1101bb;
+    public static final int library_AndroidTimesSquare_year=0x7f1101bc;
+    public static final int library_AndroidViewPagerIndicator_author=0x7f1101bd;
+    public static final int library_AndroidViewPagerIndicator_authorWebsite=0x7f1101be;
+    public static final int library_AndroidViewPagerIndicator_classPath=0x7f1101bf;
+    public static final int library_AndroidViewPagerIndicator_isOpenSource=0x7f1101c0;
+    public static final int library_AndroidViewPagerIndicator_libraryDescription=0x7f1101c1;
+    public static final int library_AndroidViewPagerIndicator_libraryName=0x7f1101c2;
+    public static final int library_AndroidViewPagerIndicator_libraryVersion=0x7f1101c3;
+    public static final int library_AndroidViewPagerIndicator_libraryWebsite=0x7f1101c4;
+    public static final int library_AndroidViewPagerIndicator_licenseId=0x7f1101c5;
+    public static final int library_AndroidViewPagerIndicator_owner=0x7f1101c6;
+    public static final int library_AndroidViewPagerIndicator_repositoryLink=0x7f1101c7;
+    public static final int library_AndroidViewPagerIndicator_year=0x7f1101c8;
+    public static final int library_AppCompat_author=0x7f1101c9;
+    public static final int library_AppCompat_authorWebsite=0x7f1101ca;
+    public static final int library_AppCompat_isOpenSource=0x7f1101cb;
+    public static final int library_AppCompat_libraryDescription=0x7f1101cc;
+    public static final int library_AppCompat_libraryName=0x7f1101cd;
+    public static final int library_AppCompat_libraryWebsite=0x7f1101ce;
+    public static final int library_AppCompat_licenseId=0x7f1101cf;
+    public static final int library_AppCompat_owner=0x7f1101d0;
+    public static final int library_AppCompat_repositoryLink=0x7f1101d1;
+    public static final int library_AppCompat_year=0x7f1101d2;
+    public static final int library_Butterknife_author=0x7f1101d3;
+    public static final int library_Butterknife_classPath=0x7f1101d4;
+    public static final int library_Butterknife_isOpenSource=0x7f1101d5;
+    public static final int library_Butterknife_libraryDescription=0x7f1101d6;
+    public static final int library_Butterknife_libraryName=0x7f1101d7;
+    public static final int library_Butterknife_libraryVersion=0x7f1101d8;
+    public static final int library_Butterknife_libraryWebsite=0x7f1101d9;
+    public static final int library_Butterknife_licenseId=0x7f1101da;
+    public static final int library_Butterknife_owner=0x7f1101db;
+    public static final int library_Butterknife_repositoryLink=0x7f1101dc;
+    public static final int library_Butterknife_year=0x7f1101dd;
+    public static final int library_CircleImageView_author=0x7f1101de;
+    public static final int library_CircleImageView_authorWebsite=0x7f1101df;
+    public static final int library_CircleImageView_classPath=0x7f1101e0;
+    public static final int library_CircleImageView_isOpenSource=0x7f1101e1;
+    public static final int library_CircleImageView_libraryDescription=0x7f1101e2;
+    public static final int library_CircleImageView_libraryName=0x7f1101e3;
+    public static final int library_CircleImageView_libraryVersion=0x7f1101e4;
+    public static final int library_CircleImageView_libraryWebsite=0x7f1101e5;
+    public static final int library_CircleImageView_licenseId=0x7f1101e6;
+    public static final int library_CircleImageView_repositoryLink=0x7f1101e7;
+    public static final int library_CircularImageView_author=0x7f1101e8;
+    public static final int library_CircularImageView_authorWebsite=0x7f1101e9;
+    public static final int library_CircularImageView_classPath=0x7f1101ea;
+    public static final int library_CircularImageView_isOpenSource=0x7f1101eb;
+    public static final int library_CircularImageView_libraryDescription=0x7f1101ec;
+    public static final int library_CircularImageView_libraryName=0x7f1101ed;
+    public static final int library_CircularImageView_libraryVersion=0x7f1101ee;
+    public static final int library_CircularImageView_libraryWebsite=0x7f1101ef;
+    public static final int library_CircularImageView_licenseId=0x7f1101f0;
+    public static final int library_CircularImageView_repositoryLink=0x7f1101f1;
+    public static final int library_ClansFloatingActionButton_author=0x7f1101f2;
+    public static final int library_ClansFloatingActionButton_authorWebsite=0x7f1101f3;
+    public static final int library_ClansFloatingActionButton_classPath=0x7f1101f4;
+    public static final int library_ClansFloatingActionButton_isOpenSource=0x7f1101f5;
+    public static final int library_ClansFloatingActionButton_libraryDescription=0x7f1101f6;
+    public static final int library_ClansFloatingActionButton_libraryName=0x7f1101f7;
+    public static final int library_ClansFloatingActionButton_libraryVersion=0x7f1101f8;
+    public static final int library_ClansFloatingActionButton_libraryWebsite=0x7f1101f9;
+    public static final int library_ClansFloatingActionButton_licenseId=0x7f1101fa;
+    public static final int library_ClansFloatingActionButton_repositoryLink=0x7f1101fb;
+    public static final int library_Crashlytics_author=0x7f1101fc;
+    public static final int library_Crashlytics_authorWebsite=0x7f1101fd;
+    public static final int library_Crashlytics_classPath=0x7f1101fe;
+    public static final int library_Crashlytics_isOpenSource=0x7f1101ff;
+    public static final int library_Crashlytics_libraryDescription=0x7f110200;
+    public static final int library_Crashlytics_libraryName=0x7f110201;
+    public static final int library_Crashlytics_libraryVersion=0x7f110202;
+    public static final int library_Crashlytics_libraryWebsite=0x7f110203;
+    public static final int library_Crashlytics_licenseId=0x7f110204;
+    public static final int library_Crashlytics_owner=0x7f110205;
+    public static final int library_Crashlytics_repositoryLink=0x7f110206;
+    public static final int library_Crashlytics_year=0x7f110207;
+    public static final int library_Crouton_author=0x7f110208;
+    public static final int library_Crouton_authorWebsite=0x7f110209;
+    public static final int library_Crouton_classPath=0x7f11020a;
+    public static final int library_Crouton_isOpenSource=0x7f11020b;
+    public static final int library_Crouton_libraryDescription=0x7f11020c;
+    public static final int library_Crouton_libraryName=0x7f11020d;
+    public static final int library_Crouton_libraryVersion=0x7f11020e;
+    public static final int library_Crouton_libraryWebsite=0x7f11020f;
+    public static final int library_Crouton_licenseId=0x7f110210;
+    public static final int library_Crouton_owner=0x7f110211;
+    public static final int library_Crouton_repositoryLink=0x7f110212;
+    public static final int library_Crouton_year=0x7f110213;
+    public static final int library_Dagger2_author=0x7f110214;
+    public static final int library_Dagger2_classPath=0x7f110215;
+    public static final int library_Dagger2_isOpenSource=0x7f110216;
+    public static final int library_Dagger2_libraryDescription=0x7f110217;
+    public static final int library_Dagger2_libraryName=0x7f110218;
+    public static final int library_Dagger2_libraryVersion=0x7f110219;
+    public static final int library_Dagger2_libraryWebsite=0x7f11021a;
+    public static final int library_Dagger2_licenseId=0x7f11021b;
+    public static final int library_Dagger2_owner=0x7f11021c;
+    public static final int library_Dagger2_repositoryLink=0x7f11021d;
+    public static final int library_Dagger2_year=0x7f11021e;
+    public static final int library_Dagger_author=0x7f11021f;
+    public static final int library_Dagger_classPath=0x7f110220;
+    public static final int library_Dagger_isOpenSource=0x7f110221;
+    public static final int library_Dagger_libraryDescription=0x7f110222;
+    public static final int library_Dagger_libraryName=0x7f110223;
+    public static final int library_Dagger_libraryVersion=0x7f110224;
+    public static final int library_Dagger_libraryWebsite=0x7f110225;
+    public static final int library_Dagger_licenseId=0x7f110226;
+    public static final int library_Dagger_owner=0x7f110227;
+    public static final int library_Dagger_repositoryLink=0x7f110228;
+    public static final int library_Dagger_year=0x7f110229;
+    public static final int library_ErrorView_author=0x7f11022a;
+    public static final int library_ErrorView_authorWebsite=0x7f11022b;
+    public static final int library_ErrorView_classPath=0x7f11022c;
+    public static final int library_ErrorView_isOpenSource=0x7f11022d;
+    public static final int library_ErrorView_libraryDescription=0x7f11022e;
+    public static final int library_ErrorView_libraryName=0x7f11022f;
+    public static final int library_ErrorView_libraryVersion=0x7f110230;
+    public static final int library_ErrorView_libraryWebsite=0x7f110231;
+    public static final int library_ErrorView_licenseId=0x7f110232;
+    public static final int library_ErrorView_repositoryLink=0x7f110233;
+    public static final int library_Eventbus_author=0x7f110234;
+    public static final int library_Eventbus_classPath=0x7f110235;
+    public static final int library_Eventbus_isOpenSource=0x7f110236;
+    public static final int library_Eventbus_libraryDescription=0x7f110237;
+    public static final int library_Eventbus_libraryName=0x7f110238;
+    public static final int library_Eventbus_libraryVersion=0x7f110239;
+    public static final int library_Eventbus_libraryWebsite=0x7f11023a;
+    public static final int library_Eventbus_licenseId=0x7f11023b;
+    public static final int library_Eventbus_owner=0x7f11023c;
+    public static final int library_Eventbus_repositoryLink=0x7f11023d;
+    public static final int library_Eventbus_year=0x7f11023e;
+    public static final int library_FButton_author=0x7f11023f;
+    public static final int library_FButton_authorWebsite=0x7f110240;
+    public static final int library_FButton_classPath=0x7f110241;
+    public static final int library_FButton_isOpenSource=0x7f110242;
+    public static final int library_FButton_libraryDescription=0x7f110243;
+    public static final int library_FButton_libraryName=0x7f110244;
+    public static final int library_FButton_libraryVersion=0x7f110245;
+    public static final int library_FButton_libraryWebsite=0x7f110246;
+    public static final int library_FButton_licenseId=0x7f110247;
+    public static final int library_FButton_owner=0x7f110248;
+    public static final int library_FButton_repositoryLink=0x7f110249;
+    public static final int library_FButton_year=0x7f11024a;
+    public static final int library_Facebook_author=0x7f11024b;
+    public static final int library_Facebook_authorWebsite=0x7f11024c;
+    public static final int library_Facebook_classPath=0x7f11024d;
+    public static final int library_Facebook_isOpenSource=0x7f11024e;
+    public static final int library_Facebook_libraryDescription=0x7f11024f;
+    public static final int library_Facebook_libraryName=0x7f110250;
+    public static final int library_Facebook_libraryWebsite=0x7f110251;
+    public static final int library_Facebook_licenseId=0x7f110252;
+    public static final int library_Facebook_owner=0x7f110253;
+    public static final int library_Facebook_repositoryLink=0x7f110254;
+    public static final int library_Facebook_year=0x7f110255;
+    public static final int library_FloatingActionButton_author=0x7f110256;
+    public static final int library_FloatingActionButton_authorWebsite=0x7f110257;
+    public static final int library_FloatingActionButton_isOpenSource=0x7f110258;
+    public static final int library_FloatingActionButton_libraryDescription=0x7f110259;
+    public static final int library_FloatingActionButton_libraryName=0x7f11025a;
+    public static final int library_FloatingActionButton_libraryVersion=0x7f11025b;
+    public static final int library_FloatingActionButton_libraryWebsite=0x7f11025c;
+    public static final int library_FloatingActionButton_licenseId=0x7f11025d;
+    public static final int library_FloatingActionButton_repositoryLink=0x7f11025e;
+    public static final int library_GooglePlayServices_author=0x7f11025f;
+    public static final int library_GooglePlayServices_authorWebsite=0x7f110260;
+    public static final int library_GooglePlayServices_classPath=0x7f110261;
+    public static final int library_GooglePlayServices_isOpenSource=0x7f110262;
+    public static final int library_GooglePlayServices_libraryDescription=0x7f110263;
+    public static final int library_GooglePlayServices_libraryName=0x7f110264;
+    public static final int library_GooglePlayServices_libraryVersion=0x7f110265;
+    public static final int library_GooglePlayServices_libraryWebsite=0x7f110266;
+    public static final int library_GooglePlayServices_licenseId=0x7f110267;
+    public static final int library_GooglePlayServices_owner=0x7f110268;
+    public static final int library_GooglePlayServices_repositoryLink=0x7f110269;
+    public static final int library_GooglePlayServices_year=0x7f11026a;
+    public static final int library_HoloGraphLibrary_author=0x7f11026b;
+    public static final int library_HoloGraphLibrary_authorWebsite=0x7f11026c;
+    public static final int library_HoloGraphLibrary_classPath=0x7f11026d;
+    public static final int library_HoloGraphLibrary_isOpenSource=0x7f11026e;
+    public static final int library_HoloGraphLibrary_libraryDescription=0x7f11026f;
+    public static final int library_HoloGraphLibrary_libraryName=0x7f110270;
+    public static final int library_HoloGraphLibrary_libraryVersion=0x7f110271;
+    public static final int library_HoloGraphLibrary_libraryWebsite=0x7f110272;
+    public static final int library_HoloGraphLibrary_licenseId=0x7f110273;
+    public static final int library_HoloGraphLibrary_owner=0x7f110274;
+    public static final int library_HoloGraphLibrary_repositoryLink=0x7f110275;
+    public static final int library_HoloGraphLibrary_year=0x7f110276;
+    public static final int library_Icepick_author=0x7f110277;
+    public static final int library_Icepick_authorWebsite=0x7f110278;
+    public static final int library_Icepick_classPath=0x7f110279;
+    public static final int library_Icepick_isOpenSource=0x7f11027a;
+    public static final int library_Icepick_libraryDescription=0x7f11027b;
+    public static final int library_Icepick_libraryName=0x7f11027c;
+    public static final int library_Icepick_libraryVersion=0x7f11027d;
+    public static final int library_Icepick_libraryWebsite=0x7f11027e;
+    public static final int library_Icepick_licenseId=0x7f11027f;
+    public static final int library_Icepick_repositoryLink=0x7f110280;
+    public static final int library_JCIFS_author=0x7f110281;
+    public static final int library_JCIFS_authorWebsite=0x7f110282;
+    public static final int library_JCIFS_classPath=0x7f110283;
+    public static final int library_JCIFS_isOpenSource=0x7f110284;
+    public static final int library_JCIFS_libraryDescription=0x7f110285;
+    public static final int library_JCIFS_libraryName=0x7f110286;
+    public static final int library_JCIFS_libraryVersion=0x7f110287;
+    public static final int library_JCIFS_libraryWebsite=0x7f110288;
+    public static final int library_JCIFS_licenseId=0x7f110289;
+    public static final int library_JCIFS_repositoryLink=0x7f11028a;
+    public static final int library_JScience_author=0x7f11028b;
+    public static final int library_JScience_authorWebsite=0x7f11028c;
+    public static final int library_JScience_classPath=0x7f11028d;
+    public static final int library_JScience_isOpenSource=0x7f11028e;
+    public static final int library_JScience_libraryDescription=0x7f11028f;
+    public static final int library_JScience_libraryName=0x7f110290;
+    public static final int library_JScience_libraryVersion=0x7f110291;
+    public static final int library_JScience_libraryWebsite=0x7f110292;
+    public static final int library_JScience_licenseId=0x7f110293;
+    public static final int library_JScience_repositoryLink=0x7f110294;
+    public static final int library_JavaAesCrypto_author=0x7f110295;
+    public static final int library_JavaAesCrypto_authorWebsite=0x7f110296;
+    public static final int library_JavaAesCrypto_classPath=0x7f110297;
+    public static final int library_JavaAesCrypto_isOpenSource=0x7f110298;
+    public static final int library_JavaAesCrypto_libraryDescription=0x7f110299;
+    public static final int library_JavaAesCrypto_libraryName=0x7f11029a;
+    public static final int library_JavaAesCrypto_libraryVersion=0x7f11029b;
+    public static final int library_JavaAesCrypto_libraryWebsite=0x7f11029c;
+    public static final int library_JavaAesCrypto_licenseId=0x7f11029d;
+    public static final int library_JavaAesCrypto_repositoryLink=0x7f11029e;
+    public static final int library_Jsoup_author=0x7f11029f;
+    public static final int library_Jsoup_authorWebsite=0x7f1102a0;
+    public static final int library_Jsoup_classPath=0x7f1102a1;
+    public static final int library_Jsoup_isOpenSource=0x7f1102a2;
+    public static final int library_Jsoup_libraryDescription=0x7f1102a3;
+    public static final int library_Jsoup_libraryName=0x7f1102a4;
+    public static final int library_Jsoup_libraryVersion=0x7f1102a5;
+    public static final int library_Jsoup_libraryWebsite=0x7f1102a6;
+    public static final int library_Jsoup_licenseId=0x7f1102a7;
+    public static final int library_Jsoup_repositoryLink=0x7f1102a8;
+    public static final int library_LeakCanary_author=0x7f1102a9;
+    public static final int library_LeakCanary_authorWebsite=0x7f1102aa;
+    public static final int library_LeakCanary_classPath=0x7f1102ab;
+    public static final int library_LeakCanary_isOpenSource=0x7f1102ac;
+    public static final int library_LeakCanary_libraryDescription=0x7f1102ad;
+    public static final int library_LeakCanary_libraryName=0x7f1102ae;
+    public static final int library_LeakCanary_libraryVersion=0x7f1102af;
+    public static final int library_LeakCanary_libraryWebsite=0x7f1102b0;
+    public static final int library_LeakCanary_licenseId=0x7f1102b1;
+    public static final int library_LeakCanary_repositoryLink=0x7f1102b2;
+    public static final int library_LoganSquare_author=0x7f1102b3;
+    public static final int library_LoganSquare_authorWebsite=0x7f1102b4;
+    public static final int library_LoganSquare_classPath=0x7f1102b5;
+    public static final int library_LoganSquare_isOpenSource=0x7f1102b6;
+    public static final int library_LoganSquare_libraryDescription=0x7f1102b7;
+    public static final int library_LoganSquare_libraryName=0x7f1102b8;
+    public static final int library_LoganSquare_libraryVersion=0x7f1102b9;
+    public static final int library_LoganSquare_libraryWebsite=0x7f1102ba;
+    public static final int library_LoganSquare_licenseId=0x7f1102bb;
+    public static final int library_LoganSquare_owner=0x7f1102bc;
+    public static final int library_LoganSquare_repositoryLink=0x7f1102bd;
+    public static final int library_LoganSquare_year=0x7f1102be;
+    public static final int library_MarkView_author=0x7f1102bf;
+    public static final int library_MarkView_authorWebsite=0x7f1102c0;
+    public static final int library_MarkView_classPath=0x7f1102c1;
+    public static final int library_MarkView_isOpenSource=0x7f1102c2;
+    public static final int library_MarkView_libraryDescription=0x7f1102c3;
+    public static final int library_MarkView_libraryName=0x7f1102c4;
+    public static final int library_MarkView_libraryVersion=0x7f1102c5;
+    public static final int library_MarkView_libraryWebsite=0x7f1102c6;
+    public static final int library_MarkView_licenseId=0x7f1102c7;
+    public static final int library_MarkView_repositoryLink=0x7f1102c8;
+    public static final int library_MaterialRangeBar_author=0x7f1102c9;
+    public static final int library_MaterialRangeBar_authorWebsite=0x7f1102ca;
+    public static final int library_MaterialRangeBar_classPath=0x7f1102cb;
+    public static final int library_MaterialRangeBar_isOpenSource=0x7f1102cc;
+    public static final int library_MaterialRangeBar_libraryDescription=0x7f1102cd;
+    public static final int library_MaterialRangeBar_libraryName=0x7f1102ce;
+    public static final int library_MaterialRangeBar_libraryVersion=0x7f1102cf;
+    public static final int library_MaterialRangeBar_libraryWebsite=0x7f1102d0;
+    public static final int library_MaterialRangeBar_licenseId=0x7f1102d1;
+    public static final int library_MaterialRangeBar_repositoryLink=0x7f1102d2;
+    public static final int library_MaterialishProgress_author=0x7f1102d3;
+    public static final int library_MaterialishProgress_authorWebsite=0x7f1102d4;
+    public static final int library_MaterialishProgress_classPath=0x7f1102d5;
+    public static final int library_MaterialishProgress_isOpenSource=0x7f1102d6;
+    public static final int library_MaterialishProgress_libraryDescription=0x7f1102d7;
+    public static final int library_MaterialishProgress_libraryName=0x7f1102d8;
+    public static final int library_MaterialishProgress_libraryVersion=0x7f1102d9;
+    public static final int library_MaterialishProgress_libraryWebsite=0x7f1102da;
+    public static final int library_MaterialishProgress_licenseId=0x7f1102db;
+    public static final int library_MaterialishProgress_repositoryLink=0x7f1102dc;
+    public static final int library_NanoTasks_author=0x7f1102dd;
+    public static final int library_NanoTasks_authorWebsite=0x7f1102de;
+    public static final int library_NanoTasks_classPath=0x7f1102df;
+    public static final int library_NanoTasks_isOpenSource=0x7f1102e0;
+    public static final int library_NanoTasks_libraryDescription=0x7f1102e1;
+    public static final int library_NanoTasks_libraryName=0x7f1102e2;
+    public static final int library_NanoTasks_libraryVersion=0x7f1102e3;
+    public static final int library_NanoTasks_libraryWebsite=0x7f1102e4;
+    public static final int library_NanoTasks_licenseId=0x7f1102e5;
+    public static final int library_NanoTasks_repositoryLink=0x7f1102e6;
+    public static final int library_NineOldAndroids_author=0x7f1102e7;
+    public static final int library_NineOldAndroids_authorWebsite=0x7f1102e8;
+    public static final int library_NineOldAndroids_classPath=0x7f1102e9;
+    public static final int library_NineOldAndroids_isOpenSource=0x7f1102ea;
+    public static final int library_NineOldAndroids_libraryDescription=0x7f1102eb;
+    public static final int library_NineOldAndroids_libraryName=0x7f1102ec;
+    public static final int library_NineOldAndroids_libraryVersion=0x7f1102ed;
+    public static final int library_NineOldAndroids_libraryWebsite=0x7f1102ee;
+    public static final int library_NineOldAndroids_licenseId=0x7f1102ef;
+    public static final int library_NineOldAndroids_owner=0x7f1102f0;
+    public static final int library_NineOldAndroids_repositoryLink=0x7f1102f1;
+    public static final int library_NineOldAndroids_year=0x7f1102f2;
+    public static final int library_OkHttp_author=0x7f1102f3;
+    public static final int library_OkHttp_classPath=0x7f1102f4;
+    public static final int library_OkHttp_isOpenSource=0x7f1102f5;
+    public static final int library_OkHttp_libraryDescription=0x7f1102f6;
+    public static final int library_OkHttp_libraryName=0x7f1102f7;
+    public static final int library_OkHttp_libraryVersion=0x7f1102f8;
+    public static final int library_OkHttp_libraryWebsite=0x7f1102f9;
+    public static final int library_OkHttp_licenseId=0x7f1102fa;
+    public static final int library_OkHttp_owner=0x7f1102fb;
+    public static final int library_OkHttp_repositoryLink=0x7f1102fc;
+    public static final int library_OkHttp_year=0x7f1102fd;
+    public static final int library_Otto_author=0x7f1102fe;
+    public static final int library_Otto_authorWebsite=0x7f1102ff;
+    public static final int library_Otto_classPath=0x7f110300;
+    public static final int library_Otto_isOpenSource=0x7f110301;
+    public static final int library_Otto_libraryDescription=0x7f110302;
+    public static final int library_Otto_libraryName=0x7f110303;
+    public static final int library_Otto_libraryVersion=0x7f110304;
+    public static final int library_Otto_libraryWebsite=0x7f110305;
+    public static final int library_Otto_licenseId=0x7f110306;
+    public static final int library_Otto_owner=0x7f110307;
+    public static final int library_Otto_repositoryLink=0x7f110308;
+    public static final int library_Otto_year=0x7f110309;
+    public static final int library_PagerSlidingTabStrip_author=0x7f11030a;
+    public static final int library_PagerSlidingTabStrip_classPath=0x7f11030b;
+    public static final int library_PagerSlidingTabStrip_isOpenSource=0x7f11030c;
+    public static final int library_PagerSlidingTabStrip_libraryDescription=0x7f11030d;
+    public static final int library_PagerSlidingTabStrip_libraryName=0x7f11030e;
+    public static final int library_PagerSlidingTabStrip_libraryVersion=0x7f11030f;
+    public static final int library_PagerSlidingTabStrip_libraryWebsite=0x7f110310;
+    public static final int library_PagerSlidingTabStrip_licenseId=0x7f110311;
+    public static final int library_PagerSlidingTabStrip_owner=0x7f110312;
+    public static final int library_PagerSlidingTabStrip_repositoryLink=0x7f110313;
+    public static final int library_PagerSlidingTabStrip_year=0x7f110314;
+    public static final int library_Paper_author=0x7f110315;
+    public static final int library_Paper_authorWebsite=0x7f110316;
+    public static final int library_Paper_isOpenSource=0x7f110317;
+    public static final int library_Paper_libraryDescription=0x7f110318;
+    public static final int library_Paper_libraryName=0x7f110319;
+    public static final int library_Paper_libraryVersion=0x7f11031a;
+    public static final int library_Paper_libraryWebsite=0x7f11031b;
+    public static final int library_Paper_licenseId=0x7f11031c;
+    public static final int library_Paper_repositoryLink=0x7f11031d;
+    public static final int library_Paralloid_author=0x7f11031e;
+    public static final int library_Paralloid_classPath=0x7f11031f;
+    public static final int library_Paralloid_isOpenSource=0x7f110320;
+    public static final int library_Paralloid_libraryDescription=0x7f110321;
+    public static final int library_Paralloid_libraryName=0x7f110322;
+    public static final int library_Paralloid_libraryVersion=0x7f110323;
+    public static final int library_Paralloid_libraryWebsite=0x7f110324;
+    public static final int library_Paralloid_licenseId=0x7f110325;
+    public static final int library_Paralloid_owner=0x7f110326;
+    public static final int library_Paralloid_repositoryLink=0x7f110327;
+    public static final int library_Paralloid_year=0x7f110328;
+    public static final int library_Picasso_author=0x7f110329;
+    public static final int library_Picasso_classPath=0x7f11032a;
+    public static final int library_Picasso_isOpenSource=0x7f11032b;
+    public static final int library_Picasso_libraryDescription=0x7f11032c;
+    public static final int library_Picasso_libraryName=0x7f11032d;
+    public static final int library_Picasso_libraryVersion=0x7f11032e;
+    public static final int library_Picasso_libraryWebsite=0x7f11032f;
+    public static final int library_Picasso_licenseId=0x7f110330;
+    public static final int library_Picasso_owner=0x7f110331;
+    public static final int library_Picasso_repositoryLink=0x7f110332;
+    public static final int library_Picasso_year=0x7f110333;
+    public static final int library_ProcessPhoenix_author=0x7f110334;
+    public static final int library_ProcessPhoenix_authorWebsite=0x7f110335;
+    public static final int library_ProcessPhoenix_classPath=0x7f110336;
+    public static final int library_ProcessPhoenix_isOpenSource=0x7f110337;
+    public static final int library_ProcessPhoenix_libraryDescription=0x7f110338;
+    public static final int library_ProcessPhoenix_libraryName=0x7f110339;
+    public static final int library_ProcessPhoenix_libraryVersion=0x7f11033a;
+    public static final int library_ProcessPhoenix_libraryWebsite=0x7f11033b;
+    public static final int library_ProcessPhoenix_licenseId=0x7f11033c;
+    public static final int library_ProcessPhoenix_repositoryLink=0x7f11033d;
+    public static final int library_QuickReturn_author=0x7f11033e;
+    public static final int library_QuickReturn_authorWebsite=0x7f11033f;
+    public static final int library_QuickReturn_isOpenSource=0x7f110340;
+    public static final int library_QuickReturn_libraryDescription=0x7f110341;
+    public static final int library_QuickReturn_libraryName=0x7f110342;
+    public static final int library_QuickReturn_libraryVersion=0x7f110343;
+    public static final int library_QuickReturn_libraryWebsite=0x7f110344;
+    public static final int library_QuickReturn_licenseId=0x7f110345;
+    public static final int library_QuickReturn_repositoryLink=0x7f110346;
+    public static final int library_RealmRecyclerView_author=0x7f110347;
+    public static final int library_RealmRecyclerView_authorWebsite=0x7f110348;
+    public static final int library_RealmRecyclerView_classPath=0x7f110349;
+    public static final int library_RealmRecyclerView_isOpenSource=0x7f11034a;
+    public static final int library_RealmRecyclerView_libraryDescription=0x7f11034b;
+    public static final int library_RealmRecyclerView_libraryName=0x7f11034c;
+    public static final int library_RealmRecyclerView_libraryVersion=0x7f11034d;
+    public static final int library_RealmRecyclerView_libraryWebsite=0x7f11034e;
+    public static final int library_RealmRecyclerView_licenseId=0x7f11034f;
+    public static final int library_RealmRecyclerView_repositoryLink=0x7f110350;
+    public static final int library_RealmSearchView_author=0x7f110351;
+    public static final int library_RealmSearchView_authorWebsite=0x7f110352;
+    public static final int library_RealmSearchView_classPath=0x7f110353;
+    public static final int library_RealmSearchView_isOpenSource=0x7f110354;
+    public static final int library_RealmSearchView_libraryDescription=0x7f110355;
+    public static final int library_RealmSearchView_libraryName=0x7f110356;
+    public static final int library_RealmSearchView_libraryVersion=0x7f110357;
+    public static final int library_RealmSearchView_libraryWebsite=0x7f110358;
+    public static final int library_RealmSearchView_licenseId=0x7f110359;
+    public static final int library_RealmSearchView_repositoryLink=0x7f11035a;
+    public static final int library_Realm_author=0x7f11035b;
+    public static final int library_Realm_authorWebsite=0x7f11035c;
+    public static final int library_Realm_classPath=0x7f11035d;
+    public static final int library_Realm_isOpenSource=0x7f11035e;
+    public static final int library_Realm_libraryDescription=0x7f11035f;
+    public static final int library_Realm_libraryName=0x7f110360;
+    public static final int library_Realm_libraryVersion=0x7f110361;
+    public static final int library_Realm_libraryWebsite=0x7f110362;
+    public static final int library_Realm_licenseId=0x7f110363;
+    public static final int library_Realm_repositoryLink=0x7f110364;
+    public static final int library_RecyclerRenderers_author=0x7f110365;
+    public static final int library_RecyclerRenderers_authorWebsite=0x7f110366;
+    public static final int library_RecyclerRenderers_classPath=0x7f110367;
+    public static final int library_RecyclerRenderers_isOpenSource=0x7f110368;
+    public static final int library_RecyclerRenderers_libraryDescription=0x7f110369;
+    public static final int library_RecyclerRenderers_libraryName=0x7f11036a;
+    public static final int library_RecyclerRenderers_libraryVersion=0x7f11036b;
+    public static final int library_RecyclerRenderers_libraryWebsite=0x7f11036c;
+    public static final int library_RecyclerRenderers_licenseId=0x7f11036d;
+    public static final int library_RecyclerRenderers_repositoryLink=0x7f11036e;
+    public static final int library_Retrofit_author=0x7f11036f;
+    public static final int library_Retrofit_classPath=0x7f110370;
+    public static final int library_Retrofit_isOpenSource=0x7f110371;
+    public static final int library_Retrofit_libraryDescription=0x7f110372;
+    public static final int library_Retrofit_libraryName=0x7f110373;
+    public static final int library_Retrofit_libraryVersion=0x7f110374;
+    public static final int library_Retrofit_libraryWebsite=0x7f110375;
+    public static final int library_Retrofit_licenseId=0x7f110376;
+    public static final int library_Retrofit_owner=0x7f110377;
+    public static final int library_Retrofit_repositoryLink=0x7f110378;
+    public static final int library_Retrofit_year=0x7f110379;
+    public static final int library_RxBinding_author=0x7f11037a;
+    public static final int library_RxBinding_classPath=0x7f11037b;
+    public static final int library_RxBinding_isOpenSource=0x7f11037c;
+    public static final int library_RxBinding_libraryDescription=0x7f11037d;
+    public static final int library_RxBinding_libraryName=0x7f11037e;
+    public static final int library_RxBinding_libraryVersion=0x7f11037f;
+    public static final int library_RxBinding_libraryWebsite=0x7f110380;
+    public static final int library_RxBinding_licenseId=0x7f110381;
+    public static final int library_RxBinding_owner=0x7f110382;
+    public static final int library_RxBinding_repositoryLink=0x7f110383;
+    public static final int library_RxBinding_year=0x7f110384;
+    public static final int library_ShowcaseView_author=0x7f110385;
+    public static final int library_ShowcaseView_authorWebsite=0x7f110386;
+    public static final int library_ShowcaseView_classPath=0x7f110387;
+    public static final int library_ShowcaseView_isOpenSource=0x7f110388;
+    public static final int library_ShowcaseView_libraryDescription=0x7f110389;
+    public static final int library_ShowcaseView_libraryName=0x7f11038a;
+    public static final int library_ShowcaseView_libraryVersion=0x7f11038b;
+    public static final int library_ShowcaseView_libraryWebsite=0x7f11038c;
+    public static final int library_ShowcaseView_licenseId=0x7f11038d;
+    public static final int library_ShowcaseView_owner=0x7f11038e;
+    public static final int library_ShowcaseView_repositoryLink=0x7f11038f;
+    public static final int library_ShowcaseView_year=0x7f110390;
+    public static final int library_SuperRecyclerView_author=0x7f110391;
+    public static final int library_SuperRecyclerView_authorWebsite=0x7f110392;
+    public static final int library_SuperRecyclerView_classPath=0x7f110393;
+    public static final int library_SuperRecyclerView_isOpenSource=0x7f110394;
+    public static final int library_SuperRecyclerView_libraryDescription=0x7f110395;
+    public static final int library_SuperRecyclerView_libraryName=0x7f110396;
+    public static final int library_SuperRecyclerView_libraryVersion=0x7f110397;
+    public static final int library_SuperRecyclerView_libraryWebsite=0x7f110398;
+    public static final int library_SuperRecyclerView_licenseId=0x7f110399;
+    public static final int library_SuperRecyclerView_repositoryLink=0x7f11039a;
+    public static final int library_SupportLibrary_author=0x7f11039b;
+    public static final int library_SupportLibrary_authorWebsite=0x7f11039c;
+    public static final int library_SupportLibrary_isOpenSource=0x7f11039d;
+    public static final int library_SupportLibrary_libraryDescription=0x7f11039e;
+    public static final int library_SupportLibrary_libraryName=0x7f11039f;
+    public static final int library_SupportLibrary_libraryWebsite=0x7f1103a0;
+    public static final int library_SupportLibrary_licenseId=0x7f1103a1;
+    public static final int library_SupportLibrary_owner=0x7f1103a2;
+    public static final int library_SupportLibrary_repositoryLink=0x7f1103a3;
+    public static final int library_SupportLibrary_year=0x7f1103a4;
+    public static final int library_Timber_author=0x7f1103a5;
+    public static final int library_Timber_classPath=0x7f1103a6;
+    public static final int library_Timber_isOpenSource=0x7f1103a7;
+    public static final int library_Timber_libraryDescription=0x7f1103a8;
+    public static final int library_Timber_libraryName=0x7f1103a9;
+    public static final int library_Timber_libraryVersion=0x7f1103aa;
+    public static final int library_Timber_libraryWebsite=0x7f1103ab;
+    public static final int library_Timber_licenseId=0x7f1103ac;
+    public static final int library_Timber_owner=0x7f1103ad;
+    public static final int library_Timber_repositoryLink=0x7f1103ae;
+    public static final int library_Timber_year=0x7f1103af;
+    public static final int library_Unsplash_author=0x7f1103b0;
+    public static final int library_Unsplash_classPath=0x7f1103b1;
+    public static final int library_Unsplash_isOpenSource=0x7f1103b2;
+    public static final int library_Unsplash_libraryDescription=0x7f1103b3;
+    public static final int library_Unsplash_libraryName=0x7f1103b4;
+    public static final int library_Unsplash_libraryVersion=0x7f1103b5;
+    public static final int library_Unsplash_libraryWebsite=0x7f1103b6;
+    public static final int library_Unsplash_licenseId=0x7f1103b7;
+    public static final int library_Unsplash_owner=0x7f1103b8;
+    public static final int library_Unsplash_repositoryLink=0x7f1103b9;
+    public static final int library_Unsplash_year=0x7f1103ba;
+    public static final int library_WilliamChart_author=0x7f1103bb;
+    public static final int library_WilliamChart_authorWebsite=0x7f1103bc;
+    public static final int library_WilliamChart_isOpenSource=0x7f1103bd;
+    public static final int library_WilliamChart_libraryDescription=0x7f1103be;
+    public static final int library_WilliamChart_libraryName=0x7f1103bf;
+    public static final int library_WilliamChart_libraryVersion=0x7f1103c0;
+    public static final int library_WilliamChart_libraryWebsite=0x7f1103c1;
+    public static final int library_WilliamChart_licenseId=0x7f1103c2;
+    public static final int library_WilliamChart_repositoryLink=0x7f1103c3;
+    public static final int library_acra_author=0x7f1103c4;
+    public static final int library_acra_authorWebsite=0x7f1103c5;
+    public static final int library_acra_classPath=0x7f1103c6;
+    public static final int library_acra_isOpenSource=0x7f1103c7;
+    public static final int library_acra_libraryDescription=0x7f1103c8;
+    public static final int library_acra_libraryName=0x7f1103c9;
+    public static final int library_acra_libraryVersion=0x7f1103ca;
+    public static final int library_acra_libraryWebsite=0x7f1103cb;
+    public static final int library_acra_licenseId=0x7f1103cc;
+    public static final int library_acra_repositoryLink=0x7f1103cd;
+    public static final int library_ahbottomnavigation_author=0x7f1103ce;
+    public static final int library_ahbottomnavigation_authorWebsite=0x7f1103cf;
+    public static final int library_ahbottomnavigation_classPath=0x7f1103d0;
+    public static final int library_ahbottomnavigation_isOpenSource=0x7f1103d1;
+    public static final int library_ahbottomnavigation_libraryDescription=0x7f1103d2;
+    public static final int library_ahbottomnavigation_libraryName=0x7f1103d3;
+    public static final int library_ahbottomnavigation_libraryVersion=0x7f1103d4;
+    public static final int library_ahbottomnavigation_libraryWebsite=0x7f1103d5;
+    public static final int library_ahbottomnavigation_licenseId=0x7f1103d6;
+    public static final int library_ahbottomnavigation_repositoryLink=0x7f1103d7;
+    public static final int library_alexei_author=0x7f1103d8;
+    public static final int library_alexei_authorWebsite=0x7f1103d9;
+    public static final int library_alexei_classPath=0x7f1103da;
+    public static final int library_alexei_isOpenSource=0x7f1103db;
+    public static final int library_alexei_libraryDescription=0x7f1103dc;
+    public static final int library_alexei_libraryName=0x7f1103dd;
+    public static final int library_alexei_libraryVersion=0x7f1103de;
+    public static final int library_alexei_libraryWebsite=0x7f1103df;
+    public static final int library_alexei_licenseId=0x7f1103e0;
+    public static final int library_alexei_repositoryLink=0x7f1103e1;
+    public static final int library_amulyakharetextdrawable_author=0x7f1103e2;
+    public static final int library_amulyakharetextdrawable_authorWebsite=0x7f1103e3;
+    public static final int library_amulyakharetextdrawable_classPath=0x7f1103e4;
+    public static final int library_amulyakharetextdrawable_isOpenSource=0x7f1103e5;
+    public static final int library_amulyakharetextdrawable_libraryDescription=0x7f1103e6;
+    public static final int library_amulyakharetextdrawable_libraryName=0x7f1103e7;
+    public static final int library_amulyakharetextdrawable_libraryVersion=0x7f1103e8;
+    public static final int library_amulyakharetextdrawable_libraryWebsite=0x7f1103e9;
+    public static final int library_amulyakharetextdrawable_licenseId=0x7f1103ea;
+    public static final int library_amulyakharetextdrawable_repositoryLink=0x7f1103eb;
+    public static final int library_androidBetterpickers_author=0x7f1103ec;
+    public static final int library_androidBetterpickers_authorWebsite=0x7f1103ed;
+    public static final int library_androidBetterpickers_classPath=0x7f1103ee;
+    public static final int library_androidBetterpickers_isOpenSource=0x7f1103ef;
+    public static final int library_androidBetterpickers_libraryDescription=0x7f1103f0;
+    public static final int library_androidBetterpickers_libraryName=0x7f1103f1;
+    public static final int library_androidBetterpickers_libraryVersion=0x7f1103f2;
+    public static final int library_androidBetterpickers_libraryWebsite=0x7f1103f3;
+    public static final int library_androidBetterpickers_licenseId=0x7f1103f4;
+    public static final int library_androidBetterpickers_owner=0x7f1103f5;
+    public static final int library_androidBetterpickers_repositoryLink=0x7f1103f6;
+    public static final int library_androidBetterpickers_year=0x7f1103f7;
+    public static final int library_androidIconify_author=0x7f1103f8;
+    public static final int library_androidIconify_authorWebsite=0x7f1103f9;
+    public static final int library_androidIconify_classPath=0x7f1103fa;
+    public static final int library_androidIconify_isOpenSource=0x7f1103fb;
+    public static final int library_androidIconify_libraryDescription=0x7f1103fc;
+    public static final int library_androidIconify_libraryName=0x7f1103fd;
+    public static final int library_androidIconify_libraryVersion=0x7f1103fe;
+    public static final int library_androidIconify_libraryWebsite=0x7f1103ff;
+    public static final int library_androidIconify_licenseId=0x7f110400;
+    public static final int library_androidIconify_owner=0x7f110401;
+    public static final int library_androidIconify_repositoryLink=0x7f110402;
+    public static final int library_androidIconify_year=0x7f110403;
+    public static final int library_androidStyledDialogs_author=0x7f110404;
+    public static final int library_androidStyledDialogs_authorWebsite=0x7f110405;
+    public static final int library_androidStyledDialogs_classPath=0x7f110406;
+    public static final int library_androidStyledDialogs_isOpenSource=0x7f110407;
+    public static final int library_androidStyledDialogs_libraryDescription=0x7f110408;
+    public static final int library_androidStyledDialogs_libraryName=0x7f110409;
+    public static final int library_androidStyledDialogs_libraryVersion=0x7f11040a;
+    public static final int library_androidStyledDialogs_libraryWebsite=0x7f11040b;
+    public static final int library_androidStyledDialogs_licenseId=0x7f11040c;
+    public static final int library_androidStyledDialogs_owner=0x7f11040d;
+    public static final int library_androidStyledDialogs_repositoryLink=0x7f11040e;
+    public static final int library_androidStyledDialogs_year=0x7f11040f;
+    public static final int library_android_advancedrecyclerview_author=0x7f110410;
+    public static final int library_android_advancedrecyclerview_authorWebsite=0x7f110411;
+    public static final int library_android_advancedrecyclerview_classPath=0x7f110412;
+    public static final int library_android_advancedrecyclerview_isOpenSource=0x7f110413;
+    public static final int library_android_advancedrecyclerview_libraryDescription=0x7f110414;
+    public static final int library_android_advancedrecyclerview_libraryName=0x7f110415;
+    public static final int library_android_advancedrecyclerview_libraryVersion=0x7f110416;
+    public static final int library_android_advancedrecyclerview_libraryWebsite=0x7f110417;
+    public static final int library_android_advancedrecyclerview_licenseId=0x7f110418;
+    public static final int library_android_advancedrecyclerview_repositoryLink=0x7f110419;
+    public static final int library_android_floating_action_button_author=0x7f11041a;
+    public static final int library_android_floating_action_button_authorWebsite=0x7f11041b;
+    public static final int library_android_floating_action_button_classPath=0x7f11041c;
+    public static final int library_android_floating_action_button_isOpenSource=0x7f11041d;
+    public static final int library_android_floating_action_button_libraryDescription=0x7f11041e;
+    public static final int library_android_floating_action_button_libraryName=0x7f11041f;
+    public static final int library_android_floating_action_button_libraryVersion=0x7f110420;
+    public static final int library_android_floating_action_button_libraryWebsite=0x7f110421;
+    public static final int library_android_floating_action_button_licenseId=0x7f110422;
+    public static final int library_android_floating_action_button_repositoryLink=0x7f110423;
+    public static final int library_android_gif_drawable_author=0x7f110424;
+    public static final int library_android_gif_drawable_authorWebsite=0x7f110425;
+    public static final int library_android_gif_drawable_classPath=0x7f110426;
+    public static final int library_android_gif_drawable_isOpenSource=0x7f110427;
+    public static final int library_android_gif_drawable_libraryDescription=0x7f110428;
+    public static final int library_android_gif_drawable_libraryName=0x7f110429;
+    public static final int library_android_gif_drawable_libraryVersion=0x7f11042a;
+    public static final int library_android_gif_drawable_libraryWebsite=0x7f11042b;
+    public static final int library_android_gif_drawable_licenseId=0x7f11042c;
+    public static final int library_android_gif_drawable_repositoryLink=0x7f11042d;
+    public static final int library_android_image_cropper_author=0x7f11042e;
+    public static final int library_android_image_cropper_authorWebsite=0x7f11042f;
+    public static final int library_android_image_cropper_classPath=0x7f110430;
+    public static final int library_android_image_cropper_isOpenSource=0x7f110431;
+    public static final int library_android_image_cropper_libraryDescription=0x7f110432;
+    public static final int library_android_image_cropper_libraryName=0x7f110433;
+    public static final int library_android_image_cropper_libraryVersion=0x7f110434;
+    public static final int library_android_image_cropper_libraryWebsite=0x7f110435;
+    public static final int library_android_image_cropper_licenseId=0x7f110436;
+    public static final int library_android_image_cropper_repositoryLink=0x7f110437;
+    public static final int library_android_job_author=0x7f110438;
+    public static final int library_android_job_authorWebsite=0x7f110439;
+    public static final int library_android_job_classPath=0x7f11043a;
+    public static final int library_android_job_isOpenSource=0x7f11043b;
+    public static final int library_android_job_libraryDescription=0x7f11043c;
+    public static final int library_android_job_libraryName=0x7f11043d;
+    public static final int library_android_job_libraryVersion=0x7f11043e;
+    public static final int library_android_job_libraryWebsite=0x7f11043f;
+    public static final int library_android_job_licenseId=0x7f110440;
+    public static final int library_android_job_repositoryLink=0x7f110441;
+    public static final int library_android_maps_utils_author=0x7f110442;
+    public static final int library_android_maps_utils_authorWebsite=0x7f110443;
+    public static final int library_android_maps_utils_classPath=0x7f110444;
+    public static final int library_android_maps_utils_isOpenSource=0x7f110445;
+    public static final int library_android_maps_utils_libraryDescription=0x7f110446;
+    public static final int library_android_maps_utils_libraryName=0x7f110447;
+    public static final int library_android_maps_utils_libraryVersion=0x7f110448;
+    public static final int library_android_maps_utils_libraryWebsite=0x7f110449;
+    public static final int library_android_maps_utils_licenseId=0x7f11044a;
+    public static final int library_android_maps_utils_repositoryLink=0x7f11044b;
+    public static final int library_android_platlogo_author=0x7f11044c;
+    public static final int library_android_platlogo_authorWebsite=0x7f11044d;
+    public static final int library_android_platlogo_classPath=0x7f11044e;
+    public static final int library_android_platlogo_isOpenSource=0x7f11044f;
+    public static final int library_android_platlogo_libraryDescription=0x7f110450;
+    public static final int library_android_platlogo_libraryName=0x7f110451;
+    public static final int library_android_platlogo_libraryVersion=0x7f110452;
+    public static final int library_android_platlogo_libraryWebsite=0x7f110453;
+    public static final int library_android_platlogo_licenseId=0x7f110454;
+    public static final int library_android_platlogo_repositoryLink=0x7f110455;
+    public static final int library_android_shape_imageview_author=0x7f110456;
+    public static final int library_android_shape_imageview_authorWebsite=0x7f110457;
+    public static final int library_android_shape_imageview_classPath=0x7f110458;
+    public static final int library_android_shape_imageview_isOpenSource=0x7f110459;
+    public static final int library_android_shape_imageview_libraryDescription=0x7f11045a;
+    public static final int library_android_shape_imageview_libraryName=0x7f11045b;
+    public static final int library_android_shape_imageview_libraryVersion=0x7f11045c;
+    public static final int library_android_shape_imageview_libraryWebsite=0x7f11045d;
+    public static final int library_android_shape_imageview_licenseId=0x7f11045e;
+    public static final int library_android_shape_imageview_repositoryLink=0x7f11045f;
+    public static final int library_android_textview_linkbuilder_author=0x7f110460;
+    public static final int library_android_textview_linkbuilder_authorWebsite=0x7f110461;
+    public static final int library_android_textview_linkbuilder_classPath=0x7f110462;
+    public static final int library_android_textview_linkbuilder_isOpenSource=0x7f110463;
+    public static final int library_android_textview_linkbuilder_libraryDescription=0x7f110464;
+    public static final int library_android_textview_linkbuilder_libraryName=0x7f110465;
+    public static final int library_android_textview_linkbuilder_libraryVersion=0x7f110466;
+    public static final int library_android_textview_linkbuilder_libraryWebsite=0x7f110467;
+    public static final int library_android_textview_linkbuilder_licenseId=0x7f110468;
+    public static final int library_android_textview_linkbuilder_repositoryLink=0x7f110469;
+    public static final int library_android_upload_service_author=0x7f11046a;
+    public static final int library_android_upload_service_authorWebsite=0x7f11046b;
+    public static final int library_android_upload_service_classPath=0x7f11046c;
+    public static final int library_android_upload_service_isOpenSource=0x7f11046d;
+    public static final int library_android_upload_service_libraryDescription=0x7f11046e;
+    public static final int library_android_upload_service_libraryName=0x7f11046f;
+    public static final int library_android_upload_service_libraryVersion=0x7f110470;
+    public static final int library_android_upload_service_libraryWebsite=0x7f110471;
+    public static final int library_android_upload_service_licenseId=0x7f110472;
+    public static final int library_android_upload_service_owner=0x7f110473;
+    public static final int library_android_upload_service_repositoryLink=0x7f110474;
+    public static final int library_android_upload_service_year=0x7f110475;
+    public static final int library_androidannotations_author=0x7f110476;
+    public static final int library_androidannotations_authorWebsite=0x7f110477;
+    public static final int library_androidannotations_classPath=0x7f110478;
+    public static final int library_androidannotations_isOpenSource=0x7f110479;
+    public static final int library_androidannotations_libraryDescription=0x7f11047a;
+    public static final int library_androidannotations_libraryName=0x7f11047b;
+    public static final int library_androidannotations_libraryVersion=0x7f11047c;
+    public static final int library_androidannotations_libraryWebsite=0x7f11047d;
+    public static final int library_androidannotations_licenseId=0x7f11047e;
+    public static final int library_androidannotations_repositoryLink=0x7f11047f;
+    public static final int library_androidasyncservice_author=0x7f110480;
+    public static final int library_androidasyncservice_authorWebsite=0x7f110481;
+    public static final int library_androidasyncservice_classPath=0x7f110482;
+    public static final int library_androidasyncservice_isOpenSource=0x7f110483;
+    public static final int library_androidasyncservice_libraryDescription=0x7f110484;
+    public static final int library_androidasyncservice_libraryName=0x7f110485;
+    public static final int library_androidasyncservice_libraryVersion=0x7f110486;
+    public static final int library_androidasyncservice_libraryWebsite=0x7f110487;
+    public static final int library_androidasyncservice_licenseId=0x7f110488;
+    public static final int library_androidasyncservice_repositoryLink=0x7f110489;
+    public static final int library_androidcountrypicker_author=0x7f11048a;
+    public static final int library_androidcountrypicker_authorWebsite=0x7f11048b;
+    public static final int library_androidcountrypicker_classPath=0x7f11048c;
+    public static final int library_androidcountrypicker_isOpenSource=0x7f11048d;
+    public static final int library_androidcountrypicker_libraryDescription=0x7f11048e;
+    public static final int library_androidcountrypicker_libraryName=0x7f11048f;
+    public static final int library_androidcountrypicker_libraryVersion=0x7f110490;
+    public static final int library_androidcountrypicker_libraryWebsite=0x7f110491;
+    public static final int library_androidcountrypicker_licenseId=0x7f110492;
+    public static final int library_androidcountrypicker_repositoryLink=0x7f110493;
+    public static final int library_androideasingfunctions_author=0x7f110494;
+    public static final int library_androideasingfunctions_authorWebsite=0x7f110495;
+    public static final int library_androideasingfunctions_classPath=0x7f110496;
+    public static final int library_androideasingfunctions_isOpenSource=0x7f110497;
+    public static final int library_androideasingfunctions_libraryDescription=0x7f110498;
+    public static final int library_androideasingfunctions_libraryName=0x7f110499;
+    public static final int library_androideasingfunctions_libraryVersion=0x7f11049a;
+    public static final int library_androideasingfunctions_libraryWebsite=0x7f11049b;
+    public static final int library_androideasingfunctions_licenseId=0x7f11049c;
+    public static final int library_androideasingfunctions_repositoryLink=0x7f11049d;
+    public static final int library_androidfillableloaders_author=0x7f11049e;
+    public static final int library_androidfillableloaders_authorWebsite=0x7f11049f;
+    public static final int library_androidfillableloaders_classPath=0x7f1104a0;
+    public static final int library_androidfillableloaders_isOpenSource=0x7f1104a1;
+    public static final int library_androidfillableloaders_libraryDescription=0x7f1104a2;
+    public static final int library_androidfillableloaders_libraryName=0x7f1104a3;
+    public static final int library_androidfillableloaders_libraryVersion=0x7f1104a4;
+    public static final int library_androidfillableloaders_libraryWebsite=0x7f1104a5;
+    public static final int library_androidfillableloaders_licenseId=0x7f1104a6;
+    public static final int library_androidfillableloaders_repositoryLink=0x7f1104a7;
+    public static final int library_androidflowlayout_author=0x7f1104a8;
+    public static final int library_androidflowlayout_authorWebsite=0x7f1104a9;
+    public static final int library_androidflowlayout_classPath=0x7f1104aa;
+    public static final int library_androidflowlayout_isOpenSource=0x7f1104ab;
+    public static final int library_androidflowlayout_libraryDescription=0x7f1104ac;
+    public static final int library_androidflowlayout_libraryName=0x7f1104ad;
+    public static final int library_androidflowlayout_libraryVersion=0x7f1104ae;
+    public static final int library_androidflowlayout_libraryWebsite=0x7f1104af;
+    public static final int library_androidflowlayout_licenseId=0x7f1104b0;
+    public static final int library_androidflowlayout_repositoryLink=0x7f1104b1;
+    public static final int library_androidholocolorpicker_author=0x7f1104b2;
+    public static final int library_androidholocolorpicker_authorWebsite=0x7f1104b3;
+    public static final int library_androidholocolorpicker_classPath=0x7f1104b4;
+    public static final int library_androidholocolorpicker_isOpenSource=0x7f1104b5;
+    public static final int library_androidholocolorpicker_libraryDescription=0x7f1104b6;
+    public static final int library_androidholocolorpicker_libraryName=0x7f1104b7;
+    public static final int library_androidholocolorpicker_libraryVersion=0x7f1104b8;
+    public static final int library_androidholocolorpicker_libraryWebsite=0x7f1104b9;
+    public static final int library_androidholocolorpicker_licenseId=0x7f1104ba;
+    public static final int library_androidholocolorpicker_repositoryLink=0x7f1104bb;
+    public static final int library_androidin_appbillingv3_author=0x7f1104bc;
+    public static final int library_androidin_appbillingv3_authorWebsite=0x7f1104bd;
+    public static final int library_androidin_appbillingv3_classPath=0x7f1104be;
+    public static final int library_androidin_appbillingv3_isOpenSource=0x7f1104bf;
+    public static final int library_androidin_appbillingv3_libraryDescription=0x7f1104c0;
+    public static final int library_androidin_appbillingv3_libraryName=0x7f1104c1;
+    public static final int library_androidin_appbillingv3_libraryVersion=0x7f1104c2;
+    public static final int library_androidin_appbillingv3_libraryWebsite=0x7f1104c3;
+    public static final int library_androidin_appbillingv3_licenseId=0x7f1104c4;
+    public static final int library_androidin_appbillingv3_repositoryLink=0x7f1104c5;
+    public static final int library_androidmaterialintroscreen_author=0x7f1104c6;
+    public static final int library_androidmaterialintroscreen_authorWebsite=0x7f1104c7;
+    public static final int library_androidmaterialintroscreen_classPath=0x7f1104c8;
+    public static final int library_androidmaterialintroscreen_isOpenSource=0x7f1104c9;
+    public static final int library_androidmaterialintroscreen_libraryDescription=0x7f1104ca;
+    public static final int library_androidmaterialintroscreen_libraryName=0x7f1104cb;
+    public static final int library_androidmaterialintroscreen_libraryVersion=0x7f1104cc;
+    public static final int library_androidmaterialintroscreen_libraryWebsite=0x7f1104cd;
+    public static final int library_androidmaterialintroscreen_licenseId=0x7f1104ce;
+    public static final int library_androidmaterialintroscreen_repositoryLink=0x7f1104cf;
+    public static final int library_androidroundcornerprogressbar_author=0x7f1104d0;
+    public static final int library_androidroundcornerprogressbar_authorWebsite=0x7f1104d1;
+    public static final int library_androidroundcornerprogressbar_classPath=0x7f1104d2;
+    public static final int library_androidroundcornerprogressbar_isOpenSource=0x7f1104d3;
+    public static final int library_androidroundcornerprogressbar_libraryDescription=0x7f1104d4;
+    public static final int library_androidroundcornerprogressbar_libraryName=0x7f1104d5;
+    public static final int library_androidroundcornerprogressbar_libraryVersion=0x7f1104d6;
+    public static final int library_androidroundcornerprogressbar_libraryWebsite=0x7f1104d7;
+    public static final int library_androidroundcornerprogressbar_licenseId=0x7f1104d8;
+    public static final int library_androidroundcornerprogressbar_repositoryLink=0x7f1104d9;
+    public static final int library_androidslidinguppanel_author=0x7f1104da;
+    public static final int library_androidslidinguppanel_authorWebsite=0x7f1104db;
+    public static final int library_androidslidinguppanel_classPath=0x7f1104dc;
+    public static final int library_androidslidinguppanel_isOpenSource=0x7f1104dd;
+    public static final int library_androidslidinguppanel_libraryDescription=0x7f1104de;
+    public static final int library_androidslidinguppanel_libraryName=0x7f1104df;
+    public static final int library_androidslidinguppanel_libraryVersion=0x7f1104e0;
+    public static final int library_androidslidinguppanel_libraryWebsite=0x7f1104e1;
+    public static final int library_androidslidinguppanel_licenseId=0x7f1104e2;
+    public static final int library_androidslidinguppanel_repositoryLink=0x7f1104e3;
+    public static final int library_androidstrictmodecompat_author=0x7f1104e4;
+    public static final int library_androidstrictmodecompat_authorWebsite=0x7f1104e5;
+    public static final int library_androidstrictmodecompat_classPath=0x7f1104e6;
+    public static final int library_androidstrictmodecompat_isOpenSource=0x7f1104e7;
+    public static final int library_androidstrictmodecompat_libraryDescription=0x7f1104e8;
+    public static final int library_androidstrictmodecompat_libraryName=0x7f1104e9;
+    public static final int library_androidstrictmodecompat_libraryVersion=0x7f1104ea;
+    public static final int library_androidstrictmodecompat_libraryWebsite=0x7f1104eb;
+    public static final int library_androidstrictmodecompat_licenseId=0x7f1104ec;
+    public static final int library_androidstrictmodecompat_repositoryLink=0x7f1104ed;
+    public static final int library_androidswipelayout_author=0x7f1104ee;
+    public static final int library_androidswipelayout_authorWebsite=0x7f1104ef;
+    public static final int library_androidswipelayout_classPath=0x7f1104f0;
+    public static final int library_androidswipelayout_isOpenSource=0x7f1104f1;
+    public static final int library_androidswipelayout_libraryDescription=0x7f1104f2;
+    public static final int library_androidswipelayout_libraryName=0x7f1104f3;
+    public static final int library_androidswipelayout_libraryVersion=0x7f1104f4;
+    public static final int library_androidswipelayout_libraryWebsite=0x7f1104f5;
+    public static final int library_androidswipelayout_licenseId=0x7f1104f6;
+    public static final int library_androidswipelayout_repositoryLink=0x7f1104f7;
+    public static final int library_androiduniversalimageloader_author=0x7f1104f8;
+    public static final int library_androiduniversalimageloader_authorWebsite=0x7f1104f9;
+    public static final int library_androiduniversalimageloader_classPath=0x7f1104fa;
+    public static final int library_androiduniversalimageloader_isOpenSource=0x7f1104fb;
+    public static final int library_androiduniversalimageloader_libraryDescription=0x7f1104fc;
+    public static final int library_androiduniversalimageloader_libraryName=0x7f1104fd;
+    public static final int library_androiduniversalimageloader_libraryVersion=0x7f1104fe;
+    public static final int library_androiduniversalimageloader_libraryWebsite=0x7f1104ff;
+    public static final int library_androiduniversalimageloader_licenseId=0x7f110500;
+    public static final int library_androiduniversalimageloader_repositoryLink=0x7f110501;
+    public static final int library_androidviewanimations_author=0x7f110502;
+    public static final int library_androidviewanimations_authorWebsite=0x7f110503;
+    public static final int library_androidviewanimations_classPath=0x7f110504;
+    public static final int library_androidviewanimations_isOpenSource=0x7f110505;
+    public static final int library_androidviewanimations_libraryDescription=0x7f110506;
+    public static final int library_androidviewanimations_libraryName=0x7f110507;
+    public static final int library_androidviewanimations_libraryVersion=0x7f110508;
+    public static final int library_androidviewanimations_libraryWebsite=0x7f110509;
+    public static final int library_androidviewanimations_licenseId=0x7f11050a;
+    public static final int library_androidviewanimations_repositoryLink=0x7f11050b;
+    public static final int library_androidviewhover_author=0x7f11050c;
+    public static final int library_androidviewhover_authorWebsite=0x7f11050d;
+    public static final int library_androidviewhover_classPath=0x7f11050e;
+    public static final int library_androidviewhover_isOpenSource=0x7f11050f;
+    public static final int library_androidviewhover_libraryDescription=0x7f110510;
+    public static final int library_androidviewhover_libraryName=0x7f110511;
+    public static final int library_androidviewhover_libraryVersion=0x7f110512;
+    public static final int library_androidviewhover_libraryWebsite=0x7f110513;
+    public static final int library_androidviewhover_licenseId=0x7f110514;
+    public static final int library_androidviewhover_repositoryLink=0x7f110515;
+    public static final int library_anko_author=0x7f110516;
+    public static final int library_anko_authorWebsite=0x7f110517;
+    public static final int library_anko_classPath=0x7f110518;
+    public static final int library_anko_isOpenSource=0x7f110519;
+    public static final int library_anko_libraryDescription=0x7f11051a;
+    public static final int library_anko_libraryName=0x7f11051b;
+    public static final int library_anko_libraryVersion=0x7f11051c;
+    public static final int library_anko_libraryWebsite=0x7f11051d;
+    public static final int library_anko_licenseId=0x7f11051e;
+    public static final int library_anko_repositoryLink=0x7f11051f;
+    public static final int library_apachemina_author=0x7f110520;
+    public static final int library_apachemina_authorWebsite=0x7f110521;
+    public static final int library_apachemina_classPath=0x7f110522;
+    public static final int library_apachemina_isOpenSource=0x7f110523;
+    public static final int library_apachemina_libraryDescription=0x7f110524;
+    public static final int library_apachemina_libraryName=0x7f110525;
+    public static final int library_apachemina_libraryVersion=0x7f110526;
+    public static final int library_apachemina_libraryWebsite=0x7f110527;
+    public static final int library_apachemina_licenseId=0x7f110528;
+    public static final int library_apachemina_repositoryLink=0x7f110529;
+    public static final int library_appauth_author=0x7f11052a;
+    public static final int library_appauth_authorWebsite=0x7f11052b;
+    public static final int library_appauth_classPath=0x7f11052c;
+    public static final int library_appauth_isOpenSource=0x7f11052d;
+    public static final int library_appauth_libraryDescription=0x7f11052e;
+    public static final int library_appauth_libraryName=0x7f11052f;
+    public static final int library_appauth_libraryVersion=0x7f110530;
+    public static final int library_appauth_libraryWebsite=0x7f110531;
+    public static final int library_appauth_licenseId=0x7f110532;
+    public static final int library_appauth_owner=0x7f110533;
+    public static final int library_appauth_repositoryLink=0x7f110534;
+    public static final int library_appauth_year=0x7f110535;
+    public static final int library_appcompat_v7_author=0x7f110536;
+    public static final int library_appcompat_v7_authorWebsite=0x7f110537;
+    public static final int library_appcompat_v7_classPath=0x7f110538;
+    public static final int library_appcompat_v7_isOpenSource=0x7f110539;
+    public static final int library_appcompat_v7_libraryDescription=0x7f11053a;
+    public static final int library_appcompat_v7_libraryName=0x7f11053b;
+    public static final int library_appcompat_v7_libraryVersion=0x7f11053c;
+    public static final int library_appcompat_v7_libraryWebsite=0x7f11053d;
+    public static final int library_appcompat_v7_licenseId=0x7f11053e;
+    public static final int library_appcompat_v7_owner=0x7f11053f;
+    public static final int library_appcompat_v7_repositoryLink=0x7f110540;
+    public static final int library_appcompat_v7_year=0x7f110541;
+    public static final int library_appintro_author=0x7f110542;
+    public static final int library_appintro_authorWebsite=0x7f110543;
+    public static final int library_appintro_classPath=0x7f110544;
+    public static final int library_appintro_isOpenSource=0x7f110545;
+    public static final int library_appintro_libraryDescription=0x7f110546;
+    public static final int library_appintro_libraryName=0x7f110547;
+    public static final int library_appintro_libraryVersion=0x7f110548;
+    public static final int library_appintro_libraryWebsite=0x7f110549;
+    public static final int library_appintro_licenseId=0x7f11054a;
+    public static final int library_appintro_repositoryLink=0x7f11054b;
+    public static final int library_aspectratioimageview_author=0x7f11054c;
+    public static final int library_aspectratioimageview_authorWebsite=0x7f11054d;
+    public static final int library_aspectratioimageview_classPath=0x7f11054e;
+    public static final int library_aspectratioimageview_isOpenSource=0x7f11054f;
+    public static final int library_aspectratioimageview_libraryDescription=0x7f110550;
+    public static final int library_aspectratioimageview_libraryName=0x7f110551;
+    public static final int library_aspectratioimageview_libraryVersion=0x7f110552;
+    public static final int library_aspectratioimageview_libraryWebsite=0x7f110553;
+    public static final int library_aspectratioimageview_licenseId=0x7f110554;
+    public static final int library_aspectratioimageview_repositoryLink=0x7f110555;
+    public static final int library_assent_author=0x7f110556;
+    public static final int library_assent_authorWebsite=0x7f110557;
+    public static final int library_assent_classPath=0x7f110558;
+    public static final int library_assent_isOpenSource=0x7f110559;
+    public static final int library_assent_libraryDescription=0x7f11055a;
+    public static final int library_assent_libraryName=0x7f11055b;
+    public static final int library_assent_libraryVersion=0x7f11055c;
+    public static final int library_assent_libraryWebsite=0x7f11055d;
+    public static final int library_assent_licenseId=0x7f11055e;
+    public static final int library_assent_repositoryLink=0x7f11055f;
+    public static final int library_autodispose_author=0x7f110560;
+    public static final int library_autodispose_authorWebsite=0x7f110561;
+    public static final int library_autodispose_classPath=0x7f110562;
+    public static final int library_autodispose_isOpenSource=0x7f110563;
+    public static final int library_autodispose_libraryDescription=0x7f110564;
+    public static final int library_autodispose_libraryName=0x7f110565;
+    public static final int library_autodispose_libraryVersion=0x7f110566;
+    public static final int library_autodispose_libraryWebsite=0x7f110567;
+    public static final int library_autodispose_licenseId=0x7f110568;
+    public static final int library_autodispose_repositoryLink=0x7f110569;
+    public static final int library_avatar_view_author=0x7f11056a;
+    public static final int library_avatar_view_authorWebsite=0x7f11056b;
+    public static final int library_avatar_view_classPath=0x7f11056c;
+    public static final int library_avatar_view_isOpenSource=0x7f11056d;
+    public static final int library_avatar_view_libraryDescription=0x7f11056e;
+    public static final int library_avatar_view_libraryName=0x7f11056f;
+    public static final int library_avatar_view_libraryVersion=0x7f110570;
+    public static final int library_avatar_view_libraryWebsite=0x7f110571;
+    public static final int library_avatar_view_licenseId=0x7f110572;
+    public static final int library_avatar_view_repositoryLink=0x7f110573;
+    public static final int library_betterlinkmovementmethod_author=0x7f110574;
+    public static final int library_betterlinkmovementmethod_authorWebsite=0x7f110575;
+    public static final int library_betterlinkmovementmethod_classPath=0x7f110576;
+    public static final int library_betterlinkmovementmethod_isOpenSource=0x7f110577;
+    public static final int library_betterlinkmovementmethod_libraryDescription=0x7f110578;
+    public static final int library_betterlinkmovementmethod_libraryName=0x7f110579;
+    public static final int library_betterlinkmovementmethod_libraryVersion=0x7f11057a;
+    public static final int library_betterlinkmovementmethod_libraryWebsite=0x7f11057b;
+    public static final int library_betterlinkmovementmethod_licenseId=0x7f11057c;
+    public static final int library_betterlinkmovementmethod_repositoryLink=0x7f11057d;
+    public static final int library_bottomsheet_author=0x7f11057e;
+    public static final int library_bottomsheet_authorWebsite=0x7f11057f;
+    public static final int library_bottomsheet_classPath=0x7f110580;
+    public static final int library_bottomsheet_isOpenSource=0x7f110581;
+    public static final int library_bottomsheet_libraryDescription=0x7f110582;
+    public static final int library_bottomsheet_libraryName=0x7f110583;
+    public static final int library_bottomsheet_libraryVersion=0x7f110584;
+    public static final int library_bottomsheet_libraryWebsite=0x7f110585;
+    public static final int library_bottomsheet_licenseContent=0x7f110586;
+    public static final int library_bottomsheet_licenseLink=0x7f110587;
+    public static final int library_bottomsheet_licenseVersion=0x7f110588;
+    public static final int library_bottomsheet_repositoryLink=0x7f110589;
+    public static final int library_bridge_author=0x7f11058a;
+    public static final int library_bridge_authorWebsite=0x7f11058b;
+    public static final int library_bridge_classPath=0x7f11058c;
+    public static final int library_bridge_isOpenSource=0x7f11058d;
+    public static final int library_bridge_libraryDescription=0x7f11058e;
+    public static final int library_bridge_libraryName=0x7f11058f;
+    public static final int library_bridge_libraryVersion=0x7f110590;
+    public static final int library_bridge_libraryWebsite=0x7f110591;
+    public static final int library_bridge_licenseId=0x7f110592;
+    public static final int library_bridge_repositoryLink=0x7f110593;
+    public static final int library_caldroid_author=0x7f110594;
+    public static final int library_caldroid_authorWebsite=0x7f110595;
+    public static final int library_caldroid_classPath=0x7f110596;
+    public static final int library_caldroid_isOpenSource=0x7f110597;
+    public static final int library_caldroid_libraryDescription=0x7f110598;
+    public static final int library_caldroid_libraryName=0x7f110599;
+    public static final int library_caldroid_libraryVersion=0x7f11059a;
+    public static final int library_caldroid_libraryWebsite=0x7f11059b;
+    public static final int library_caldroid_licenseId=0x7f11059c;
+    public static final int library_caldroid_owner=0x7f11059d;
+    public static final int library_caldroid_repositoryLink=0x7f11059e;
+    public static final int library_caldroid_year=0x7f11059f;
+    public static final int library_calligraphy_author=0x7f1105a0;
+    public static final int library_calligraphy_authorWebsite=0x7f1105a1;
+    public static final int library_calligraphy_classPath=0x7f1105a2;
+    public static final int library_calligraphy_isOpenSource=0x7f1105a3;
+    public static final int library_calligraphy_libraryDescription=0x7f1105a4;
+    public static final int library_calligraphy_libraryName=0x7f1105a5;
+    public static final int library_calligraphy_libraryVersion=0x7f1105a6;
+    public static final int library_calligraphy_libraryWebsite=0x7f1105a7;
+    public static final int library_calligraphy_licenseId=0x7f1105a8;
+    public static final int library_calligraphy_owner=0x7f1105a9;
+    public static final int library_calligraphy_repositoryLink=0x7f1105aa;
+    public static final int library_calligraphy_year=0x7f1105ab;
+    public static final int library_cardlibrary_author=0x7f1105ac;
+    public static final int library_cardlibrary_authorWebsite=0x7f1105ad;
+    public static final int library_cardlibrary_classPath=0x7f1105ae;
+    public static final int library_cardlibrary_isOpenSource=0x7f1105af;
+    public static final int library_cardlibrary_libraryDescription=0x7f1105b0;
+    public static final int library_cardlibrary_libraryName=0x7f1105b1;
+    public static final int library_cardlibrary_libraryVersion=0x7f1105b2;
+    public static final int library_cardlibrary_libraryWebsite=0x7f1105b3;
+    public static final int library_cardlibrary_licenseId=0x7f1105b4;
+    public static final int library_cardlibrary_repositoryLink=0x7f1105b5;
+    public static final int library_cardsuiForAndroid_author=0x7f1105b6;
+    public static final int library_cardsuiForAndroid_authorWebsite=0x7f1105b7;
+    public static final int library_cardsuiForAndroid_classPath=0x7f1105b8;
+    public static final int library_cardsuiForAndroid_isOpenSource=0x7f1105b9;
+    public static final int library_cardsuiForAndroid_libraryDescription=0x7f1105ba;
+    public static final int library_cardsuiForAndroid_libraryName=0x7f1105bb;
+    public static final int library_cardsuiForAndroid_libraryVersion=0x7f1105bc;
+    public static final int library_cardsuiForAndroid_libraryWebsite=0x7f1105bd;
+    public static final int library_cardsuiForAndroid_licenseId=0x7f1105be;
+    public static final int library_cardsuiForAndroid_owner=0x7f1105bf;
+    public static final int library_cardsuiForAndroid_repositoryLink=0x7f1105c0;
+    public static final int library_cardsuiForAndroid_year=0x7f1105c1;
+    public static final int library_circleindicator_author=0x7f1105c2;
+    public static final int library_circleindicator_authorWebsite=0x7f1105c3;
+    public static final int library_circleindicator_classPath=0x7f1105c4;
+    public static final int library_circleindicator_isOpenSource=0x7f1105c5;
+    public static final int library_circleindicator_libraryDescription=0x7f1105c6;
+    public static final int library_circleindicator_libraryName=0x7f1105c7;
+    public static final int library_circleindicator_libraryVersion=0x7f1105c8;
+    public static final int library_circleindicator_libraryWebsite=0x7f1105c9;
+    public static final int library_circleindicator_licenseId=0x7f1105ca;
+    public static final int library_circleindicator_owner=0x7f1105cb;
+    public static final int library_circleindicator_repositoryLink=0x7f1105cc;
+    public static final int library_circleindicator_year=0x7f1105cd;
+    public static final int library_cloudrail_author=0x7f1105ce;
+    public static final int library_cloudrail_authorWebsite=0x7f1105cf;
+    public static final int library_cloudrail_classPath=0x7f1105d0;
+    public static final int library_cloudrail_isOpenSource=0x7f1105d1;
+    public static final int library_cloudrail_libraryDescription=0x7f1105d2;
+    public static final int library_cloudrail_libraryName=0x7f1105d3;
+    public static final int library_cloudrail_libraryVersion=0x7f1105d4;
+    public static final int library_cloudrail_libraryWebsite=0x7f1105d5;
+    public static final int library_cloudrail_licenseId=0x7f1105d6;
+    public static final int library_colorpicker_author=0x7f1105d7;
+    public static final int library_colorpicker_authorWebsite=0x7f1105d8;
+    public static final int library_colorpicker_classPath=0x7f1105d9;
+    public static final int library_colorpicker_isOpenSource=0x7f1105da;
+    public static final int library_colorpicker_libraryDescription=0x7f1105db;
+    public static final int library_colorpicker_libraryName=0x7f1105dc;
+    public static final int library_colorpicker_libraryWebsite=0x7f1105dd;
+    public static final int library_colorpicker_licenseId=0x7f1105de;
+    public static final int library_colorpicker_repositoryLink=0x7f1105df;
+    public static final int library_colorpickercollection_author=0x7f1105e0;
+    public static final int library_colorpickercollection_authorWebsite=0x7f1105e1;
+    public static final int library_colorpickercollection_classPath=0x7f1105e2;
+    public static final int library_colorpickercollection_isOpenSource=0x7f1105e3;
+    public static final int library_colorpickercollection_libraryDescription=0x7f1105e4;
+    public static final int library_colorpickercollection_libraryName=0x7f1105e5;
+    public static final int library_colorpickercollection_libraryVersion=0x7f1105e6;
+    public static final int library_colorpickercollection_libraryWebsite=0x7f1105e7;
+    public static final int library_colorpickercollection_licenseId=0x7f1105e8;
+    public static final int library_colorpickercollection_repositoryLink=0x7f1105e9;
+    public static final int library_commonscompress_author=0x7f1105ea;
+    public static final int library_commonscompress_authorWebsite=0x7f1105eb;
+    public static final int library_commonscompress_classPath=0x7f1105ec;
+    public static final int library_commonscompress_isOpenSource=0x7f1105ed;
+    public static final int library_commonscompress_libraryDescription=0x7f1105ee;
+    public static final int library_commonscompress_libraryName=0x7f1105ef;
+    public static final int library_commonscompress_libraryVersion=0x7f1105f0;
+    public static final int library_commonscompress_libraryWebsite=0x7f1105f1;
+    public static final int library_commonscompress_licenseId=0x7f1105f2;
+    public static final int library_commonscompress_repositoryLink=0x7f1105f3;
+    public static final int library_commonscsv_author=0x7f1105f4;
+    public static final int library_commonscsv_authorWebsite=0x7f1105f5;
+    public static final int library_commonscsv_classPath=0x7f1105f6;
+    public static final int library_commonscsv_isOpenSource=0x7f1105f7;
+    public static final int library_commonscsv_libraryDescription=0x7f1105f8;
+    public static final int library_commonscsv_libraryName=0x7f1105f9;
+    public static final int library_commonscsv_libraryVersion=0x7f1105fa;
+    public static final int library_commonscsv_libraryWebsite=0x7f1105fb;
+    public static final int library_commonscsv_licenseId=0x7f1105fc;
+    public static final int library_commonscsv_repositoryLink=0x7f1105fd;
+    public static final int library_commonsio_author=0x7f1105fe;
+    public static final int library_commonsio_authorWebsite=0x7f1105ff;
+    public static final int library_commonsio_classPath=0x7f110600;
+    public static final int library_commonsio_isOpenSource=0x7f110601;
+    public static final int library_commonsio_libraryDescription=0x7f110602;
+    public static final int library_commonsio_libraryName=0x7f110603;
+    public static final int library_commonsio_libraryVersion=0x7f110604;
+    public static final int library_commonsio_libraryWebsite=0x7f110605;
+    public static final int library_commonsio_licenseId=0x7f110606;
+    public static final int library_commonsio_repositoryLink=0x7f110607;
+    public static final int library_commonslang3_author=0x7f110608;
+    public static final int library_commonslang3_authorWebsite=0x7f110609;
+    public static final int library_commonslang3_classPath=0x7f11060a;
+    public static final int library_commonslang3_isOpenSource=0x7f11060b;
+    public static final int library_commonslang3_libraryDescription=0x7f11060c;
+    public static final int library_commonslang3_libraryName=0x7f11060d;
+    public static final int library_commonslang3_libraryVersion=0x7f11060e;
+    public static final int library_commonslang3_libraryWebsite=0x7f11060f;
+    public static final int library_commonslang3_licenseId=0x7f110610;
+    public static final int library_commonslang3_repositoryLink=0x7f110611;
+    public static final int library_concurrenttrees_author=0x7f110612;
+    public static final int library_concurrenttrees_authorWebsite=0x7f110613;
+    public static final int library_concurrenttrees_classPath=0x7f110614;
+    public static final int library_concurrenttrees_isOpenSource=0x7f110615;
+    public static final int library_concurrenttrees_libraryDescription=0x7f110616;
+    public static final int library_concurrenttrees_libraryName=0x7f110617;
+    public static final int library_concurrenttrees_libraryVersion=0x7f110618;
+    public static final int library_concurrenttrees_libraryWebsite=0x7f110619;
+    public static final int library_concurrenttrees_licenseId=0x7f11061a;
+    public static final int library_concurrenttrees_repositoryLink=0x7f11061b;
+    public static final int library_constraint_layout_author=0x7f11061c;
+    public static final int library_constraint_layout_authorWebsite=0x7f11061d;
+    public static final int library_constraint_layout_classPath=0x7f11061e;
+    public static final int library_constraint_layout_isOpenSource=0x7f11061f;
+    public static final int library_constraint_layout_libraryDescription=0x7f110620;
+    public static final int library_constraint_layout_libraryName=0x7f110621;
+    public static final int library_constraint_layout_libraryVersion=0x7f110622;
+    public static final int library_constraint_layout_libraryWebsite=0x7f110623;
+    public static final int library_constraint_layout_licenseId=0x7f110624;
+    public static final int library_constraint_layout_owner=0x7f110625;
+    public static final int library_constraint_layout_repositoryLink=0x7f110626;
+    public static final int library_constraint_layout_year=0x7f110627;
+    public static final int library_context_menu_android_author=0x7f110628;
+    public static final int library_context_menu_android_authorWebsite=0x7f110629;
+    public static final int library_context_menu_android_classPath=0x7f11062a;
+    public static final int library_context_menu_android_isOpenSource=0x7f11062b;
+    public static final int library_context_menu_android_libraryDescription=0x7f11062c;
+    public static final int library_context_menu_android_libraryName=0x7f11062d;
+    public static final int library_context_menu_android_libraryVersion=0x7f11062e;
+    public static final int library_context_menu_android_libraryWebsite=0x7f11062f;
+    public static final int library_context_menu_android_licenseId=0x7f110630;
+    public static final int library_context_menu_android_repositoryLink=0x7f110631;
+    public static final int library_crossfadedrawerlayout_author=0x7f110632;
+    public static final int library_crossfadedrawerlayout_authorWebsite=0x7f110633;
+    public static final int library_crossfadedrawerlayout_isOpenSource=0x7f110634;
+    public static final int library_crossfadedrawerlayout_libraryDescription=0x7f110635;
+    public static final int library_crossfadedrawerlayout_libraryName=0x7f110636;
+    public static final int library_crossfadedrawerlayout_libraryVersion=0x7f110637;
+    public static final int library_crossfadedrawerlayout_libraryWebsite=0x7f110638;
+    public static final int library_crossfadedrawerlayout_licenseId=0x7f110639;
+    public static final int library_crossfadedrawerlayout_owner=0x7f11063a;
+    public static final int library_crossfadedrawerlayout_repositoryLink=0x7f11063b;
+    public static final int library_crossfadedrawerlayout_year=0x7f11063c;
+    public static final int library_customactivityoncrash_author=0x7f11063d;
+    public static final int library_customactivityoncrash_authorWebsite=0x7f11063e;
+    public static final int library_customactivityoncrash_classPath=0x7f11063f;
+    public static final int library_customactivityoncrash_isOpenSource=0x7f110640;
+    public static final int library_customactivityoncrash_libraryDescription=0x7f110641;
+    public static final int library_customactivityoncrash_libraryName=0x7f110642;
+    public static final int library_customactivityoncrash_libraryVersion=0x7f110643;
+    public static final int library_customactivityoncrash_libraryWebsite=0x7f110644;
+    public static final int library_customactivityoncrash_licenseId=0x7f110645;
+    public static final int library_customactivityoncrash_repositoryLink=0x7f110646;
+    public static final int library_customtabshelper_author=0x7f110647;
+    public static final int library_customtabshelper_authorWebsite=0x7f110648;
+    public static final int library_customtabshelper_classPath=0x7f110649;
+    public static final int library_customtabshelper_isOpenSource=0x7f11064a;
+    public static final int library_customtabshelper_libraryDescription=0x7f11064b;
+    public static final int library_customtabshelper_libraryName=0x7f11064c;
+    public static final int library_customtabshelper_libraryVersion=0x7f11064d;
+    public static final int library_customtabshelper_libraryWebsite=0x7f11064e;
+    public static final int library_customtabshelper_licenseId=0x7f11064f;
+    public static final int library_customtabshelper_repositoryLink=0x7f110650;
+    public static final int library_dav4jvm_author=0x7f110651;
+    public static final int library_dav4jvm_authorWebsite=0x7f110652;
+    public static final int library_dav4jvm_classPath=0x7f110653;
+    public static final int library_dav4jvm_isOpenSource=0x7f110654;
+    public static final int library_dav4jvm_libraryDescription=0x7f110655;
+    public static final int library_dav4jvm_libraryName=0x7f110656;
+    public static final int library_dav4jvm_libraryWebsite=0x7f110657;
+    public static final int library_dav4jvm_licenseId=0x7f110658;
+    public static final int library_dav4jvm_repositoryLink=0x7f110659;
+    public static final int library_dbflow_author=0x7f11065a;
+    public static final int library_dbflow_authorWebsite=0x7f11065b;
+    public static final int library_dbflow_classPath=0x7f11065c;
+    public static final int library_dbflow_isOpenSource=0x7f11065d;
+    public static final int library_dbflow_libraryDescription=0x7f11065e;
+    public static final int library_dbflow_libraryName=0x7f11065f;
+    public static final int library_dbflow_libraryVersion=0x7f110660;
+    public static final int library_dbflow_libraryWebsite=0x7f110661;
+    public static final int library_dbflow_licenseId=0x7f110662;
+    public static final int library_dbflow_repositoryLink=0x7f110663;
+    public static final int library_ddplist_author=0x7f110664;
+    public static final int library_ddplist_classPath=0x7f110665;
+    public static final int library_ddplist_isOpenSource=0x7f110666;
+    public static final int library_ddplist_libraryDescription=0x7f110667;
+    public static final int library_ddplist_libraryName=0x7f110668;
+    public static final int library_ddplist_libraryVersion=0x7f110669;
+    public static final int library_ddplist_libraryWebsite=0x7f11066a;
+    public static final int library_ddplist_licenseId=0x7f11066b;
+    public static final int library_ddplist_owner=0x7f11066c;
+    public static final int library_ddplist_repositoryLink=0x7f11066d;
+    public static final int library_ddplist_year=0x7f11066e;
+    public static final int library_design_author=0x7f11066f;
+    public static final int library_design_authorWebsite=0x7f110670;
+    public static final int library_design_classPath=0x7f110671;
+    public static final int library_design_isOpenSource=0x7f110672;
+    public static final int library_design_libraryDescription=0x7f110673;
+    public static final int library_design_libraryName=0x7f110674;
+    public static final int library_design_libraryVersion=0x7f110675;
+    public static final int library_design_libraryWebsite=0x7f110676;
+    public static final int library_design_licenseId=0x7f110677;
+    public static final int library_design_owner=0x7f110678;
+    public static final int library_design_repositoryLink=0x7f110679;
+    public static final int library_design_year=0x7f11067a;
+    public static final int library_discreteseekbar_author=0x7f11067b;
+    public static final int library_discreteseekbar_authorWebsite=0x7f11067c;
+    public static final int library_discreteseekbar_classPath=0x7f11067d;
+    public static final int library_discreteseekbar_isOpenSource=0x7f11067e;
+    public static final int library_discreteseekbar_libraryDescription=0x7f11067f;
+    public static final int library_discreteseekbar_libraryName=0x7f110680;
+    public static final int library_discreteseekbar_libraryVersion=0x7f110681;
+    public static final int library_discreteseekbar_libraryWebsite=0x7f110682;
+    public static final int library_discreteseekbar_licenseId=0x7f110683;
+    public static final int library_discreteseekbar_repositoryLink=0x7f110684;
+    public static final int library_dynamicrecyclerview_author=0x7f110685;
+    public static final int library_dynamicrecyclerview_authorWebsite=0x7f110686;
+    public static final int library_dynamicrecyclerview_classPath=0x7f110687;
+    public static final int library_dynamicrecyclerview_isOpenSource=0x7f110688;
+    public static final int library_dynamicrecyclerview_libraryDescription=0x7f110689;
+    public static final int library_dynamicrecyclerview_libraryName=0x7f11068a;
+    public static final int library_dynamicrecyclerview_libraryVersion=0x7f11068b;
+    public static final int library_dynamicrecyclerview_libraryWebsite=0x7f11068c;
+    public static final int library_dynamicrecyclerview_licenseId=0x7f11068d;
+    public static final int library_dynamicrecyclerview_repositoryLink=0x7f11068e;
+    public static final int library_earl_author=0x7f11068f;
+    public static final int library_earl_authorWebsite=0x7f110690;
+    public static final int library_earl_classPath=0x7f110691;
+    public static final int library_earl_isOpenSource=0x7f110692;
+    public static final int library_earl_libraryDescription=0x7f110693;
+    public static final int library_earl_libraryName=0x7f110694;
+    public static final int library_earl_libraryVersion=0x7f110695;
+    public static final int library_earl_libraryWebsite=0x7f110696;
+    public static final int library_earl_licenseId=0x7f110697;
+    public static final int library_earl_repositoryLink=0x7f110698;
+    public static final int library_easy_pref_author=0x7f110699;
+    public static final int library_easy_pref_authorWebsite=0x7f11069a;
+    public static final int library_easy_pref_classPath=0x7f11069b;
+    public static final int library_easy_pref_isOpenSource=0x7f11069c;
+    public static final int library_easy_pref_libraryDescription=0x7f11069d;
+    public static final int library_easy_pref_libraryName=0x7f11069e;
+    public static final int library_easy_pref_libraryVersion=0x7f11069f;
+    public static final int library_easy_pref_libraryWebsite=0x7f1106a0;
+    public static final int library_easy_pref_licenseId=0x7f1106a1;
+    public static final int library_easy_pref_repositoryLink=0x7f1106a2;
+    public static final int library_easyandroidanimations_author=0x7f1106a3;
+    public static final int library_easyandroidanimations_authorWebsite=0x7f1106a4;
+    public static final int library_easyandroidanimations_classPath=0x7f1106a5;
+    public static final int library_easyandroidanimations_isOpenSource=0x7f1106a6;
+    public static final int library_easyandroidanimations_libraryDescription=0x7f1106a7;
+    public static final int library_easyandroidanimations_libraryName=0x7f1106a8;
+    public static final int library_easyandroidanimations_libraryVersion=0x7f1106a9;
+    public static final int library_easyandroidanimations_libraryWebsite=0x7f1106aa;
+    public static final int library_easyandroidanimations_licenseId=0x7f1106ab;
+    public static final int library_easyandroidanimations_repositoryLink=0x7f1106ac;
+    public static final int library_eclipsepahoandroidservice_author=0x7f1106ad;
+    public static final int library_eclipsepahoandroidservice_authorWebsite=0x7f1106ae;
+    public static final int library_eclipsepahoandroidservice_classPath=0x7f1106af;
+    public static final int library_eclipsepahoandroidservice_isOpenSource=0x7f1106b0;
+    public static final int library_eclipsepahoandroidservice_libraryDescription=0x7f1106b1;
+    public static final int library_eclipsepahoandroidservice_libraryName=0x7f1106b2;
+    public static final int library_eclipsepahoandroidservice_libraryVersion=0x7f1106b3;
+    public static final int library_eclipsepahoandroidservice_libraryWebsite=0x7f1106b4;
+    public static final int library_eclipsepahoandroidservice_licenseId=0x7f1106b5;
+    public static final int library_eclipsepahoandroidservice_repositoryLink=0x7f1106b6;
+    public static final int library_emoji_author=0x7f1106b7;
+    public static final int library_emoji_authorWebsite=0x7f1106b8;
+    public static final int library_emoji_classPath=0x7f1106b9;
+    public static final int library_emoji_isOpenSource=0x7f1106ba;
+    public static final int library_emoji_libraryDescription=0x7f1106bb;
+    public static final int library_emoji_libraryName=0x7f1106bc;
+    public static final int library_emoji_libraryVersion=0x7f1106bd;
+    public static final int library_emoji_libraryWebsite=0x7f1106be;
+    public static final int library_emoji_licenseId=0x7f1106bf;
+    public static final int library_emoji_repositoryLink=0x7f1106c0;
+    public static final int library_encryption_author=0x7f1106c1;
+    public static final int library_encryption_classPath=0x7f1106c2;
+    public static final int library_encryption_isOpenSource=0x7f1106c3;
+    public static final int library_encryption_libraryDescription=0x7f1106c4;
+    public static final int library_encryption_libraryName=0x7f1106c5;
+    public static final int library_encryption_libraryVersion=0x7f1106c6;
+    public static final int library_encryption_libraryWebsite=0x7f1106c7;
+    public static final int library_encryption_licenseId=0x7f1106c8;
+    public static final int library_encryption_owner=0x7f1106c9;
+    public static final int library_encryption_repositoryLink=0x7f1106ca;
+    public static final int library_encryption_year=0x7f1106cb;
+    public static final int library_epoxy_author=0x7f1106cc;
+    public static final int library_epoxy_classPath=0x7f1106cd;
+    public static final int library_epoxy_isOpenSource=0x7f1106ce;
+    public static final int library_epoxy_libraryDescription=0x7f1106cf;
+    public static final int library_epoxy_libraryName=0x7f1106d0;
+    public static final int library_epoxy_libraryVersion=0x7f1106d1;
+    public static final int library_epoxy_libraryWebsite=0x7f1106d2;
+    public static final int library_epoxy_licenseId=0x7f1106d3;
+    public static final int library_epoxy_repositoryLink=0x7f1106d4;
+    public static final int library_exomedia_author=0x7f1106d5;
+    public static final int library_exomedia_authorWebsite=0x7f1106d6;
+    public static final int library_exomedia_classPath=0x7f1106d7;
+    public static final int library_exomedia_isOpenSource=0x7f1106d8;
+    public static final int library_exomedia_libraryDescription=0x7f1106d9;
+    public static final int library_exomedia_libraryName=0x7f1106da;
+    public static final int library_exomedia_libraryVersion=0x7f1106db;
+    public static final int library_exomedia_libraryWebsite=0x7f1106dc;
+    public static final int library_exomedia_licenseId=0x7f1106dd;
+    public static final int library_exomedia_repositoryLink=0x7f1106de;
+    public static final int library_exoplayer_author=0x7f1106df;
+    public static final int library_exoplayer_authorWebsite=0x7f1106e0;
+    public static final int library_exoplayer_classPath=0x7f1106e1;
+    public static final int library_exoplayer_isOpenSource=0x7f1106e2;
+    public static final int library_exoplayer_libraryDescription=0x7f1106e3;
+    public static final int library_exoplayer_libraryName=0x7f1106e4;
+    public static final int library_exoplayer_libraryVersion=0x7f1106e5;
+    public static final int library_exoplayer_libraryWebsite=0x7f1106e6;
+    public static final int library_exoplayer_licenseId=0x7f1106e7;
+    public static final int library_exoplayer_repositoryLink=0x7f1106e8;
+    public static final int library_fakeit_author=0x7f1106e9;
+    public static final int library_fakeit_authorWebsite=0x7f1106ea;
+    public static final int library_fakeit_classPath=0x7f1106eb;
+    public static final int library_fakeit_isOpenSource=0x7f1106ec;
+    public static final int library_fakeit_libraryDescription=0x7f1106ed;
+    public static final int library_fakeit_libraryName=0x7f1106ee;
+    public static final int library_fakeit_libraryVersion=0x7f1106ef;
+    public static final int library_fakeit_libraryWebsite=0x7f1106f0;
+    public static final int library_fakeit_licenseId=0x7f1106f1;
+    public static final int library_fakeit_repositoryLink=0x7f1106f2;
+    public static final int library_fastadapter_author=0x7f1106f3;
+    public static final int library_fastadapter_authorWebsite=0x7f1106f4;
+    public static final int library_fastadapter_isOpenSource=0x7f1106f5;
+    public static final int library_fastadapter_libraryDescription=0x7f1106f6;
+    public static final int library_fastadapter_libraryName=0x7f1106f7;
+    public static final int library_fastadapter_libraryVersion=0x7f1106f8;
+    public static final int library_fastadapter_libraryWebsite=0x7f1106f9;
+    public static final int library_fastadapter_licenseId=0x7f1106fa;
+    public static final int library_fastadapter_owner=0x7f1106fb;
+    public static final int library_fastadapter_repositoryLink=0x7f1106fc;
+    public static final int library_fastadapter_year=0x7f1106fd;
+    public static final int library_flexboxlayout_author=0x7f1106fe;
+    public static final int library_flexboxlayout_authorWebsite=0x7f1106ff;
+    public static final int library_flexboxlayout_classPath=0x7f110700;
+    public static final int library_flexboxlayout_isOpenSource=0x7f110701;
+    public static final int library_flexboxlayout_libraryDescription=0x7f110702;
+    public static final int library_flexboxlayout_libraryName=0x7f110703;
+    public static final int library_flexboxlayout_libraryVersion=0x7f110704;
+    public static final int library_flexboxlayout_libraryWebsite=0x7f110705;
+    public static final int library_flexboxlayout_licenseId=0x7f110706;
+    public static final int library_flexboxlayout_repositoryLink=0x7f110707;
+    public static final int library_floatingsearchview_author=0x7f110708;
+    public static final int library_floatingsearchview_authorWebsite=0x7f110709;
+    public static final int library_floatingsearchview_classPath=0x7f11070a;
+    public static final int library_floatingsearchview_isOpenSource=0x7f11070b;
+    public static final int library_floatingsearchview_libraryDescription=0x7f11070c;
+    public static final int library_floatingsearchview_libraryName=0x7f11070d;
+    public static final int library_floatingsearchview_libraryVersion=0x7f11070e;
+    public static final int library_floatingsearchview_libraryWebsite=0x7f11070f;
+    public static final int library_floatingsearchview_licenseId=0x7f110710;
+    public static final int library_floatingsearchview_repositoryLink=0x7f110711;
+    public static final int library_foursquareAndroidOauth_author=0x7f110712;
+    public static final int library_foursquareAndroidOauth_classPath=0x7f110713;
+    public static final int library_foursquareAndroidOauth_isOpenSource=0x7f110714;
+    public static final int library_foursquareAndroidOauth_libraryDescription=0x7f110715;
+    public static final int library_foursquareAndroidOauth_libraryName=0x7f110716;
+    public static final int library_foursquareAndroidOauth_libraryVersion=0x7f110717;
+    public static final int library_foursquareAndroidOauth_libraryWebsite=0x7f110718;
+    public static final int library_foursquareAndroidOauth_licenseId=0x7f110719;
+    public static final int library_foursquareAndroidOauth_owner=0x7f11071a;
+    public static final int library_foursquareAndroidOauth_repositoryLink=0x7f11071b;
+    public static final int library_foursquareAndroidOauth_year=0x7f11071c;
+    public static final int library_ftpserver_author=0x7f11071d;
+    public static final int library_ftpserver_authorWebsite=0x7f11071e;
+    public static final int library_ftpserver_classPath=0x7f11071f;
+    public static final int library_ftpserver_isOpenSource=0x7f110720;
+    public static final int library_ftpserver_libraryDescription=0x7f110721;
+    public static final int library_ftpserver_libraryName=0x7f110722;
+    public static final int library_ftpserver_libraryVersion=0x7f110723;
+    public static final int library_ftpserver_libraryWebsite=0x7f110724;
+    public static final int library_ftpserver_licenseId=0x7f110725;
+    public static final int library_ftpserver_repositoryLink=0x7f110726;
+    public static final int library_glide_author=0x7f110727;
+    public static final int library_glide_authorWebsite=0x7f110728;
+    public static final int library_glide_classPath=0x7f110729;
+    public static final int library_glide_isOpenSource=0x7f11072a;
+    public static final int library_glide_libraryDescription=0x7f11072b;
+    public static final int library_glide_libraryName=0x7f11072c;
+    public static final int library_glide_libraryVersion=0x7f11072d;
+    public static final int library_glide_libraryWebsite=0x7f11072e;
+    public static final int library_glide_licenseContent=0x7f11072f;
+    public static final int library_glide_licenseLink=0x7f110730;
+    public static final int library_glide_licenseVersion=0x7f110731;
+    public static final int library_glide_repositoryLink=0x7f110732;
+    public static final int library_gradle_retrolambda_author=0x7f110733;
+    public static final int library_gradle_retrolambda_authorWebsite=0x7f110734;
+    public static final int library_gradle_retrolambda_classPath=0x7f110735;
+    public static final int library_gradle_retrolambda_isOpenSource=0x7f110736;
+    public static final int library_gradle_retrolambda_libraryDescription=0x7f110737;
+    public static final int library_gradle_retrolambda_libraryName=0x7f110738;
+    public static final int library_gradle_retrolambda_libraryVersion=0x7f110739;
+    public static final int library_gradle_retrolambda_libraryWebsite=0x7f11073a;
+    public static final int library_gradle_retrolambda_licenseId=0x7f11073b;
+    public static final int library_gradle_retrolambda_repositoryLink=0x7f11073c;
+    public static final int library_greendao_author=0x7f11073d;
+    public static final int library_greendao_authorWebsite=0x7f11073e;
+    public static final int library_greendao_classPath=0x7f11073f;
+    public static final int library_greendao_isOpenSource=0x7f110740;
+    public static final int library_greendao_libraryDescription=0x7f110741;
+    public static final int library_greendao_libraryName=0x7f110742;
+    public static final int library_greendao_libraryVersion=0x7f110743;
+    public static final int library_greendao_libraryWebsite=0x7f110744;
+    public static final int library_greendao_licenseId=0x7f110745;
+    public static final int library_greendao_repositoryLink=0x7f110746;
+    public static final int library_gson_author=0x7f110747;
+    public static final int library_gson_classPath=0x7f110748;
+    public static final int library_gson_isOpenSource=0x7f110749;
+    public static final int library_gson_libraryDescription=0x7f11074a;
+    public static final int library_gson_libraryName=0x7f11074b;
+    public static final int library_gson_libraryVersion=0x7f11074c;
+    public static final int library_gson_libraryWebsite=0x7f11074d;
+    public static final int library_gson_licenseId=0x7f11074e;
+    public static final int library_gson_owner=0x7f11074f;
+    public static final int library_gson_repositoryLink=0x7f110750;
+    public static final int library_gson_year=0x7f110751;
+    public static final int library_gsonjodatimeserialisers_author=0x7f110752;
+    public static final int library_gsonjodatimeserialisers_authorWebsite=0x7f110753;
+    public static final int library_gsonjodatimeserialisers_classPath=0x7f110754;
+    public static final int library_gsonjodatimeserialisers_isOpenSource=0x7f110755;
+    public static final int library_gsonjodatimeserialisers_libraryDescription=0x7f110756;
+    public static final int library_gsonjodatimeserialisers_libraryName=0x7f110757;
+    public static final int library_gsonjodatimeserialisers_libraryVersion=0x7f110758;
+    public static final int library_gsonjodatimeserialisers_libraryWebsite=0x7f110759;
+    public static final int library_gsonjodatimeserialisers_licenseId=0x7f11075a;
+    public static final int library_gsonjodatimeserialisers_repositoryLink=0x7f11075b;
+    public static final int library_guava_author=0x7f11075c;
+    public static final int library_guava_authorWebsite=0x7f11075d;
+    public static final int library_guava_classPath=0x7f11075e;
+    public static final int library_guava_isOpenSource=0x7f11075f;
+    public static final int library_guava_libraryDescription=0x7f110760;
+    public static final int library_guava_libraryName=0x7f110761;
+    public static final int library_guava_libraryVersion=0x7f110762;
+    public static final int library_guava_libraryWebsite=0x7f110763;
+    public static final int library_guava_licenseId=0x7f110764;
+    public static final int library_guava_repositoryLink=0x7f110765;
+    public static final int library_hawk_author=0x7f110766;
+    public static final int library_hawk_authorWebsite=0x7f110767;
+    public static final int library_hawk_classPath=0x7f110768;
+    public static final int library_hawk_isOpenSource=0x7f110769;
+    public static final int library_hawk_libraryDescription=0x7f11076a;
+    public static final int library_hawk_libraryName=0x7f11076b;
+    public static final int library_hawk_libraryVersion=0x7f11076c;
+    public static final int library_hawk_libraryWebsite=0x7f11076d;
+    public static final int library_hawk_licenseId=0x7f11076e;
+    public static final int library_hawk_repositoryLink=0x7f11076f;
+    public static final int library_hellocharts_author=0x7f110770;
+    public static final int library_hellocharts_authorWebsite=0x7f110771;
+    public static final int library_hellocharts_classPath=0x7f110772;
+    public static final int library_hellocharts_isOpenSource=0x7f110773;
+    public static final int library_hellocharts_libraryDescription=0x7f110774;
+    public static final int library_hellocharts_libraryName=0x7f110775;
+    public static final int library_hellocharts_libraryVersion=0x7f110776;
+    public static final int library_hellocharts_libraryWebsite=0x7f110777;
+    public static final int library_hellocharts_licenseId=0x7f110778;
+    public static final int library_hellocharts_repositoryLink=0x7f110779;
+    public static final int library_hockeyapp_author=0x7f11077a;
+    public static final int library_hockeyapp_authorWebsite=0x7f11077b;
+    public static final int library_hockeyapp_classPath=0x7f11077c;
+    public static final int library_hockeyapp_isOpenSource=0x7f11077d;
+    public static final int library_hockeyapp_libraryDescription=0x7f11077e;
+    public static final int library_hockeyapp_libraryName=0x7f11077f;
+    public static final int library_hockeyapp_libraryVersion=0x7f110780;
+    public static final int library_hockeyapp_libraryWebsite=0x7f110781;
+    public static final int library_hockeyapp_licenseId=0x7f110782;
+    public static final int library_hockeyapp_owner=0x7f110783;
+    public static final int library_hockeyapp_repositoryLink=0x7f110784;
+    public static final int library_hockeyapp_year=0x7f110785;
+    public static final int library_httpclient_android_author=0x7f110786;
+    public static final int library_httpclient_android_authorWebsite=0x7f110787;
+    public static final int library_httpclient_android_classPath=0x7f110788;
+    public static final int library_httpclient_android_isOpenSource=0x7f110789;
+    public static final int library_httpclient_android_libraryDescription=0x7f11078a;
+    public static final int library_httpclient_android_libraryName=0x7f11078b;
+    public static final int library_httpclient_android_libraryVersion=0x7f11078c;
+    public static final int library_httpclient_android_libraryWebsite=0x7f11078d;
+    public static final int library_httpclient_android_licenseId=0x7f11078e;
+    public static final int library_httpclient_android_repositoryLink=0x7f11078f;
+    public static final int library_imagepicker_author=0x7f110790;
+    public static final int library_imagepicker_authorWebsite=0x7f110791;
+    public static final int library_imagepicker_classPath=0x7f110792;
+    public static final int library_imagepicker_isOpenSource=0x7f110793;
+    public static final int library_imagepicker_libraryDescription=0x7f110794;
+    public static final int library_imagepicker_libraryName=0x7f110795;
+    public static final int library_imagepicker_libraryVersion=0x7f110796;
+    public static final int library_imagepicker_libraryWebsite=0x7f110797;
+    public static final int library_imagepicker_licenseId=0x7f110798;
+    public static final int library_imagepicker_repositoryLink=0x7f110799;
+    public static final int library_intellijannotations_author=0x7f11079a;
+    public static final int library_intellijannotations_classPath=0x7f11079b;
+    public static final int library_intellijannotations_isOpenSource=0x7f11079c;
+    public static final int library_intellijannotations_libraryDescription=0x7f11079d;
+    public static final int library_intellijannotations_libraryName=0x7f11079e;
+    public static final int library_intellijannotations_libraryVersion=0x7f11079f;
+    public static final int library_intellijannotations_libraryWebsite=0x7f1107a0;
+    public static final int library_intellijannotations_licenseId=0x7f1107a1;
+    public static final int library_intellijannotations_owner=0x7f1107a2;
+    public static final int library_intellijannotations_year=0x7f1107a3;
+    public static final int library_ion_author=0x7f1107a4;
+    public static final int library_ion_authorWebsite=0x7f1107a5;
+    public static final int library_ion_classPath=0x7f1107a6;
+    public static final int library_ion_isOpenSource=0x7f1107a7;
+    public static final int library_ion_libraryDescription=0x7f1107a8;
+    public static final int library_ion_libraryName=0x7f1107a9;
+    public static final int library_ion_libraryVersion=0x7f1107aa;
+    public static final int library_ion_libraryWebsite=0x7f1107ab;
+    public static final int library_ion_licenseId=0x7f1107ac;
+    public static final int library_ion_repositoryLink=0x7f1107ad;
+    public static final int library_jackson_author=0x7f1107ae;
+    public static final int library_jackson_authorWebsite=0x7f1107af;
+    public static final int library_jackson_classPath=0x7f1107b0;
+    public static final int library_jackson_isOpenSource=0x7f1107b1;
+    public static final int library_jackson_libraryDescription=0x7f1107b2;
+    public static final int library_jackson_libraryName=0x7f1107b3;
+    public static final int library_jackson_libraryVersion=0x7f1107b4;
+    public static final int library_jackson_libraryWebsite=0x7f1107b5;
+    public static final int library_jackson_licenseId=0x7f1107b6;
+    public static final int library_jackson_repositoryLink=0x7f1107b7;
+    public static final int library_jmdns_author=0x7f1107b8;
+    public static final int library_jmdns_authorWebsite=0x7f1107b9;
+    public static final int library_jmdns_classPath=0x7f1107ba;
+    public static final int library_jmdns_isOpenSource=0x7f1107bb;
+    public static final int library_jmdns_libraryDescription=0x7f1107bc;
+    public static final int library_jmdns_libraryName=0x7f1107bd;
+    public static final int library_jmdns_libraryVersion=0x7f1107be;
+    public static final int library_jmdns_libraryWebsite=0x7f1107bf;
+    public static final int library_jmdns_licenseId=0x7f1107c0;
+    public static final int library_jmdns_repositoryLink=0x7f1107c1;
+    public static final int library_jodaTime_author=0x7f1107c2;
+    public static final int library_jodaTime_authorWebsite=0x7f1107c3;
+    public static final int library_jodaTime_classPath=0x7f1107c4;
+    public static final int library_jodaTime_isOpenSource=0x7f1107c5;
+    public static final int library_jodaTime_libraryDescription=0x7f1107c6;
+    public static final int library_jodaTime_libraryName=0x7f1107c7;
+    public static final int library_jodaTime_libraryVersion=0x7f1107c8;
+    public static final int library_jodaTime_libraryWebsite=0x7f1107c9;
+    public static final int library_jodaTime_licenseId=0x7f1107ca;
+    public static final int library_jodaTime_owner=0x7f1107cb;
+    public static final int library_jodaTime_repositoryLink=0x7f1107cc;
+    public static final int library_jodaTime_year=0x7f1107cd;
+    public static final int library_jodatimeandroid_author=0x7f1107ce;
+    public static final int library_jodatimeandroid_authorWebsite=0x7f1107cf;
+    public static final int library_jodatimeandroid_classPath=0x7f1107d0;
+    public static final int library_jodatimeandroid_isOpenSource=0x7f1107d1;
+    public static final int library_jodatimeandroid_libraryDescription=0x7f1107d2;
+    public static final int library_jodatimeandroid_libraryName=0x7f1107d3;
+    public static final int library_jodatimeandroid_libraryVersion=0x7f1107d4;
+    public static final int library_jodatimeandroid_libraryWebsite=0x7f1107d5;
+    public static final int library_jodatimeandroid_licenseId=0x7f1107d6;
+    public static final int library_jodatimeandroid_repositoryLink=0x7f1107d7;
+    public static final int library_junrar_author=0x7f1107d8;
+    public static final int library_junrar_authorWebsite=0x7f1107d9;
+    public static final int library_junrar_classPath=0x7f1107da;
+    public static final int library_junrar_isOpenSource=0x7f1107db;
+    public static final int library_junrar_libraryDescription=0x7f1107dc;
+    public static final int library_junrar_libraryName=0x7f1107dd;
+    public static final int library_junrar_libraryVersion=0x7f1107de;
+    public static final int library_junrar_licenseId=0x7f1107df;
+    public static final int library_junrar_repositoryLink=0x7f1107e0;
+    public static final int library_kluent_author=0x7f1107e1;
+    public static final int library_kluent_authorWebsite=0x7f1107e2;
+    public static final int library_kluent_classPath=0x7f1107e3;
+    public static final int library_kluent_isOpenSource=0x7f1107e4;
+    public static final int library_kluent_libraryDescription=0x7f1107e5;
+    public static final int library_kluent_libraryName=0x7f1107e6;
+    public static final int library_kluent_libraryVersion=0x7f1107e7;
+    public static final int library_kluent_libraryWebsite=0x7f1107e8;
+    public static final int library_kluent_licenseId=0x7f1107e9;
+    public static final int library_kluent_repositoryLink=0x7f1107ea;
+    public static final int library_konfetti_author=0x7f1107eb;
+    public static final int library_konfetti_authorWebsite=0x7f1107ec;
+    public static final int library_konfetti_classPath=0x7f1107ed;
+    public static final int library_konfetti_isOpenSource=0x7f1107ee;
+    public static final int library_konfetti_libraryDescription=0x7f1107ef;
+    public static final int library_konfetti_libraryName=0x7f1107f0;
+    public static final int library_konfetti_libraryVersion=0x7f1107f1;
+    public static final int library_konfetti_libraryWebsite=0x7f1107f2;
+    public static final int library_konfetti_licenseContent=0x7f1107f3;
+    public static final int library_konfetti_licenseLink=0x7f1107f4;
+    public static final int library_konfetti_licenseVersion=0x7f1107f5;
+    public static final int library_konfetti_repositoryLink=0x7f1107f6;
+    public static final int library_koptional_author=0x7f1107f7;
+    public static final int library_koptional_authorWebsite=0x7f1107f8;
+    public static final int library_koptional_classPath=0x7f1107f9;
+    public static final int library_koptional_isOpenSource=0x7f1107fa;
+    public static final int library_koptional_libraryDescription=0x7f1107fb;
+    public static final int library_koptional_libraryName=0x7f1107fc;
+    public static final int library_koptional_libraryVersion=0x7f1107fd;
+    public static final int library_koptional_libraryWebsite=0x7f1107fe;
+    public static final int library_koptional_licenseId=0x7f1107ff;
+    public static final int library_koptional_repositoryLink=0x7f110800;
+    public static final int library_kotterknife_author=0x7f110801;
+    public static final int library_kotterknife_authorWebsite=0x7f110802;
+    public static final int library_kotterknife_classPath=0x7f110803;
+    public static final int library_kotterknife_isOpenSource=0x7f110804;
+    public static final int library_kotterknife_libraryDescription=0x7f110805;
+    public static final int library_kotterknife_libraryName=0x7f110806;
+    public static final int library_kotterknife_libraryVersion=0x7f110807;
+    public static final int library_kotterknife_libraryWebsite=0x7f110808;
+    public static final int library_kotterknife_licenseId=0x7f110809;
+    public static final int library_kotterknife_repositoryLink=0x7f11080a;
+    public static final int library_ldialogs_author=0x7f11080b;
+    public static final int library_ldialogs_authorWebsite=0x7f11080c;
+    public static final int library_ldialogs_classPath=0x7f11080d;
+    public static final int library_ldialogs_isOpenSource=0x7f11080e;
+    public static final int library_ldialogs_libraryDescription=0x7f11080f;
+    public static final int library_ldialogs_libraryName=0x7f110810;
+    public static final int library_ldialogs_libraryVersion=0x7f110811;
+    public static final int library_ldialogs_libraryWebsite=0x7f110812;
+    public static final int library_ldialogs_licenseId=0x7f110813;
+    public static final int library_ldialogs_repositoryLink=0x7f110814;
+    public static final int library_libphonenumber_author=0x7f110815;
+    public static final int library_libphonenumber_authorWebsite=0x7f110816;
+    public static final int library_libphonenumber_isOpenSource=0x7f110817;
+    public static final int library_libphonenumber_libraryDescription=0x7f110818;
+    public static final int library_libphonenumber_libraryName=0x7f110819;
+    public static final int library_libphonenumber_libraryVersion=0x7f11081a;
+    public static final int library_libphonenumber_libraryWebsite=0x7f11081b;
+    public static final int library_libphonenumber_licenseId=0x7f11081c;
+    public static final int library_libphonenumber_repositoryLink=0x7f11081d;
+    public static final int library_libsuperuser_author=0x7f11081e;
+    public static final int library_libsuperuser_authorWebsite=0x7f11081f;
+    public static final int library_libsuperuser_classPath=0x7f110820;
+    public static final int library_libsuperuser_isOpenSource=0x7f110821;
+    public static final int library_libsuperuser_libraryDescription=0x7f110822;
+    public static final int library_libsuperuser_libraryName=0x7f110823;
+    public static final int library_libsuperuser_libraryVersion=0x7f110824;
+    public static final int library_libsuperuser_libraryWebsite=0x7f110825;
+    public static final int library_libsuperuser_licenseId=0x7f110826;
+    public static final int library_libsuperuser_repositoryLink=0x7f110827;
+    public static final int library_loadsir_author=0x7f110828;
+    public static final int library_loadsir_authorWebsite=0x7f110829;
+    public static final int library_loadsir_classPath=0x7f11082a;
+    public static final int library_loadsir_isOpenSource=0x7f11082b;
+    public static final int library_loadsir_libraryDescription=0x7f11082c;
+    public static final int library_loadsir_libraryName=0x7f11082d;
+    public static final int library_loadsir_libraryWebsite=0x7f11082e;
+    public static final int library_loadsir_licenseId=0x7f11082f;
+    public static final int library_loadsir_repositoryLink=0x7f110830;
+    public static final int library_lottie_author=0x7f110831;
+    public static final int library_lottie_authorWebsite=0x7f110832;
+    public static final int library_lottie_classPath=0x7f110833;
+    public static final int library_lottie_isOpenSource=0x7f110834;
+    public static final int library_lottie_libraryDescription=0x7f110835;
+    public static final int library_lottie_libraryName=0x7f110836;
+    public static final int library_lottie_libraryVersion=0x7f110837;
+    public static final int library_lottie_libraryWebsite=0x7f110838;
+    public static final int library_lottie_licenseId=0x7f110839;
+    public static final int library_lottie_repositoryLink=0x7f11083a;
+    public static final int library_magisterjava_author=0x7f11083b;
+    public static final int library_magisterjava_authorWebsite=0x7f11083c;
+    public static final int library_magisterjava_classPath=0x7f11083d;
+    public static final int library_magisterjava_isOpenSource=0x7f11083e;
+    public static final int library_magisterjava_libraryDescription=0x7f11083f;
+    public static final int library_magisterjava_libraryName=0x7f110840;
+    public static final int library_magisterjava_libraryVersion=0x7f110841;
+    public static final int library_magisterjava_licenseId=0x7f110842;
+    public static final int library_magisterjava_repositoryLink=0x7f110843;
+    public static final int library_material_tap_target_prompt_author=0x7f110844;
+    public static final int library_material_tap_target_prompt_authorWebsite=0x7f110845;
+    public static final int library_material_tap_target_prompt_classPath=0x7f110846;
+    public static final int library_material_tap_target_prompt_isOpenSource=0x7f110847;
+    public static final int library_material_tap_target_prompt_libraryDescription=0x7f110848;
+    public static final int library_material_tap_target_prompt_libraryName=0x7f110849;
+    public static final int library_material_tap_target_prompt_libraryVersion=0x7f11084a;
+    public static final int library_material_tap_target_prompt_libraryWebsite=0x7f11084b;
+    public static final int library_material_tap_target_prompt_licenseId=0x7f11084c;
+    public static final int library_material_tap_target_prompt_repositoryLink=0x7f11084d;
+    public static final int library_materialaboutlibrary_author=0x7f11084e;
+    public static final int library_materialaboutlibrary_authorWebsite=0x7f11084f;
+    public static final int library_materialaboutlibrary_classPath=0x7f110850;
+    public static final int library_materialaboutlibrary_isOpenSource=0x7f110851;
+    public static final int library_materialaboutlibrary_libraryDescription=0x7f110852;
+    public static final int library_materialaboutlibrary_libraryName=0x7f110853;
+    public static final int library_materialaboutlibrary_libraryVersion=0x7f110854;
+    public static final int library_materialaboutlibrary_libraryWebsite=0x7f110855;
+    public static final int library_materialaboutlibrary_licenseId=0x7f110856;
+    public static final int library_materialaboutlibrary_owner=0x7f110857;
+    public static final int library_materialaboutlibrary_repositoryLink=0x7f110858;
+    public static final int library_materialaboutlibrary_year=0x7f110859;
+    public static final int library_materialbadgetextview_author=0x7f11085a;
+    public static final int library_materialbadgetextview_authorWebsite=0x7f11085b;
+    public static final int library_materialbadgetextview_classPath=0x7f11085c;
+    public static final int library_materialbadgetextview_isOpenSource=0x7f11085d;
+    public static final int library_materialbadgetextview_libraryDescription=0x7f11085e;
+    public static final int library_materialbadgetextview_libraryName=0x7f11085f;
+    public static final int library_materialbadgetextview_libraryVersion=0x7f110860;
+    public static final int library_materialbadgetextview_libraryWebsite=0x7f110861;
+    public static final int library_materialbadgetextview_licenseId=0x7f110862;
+    public static final int library_materialbadgetextview_repositoryLink=0x7f110863;
+    public static final int library_materialdesigndimens_author=0x7f110864;
+    public static final int library_materialdesigndimens_authorWebsite=0x7f110865;
+    public static final int library_materialdesigndimens_isOpenSource=0x7f110866;
+    public static final int library_materialdesigndimens_libraryDescription=0x7f110867;
+    public static final int library_materialdesigndimens_libraryName=0x7f110868;
+    public static final int library_materialdesigndimens_libraryVersion=0x7f110869;
+    public static final int library_materialdesigndimens_libraryWebsite=0x7f11086a;
+    public static final int library_materialdesigndimens_licenseId=0x7f11086b;
+    public static final int library_materialdesigndimens_repositoryLink=0x7f11086c;
+    public static final int library_materialdialogs_author=0x7f11086d;
+    public static final int library_materialdialogs_authorWebsite=0x7f11086e;
+    public static final int library_materialdialogs_classPath=0x7f11086f;
+    public static final int library_materialdialogs_isOpenSource=0x7f110870;
+    public static final int library_materialdialogs_libraryDescription=0x7f110871;
+    public static final int library_materialdialogs_libraryName=0x7f110872;
+    public static final int library_materialdialogs_libraryVersion=0x7f110873;
+    public static final int library_materialdialogs_libraryWebsite=0x7f110874;
+    public static final int library_materialdialogs_licenseId=0x7f110875;
+    public static final int library_materialdialogs_owner=0x7f110876;
+    public static final int library_materialdialogs_repositoryLink=0x7f110877;
+    public static final int library_materialdialogs_year=0x7f110878;
+    public static final int library_materialdrawer_author=0x7f110879;
+    public static final int library_materialdrawer_authorWebsite=0x7f11087a;
+    public static final int library_materialdrawer_isOpenSource=0x7f11087b;
+    public static final int library_materialdrawer_libraryDescription=0x7f11087c;
+    public static final int library_materialdrawer_libraryName=0x7f11087d;
+    public static final int library_materialdrawer_libraryVersion=0x7f11087e;
+    public static final int library_materialdrawer_libraryWebsite=0x7f11087f;
+    public static final int library_materialdrawer_licenseId=0x7f110880;
+    public static final int library_materialdrawer_owner=0x7f110881;
+    public static final int library_materialdrawer_repositoryLink=0x7f110882;
+    public static final int library_materialdrawer_year=0x7f110883;
+    public static final int library_materialdrawerkt_author=0x7f110884;
+    public static final int library_materialdrawerkt_authorWebsite=0x7f110885;
+    public static final int library_materialdrawerkt_classPath=0x7f110886;
+    public static final int library_materialdrawerkt_isOpenSource=0x7f110887;
+    public static final int library_materialdrawerkt_libraryDescription=0x7f110888;
+    public static final int library_materialdrawerkt_libraryName=0x7f110889;
+    public static final int library_materialdrawerkt_libraryVersion=0x7f11088a;
+    public static final int library_materialdrawerkt_libraryWebsite=0x7f11088b;
+    public static final int library_materialdrawerkt_licenseId=0x7f11088c;
+    public static final int library_materialdrawerkt_owner=0x7f11088d;
+    public static final int library_materialdrawerkt_repositoryLink=0x7f11088e;
+    public static final int library_materialdrawerkt_year=0x7f11088f;
+    public static final int library_materialedittext_author=0x7f110890;
+    public static final int library_materialedittext_authorWebsite=0x7f110891;
+    public static final int library_materialedittext_classPath=0x7f110892;
+    public static final int library_materialedittext_isOpenSource=0x7f110893;
+    public static final int library_materialedittext_libraryDescription=0x7f110894;
+    public static final int library_materialedittext_libraryName=0x7f110895;
+    public static final int library_materialedittext_libraryVersion=0x7f110896;
+    public static final int library_materialedittext_libraryWebsite=0x7f110897;
+    public static final int library_materialedittext_licenseId=0x7f110898;
+    public static final int library_materialedittext_repositoryLink=0x7f110899;
+    public static final int library_materialicons_author=0x7f11089a;
+    public static final int library_materialicons_authorWebsite=0x7f11089b;
+    public static final int library_materialicons_classPath=0x7f11089c;
+    public static final int library_materialicons_isOpenSource=0x7f11089d;
+    public static final int library_materialicons_libraryDescription=0x7f11089e;
+    public static final int library_materialicons_libraryName=0x7f11089f;
+    public static final int library_materialicons_libraryVersion=0x7f1108a0;
+    public static final int library_materialicons_libraryWebsite=0x7f1108a1;
+    public static final int library_materialicons_licenseId=0x7f1108a2;
+    public static final int library_materialicons_repositoryLink=0x7f1108a3;
+    public static final int library_materialize_author=0x7f1108a4;
+    public static final int library_materialize_authorWebsite=0x7f1108a5;
+    public static final int library_materialize_isOpenSource=0x7f1108a6;
+    public static final int library_materialize_libraryDescription=0x7f1108a7;
+    public static final int library_materialize_libraryName=0x7f1108a8;
+    public static final int library_materialize_libraryVersion=0x7f1108a9;
+    public static final int library_materialize_libraryWebsite=0x7f1108aa;
+    public static final int library_materialize_licenseId=0x7f1108ab;
+    public static final int library_materialize_owner=0x7f1108ac;
+    public static final int library_materialize_repositoryLink=0x7f1108ad;
+    public static final int library_materialize_year=0x7f1108ae;
+    public static final int library_materialmenu_author=0x7f1108af;
+    public static final int library_materialmenu_authorWebsite=0x7f1108b0;
+    public static final int library_materialmenu_classPath=0x7f1108b1;
+    public static final int library_materialmenu_isOpenSource=0x7f1108b2;
+    public static final int library_materialmenu_libraryDescription=0x7f1108b3;
+    public static final int library_materialmenu_libraryName=0x7f1108b4;
+    public static final int library_materialmenu_libraryVersion=0x7f1108b5;
+    public static final int library_materialmenu_libraryWebsite=0x7f1108b6;
+    public static final int library_materialmenu_licenseId=0x7f1108b7;
+    public static final int library_materialmenu_owner=0x7f1108b8;
+    public static final int library_materialmenu_repositoryLink=0x7f1108b9;
+    public static final int library_materialmenu_year=0x7f1108ba;
+    public static final int library_materialnumberpicker_author=0x7f1108bb;
+    public static final int library_materialnumberpicker_authorWebsite=0x7f1108bc;
+    public static final int library_materialnumberpicker_classPath=0x7f1108bd;
+    public static final int library_materialnumberpicker_isOpenSource=0x7f1108be;
+    public static final int library_materialnumberpicker_libraryDescription=0x7f1108bf;
+    public static final int library_materialnumberpicker_libraryName=0x7f1108c0;
+    public static final int library_materialnumberpicker_libraryVersion=0x7f1108c1;
+    public static final int library_materialnumberpicker_libraryWebsite=0x7f1108c2;
+    public static final int library_materialnumberpicker_licenseId=0x7f1108c3;
+    public static final int library_materialnumberpicker_repositoryLink=0x7f1108c4;
+    public static final int library_materialpreference_author=0x7f1108c5;
+    public static final int library_materialpreference_authorWebsite=0x7f1108c6;
+    public static final int library_materialpreference_classPath=0x7f1108c7;
+    public static final int library_materialpreference_isOpenSource=0x7f1108c8;
+    public static final int library_materialpreference_libraryDescription=0x7f1108c9;
+    public static final int library_materialpreference_libraryName=0x7f1108ca;
+    public static final int library_materialpreference_libraryVersion=0x7f1108cb;
+    public static final int library_materialpreference_libraryWebsite=0x7f1108cc;
+    public static final int library_materialpreference_licenseId=0x7f1108cd;
+    public static final int library_materialpreference_repositoryLink=0x7f1108ce;
+    public static final int library_materialprogressbar_author=0x7f1108cf;
+    public static final int library_materialprogressbar_authorWebsite=0x7f1108d0;
+    public static final int library_materialprogressbar_classPath=0x7f1108d1;
+    public static final int library_materialprogressbar_isOpenSource=0x7f1108d2;
+    public static final int library_materialprogressbar_libraryDescription=0x7f1108d3;
+    public static final int library_materialprogressbar_libraryName=0x7f1108d4;
+    public static final int library_materialprogressbar_libraryVersion=0x7f1108d5;
+    public static final int library_materialprogressbar_libraryWebsite=0x7f1108d6;
+    public static final int library_materialprogressbar_licenseId=0x7f1108d7;
+    public static final int library_materialprogressbar_repositoryLink=0x7f1108d8;
+    public static final int library_materialratingbar_author=0x7f1108d9;
+    public static final int library_materialratingbar_authorWebsite=0x7f1108da;
+    public static final int library_materialratingbar_classPath=0x7f1108db;
+    public static final int library_materialratingbar_isOpenSource=0x7f1108dc;
+    public static final int library_materialratingbar_libraryDescription=0x7f1108dd;
+    public static final int library_materialratingbar_libraryName=0x7f1108de;
+    public static final int library_materialratingbar_libraryVersion=0x7f1108df;
+    public static final int library_materialratingbar_libraryWebsite=0x7f1108e0;
+    public static final int library_materialratingbar_licenseId=0x7f1108e1;
+    public static final int library_materialratingbar_repositoryLink=0x7f1108e2;
+    public static final int library_mixpanelandroid_author=0x7f1108e3;
+    public static final int library_mixpanelandroid_authorWebsite=0x7f1108e4;
+    public static final int library_mixpanelandroid_classPath=0x7f1108e5;
+    public static final int library_mixpanelandroid_isOpenSource=0x7f1108e6;
+    public static final int library_mixpanelandroid_libraryDescription=0x7f1108e7;
+    public static final int library_mixpanelandroid_libraryName=0x7f1108e8;
+    public static final int library_mixpanelandroid_libraryVersion=0x7f1108e9;
+    public static final int library_mixpanelandroid_libraryWebsite=0x7f1108ea;
+    public static final int library_mixpanelandroid_licenseId=0x7f1108eb;
+    public static final int library_mixpanelandroid_repositoryLink=0x7f1108ec;
+    public static final int library_mockito_author=0x7f1108ed;
+    public static final int library_mockito_authorWebsite=0x7f1108ee;
+    public static final int library_mockito_classPath=0x7f1108ef;
+    public static final int library_mockito_isOpenSource=0x7f1108f0;
+    public static final int library_mockito_libraryDescription=0x7f1108f1;
+    public static final int library_mockito_libraryName=0x7f1108f2;
+    public static final int library_mockito_libraryVersion=0x7f1108f3;
+    public static final int library_mockito_libraryWebsite=0x7f1108f4;
+    public static final int library_mockito_licenseId=0x7f1108f5;
+    public static final int library_mockito_repositoryLink=0x7f1108f6;
+    public static final int library_mosby_author=0x7f1108f7;
+    public static final int library_mosby_authorWebsite=0x7f1108f8;
+    public static final int library_mosby_classPath=0x7f1108f9;
+    public static final int library_mosby_isOpenSource=0x7f1108fa;
+    public static final int library_mosby_libraryDescription=0x7f1108fb;
+    public static final int library_mosby_libraryName=0x7f1108fc;
+    public static final int library_mosby_libraryVersion=0x7f1108fd;
+    public static final int library_mosby_libraryWebsite=0x7f1108fe;
+    public static final int library_mosby_licenseId=0x7f1108ff;
+    public static final int library_mosby_repositoryLink=0x7f110900;
+    public static final int library_moshi_author=0x7f110901;
+    public static final int library_moshi_authorWebsite=0x7f110902;
+    public static final int library_moshi_classPath=0x7f110903;
+    public static final int library_moshi_isOpenSource=0x7f110904;
+    public static final int library_moshi_libraryDescription=0x7f110905;
+    public static final int library_moshi_libraryName=0x7f110906;
+    public static final int library_moshi_libraryVersion=0x7f110907;
+    public static final int library_moshi_libraryWebsite=0x7f110908;
+    public static final int library_moshi_licenseId=0x7f110909;
+    public static final int library_moshi_repositoryLink=0x7f11090a;
+    public static final int library_mpandroidchart_author=0x7f11090b;
+    public static final int library_mpandroidchart_authorWebsite=0x7f11090c;
+    public static final int library_mpandroidchart_classPath=0x7f11090d;
+    public static final int library_mpandroidchart_isOpenSource=0x7f11090e;
+    public static final int library_mpandroidchart_libraryDescription=0x7f11090f;
+    public static final int library_mpandroidchart_libraryName=0x7f110910;
+    public static final int library_mpandroidchart_libraryVersion=0x7f110911;
+    public static final int library_mpandroidchart_libraryWebsite=0x7f110912;
+    public static final int library_mpandroidchart_licenseId=0x7f110913;
+    public static final int library_mpandroidchart_owner=0x7f110914;
+    public static final int library_mpandroidchart_repositoryLink=0x7f110915;
+    public static final int library_mpandroidchart_year=0x7f110916;
+    public static final int library_multidex_author=0x7f110917;
+    public static final int library_multidex_authorWebsite=0x7f110918;
+    public static final int library_multidex_classPath=0x7f110919;
+    public static final int library_multidex_isOpenSource=0x7f11091a;
+    public static final int library_multidex_libraryDescription=0x7f11091b;
+    public static final int library_multidex_libraryName=0x7f11091c;
+    public static final int library_multidex_libraryVersion=0x7f11091d;
+    public static final int library_multidex_libraryWebsite=0x7f11091e;
+    public static final int library_multidex_licenseId=0x7f11091f;
+    public static final int library_multidex_owner=0x7f110920;
+    public static final int library_multidex_repositoryLink=0x7f110921;
+    public static final int library_multidex_year=0x7f110922;
+    public static final int library_observablescrollview_author=0x7f110923;
+    public static final int library_observablescrollview_authorWebsite=0x7f110924;
+    public static final int library_observablescrollview_classPath=0x7f110925;
+    public static final int library_observablescrollview_isOpenSource=0x7f110926;
+    public static final int library_observablescrollview_libraryDescription=0x7f110927;
+    public static final int library_observablescrollview_libraryName=0x7f110928;
+    public static final int library_observablescrollview_libraryVersion=0x7f110929;
+    public static final int library_observablescrollview_libraryWebsite=0x7f11092a;
+    public static final int library_observablescrollview_licenseId=0x7f11092b;
+    public static final int library_observablescrollview_repositoryLink=0x7f11092c;
+    public static final int library_okio_author=0x7f11092d;
+    public static final int library_okio_authorWebsite=0x7f11092e;
+    public static final int library_okio_classPath=0x7f11092f;
+    public static final int library_okio_isOpenSource=0x7f110930;
+    public static final int library_okio_libraryDescription=0x7f110931;
+    public static final int library_okio_libraryName=0x7f110932;
+    public static final int library_okio_libraryVersion=0x7f110933;
+    public static final int library_okio_libraryWebsite=0x7f110934;
+    public static final int library_okio_licenseId=0x7f110935;
+    public static final int library_okio_owner=0x7f110936;
+    public static final int library_okio_repositoryLink=0x7f110937;
+    public static final int library_okio_year=0x7f110938;
+    public static final int library_ollie_author=0x7f110939;
+    public static final int library_ollie_authorWebsite=0x7f11093a;
+    public static final int library_ollie_classPath=0x7f11093b;
+    public static final int library_ollie_isOpenSource=0x7f11093c;
+    public static final int library_ollie_libraryDescription=0x7f11093d;
+    public static final int library_ollie_libraryName=0x7f11093e;
+    public static final int library_ollie_libraryVersion=0x7f11093f;
+    public static final int library_ollie_libraryWebsite=0x7f110940;
+    public static final int library_ollie_licenseId=0x7f110941;
+    public static final int library_ollie_repositoryLink=0x7f110942;
+    public static final int library_parallaxscroll_author=0x7f110943;
+    public static final int library_parallaxscroll_authorWebsite=0x7f110944;
+    public static final int library_parallaxscroll_classPath=0x7f110945;
+    public static final int library_parallaxscroll_isOpenSource=0x7f110946;
+    public static final int library_parallaxscroll_libraryDescription=0x7f110947;
+    public static final int library_parallaxscroll_libraryName=0x7f110948;
+    public static final int library_parallaxscroll_libraryVersion=0x7f110949;
+    public static final int library_parallaxscroll_libraryWebsite=0x7f11094a;
+    public static final int library_parallaxscroll_licenseId=0x7f11094b;
+    public static final int library_parallaxscroll_repositoryLink=0x7f11094c;
+    public static final int library_paymill_author=0x7f11094d;
+    public static final int library_paymill_authorWebsite=0x7f11094e;
+    public static final int library_paymill_classPath=0x7f11094f;
+    public static final int library_paymill_isOpenSource=0x7f110950;
+    public static final int library_paymill_libraryDescription=0x7f110951;
+    public static final int library_paymill_libraryName=0x7f110952;
+    public static final int library_paymill_libraryVersion=0x7f110953;
+    public static final int library_paymill_libraryWebsite=0x7f110954;
+    public static final int library_paymill_repositoryLink=0x7f110955;
+    public static final int library_permissionsdispatcher_author=0x7f110956;
+    public static final int library_permissionsdispatcher_authorWebsite=0x7f110957;
+    public static final int library_permissionsdispatcher_classPath=0x7f110958;
+    public static final int library_permissionsdispatcher_isOpenSource=0x7f110959;
+    public static final int library_permissionsdispatcher_libraryDescription=0x7f11095a;
+    public static final int library_permissionsdispatcher_libraryName=0x7f11095b;
+    public static final int library_permissionsdispatcher_libraryVersion=0x7f11095c;
+    public static final int library_permissionsdispatcher_libraryWebsite=0x7f11095d;
+    public static final int library_permissionsdispatcher_licenseId=0x7f11095e;
+    public static final int library_permissionsdispatcher_repositoryLink=0x7f11095f;
+    public static final int library_photoview_author=0x7f110960;
+    public static final int library_photoview_authorWebsite=0x7f110961;
+    public static final int library_photoview_classPath=0x7f110962;
+    public static final int library_photoview_isOpenSource=0x7f110963;
+    public static final int library_photoview_libraryDescription=0x7f110964;
+    public static final int library_photoview_libraryName=0x7f110965;
+    public static final int library_photoview_libraryVersion=0x7f110966;
+    public static final int library_photoview_libraryWebsite=0x7f110967;
+    public static final int library_photoview_licenseId=0x7f110968;
+    public static final int library_photoview_owner=0x7f110969;
+    public static final int library_photoview_repositoryLink=0x7f11096a;
+    public static final int library_photoview_year=0x7f11096b;
+    public static final int library_priorityjobqueue_author=0x7f11096c;
+    public static final int library_priorityjobqueue_authorWebsite=0x7f11096d;
+    public static final int library_priorityjobqueue_classPath=0x7f11096e;
+    public static final int library_priorityjobqueue_isOpenSource=0x7f11096f;
+    public static final int library_priorityjobqueue_libraryDescription=0x7f110970;
+    public static final int library_priorityjobqueue_libraryName=0x7f110971;
+    public static final int library_priorityjobqueue_libraryVersion=0x7f110972;
+    public static final int library_priorityjobqueue_libraryWebsite=0x7f110973;
+    public static final int library_priorityjobqueue_licenseId=0x7f110974;
+    public static final int library_priorityjobqueue_repositoryLink=0x7f110975;
+    public static final int library_qcircledesigntemplate_author=0x7f110976;
+    public static final int library_qcircledesigntemplate_authorWebsite=0x7f110977;
+    public static final int library_qcircledesigntemplate_classPath=0x7f110978;
+    public static final int library_qcircledesigntemplate_isOpenSource=0x7f110979;
+    public static final int library_qcircledesigntemplate_libraryDescription=0x7f11097a;
+    public static final int library_qcircledesigntemplate_libraryName=0x7f11097b;
+    public static final int library_qcircledesigntemplate_libraryVersion=0x7f11097c;
+    public static final int library_qcircledesigntemplate_libraryWebsite=0x7f11097d;
+    public static final int library_qcircledesigntemplate_licenseId=0x7f11097e;
+    public static final int library_qcircledesigntemplate_repositoryLink=0x7f11097f;
+    public static final int library_qslide_author=0x7f110980;
+    public static final int library_qslide_authorWebsite=0x7f110981;
+    public static final int library_qslide_isOpenSource=0x7f110982;
+    public static final int library_qslide_libraryDescription=0x7f110983;
+    public static final int library_qslide_libraryName=0x7f110984;
+    public static final int library_qslide_libraryVersion=0x7f110985;
+    public static final int library_qslide_libraryWebsite=0x7f110986;
+    public static final int library_qslide_licenseId=0x7f110987;
+    public static final int library_rapiddecoder_author=0x7f110988;
+    public static final int library_rapiddecoder_authorWebsite=0x7f110989;
+    public static final int library_rapiddecoder_classPath=0x7f11098a;
+    public static final int library_rapiddecoder_isOpenSource=0x7f11098b;
+    public static final int library_rapiddecoder_libraryDescription=0x7f11098c;
+    public static final int library_rapiddecoder_libraryName=0x7f11098d;
+    public static final int library_rapiddecoder_libraryVersion=0x7f11098e;
+    public static final int library_rapiddecoder_libraryWebsite=0x7f11098f;
+    public static final int library_rapiddecoder_licenseId=0x7f110990;
+    public static final int library_rapiddecoder_repositoryLink=0x7f110991;
+    public static final int library_reactivenetwork_author=0x7f110992;
+    public static final int library_reactivenetwork_authorWebsite=0x7f110993;
+    public static final int library_reactivenetwork_classPath=0x7f110994;
+    public static final int library_reactivenetwork_isOpenSource=0x7f110995;
+    public static final int library_reactivenetwork_libraryDescription=0x7f110996;
+    public static final int library_reactivenetwork_libraryName=0x7f110997;
+    public static final int library_reactivenetwork_libraryVersion=0x7f110998;
+    public static final int library_reactivenetwork_libraryWebsite=0x7f110999;
+    public static final int library_reactivenetwork_licenseId=0x7f11099a;
+    public static final int library_reactivenetwork_owner=0x7f11099b;
+    public static final int library_reactivenetwork_repositoryLink=0x7f11099c;
+    public static final int library_reactivenetwork_year=0x7f11099d;
+    public static final int library_rebound_author=0x7f11099e;
+    public static final int library_rebound_authorWebsite=0x7f11099f;
+    public static final int library_rebound_classPath=0x7f1109a0;
+    public static final int library_rebound_isOpenSource=0x7f1109a1;
+    public static final int library_rebound_libraryDescription=0x7f1109a2;
+    public static final int library_rebound_libraryName=0x7f1109a3;
+    public static final int library_rebound_libraryVersion=0x7f1109a4;
+    public static final int library_rebound_libraryWebsite=0x7f1109a5;
+    public static final int library_rebound_licenseId=0x7f1109a6;
+    public static final int library_rebound_repositoryLink=0x7f1109a7;
+    public static final int library_recyclerview_v7_author=0x7f1109a8;
+    public static final int library_recyclerview_v7_authorWebsite=0x7f1109a9;
+    public static final int library_recyclerview_v7_classPath=0x7f1109aa;
+    public static final int library_recyclerview_v7_isOpenSource=0x7f1109ab;
+    public static final int library_recyclerview_v7_libraryDescription=0x7f1109ac;
+    public static final int library_recyclerview_v7_libraryName=0x7f1109ad;
+    public static final int library_recyclerview_v7_libraryVersion=0x7f1109ae;
+    public static final int library_recyclerview_v7_libraryWebsite=0x7f1109af;
+    public static final int library_recyclerview_v7_licenseId=0x7f1109b0;
+    public static final int library_recyclerview_v7_owner=0x7f1109b1;
+    public static final int library_recyclerview_v7_repositoryLink=0x7f1109b2;
+    public static final int library_recyclerview_v7_year=0x7f1109b3;
+    public static final int library_recyclerviewanimators_author=0x7f1109b4;
+    public static final int library_recyclerviewanimators_authorWebsite=0x7f1109b5;
+    public static final int library_recyclerviewanimators_classPath=0x7f1109b6;
+    public static final int library_recyclerviewanimators_isOpenSource=0x7f1109b7;
+    public static final int library_recyclerviewanimators_libraryDescription=0x7f1109b8;
+    public static final int library_recyclerviewanimators_libraryName=0x7f1109b9;
+    public static final int library_recyclerviewanimators_libraryVersion=0x7f1109ba;
+    public static final int library_recyclerviewanimators_libraryWebsite=0x7f1109bb;
+    public static final int library_recyclerviewanimators_licenseId=0x7f1109bc;
+    public static final int library_recyclerviewanimators_repositoryLink=0x7f1109bd;
+    public static final int library_recyclerviewsnap_author=0x7f1109be;
+    public static final int library_recyclerviewsnap_authorWebsite=0x7f1109bf;
+    public static final int library_recyclerviewsnap_classPath=0x7f1109c0;
+    public static final int library_recyclerviewsnap_isOpenSource=0x7f1109c1;
+    public static final int library_recyclerviewsnap_libraryDescription=0x7f1109c2;
+    public static final int library_recyclerviewsnap_libraryName=0x7f1109c3;
+    public static final int library_recyclerviewsnap_libraryVersion=0x7f1109c4;
+    public static final int library_recyclerviewsnap_libraryWebsite=0x7f1109c5;
+    public static final int library_recyclerviewsnap_licenseId=0x7f1109c6;
+    public static final int library_recyclerviewsnap_repositoryLink=0x7f1109c7;
+    public static final int library_retrolambda_author=0x7f1109c8;
+    public static final int library_retrolambda_authorWebsite=0x7f1109c9;
+    public static final int library_retrolambda_classPath=0x7f1109ca;
+    public static final int library_retrolambda_isOpenSource=0x7f1109cb;
+    public static final int library_retrolambda_libraryDescription=0x7f1109cc;
+    public static final int library_retrolambda_libraryName=0x7f1109cd;
+    public static final int library_retrolambda_libraryVersion=0x7f1109ce;
+    public static final int library_retrolambda_libraryWebsite=0x7f1109cf;
+    public static final int library_retrolambda_licenseId=0x7f1109d0;
+    public static final int library_retrolambda_repositoryLink=0x7f1109d1;
+    public static final int library_robolectric_author=0x7f1109d2;
+    public static final int library_robolectric_authorWebsite=0x7f1109d3;
+    public static final int library_robolectric_classPath=0x7f1109d4;
+    public static final int library_robolectric_isOpenSource=0x7f1109d5;
+    public static final int library_robolectric_libraryDescription=0x7f1109d6;
+    public static final int library_robolectric_libraryName=0x7f1109d7;
+    public static final int library_robolectric_libraryVersion=0x7f1109d8;
+    public static final int library_robolectric_libraryWebsite=0x7f1109d9;
+    public static final int library_robolectric_licenseId=0x7f1109da;
+    public static final int library_robolectric_repositoryLink=0x7f1109db;
+    public static final int library_robotocalendarview_author=0x7f1109dc;
+    public static final int library_robotocalendarview_authorWebsite=0x7f1109dd;
+    public static final int library_robotocalendarview_classPath=0x7f1109de;
+    public static final int library_robotocalendarview_isOpenSource=0x7f1109df;
+    public static final int library_robotocalendarview_libraryDescription=0x7f1109e0;
+    public static final int library_robotocalendarview_libraryName=0x7f1109e1;
+    public static final int library_robotocalendarview_libraryVersion=0x7f1109e2;
+    public static final int library_robotocalendarview_libraryWebsite=0x7f1109e3;
+    public static final int library_robotocalendarview_licenseId=0x7f1109e4;
+    public static final int library_robotocalendarview_repositoryLink=0x7f1109e5;
+    public static final int library_rxandroid_author=0x7f1109e6;
+    public static final int library_rxandroid_authorWebsite=0x7f1109e7;
+    public static final int library_rxandroid_classPath=0x7f1109e8;
+    public static final int library_rxandroid_isOpenSource=0x7f1109e9;
+    public static final int library_rxandroid_libraryDescription=0x7f1109ea;
+    public static final int library_rxandroid_libraryName=0x7f1109eb;
+    public static final int library_rxandroid_libraryVersion=0x7f1109ec;
+    public static final int library_rxandroid_libraryWebsite=0x7f1109ed;
+    public static final int library_rxandroid_licenseId=0x7f1109ee;
+    public static final int library_rxandroid_owner=0x7f1109ef;
+    public static final int library_rxandroid_repositoryLink=0x7f1109f0;
+    public static final int library_rxandroid_year=0x7f1109f1;
+    public static final int library_rxjava_author=0x7f1109f2;
+    public static final int library_rxjava_authorWebsite=0x7f1109f3;
+    public static final int library_rxjava_classPath=0x7f1109f4;
+    public static final int library_rxjava_isOpenSource=0x7f1109f5;
+    public static final int library_rxjava_libraryDescription=0x7f1109f6;
+    public static final int library_rxjava_libraryName=0x7f1109f7;
+    public static final int library_rxjava_libraryVersion=0x7f1109f8;
+    public static final int library_rxjava_libraryWebsite=0x7f1109f9;
+    public static final int library_rxjava_licenseId=0x7f1109fa;
+    public static final int library_rxjava_owner=0x7f1109fb;
+    public static final int library_rxjava_repositoryLink=0x7f1109fc;
+    public static final int library_rxjava_year=0x7f1109fd;
+    public static final int library_rxkotlin_author=0x7f1109fe;
+    public static final int library_rxkotlin_authorWebsite=0x7f1109ff;
+    public static final int library_rxkotlin_classPath=0x7f110a00;
+    public static final int library_rxkotlin_isOpenSource=0x7f110a01;
+    public static final int library_rxkotlin_libraryDescription=0x7f110a02;
+    public static final int library_rxkotlin_libraryName=0x7f110a03;
+    public static final int library_rxkotlin_libraryVersion=0x7f110a04;
+    public static final int library_rxkotlin_libraryWebsite=0x7f110a05;
+    public static final int library_rxkotlin_licenseId=0x7f110a06;
+    public static final int library_rxkotlin_owner=0x7f110a07;
+    public static final int library_rxkotlin_repositoryLink=0x7f110a08;
+    public static final int library_rxkotlin_year=0x7f110a09;
+    public static final int library_rxlifecycle_author=0x7f110a0a;
+    public static final int library_rxlifecycle_authorWebsite=0x7f110a0b;
+    public static final int library_rxlifecycle_classPath=0x7f110a0c;
+    public static final int library_rxlifecycle_isOpenSource=0x7f110a0d;
+    public static final int library_rxlifecycle_libraryDescription=0x7f110a0e;
+    public static final int library_rxlifecycle_libraryName=0x7f110a0f;
+    public static final int library_rxlifecycle_libraryVersion=0x7f110a10;
+    public static final int library_rxlifecycle_libraryWebsite=0x7f110a11;
+    public static final int library_rxlifecycle_licenseId=0x7f110a12;
+    public static final int library_rxlifecycle_owner=0x7f110a13;
+    public static final int library_rxlifecycle_repositoryLink=0x7f110a14;
+    public static final int library_rxlifecycle_year=0x7f110a15;
+    public static final int library_seismic_author=0x7f110a16;
+    public static final int library_seismic_authorWebsite=0x7f110a17;
+    public static final int library_seismic_classPath=0x7f110a18;
+    public static final int library_seismic_isOpenSource=0x7f110a19;
+    public static final int library_seismic_libraryDescription=0x7f110a1a;
+    public static final int library_seismic_libraryName=0x7f110a1b;
+    public static final int library_seismic_libraryVersion=0x7f110a1c;
+    public static final int library_seismic_libraryWebsite=0x7f110a1d;
+    public static final int library_seismic_licenseId=0x7f110a1e;
+    public static final int library_seismic_owner=0x7f110a1f;
+    public static final int library_seismic_repositoryLink=0x7f110a20;
+    public static final int library_seismic_year=0x7f110a21;
+    public static final int library_side_menu_android_author=0x7f110a22;
+    public static final int library_side_menu_android_authorWebsite=0x7f110a23;
+    public static final int library_side_menu_android_classPath=0x7f110a24;
+    public static final int library_side_menu_android_isOpenSource=0x7f110a25;
+    public static final int library_side_menu_android_libraryDescription=0x7f110a26;
+    public static final int library_side_menu_android_libraryName=0x7f110a27;
+    public static final int library_side_menu_android_libraryVersion=0x7f110a28;
+    public static final int library_side_menu_android_libraryWebsite=0x7f110a29;
+    public static final int library_side_menu_android_licenseId=0x7f110a2a;
+    public static final int library_side_menu_android_repositoryLink=0x7f110a2b;
+    public static final int library_simpleratingview_author=0x7f110a2c;
+    public static final int library_simpleratingview_authorWebsite=0x7f110a2d;
+    public static final int library_simpleratingview_classPath=0x7f110a2e;
+    public static final int library_simpleratingview_isOpenSource=0x7f110a2f;
+    public static final int library_simpleratingview_libraryDescription=0x7f110a30;
+    public static final int library_simpleratingview_libraryName=0x7f110a31;
+    public static final int library_simpleratingview_libraryVersion=0x7f110a32;
+    public static final int library_simpleratingview_libraryWebsite=0x7f110a33;
+    public static final int library_simpleratingview_licenseId=0x7f110a34;
+    public static final int library_simpleratingview_repositoryLink=0x7f110a35;
+    public static final int library_slf4j_author=0x7f110a36;
+    public static final int library_slf4j_authorWebsite=0x7f110a37;
+    public static final int library_slf4j_classPath=0x7f110a38;
+    public static final int library_slf4j_isOpenSource=0x7f110a39;
+    public static final int library_slf4j_libraryDescription=0x7f110a3a;
+    public static final int library_slf4j_libraryName=0x7f110a3b;
+    public static final int library_slf4j_libraryVersion=0x7f110a3c;
+    public static final int library_slf4j_libraryWebsite=0x7f110a3d;
+    public static final int library_slf4j_licenseContent=0x7f110a3e;
+    public static final int library_slf4j_licenseId=0x7f110a3f;
+    public static final int library_slf4j_repositoryLink=0x7f110a40;
+    public static final int library_smarttablayout_author=0x7f110a41;
+    public static final int library_smarttablayout_authorWebsite=0x7f110a42;
+    public static final int library_smarttablayout_classPath=0x7f110a43;
+    public static final int library_smarttablayout_isOpenSource=0x7f110a44;
+    public static final int library_smarttablayout_libraryDescription=0x7f110a45;
+    public static final int library_smarttablayout_libraryName=0x7f110a46;
+    public static final int library_smarttablayout_libraryVersion=0x7f110a47;
+    public static final int library_smarttablayout_libraryWebsite=0x7f110a48;
+    public static final int library_smarttablayout_licenseId=0x7f110a49;
+    public static final int library_smarttablayout_repositoryLink=0x7f110a4a;
+    public static final int library_smsverifycatcher_author=0x7f110a4b;
+    public static final int library_smsverifycatcher_authorWebsite=0x7f110a4c;
+    public static final int library_smsverifycatcher_classPath=0x7f110a4d;
+    public static final int library_smsverifycatcher_isOpenSource=0x7f110a4e;
+    public static final int library_smsverifycatcher_libraryDescription=0x7f110a4f;
+    public static final int library_smsverifycatcher_libraryName=0x7f110a50;
+    public static final int library_smsverifycatcher_libraryVersion=0x7f110a51;
+    public static final int library_smsverifycatcher_libraryWebsite=0x7f110a52;
+    public static final int library_smsverifycatcher_licenseId=0x7f110a53;
+    public static final int library_smsverifycatcher_repositoryLink=0x7f110a54;
+    public static final int library_snackbar_author=0x7f110a55;
+    public static final int library_snackbar_authorWebsite=0x7f110a56;
+    public static final int library_snackbar_classPath=0x7f110a57;
+    public static final int library_snackbar_isOpenSource=0x7f110a58;
+    public static final int library_snackbar_libraryDescription=0x7f110a59;
+    public static final int library_snackbar_libraryName=0x7f110a5a;
+    public static final int library_snackbar_libraryVersion=0x7f110a5b;
+    public static final int library_snackbar_libraryWebsite=0x7f110a5c;
+    public static final int library_snackbar_licenseId=0x7f110a5d;
+    public static final int library_snackbar_repositoryLink=0x7f110a5e;
+    public static final int library_spongycastle_author=0x7f110a5f;
+    public static final int library_spongycastle_authorWebsite=0x7f110a60;
+    public static final int library_spongycastle_classPath=0x7f110a61;
+    public static final int library_spongycastle_isOpenSource=0x7f110a62;
+    public static final int library_spongycastle_libraryDescription=0x7f110a63;
+    public static final int library_spongycastle_libraryName=0x7f110a64;
+    public static final int library_spongycastle_libraryVersion=0x7f110a65;
+    public static final int library_spongycastle_libraryWebsite=0x7f110a66;
+    public static final int library_spongycastle_licenseContent=0x7f110a67;
+    public static final int library_spongycastle_licenseId=0x7f110a68;
+    public static final int library_spongycastle_repositoryLink=0x7f110a69;
+    public static final int library_sshj_author=0x7f110a6a;
+    public static final int library_sshj_authorWebsite=0x7f110a6b;
+    public static final int library_sshj_classPath=0x7f110a6c;
+    public static final int library_sshj_isOpenSource=0x7f110a6d;
+    public static final int library_sshj_libraryDescription=0x7f110a6e;
+    public static final int library_sshj_libraryName=0x7f110a6f;
+    public static final int library_sshj_libraryVersion=0x7f110a70;
+    public static final int library_sshj_libraryWebsite=0x7f110a71;
+    public static final int library_sshj_licenseContent=0x7f110a72;
+    public static final int library_sshj_licenseId=0x7f110a73;
+    public static final int library_sshj_repositoryLink=0x7f110a74;
+    public static final int library_stephenmaterialnumberpicker_author=0x7f110a75;
+    public static final int library_stephenmaterialnumberpicker_authorWebsite=0x7f110a76;
+    public static final int library_stephenmaterialnumberpicker_classPath=0x7f110a77;
+    public static final int library_stephenmaterialnumberpicker_isOpenSource=0x7f110a78;
+    public static final int library_stephenmaterialnumberpicker_libraryDescription=0x7f110a79;
+    public static final int library_stephenmaterialnumberpicker_libraryName=0x7f110a7a;
+    public static final int library_stephenmaterialnumberpicker_libraryVersion=0x7f110a7b;
+    public static final int library_stephenmaterialnumberpicker_libraryWebsite=0x7f110a7c;
+    public static final int library_stephenmaterialnumberpicker_licenseId=0x7f110a7d;
+    public static final int library_stephenmaterialnumberpicker_repositoryLink=0x7f110a7e;
+    public static final int library_sticky_headers_recyclerview_author=0x7f110a7f;
+    public static final int library_sticky_headers_recyclerview_authorWebsite=0x7f110a80;
+    public static final int library_sticky_headers_recyclerview_classPath=0x7f110a81;
+    public static final int library_sticky_headers_recyclerview_isOpenSource=0x7f110a82;
+    public static final int library_sticky_headers_recyclerview_libraryDescription=0x7f110a83;
+    public static final int library_sticky_headers_recyclerview_libraryName=0x7f110a84;
+    public static final int library_sticky_headers_recyclerview_libraryVersion=0x7f110a85;
+    public static final int library_sticky_headers_recyclerview_libraryWebsite=0x7f110a86;
+    public static final int library_sticky_headers_recyclerview_licenseId=0x7f110a87;
+    public static final int library_sticky_headers_recyclerview_repositoryLink=0x7f110a88;
+    public static final int library_stickylistheaders_author=0x7f110a89;
+    public static final int library_stickylistheaders_authorWebsite=0x7f110a8a;
+    public static final int library_stickylistheaders_classPath=0x7f110a8b;
+    public static final int library_stickylistheaders_isOpenSource=0x7f110a8c;
+    public static final int library_stickylistheaders_libraryDescription=0x7f110a8d;
+    public static final int library_stickylistheaders_libraryName=0x7f110a8e;
+    public static final int library_stickylistheaders_libraryVersion=0x7f110a8f;
+    public static final int library_stickylistheaders_libraryWebsite=0x7f110a90;
+    public static final int library_stickylistheaders_licenseId=0x7f110a91;
+    public static final int library_stickylistheaders_repositoryLink=0x7f110a92;
+    public static final int library_stream_author=0x7f110a93;
+    public static final int library_stream_authorWebsite=0x7f110a94;
+    public static final int library_stream_classPath=0x7f110a95;
+    public static final int library_stream_isOpenSource=0x7f110a96;
+    public static final int library_stream_libraryDescription=0x7f110a97;
+    public static final int library_stream_libraryName=0x7f110a98;
+    public static final int library_stream_libraryVersion=0x7f110a99;
+    public static final int library_stream_libraryWebsite=0x7f110a9a;
+    public static final int library_stream_licenseId=0x7f110a9b;
+    public static final int library_stream_repositoryLink=0x7f110a9c;
+    public static final int library_subsamplingpdfdecoder_author=0x7f110a9d;
+    public static final int library_subsamplingpdfdecoder_authorWebsite=0x7f110a9e;
+    public static final int library_subsamplingpdfdecoder_classPath=0x7f110a9f;
+    public static final int library_subsamplingpdfdecoder_isOpenSource=0x7f110aa0;
+    public static final int library_subsamplingpdfdecoder_libraryDescription=0x7f110aa1;
+    public static final int library_subsamplingpdfdecoder_libraryName=0x7f110aa2;
+    public static final int library_subsamplingpdfdecoder_libraryVersion=0x7f110aa3;
+    public static final int library_subsamplingpdfdecoder_libraryWebsite=0x7f110aa4;
+    public static final int library_subsamplingpdfdecoder_licenseId=0x7f110aa5;
+    public static final int library_subsamplingpdfdecoder_repositoryLink=0x7f110aa6;
+    public static final int library_subsamplingscaleimageview_author=0x7f110aa7;
+    public static final int library_subsamplingscaleimageview_authorWebsite=0x7f110aa8;
+    public static final int library_subsamplingscaleimageview_classPath=0x7f110aa9;
+    public static final int library_subsamplingscaleimageview_isOpenSource=0x7f110aaa;
+    public static final int library_subsamplingscaleimageview_libraryDescription=0x7f110aab;
+    public static final int library_subsamplingscaleimageview_libraryName=0x7f110aac;
+    public static final int library_subsamplingscaleimageview_libraryVersion=0x7f110aad;
+    public static final int library_subsamplingscaleimageview_libraryWebsite=0x7f110aae;
+    public static final int library_subsamplingscaleimageview_licenseId=0x7f110aaf;
+    public static final int library_subsamplingscaleimageview_repositoryLink=0x7f110ab0;
+    public static final int library_sugarorm_author=0x7f110ab1;
+    public static final int library_sugarorm_authorWebsite=0x7f110ab2;
+    public static final int library_sugarorm_classPath=0x7f110ab3;
+    public static final int library_sugarorm_isOpenSource=0x7f110ab4;
+    public static final int library_sugarorm_libraryDescription=0x7f110ab5;
+    public static final int library_sugarorm_libraryName=0x7f110ab6;
+    public static final int library_sugarorm_libraryVersion=0x7f110ab7;
+    public static final int library_sugarorm_libraryWebsite=0x7f110ab8;
+    public static final int library_sugarorm_repositoryLink=0x7f110ab9;
+    public static final int library_support_annotations_author=0x7f110aba;
+    public static final int library_support_annotations_authorWebsite=0x7f110abb;
+    public static final int library_support_annotations_classPath=0x7f110abc;
+    public static final int library_support_annotations_isOpenSource=0x7f110abd;
+    public static final int library_support_annotations_libraryDescription=0x7f110abe;
+    public static final int library_support_annotations_libraryName=0x7f110abf;
+    public static final int library_support_annotations_libraryVersion=0x7f110ac0;
+    public static final int library_support_annotations_libraryWebsite=0x7f110ac1;
+    public static final int library_support_annotations_licenseId=0x7f110ac2;
+    public static final int library_support_annotations_owner=0x7f110ac3;
+    public static final int library_support_annotations_repositoryLink=0x7f110ac4;
+    public static final int library_support_annotations_year=0x7f110ac5;
+    public static final int library_support_cardview_author=0x7f110ac6;
+    public static final int library_support_cardview_authorWebsite=0x7f110ac7;
+    public static final int library_support_cardview_classPath=0x7f110ac8;
+    public static final int library_support_cardview_isOpenSource=0x7f110ac9;
+    public static final int library_support_cardview_libraryDescription=0x7f110aca;
+    public static final int library_support_cardview_libraryName=0x7f110acb;
+    public static final int library_support_cardview_libraryVersion=0x7f110acc;
+    public static final int library_support_cardview_libraryWebsite=0x7f110acd;
+    public static final int library_support_cardview_licenseId=0x7f110ace;
+    public static final int library_support_cardview_owner=0x7f110acf;
+    public static final int library_support_cardview_repositoryLink=0x7f110ad0;
+    public static final int library_support_cardview_year=0x7f110ad1;
+    public static final int library_support_gridlayout_author=0x7f110ad2;
+    public static final int library_support_gridlayout_authorWebsite=0x7f110ad3;
+    public static final int library_support_gridlayout_classPath=0x7f110ad4;
+    public static final int library_support_gridlayout_isOpenSource=0x7f110ad5;
+    public static final int library_support_gridlayout_libraryDescription=0x7f110ad6;
+    public static final int library_support_gridlayout_libraryName=0x7f110ad7;
+    public static final int library_support_gridlayout_libraryVersion=0x7f110ad8;
+    public static final int library_support_gridlayout_libraryWebsite=0x7f110ad9;
+    public static final int library_support_gridlayout_licenseId=0x7f110ada;
+    public static final int library_support_gridlayout_owner=0x7f110adb;
+    public static final int library_support_gridlayout_repositoryLink=0x7f110adc;
+    public static final int library_support_gridlayout_year=0x7f110add;
+    public static final int library_support_v4_author=0x7f110ade;
+    public static final int library_support_v4_authorWebsite=0x7f110adf;
+    public static final int library_support_v4_classPath=0x7f110ae0;
+    public static final int library_support_v4_isOpenSource=0x7f110ae1;
+    public static final int library_support_v4_libraryDescription=0x7f110ae2;
+    public static final int library_support_v4_libraryName=0x7f110ae3;
+    public static final int library_support_v4_libraryVersion=0x7f110ae4;
+    public static final int library_support_v4_libraryWebsite=0x7f110ae5;
+    public static final int library_support_v4_licenseId=0x7f110ae6;
+    public static final int library_support_v4_owner=0x7f110ae7;
+    public static final int library_support_v4_repositoryLink=0x7f110ae8;
+    public static final int library_support_v4_year=0x7f110ae9;
+    public static final int library_swipemenulistview_author=0x7f110aea;
+    public static final int library_swipemenulistview_authorWebsite=0x7f110aeb;
+    public static final int library_swipemenulistview_classPath=0x7f110aec;
+    public static final int library_swipemenulistview_isOpenSource=0x7f110aed;
+    public static final int library_swipemenulistview_libraryDescription=0x7f110aee;
+    public static final int library_swipemenulistview_libraryName=0x7f110aef;
+    public static final int library_swipemenulistview_libraryVersion=0x7f110af0;
+    public static final int library_swipemenulistview_libraryWebsite=0x7f110af1;
+    public static final int library_swipemenulistview_licenseId=0x7f110af2;
+    public static final int library_swipemenulistview_repositoryLink=0x7f110af3;
+    public static final int library_switchdatetimepicker_author=0x7f110af4;
+    public static final int library_switchdatetimepicker_authorWebsite=0x7f110af5;
+    public static final int library_switchdatetimepicker_classPath=0x7f110af6;
+    public static final int library_switchdatetimepicker_isOpenSource=0x7f110af7;
+    public static final int library_switchdatetimepicker_libraryDescription=0x7f110af8;
+    public static final int library_switchdatetimepicker_libraryName=0x7f110af9;
+    public static final int library_switchdatetimepicker_libraryVersion=0x7f110afa;
+    public static final int library_switchdatetimepicker_libraryWebsite=0x7f110afb;
+    public static final int library_switchdatetimepicker_licenseId=0x7f110afc;
+    public static final int library_switchdatetimepicker_repositoryLink=0x7f110afd;
+    public static final int library_systembartint_author=0x7f110afe;
+    public static final int library_systembartint_authorWebsite=0x7f110aff;
+    public static final int library_systembartint_classPath=0x7f110b00;
+    public static final int library_systembartint_isOpenSource=0x7f110b01;
+    public static final int library_systembartint_libraryDescription=0x7f110b02;
+    public static final int library_systembartint_libraryName=0x7f110b03;
+    public static final int library_systembartint_libraryVersion=0x7f110b04;
+    public static final int library_systembartint_libraryWebsite=0x7f110b05;
+    public static final int library_systembartint_licenseId=0x7f110b06;
+    public static final int library_systembartint_owner=0x7f110b07;
+    public static final int library_systembartint_repositoryLink=0x7f110b08;
+    public static final int library_systembartint_year=0x7f110b09;
+    public static final int library_tablayouthelper_author=0x7f110b0a;
+    public static final int library_tablayouthelper_authorWebsite=0x7f110b0b;
+    public static final int library_tablayouthelper_classPath=0x7f110b0c;
+    public static final int library_tablayouthelper_isOpenSource=0x7f110b0d;
+    public static final int library_tablayouthelper_libraryDescription=0x7f110b0e;
+    public static final int library_tablayouthelper_libraryName=0x7f110b0f;
+    public static final int library_tablayouthelper_libraryVersion=0x7f110b10;
+    public static final int library_tablayouthelper_libraryWebsite=0x7f110b11;
+    public static final int library_tablayouthelper_licenseId=0x7f110b12;
+    public static final int library_tablayouthelper_repositoryLink=0x7f110b13;
+    public static final int library_textdrawable_author=0x7f110b14;
+    public static final int library_textdrawable_authorWebsite=0x7f110b15;
+    public static final int library_textdrawable_classPath=0x7f110b16;
+    public static final int library_textdrawable_isOpenSource=0x7f110b17;
+    public static final int library_textdrawable_libraryDescription=0x7f110b18;
+    public static final int library_textdrawable_libraryName=0x7f110b19;
+    public static final int library_textdrawable_libraryVersion=0x7f110b1a;
+    public static final int library_textdrawable_libraryWebsite=0x7f110b1b;
+    public static final int library_textdrawable_licenseId=0x7f110b1c;
+    public static final int library_textdrawable_repositoryLink=0x7f110b1d;
+    public static final int library_threeten_author=0x7f110b1e;
+    public static final int library_threeten_authorWebsite=0x7f110b1f;
+    public static final int library_threeten_classPath=0x7f110b20;
+    public static final int library_threeten_isOpenSource=0x7f110b21;
+    public static final int library_threeten_libraryDescription=0x7f110b22;
+    public static final int library_threeten_libraryName=0x7f110b23;
+    public static final int library_threeten_libraryVersion=0x7f110b24;
+    public static final int library_threeten_libraryWebsite=0x7f110b25;
+    public static final int library_threeten_licenseContent=0x7f110b26;
+    public static final int library_threeten_licenseLink=0x7f110b27;
+    public static final int library_threeten_licenseVersion=0x7f110b28;
+    public static final int library_threeten_repositoryLink=0x7f110b29;
+    public static final int library_threetenandroidbackport_author=0x7f110b2a;
+    public static final int library_threetenandroidbackport_authorWebsite=0x7f110b2b;
+    public static final int library_threetenandroidbackport_classPath=0x7f110b2c;
+    public static final int library_threetenandroidbackport_isOpenSource=0x7f110b2d;
+    public static final int library_threetenandroidbackport_libraryDescription=0x7f110b2e;
+    public static final int library_threetenandroidbackport_libraryName=0x7f110b2f;
+    public static final int library_threetenandroidbackport_libraryVersion=0x7f110b30;
+    public static final int library_threetenandroidbackport_libraryWebsite=0x7f110b31;
+    public static final int library_threetenandroidbackport_licenseId=0x7f110b32;
+    public static final int library_threetenandroidbackport_repositoryLink=0x7f110b33;
+    public static final int library_useravatarspack_author=0x7f110b34;
+    public static final int library_useravatarspack_authorWebsite=0x7f110b35;
+    public static final int library_useravatarspack_classPath=0x7f110b36;
+    public static final int library_useravatarspack_isOpenSource=0x7f110b37;
+    public static final int library_useravatarspack_libraryDescription=0x7f110b38;
+    public static final int library_useravatarspack_libraryName=0x7f110b39;
+    public static final int library_useravatarspack_libraryVersion=0x7f110b3a;
+    public static final int library_useravatarspack_libraryWebsite=0x7f110b3b;
+    public static final int library_useravatarspack_licenseId=0x7f110b3c;
+    public static final int library_useravatarspack_repositoryLink=0x7f110b3d;
+    public static final int library_volley_author=0x7f110b3e;
+    public static final int library_volley_classPath=0x7f110b3f;
+    public static final int library_volley_isOpenSource=0x7f110b40;
+    public static final int library_volley_libraryDescription=0x7f110b41;
+    public static final int library_volley_libraryName=0x7f110b42;
+    public static final int library_volley_libraryVersion=0x7f110b43;
+    public static final int library_volley_libraryWebsite=0x7f110b44;
+    public static final int library_volley_licenseId=0x7f110b45;
+    public static final int library_volley_repositoryLink=0x7f110b46;
+    public static final int library_volleyplus_author=0x7f110b47;
+    public static final int library_volleyplus_authorWebsite=0x7f110b48;
+    public static final int library_volleyplus_classPath=0x7f110b49;
+    public static final int library_volleyplus_isOpenSource=0x7f110b4a;
+    public static final int library_volleyplus_libraryDescription=0x7f110b4b;
+    public static final int library_volleyplus_libraryName=0x7f110b4c;
+    public static final int library_volleyplus_libraryVersion=0x7f110b4d;
+    public static final int library_volleyplus_libraryWebsite=0x7f110b4e;
+    public static final int library_volleyplus_licenseId=0x7f110b4f;
+    public static final int library_volleyplus_repositoryLink=0x7f110b50;
+    public static final int library_zxing_author=0x7f110b51;
+    public static final int library_zxing_authorWebsite=0x7f110b52;
+    public static final int library_zxing_classPath=0x7f110b53;
+    public static final int library_zxing_isOpenSource=0x7f110b54;
+    public static final int library_zxing_libraryDescription=0x7f110b55;
+    public static final int library_zxing_libraryName=0x7f110b56;
+    public static final int library_zxing_libraryVersion=0x7f110b57;
+    public static final int library_zxing_libraryWebsite=0x7f110b58;
+    public static final int library_zxing_licenseId=0x7f110b59;
+    public static final int library_zxing_repositoryLink=0x7f110b5a;
+    public static final int libray_paymill_licenseContent=0x7f110b5b;
+    public static final int libray_paymill_licenseLink=0x7f110b5c;
+    public static final int libray_paymill_licenseVersion=0x7f110b5d;
+    public static final int libray_sugarorm_licenseContent=0x7f110b5e;
+    public static final int licence=0x7f110b5f;
+    public static final int licencedesc=0x7f110b60;
+    public static final int license_Apache_2_0_licenseDescription=0x7f110b61;
+    public static final int license_Apache_2_0_licenseName=0x7f110b62;
+    public static final int license_Apache_2_0_licenseShortDescription=0x7f110b63;
+    public static final int license_Apache_2_0_licenseWebsite=0x7f110b64;
+    public static final int license_SIL_OFL_1_1_licenseDescription=0x7f110b65;
+    public static final int license_SIL_OFL_1_1_licenseName=0x7f110b66;
+    public static final int license_SIL_OFL_1_1_licenseShortDescription=0x7f110b67;
+    public static final int license_SIL_OFL_1_1_licenseWebsite=0x7f110b68;
+    public static final int license_bsd_2_licenseDescription=0x7f110b69;
+    public static final int license_bsd_2_licenseName=0x7f110b6a;
+    public static final int license_bsd_2_licenseShortDescription=0x7f110b6b;
+    public static final int license_bsd_2_licenseWebsite=0x7f110b6c;
+    public static final int license_bsd_3_licenseDescription=0x7f110b6d;
+    public static final int license_bsd_3_licenseName=0x7f110b6e;
+    public static final int license_bsd_3_licenseShortDescription=0x7f110b6f;
+    public static final int license_bsd_3_licenseWebsite=0x7f110b70;
+    public static final int license_cc0_10_licenseDescription=0x7f110b71;
+    public static final int license_cc0_10_licenseName=0x7f110b72;
+    public static final int license_cc0_10_licenseShortDescription=0x7f110b73;
+    public static final int license_cc0_10_licenseWebsite=0x7f110b74;
+    public static final int license_cc30_licenseDescription=0x7f110b75;
+    public static final int license_cc30_licenseName=0x7f110b76;
+    public static final int license_cc30_licenseShortDescription=0x7f110b77;
+    public static final int license_cc30_licenseWebsite=0x7f110b78;
+    public static final int license_cc40_licenseDescription=0x7f110b79;
+    public static final int license_cc40_licenseName=0x7f110b7a;
+    public static final int license_cc40_licenseShortDescription=0x7f110b7b;
+    public static final int license_cc40_licenseWebsite=0x7f110b7c;
+    public static final int license_gpl_2_0_licenseDescription=0x7f110b7d;
+    public static final int license_gpl_2_0_licenseName=0x7f110b7e;
+    public static final int license_gpl_2_0_licenseShortDescription=0x7f110b7f;
+    public static final int license_gpl_2_0_licenseWebsite=0x7f110b80;
+    public static final int license_gpl_3_0_licenseDescription=0x7f110b81;
+    public static final int license_gpl_3_0_licenseName=0x7f110b82;
+    public static final int license_gpl_3_0_licenseShortDescription=0x7f110b83;
+    public static final int license_gpl_3_0_licenseWebsite=0x7f110b84;
+    public static final int license_lgpl_2_1_licenseDescription=0x7f110b85;
+    public static final int license_lgpl_2_1_licenseName=0x7f110b86;
+    public static final int license_lgpl_2_1_licenseShortDescription=0x7f110b87;
+    public static final int license_lgpl_2_1_licenseWebsite=0x7f110b88;
+    public static final int license_lgpl_3_0_licenseDescription=0x7f110b89;
+    public static final int license_lgpl_3_0_licenseName=0x7f110b8a;
+    public static final int license_lgpl_3_0_licenseShortDescription=0x7f110b8b;
+    public static final int license_lgpl_3_0_licenseWebsite=0x7f110b8c;
+    public static final int license_mit_licenseDescription=0x7f110b8d;
+    public static final int license_mit_licenseName=0x7f110b8e;
+    public static final int license_mit_licenseShortDescription=0x7f110b8f;
+    public static final int license_mit_licenseWebsite=0x7f110b90;
+    public static final int license_mpl_2_0_licenseDescription=0x7f110b91;
+    public static final int license_mpl_2_0_licenseName=0x7f110b92;
+    public static final int license_mpl_2_0_licenseShortDescription=0x7f110b93;
+    public static final int license_mpl_2_0_licenseWebsite=0x7f110b94;
+    public static final int login=0x7f110b95;
+    public static final int login_now=0x7f110b96;
+    public static final int logout=0x7f110b97;
+    public static final int magic_points=0x7f110b98;
+    public static final int material_drawer_close=0x7f110b99;
+    public static final int material_drawer_open=0x7f110b9a;
+    public static final int materialdrawer_lib_version=0x7f110b9b;
+    public static final int materialize_lib_version=0x7f110b9c;
+    public static final int mtrl_chip_close_icon_content_description=0x7f110b9d;
+    public static final int my_profile=0x7f110b9e;
+    public static final int myorders=0x7f110b9f;
+    public static final int myprofile=0x7f110ba0;
+    public static final int next=0x7f110ba1;
+    public static final int noconnection=0x7f110ba2;
+    public static final int ok=0x7f110ba3;
+    public static final int orderdetails=0x7f110ba4;
+    public static final int orders_placed=0x7f110ba5;
+    public static final int password_toggle_content_description=0x7f110ba6;
+    public static final int path_password_eye=0x7f110ba7;
+    public static final int path_password_eye_mask_strike_through=0x7f110ba8;
+    public static final int path_password_eye_mask_visible=0x7f110ba9;
+    public static final int path_password_strike_through=0x7f110baa;
+    public static final int petName=0x7f110bab;
+    public static final int play_again=0x7f110bac;
+    public static final int play_again_desc=0x7f110bad;
+    public static final int please_write=0x7f110bae;
+    public static final int project_id=0x7f110baf;
+    public static final int radio_female=0x7f110bb0;
+    public static final int radio_male=0x7f110bb1;
+    public static final int rate=0x7f110bb2;
+    public static final int register=0x7f110bb3;
+    public static final int register_now=0x7f110bb4;
+    public static final int registermail1=0x7f110bb5;
+    public static final int search_menu_title=0x7f110bb6;
+    public static final int select_category=0x7f110bb7;
+    public static final int select_image=0x7f110bb8;
+    public static final int select_picture_title=0x7f110bb9;
+    public static final int send_feedback=0x7f110bba;
+    public static final int send_feedback_two=0x7f110bbb;
+    public static final int send_otp=0x7f110bbc;
+    public static final int send_password1=0x7f110bbd;
+    public static final int send_password2=0x7f110bbe;
+    public static final int skip=0x7f110bbf;
+    public static final int slide_1_desc=0x7f110bc0;
+    public static final int slide_1_title=0x7f110bc1;
+    public static final int slide_2_desc=0x7f110bc2;
+    public static final int slide_2_title=0x7f110bc3;
+    public static final int slide_3_desc=0x7f110bc4;
+    public static final int slide_3_title=0x7f110bc5;
+    public static final int slide_4_desc=0x7f110bc6;
+    public static final int slide_4_title=0x7f110bc7;
+    public static final int space=0x7f110bc8;
+    public static final int start=0x7f110bc9;
+    public static final int status_bar_notification_info_overflow=0x7f110bca;
+    public static final int system_info=0x7f110bcb;
+    public static final int title_activity_main=0x7f110bcc;
+    public static final int title_activity_process_order=0x7f110bcd;
+    public static final int title_activity_registration=0x7f110bce;
+    public static final int title_activity_welcome=0x7f110bcf;
+    public static final int update=0x7f110bd0;
+    public static final int update_details=0x7f110bd1;
+    public static final int version=0x7f110bd2;
+    public static final int website=0x7f110bd3;
+    public static final int wishlist=0x7f110bd4;
+    public static final int your_input=0x7f110bd5;
   }
   public static final class style {
     public static final int AboutLibrariesTheme=0x7f120000;
@@ -11435,39 +10989,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.noon.a7pets:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.noon.a7pets:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.noon.a7pets:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.noon.a7pets:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.noon.a7pets:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
-     * are present.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.noon.a7pets:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.noon.a7pets:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.noon.a7pets:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.noon.a7pets:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.noon.a7pets:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.noon.a7pets:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.noon.a7pets:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.noon.a7pets:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.noon.a7pets:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.noon.a7pets:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.noon.a7pets:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.noon.a7pets:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.noon.a7pets:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.noon.a7pets:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.noon.a7pets:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.noon.a7pets:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.noon.a7pets:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.noon.a7pets:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.noon.a7pets:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.noon.a7pets:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.noon.a7pets:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionBar_height com.noon.a7pets:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.noon.a7pets:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.noon.a7pets:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.noon.a7pets:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.noon.a7pets:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.noon.a7pets:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.noon.a7pets:homeLayout}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionBar_icon com.noon.a7pets:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.noon.a7pets:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.noon.a7pets:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.noon.a7pets:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.noon.a7pets:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.noon.a7pets:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.noon.a7pets:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.noon.a7pets:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.noon.a7pets:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.noon.a7pets:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.noon.a7pets:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.noon.a7pets:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.noon.a7pets:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.noon.a7pets:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.noon.a7pets:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.noon.a7pets:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.noon.a7pets:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.noon.a7pets:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.noon.a7pets:subtitleTextStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionBar_title com.noon.a7pets:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.noon.a7pets:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.noon.a7pets:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -11510,9 +11060,8 @@ public final class R {
       0x7f04028a
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for the action bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#background}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11523,9 +11072,8 @@ public final class R {
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for the bottom component of a split action bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11539,9 +11087,8 @@ public final class R {
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background drawable for a second stacked row of the action bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundStacked}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11555,10 +11102,8 @@ public final class R {
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11570,10 +11115,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11585,10 +11128,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11600,10 +11141,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11615,10 +11154,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11630,10 +11167,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11645,9 +11180,8 @@ public final class R {
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout for custom navigation. Overrides navigationMode.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#customNavigationLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11658,9 +11192,8 @@ public final class R {
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>
-     * @attr description
-     * Options affecting how the action bar is displayed.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#displayOptions}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -11681,9 +11214,8 @@ public final class R {
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for item dividers.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#divider}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11694,9 +11226,8 @@ public final class R {
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#elevation}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11708,9 +11239,8 @@ public final class R {
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>
-     * @attr description
-     * Specifies a fixed height.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#height}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11722,9 +11252,8 @@ public final class R {
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>
-     * @attr description
-     * Set true to hide the action bar on a vertical nested scroll of content.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#hideOnContentScroll}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -11733,9 +11262,8 @@ public final class R {
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>
-     * @attr description
-     * Up navigation glyph
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11746,9 +11274,8 @@ public final class R {
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout to use for the "home" section of the action bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#homeLayout}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11759,9 +11286,8 @@ public final class R {
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for the application icon.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#icon}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11772,9 +11298,8 @@ public final class R {
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style resource to use for an indeterminate progress spinner.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#indeterminateProgressStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11785,10 +11310,8 @@ public final class R {
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>
-     * @attr description
-     * Specifies padding that should be applied to the left and right sides of
-     * system-provided items in the bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#itemPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11800,9 +11323,8 @@ public final class R {
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>
-     * @attr description
-     * Specifies the drawable used for the application logo.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#logo}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11813,9 +11335,8 @@ public final class R {
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>
-     * @attr description
-     * The type of navigation to use.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#navigationMode}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -11823,19 +11344,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>listMode</td><td>1</td><td>The action bar will use a selection list for navigation.</td></tr>
-     * <tr><td>normal</td><td>0</td><td>Normal static title text</td></tr>
-     * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
+     * <tr><td>listMode</td><td>1</td><td></td></tr>
+     * <tr><td>normal</td><td>0</td><td></td></tr>
+     * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11846,9 +11365,8 @@ public final class R {
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>
-     * @attr description
-     * Specifies the horizontal padding on either end for an embedded progress bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#progressBarPadding}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -11860,9 +11378,8 @@ public final class R {
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style resource to use for an embedded progress bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#progressBarStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11873,9 +11390,8 @@ public final class R {
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>
-     * @attr description
-     * Specifies subtitle text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#subtitle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -11884,9 +11400,8 @@ public final class R {
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for subtitle text.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11897,9 +11412,8 @@ public final class R {
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>
-     * @attr description
-     * Specifies title text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#title}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -11908,9 +11422,8 @@ public final class R {
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for title text.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -11999,12 +11512,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.noon.a7pets:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.noon.a7pets:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.noon.a7pets:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.noon.a7pets:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.noon.a7pets:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.noon.a7pets:closeItemLayout}</code></td><td></td></tr>
      * <tr><td><code>{@link #ActionMode_height com.noon.a7pets:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.noon.a7pets:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.noon.a7pets:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.noon.a7pets:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.noon.a7pets:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -12018,9 +11531,8 @@ public final class R {
       0x7f040238, 0x7f04028a
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a background for the action mode bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#background}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12031,9 +11543,8 @@ public final class R {
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>
-     * @attr description
-     * Specifies a background for the split action mode bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundSplit}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12047,9 +11558,8 @@ public final class R {
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies a layout to use for the "close" item at the starting edge.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#closeItemLayout}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12060,9 +11570,8 @@ public final class R {
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>
-     * @attr description
-     * Specifies a fixed height for the action mode bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#height}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12074,9 +11583,8 @@ public final class R {
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for subtitle text.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#subtitleTextStyle}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12087,9 +11595,8 @@ public final class R {
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>
-     * @attr description
-     * Specifies a style to use for title text.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleTextStyle}
+     * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12106,8 +11613,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.noon.a7pets:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.noon.a7pets:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.noon.a7pets:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.noon.a7pets:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -12116,13 +11623,8 @@ public final class R {
       0x7f0400e1, 0x7f04012d
     };
     /**
-     * <p>
-     * @attr description
-     * The drawable to show in the button for expanding the activities overflow popup.
-     * <strong>Note:</strong> Clients would like to set this drawable
-     * as a clue about the action the chosen activity will perform. For
-     * example, if share activity is to be chosen the drawable should
-     * give a clue that sharing is to be performed.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#expandActivityOverflowButtonDrawable}
+     * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12133,9 +11635,8 @@ public final class R {
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>
-     * @attr description
-     * The maximal number of items initially shown in the activity list.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#initialActivityCount}
+     * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -12293,11 +11794,8 @@ public final class R {
       0x0101030c, 0x0101030d
     };
     /**
-     * <p>
-     * @attr description
-     * Enables or disables dithering of the bitmap if the bitmap does not have the
-     * same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-     * an RGB 565 screen).
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -12306,9 +11804,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_dither=0;
     /**
-     * <p>
-     * @attr description
-     * Indicates whether the drawable should be initially visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -12317,14 +11814,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_visible=1;
     /**
-     * <p>
-     * @attr description
-     * If true, allows the drawable's padding to change based on the
-     * current state that is selected.  If false, the padding will
-     * stay the same (based on the maximum padding of all the states).
-     * Enabling this feature requires that the owner of the drawable
-     * deal with performing layout when the state changes, which is
-     * often not supported.
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -12333,12 +11824,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_variablePadding=2;
     /**
-     * <p>
-     * @attr description
-     * If true, the drawable's reported internal size will remain
-     * constant as the state changes; the size is the maximum of all
-     * of the states.  If false, the size will vary based on the
-     * current state.
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -12347,9 +11834,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_constantSize=3;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade in a new state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -12357,9 +11843,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableCompat_android_enterFadeDuration=4;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade out an old state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -12383,9 +11868,8 @@ public final class R {
       0x010100d0, 0x01010199
     };
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for use in specifying transitions.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12396,10 +11880,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableItem_android_id=0;
     /**
-     * <p>
-     * @attr description
-     * Reference to a drawable resource to use for the frame.  If not
-     * given, the drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12430,10 +11912,8 @@ public final class R {
       0x01010199, 0x01010449, 0x0101044a, 0x0101044b
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to a animation drawable resource to use for the frame.  If not
-     * given, the animation drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12444,9 +11924,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_drawable=0;
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for the ending state.
+     * <p>This symbol is the offset where the {@link android.R.attr#toId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12457,9 +11936,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_toId=1;
     /**
-     * <p>
-     * @attr description
-     * Keyframe identifier for the starting state.
+     * <p>This symbol is the offset where the {@link android.R.attr#fromId}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12470,9 +11948,8 @@ public final class R {
      */
     public static final int AnimatedStateListDrawableTransition_android_fromId=2;
     /**
-     * <p>
-     * @attr description
-     * Whether this transition is reversible.
+     * <p>This symbol is the offset where the {@link android.R.attr#reversible}
+     * attribute's value can be found in the {@link #AnimatedStateListDrawableTransition} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -12490,7 +11967,7 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.noon.a7pets:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.noon.a7pets:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_expanded com.noon.a7pets:expanded}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.noon.a7pets:liftOnScroll}</code></td><td></td></tr>
      * </table>
@@ -12541,9 +12018,8 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#elevation}
+     * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -12691,9 +12167,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.noon.a7pets:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.noon.a7pets:tint}</code></td><td>Tint to apply to the image source.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.noon.a7pets:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.noon.a7pets:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.noon.a7pets:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.noon.a7pets:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -12719,10 +12195,8 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>
-     * @attr description
-     * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
-     * when running on older versions of the platform.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#srcCompat}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12733,9 +12207,8 @@ public final class R {
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the image source.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#tint}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -12745,9 +12218,8 @@ public final class R {
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the image source tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#tintMode}
+     * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -12755,17 +12227,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:tintMode
@@ -12779,9 +12246,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.noon.a7pets:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.noon.a7pets:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.noon.a7pets:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.noon.a7pets:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.noon.a7pets:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.noon.a7pets:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -12804,9 +12271,8 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>
-     * @attr description
-     * Drawable displayed at each progress position on a seekbar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#tickMark}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -12817,9 +12283,8 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the tick mark drawable.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#tickMarkTint}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -12829,9 +12294,8 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the tick mark tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#tickMarkTintMode}
+     * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -12839,17 +12303,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:tickMarkTintMode
@@ -12992,30 +12451,26 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.noon.a7pets:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.noon.a7pets:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.noon.a7pets:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.noon.a7pets:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.noon.a7pets:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.noon.a7pets:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.noon.a7pets:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.noon.a7pets:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.noon.a7pets:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.noon.a7pets:autoSizeTextType}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableBottomCompat com.noon.a7pets:drawableBottomCompat}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableEndCompat com.noon.a7pets:drawableEndCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat com.noon.a7pets:drawableLeftCompat}</code></td><td>Compound drawables allowing the use of vector drawable when running on older versions
-     * of the platform.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableLeftCompat com.noon.a7pets:drawableLeftCompat}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableRightCompat com.noon.a7pets:drawableRightCompat}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableStartCompat com.noon.a7pets:drawableStartCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTint com.noon.a7pets:drawableTint}</code></td><td>Tint to apply to the compound (left, top, etc.) drawables.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode com.noon.a7pets:drawableTintMode}</code></td><td>Blending mode used to apply the compound (left, top, etc.) drawables tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTint com.noon.a7pets:drawableTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_drawableTintMode com.noon.a7pets:drawableTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTextView_drawableTopCompat com.noon.a7pets:drawableTopCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.noon.a7pets:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.noon.a7pets:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings com.noon.a7pets:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.noon.a7pets:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.noon.a7pets:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.noon.a7pets:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textLocale com.noon.a7pets:textLocale}</code></td><td>Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN".</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.noon.a7pets:firstBaselineToTopHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.noon.a7pets:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontVariationSettings com.noon.a7pets:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.noon.a7pets:lastBaselineToBottomHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.noon.a7pets:lineHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.noon.a7pets:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textLocale com.noon.a7pets:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -13060,9 +12515,8 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>
-     * @attr description
-     * The maximum text size constraint to be used when auto-sizing text.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#autoSizeMaxTextSize}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13074,9 +12528,8 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>
-     * @attr description
-     * The minimum text size constraint to be used when auto-sizing text.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#autoSizeMinTextSize}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13088,11 +12541,8 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>
-     * @attr description
-     * Resource array of dimensions to be used in conjunction with
-     * <code>autoSizeTextType</code> set to <code>uniform</code>. Overrides
-     * <code>autoSizeStepGranularity</code> if set.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#autoSizePresetSizes}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13103,11 +12553,8 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>
-     * @attr description
-     * Specify the auto-size step size if <code>autoSizeTextType</code> is set to
-     * <code>uniform</code>. The default is 1px. Overwrites
-     * <code>autoSizePresetSizes</code> if set.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#autoSizeStepGranularity}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13119,10 +12566,8 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>
-     * @attr description
-     * Specify the type of auto-size. Note that this feature is not supported by EditText,
-     * works only for TextView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#autoSizeTextType}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13130,9 +12575,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>none</td><td>0</td><td>No auto-sizing (default).</td></tr>
-     * <tr><td>uniform</td><td>1</td><td>Uniform horizontal and vertical text size scaling to fit within the
-     * container.</td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:autoSizeTextType
@@ -13163,10 +12607,8 @@ public final class R {
      */
     public static final int AppCompatTextView_drawableEndCompat=7;
     /**
-     * <p>
-     * @attr description
-     * Compound drawables allowing the use of vector drawable when running on older versions
-     * of the platform.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#drawableLeftCompat}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13201,9 +12643,8 @@ public final class R {
      */
     public static final int AppCompatTextView_drawableStartCompat=10;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the compound (left, top, etc.) drawables.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#drawableTint}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -13213,9 +12654,8 @@ public final class R {
      */
     public static final int AppCompatTextView_drawableTint=11;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the compound (left, top, etc.) drawables tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#drawableTintMode}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -13223,17 +12663,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:drawableTintMode
@@ -13252,10 +12687,8 @@ public final class R {
      */
     public static final int AppCompatTextView_drawableTopCompat=13;
     /**
-     * <p>
-     * @attr description
-     * Distance from the top of the TextView to the first text baseline. If set, this
-     * overrides the value set for paddingTop.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#firstBaselineToTopHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13267,9 +12700,8 @@ public final class R {
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=14;
     /**
-     * <p>
-     * @attr description
-     * The attribute for the font family.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontFamily}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -13278,9 +12710,8 @@ public final class R {
      */
     public static final int AppCompatTextView_fontFamily=15;
     /**
-     * <p>
-     * @attr description
-     * OpenType font variation settings, available after api 26.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -13289,10 +12720,8 @@ public final class R {
      */
     public static final int AppCompatTextView_fontVariationSettings=16;
     /**
-     * <p>
-     * @attr description
-     * Distance from the bottom of the TextView to the last text baseline. If set, this
-     * overrides the value set for paddingBottom.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#lastBaselineToBottomHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13304,10 +12733,8 @@ public final class R {
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=17;
     /**
-     * <p>
-     * @attr description
-     * Explicit height between lines of text. If set, this will override the values set
-     * for lineSpacingExtra and lineSpacingMultiplier.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#lineHeight}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13319,9 +12746,8 @@ public final class R {
      */
     public static final int AppCompatTextView_lineHeight=18;
     /**
-     * <p>
-     * @attr description
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAllCaps}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13334,13 +12760,8 @@ public final class R {
      */
     public static final int AppCompatTextView_textAllCaps=19;
     /**
-     * <p>
-     * @attr description
-     * Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
-     * Before API 24, only the first language tag is used. Starting from API 24,
-     * the string will be converted into a {@link android.os.LocaleList} and then used by
-     * {@link android.widget.TextView}
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textLocale}
+     * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -13357,146 +12778,129 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.noon.a7pets:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.noon.a7pets:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.noon.a7pets:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.noon.a7pets:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.noon.a7pets:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.noon.a7pets:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.noon.a7pets:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.noon.a7pets:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.noon.a7pets:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.noon.a7pets:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.noon.a7pets:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.noon.a7pets:actionBarStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.noon.a7pets:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.noon.a7pets:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.noon.a7pets:actionBarTabStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.noon.a7pets:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.noon.a7pets:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
-     * action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.noon.a7pets:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.noon.a7pets:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.noon.a7pets:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.noon.a7pets:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
-     * appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.noon.a7pets:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.noon.a7pets:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.noon.a7pets:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.noon.a7pets:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.noon.a7pets:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.noon.a7pets:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.noon.a7pets:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.noon.a7pets:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.noon.a7pets:actionModeBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.noon.a7pets:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.noon.a7pets:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.noon.a7pets:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.noon.a7pets:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.noon.a7pets:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.noon.a7pets:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.noon.a7pets:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.noon.a7pets:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.noon.a7pets:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.noon.a7pets:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.noon.a7pets:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.noon.a7pets:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.noon.a7pets:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.noon.a7pets:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.noon.a7pets:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.noon.a7pets:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.noon.a7pets:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.noon.a7pets:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.noon.a7pets:actionModeSplitBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.noon.a7pets:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.noon.a7pets:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.noon.a7pets:actionModeWebSearchDrawable}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.noon.a7pets:actionOverflowButtonStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.noon.a7pets:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.noon.a7pets:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.noon.a7pets:activityChooserViewStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.noon.a7pets:alertDialogButtonGroupStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.noon.a7pets:alertDialogCenterButtons}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.noon.a7pets:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.noon.a7pets:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.noon.a7pets:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.noon.a7pets:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.noon.a7pets:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.noon.a7pets:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.noon.a7pets:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.noon.a7pets:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.noon.a7pets:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.noon.a7pets:buttonStyle}</code></td><td>Normal Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.noon.a7pets:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.noon.a7pets:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.noon.a7pets:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.noon.a7pets:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.noon.a7pets:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.noon.a7pets:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.noon.a7pets:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.noon.a7pets:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.noon.a7pets:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.noon.a7pets:colorError}</code></td><td>Color used for error states and things that need to be drawn to
-     * the user's attention.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.noon.a7pets:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.noon.a7pets:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.noon.a7pets:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.noon.a7pets:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.noon.a7pets:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.noon.a7pets:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.noon.a7pets:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.noon.a7pets:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.noon.a7pets:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.noon.a7pets:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.noon.a7pets:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.noon.a7pets:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.noon.a7pets:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.noon.a7pets:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.noon.a7pets:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.noon.a7pets:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.noon.a7pets:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated com.noon.a7pets:listChoiceIndicatorMultipleAnimated}</code></td><td>Animated Drawable to use for single choice indicators.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated com.noon.a7pets:listChoiceIndicatorSingleAnimated}</code></td><td>Animated Drawable to use for multiple choice indicators.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.noon.a7pets:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.noon.a7pets:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.noon.a7pets:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.noon.a7pets:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.noon.a7pets:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.noon.a7pets:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.noon.a7pets:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.noon.a7pets:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.noon.a7pets:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.noon.a7pets:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.noon.a7pets:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.noon.a7pets:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.noon.a7pets:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.noon.a7pets:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.noon.a7pets:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.noon.a7pets:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.noon.a7pets:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.noon.a7pets:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.noon.a7pets:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.noon.a7pets:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.noon.a7pets:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.noon.a7pets:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.noon.a7pets:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.noon.a7pets:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.noon.a7pets:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.noon.a7pets:dialogCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.noon.a7pets:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.noon.a7pets:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.noon.a7pets:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.noon.a7pets:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.noon.a7pets:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.noon.a7pets:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.noon.a7pets:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.noon.a7pets:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.noon.a7pets:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.noon.a7pets:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.noon.a7pets:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.noon.a7pets:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorMultipleAnimated com.noon.a7pets:listChoiceIndicatorMultipleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceIndicatorSingleAnimated com.noon.a7pets:listChoiceIndicatorSingleAnimated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.noon.a7pets:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.noon.a7pets:listMenuViewStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.noon.a7pets:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.noon.a7pets:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.noon.a7pets:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.noon.a7pets:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd com.noon.a7pets:listPreferredItemPaddingEnd}</code></td><td>The preferred padding along the end edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.noon.a7pets:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.noon.a7pets:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart com.noon.a7pets:listPreferredItemPaddingStart}</code></td><td>The preferred padding along the start edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.noon.a7pets:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.noon.a7pets:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.noon.a7pets:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.noon.a7pets:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.noon.a7pets:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.noon.a7pets:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.noon.a7pets:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.noon.a7pets:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.noon.a7pets:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.noon.a7pets:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.noon.a7pets:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.noon.a7pets:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.noon.a7pets:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.noon.a7pets:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.noon.a7pets:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.noon.a7pets:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.noon.a7pets:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.noon.a7pets:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.noon.a7pets:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.noon.a7pets:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.noon.a7pets:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.noon.a7pets:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.noon.a7pets:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.noon.a7pets:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.noon.a7pets:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.noon.a7pets:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.noon.a7pets:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.noon.a7pets:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.noon.a7pets:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.noon.a7pets:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.noon.a7pets:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.noon.a7pets:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.noon.a7pets:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingEnd com.noon.a7pets:listPreferredItemPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.noon.a7pets:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.noon.a7pets:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingStart com.noon.a7pets:listPreferredItemPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.noon.a7pets:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.noon.a7pets:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.noon.a7pets:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.noon.a7pets:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.noon.a7pets:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.noon.a7pets:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.noon.a7pets:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.noon.a7pets:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.noon.a7pets:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.noon.a7pets:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.noon.a7pets:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.noon.a7pets:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.noon.a7pets:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.noon.a7pets:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.noon.a7pets:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.noon.a7pets:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.noon.a7pets:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.noon.a7pets:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.noon.a7pets:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.noon.a7pets:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.noon.a7pets:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.noon.a7pets:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.noon.a7pets:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.noon.a7pets:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.noon.a7pets:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.noon.a7pets:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.noon.a7pets:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.noon.a7pets:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.noon.a7pets:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.noon.a7pets:tooltipFrameBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.noon.a7pets:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.noon.a7pets:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.noon.a7pets:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
-     * application content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.noon.a7pets:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.noon.a7pets:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.noon.a7pets:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.noon.a7pets:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.noon.a7pets:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.noon.a7pets:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
-     * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.noon.a7pets:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
-     * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.noon.a7pets:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.noon.a7pets:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.noon.a7pets:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.noon.a7pets:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.noon.a7pets:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.noon.a7pets:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.noon.a7pets:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.noon.a7pets:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.noon.a7pets:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.noon.a7pets:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.noon.a7pets:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -13681,9 +13085,8 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>
-     * @attr description
-     * Custom divider drawable to use for elements in the action bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionBarDivider}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13694,9 +13097,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>
-     * @attr description
-     * Custom item state list drawable background for action bar items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionBarItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13707,10 +13109,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionBarPopupTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13721,10 +13121,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>
-     * @attr description
-     * Size of the Action Bar, including the contextual
-     * bar used to present Action Modes.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionBarSize}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -13744,12 +13142,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>
-     * @attr description
-     * Reference to a style for the split Action Bar. This style
-     * controls the split component that holds the menu/action
-     * buttons. actionBarStyle is still used for the primary
-     * bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionBarSplitStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13760,9 +13154,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>
-     * @attr description
-     * Reference to a style for the Action Bar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13785,9 +13178,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>
-     * @attr description
-     * Default style for tabs within an action bar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionBarTabStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13810,11 +13202,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate the
-     * action bar. This will be inherited by any widget inflated
-     * into the action bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionBarTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13825,15 +13214,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate widgets
-     * and layouts destined for the action bar. Most of the time
-     * this will be a reference to the current theme, but when
-     * the action bar has a significantly different contrast
-     * profile than the rest of the activity the difference
-     * can become important. If this is set to @null the current
-     * theme will be used.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionBarWidgetTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13844,9 +13226,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>
-     * @attr description
-     * Default action button style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13857,9 +13238,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>
-     * @attr description
-     * Default ActionBar dropdown style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionDropDownStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13870,10 +13250,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>
-     * @attr description
-     * TextAppearance style that will be applied to text that
-     * appears within action menu items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionMenuTextAppearance}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13884,9 +13262,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>
-     * @attr description
-     * Color for text that appears within action menu items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionMenuTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13900,9 +13277,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for action mode UI
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModeBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13925,9 +13301,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the close action mode button
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModeCloseDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13938,9 +13313,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Copy action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModeCopyDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13951,9 +13325,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Cut action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModeCutDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13964,9 +13337,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Find action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModeFindDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13977,9 +13349,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Paste action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModePasteDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -13990,9 +13361,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>
-     * @attr description
-     * PopupWindow style to use for action modes when showing as a window overlay.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModePopupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14003,9 +13373,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Select all action button in Contextual Action Bar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModeSelectAllDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14016,9 +13385,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Share action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModeShareDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14029,9 +13397,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for action mode UI in the lower split bar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModeSplitBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14054,9 +13421,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use for the Web Search action button in WebView selection action modes
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionModeWebSearchDrawable}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14091,9 +13457,8 @@ public final class R {
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>
-     * @attr description
-     * Default ActivityChooserView style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#activityChooserViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14138,9 +13503,8 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for alert dialogs spawned from this theme.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#alertDialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14151,9 +13515,8 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>
-     * @attr description
-     * Default AutoCompleteTextView style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#autoCompleteTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14164,9 +13527,8 @@ public final class R {
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>
-     * @attr description
-     * Style for buttons without an explicit border, often used in groups.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#borderlessButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14177,9 +13539,8 @@ public final class R {
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>
-     * @attr description
-     * Style for buttons within button bars
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonBarButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14190,9 +13551,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>
-     * @attr description
-     * Style for the "negative" buttons within button bars
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonBarNegativeButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14203,9 +13563,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>
-     * @attr description
-     * Style for the "neutral" buttons within button bars
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonBarNeutralButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14216,9 +13575,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>
-     * @attr description
-     * Style for the "positive" buttons within button bars
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonBarPositiveButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14229,9 +13587,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>
-     * @attr description
-     * Style for button bars
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14242,9 +13599,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>
-     * @attr description
-     * Normal Button style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14255,9 +13611,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>
-     * @attr description
-     * Small Button style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14268,9 +13623,8 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>
-     * @attr description
-     * Default Checkbox style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#checkboxStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14281,9 +13635,8 @@ public final class R {
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>
-     * @attr description
-     * Default CheckedTextView style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#checkedTextViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14294,10 +13647,8 @@ public final class R {
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>
-     * @attr description
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorAccent}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14307,9 +13658,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>
-     * @attr description
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorBackgroundFloating}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14319,9 +13669,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework buttons in their normal state.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorButtonNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14331,9 +13680,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework controls in their activated (ex. checked) state.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorControlActivated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14343,9 +13691,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework control highlights (ex. ripples, list selectors).
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorControlHighlight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14355,9 +13702,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework controls in their normal state.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorControlNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14367,10 +13713,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>
-     * @attr description
-     * Color used for error states and things that need to be drawn to
-     * the user's attention.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorError}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14384,10 +13728,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>
-     * @attr description
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14397,10 +13739,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>
-     * @attr description
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14410,9 +13750,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>
-     * @attr description
-     * The color applied to framework switch thumbs in their normal state.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorSwitchThumbNormal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -14422,9 +13761,8 @@ public final class R {
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>
-     * @attr description
-     * The background used by framework controls.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#controlBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14435,9 +13773,8 @@ public final class R {
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>
-     * @attr description
-     * Preferred corner radius of dialogs.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#dialogCornerRadius}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14449,9 +13786,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogCornerRadius=59;
     /**
-     * <p>
-     * @attr description
-     * Preferred padding for dialog content.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#dialogPreferredPadding}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14463,9 +13799,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for dialogs spawned from this theme.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#dialogTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14476,9 +13811,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogTheme=61;
     /**
-     * <p>
-     * @attr description
-     * A drawable that may be used as a horizontal divider between visual elements.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#dividerHorizontal}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14489,9 +13823,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerHorizontal=62;
     /**
-     * <p>
-     * @attr description
-     * A drawable that may be used as a vertical divider between visual elements.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#dividerVertical}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14502,9 +13835,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerVertical=63;
     /**
-     * <p>
-     * @attr description
-     * ListPopupWindow compatibility
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#dropDownListViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14515,9 +13847,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
-     * <p>
-     * @attr description
-     * The preferred item height for dropdown lists.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#dropdownListPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14529,9 +13860,8 @@ public final class R {
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
-     * <p>
-     * @attr description
-     * EditText background drawable.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#editTextBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14542,9 +13872,8 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextBackground=66;
     /**
-     * <p>
-     * @attr description
-     * EditText text foreground color.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#editTextColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14558,9 +13887,8 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextColor=67;
     /**
-     * <p>
-     * @attr description
-     * Default EditText style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#editTextStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14571,9 +13899,8 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextStyle=68;
     /**
-     * <p>
-     * @attr description
-     * Specifies a drawable to use for the 'home as up' indicator.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#homeAsUpIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14584,9 +13911,8 @@ public final class R {
      */
     public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
-     * <p>
-     * @attr description
-     * ImageButton background drawable.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#imageButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14597,9 +13923,8 @@ public final class R {
      */
     public static final int AppCompatTheme_imageButtonStyle=70;
     /**
-     * <p>
-     * @attr description
-     * Drawable used as a background for selected list items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listChoiceBackgroundIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14610,9 +13935,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
-     * <p>
-     * @attr description
-     * Animated Drawable to use for single choice indicators.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listChoiceIndicatorMultipleAnimated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14623,9 +13947,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listChoiceIndicatorMultipleAnimated=72;
     /**
-     * <p>
-     * @attr description
-     * Animated Drawable to use for multiple choice indicators.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listChoiceIndicatorSingleAnimated}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14636,9 +13959,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listChoiceIndicatorSingleAnimated=73;
     /**
-     * <p>
-     * @attr description
-     * The list divider used in alert dialogs.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listDividerAlertDialog}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14649,9 +13971,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listDividerAlertDialog=74;
     /**
-     * <p>
-     * @attr description
-     * Default menu-style ListView style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listMenuViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14674,9 +13995,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPopupWindowStyle=76;
     /**
-     * <p>
-     * @attr description
-     * The preferred list item height.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listPreferredItemHeight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14688,9 +14008,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeight=77;
     /**
-     * <p>
-     * @attr description
-     * A larger, more robust list item height.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listPreferredItemHeightLarge}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14702,9 +14021,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=78;
     /**
-     * <p>
-     * @attr description
-     * A smaller, sleeker list item height.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listPreferredItemHeightSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14716,9 +14034,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=79;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the end edge of list items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listPreferredItemPaddingEnd}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14730,9 +14047,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingEnd=80;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the left edge of list items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listPreferredItemPaddingLeft}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14744,9 +14060,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=81;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the right edge of list items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listPreferredItemPaddingRight}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14758,9 +14073,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=82;
     /**
-     * <p>
-     * @attr description
-     * The preferred padding along the start edge of list items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#listPreferredItemPaddingStart}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14772,9 +14086,8 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingStart=83;
     /**
-     * <p>
-     * @attr description
-     * The background of a panel when it is inset from the left and right edges of the screen.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#panelBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14785,9 +14098,8 @@ public final class R {
      */
     public static final int AppCompatTheme_panelBackground=84;
     /**
-     * <p>
-     * @attr description
-     * Default Panel Menu style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#panelMenuListTheme}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14798,9 +14110,8 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListTheme=85;
     /**
-     * <p>
-     * @attr description
-     * Default Panel Menu width.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#panelMenuListWidth}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -14812,9 +14123,8 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListWidth=86;
     /**
-     * <p>
-     * @attr description
-     * Default PopupMenu style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#popupMenuStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14825,9 +14135,8 @@ public final class R {
      */
     public static final int AppCompatTheme_popupMenuStyle=87;
     /**
-     * <p>
-     * @attr description
-     * Default PopupWindow style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#popupWindowStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14838,9 +14147,8 @@ public final class R {
      */
     public static final int AppCompatTheme_popupWindowStyle=88;
     /**
-     * <p>
-     * @attr description
-     * Default RadioButton style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#radioButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14851,9 +14159,8 @@ public final class R {
      */
     public static final int AppCompatTheme_radioButtonStyle=89;
     /**
-     * <p>
-     * @attr description
-     * Default RatingBar style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#ratingBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14864,9 +14171,8 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyle=90;
     /**
-     * <p>
-     * @attr description
-     * Indicator RatingBar style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#ratingBarStyleIndicator}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14877,9 +14183,8 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=91;
     /**
-     * <p>
-     * @attr description
-     * Small indicator RatingBar style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#ratingBarStyleSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14890,9 +14195,8 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=92;
     /**
-     * <p>
-     * @attr description
-     * Style for the search query widget.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#searchViewStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14903,9 +14207,8 @@ public final class R {
      */
     public static final int AppCompatTheme_searchViewStyle=93;
     /**
-     * <p>
-     * @attr description
-     * Default SeekBar style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#seekBarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14916,11 +14219,8 @@ public final class R {
      */
     public static final int AppCompatTheme_seekBarStyle=94;
     /**
-     * <p>
-     * @attr description
-     * A style that may be applied to buttons or other selectable items
-     * that should react to pressed and focus states, but that do not
-     * have a clear visual border along the edges.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#selectableItemBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14931,9 +14231,8 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackground=95;
     /**
-     * <p>
-     * @attr description
-     * Background drawable for borderless standalone items that need focus/pressed states.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#selectableItemBackgroundBorderless}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14944,9 +14243,8 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=96;
     /**
-     * <p>
-     * @attr description
-     * Default Spinner style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#spinnerDropDownItemStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14957,9 +14255,8 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=97;
     /**
-     * <p>
-     * @attr description
-     * Default Spinner style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#spinnerStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14970,9 +14267,8 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerStyle=98;
     /**
-     * <p>
-     * @attr description
-     * Default style for the Switch widget.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#switchStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14983,9 +14279,8 @@ public final class R {
      */
     public static final int AppCompatTheme_switchStyle=99;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for the text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAppearanceLargePopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -14996,9 +14291,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=100;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the primary text of list items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAppearanceListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15009,9 +14303,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItem=101;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the secondary text of list items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAppearanceListItemSecondary}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15022,9 +14315,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=102;
     /**
-     * <p>
-     * @attr description
-     * The preferred TextAppearance for the primary text of small list items.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAppearanceListItemSmall}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15035,9 +14327,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=103;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for header text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAppearancePopupMenuHeader}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15048,9 +14339,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=104;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAppearanceSearchResultSubtitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15061,9 +14351,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=105;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAppearanceSearchResultTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15074,9 +14363,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=106;
     /**
-     * <p>
-     * @attr description
-     * Text color, typeface, size, and style for small text inside of a popup menu.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAppearanceSmallPopupMenu}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15087,9 +14375,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=107;
     /**
-     * <p>
-     * @attr description
-     * Color of list item text in alert dialogs.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textColorAlertDialogListItem}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15103,9 +14390,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=108;
     /**
-     * <p>
-     * @attr description
-     * Text color for urls in search suggestions, used by things like global search
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textColorSearchUrl}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15119,9 +14405,8 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorSearchUrl=109;
     /**
-     * <p>
-     * @attr description
-     * Default Toolar NavigationButtonStyle
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#toolbarNavigationButtonStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15132,9 +14417,8 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=110;
     /**
-     * <p>
-     * @attr description
-     * Default Toolbar style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#toolbarStyle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15145,9 +14429,8 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarStyle=111;
     /**
-     * <p>
-     * @attr description
-     * Foreground color to use for tooltips
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#tooltipForegroundColor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15161,9 +14444,8 @@ public final class R {
      */
     public static final int AppCompatTheme_tooltipForegroundColor=112;
     /**
-     * <p>
-     * @attr description
-     * Background to use for tooltips
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#tooltipFrameBackground}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15184,10 +14466,8 @@ public final class R {
      */
     public static final int AppCompatTheme_viewInflaterClass=114;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether this window should have an Action Bar
-     * in place of the usual title bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowActionBar}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -15196,11 +14476,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBar=115;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether this window's Action Bar should overlay
-     * application content. Does nothing if the window would not
-     * have an Action Bar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowActionBarOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -15209,10 +14486,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBarOverlay=116;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether action modes should overlay window content
-     * when there is not reserved space for their UI (such as an Action Bar).
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowActionModeOverlay}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -15221,11 +14496,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionModeOverlay=117;
     /**
-     * <p>
-     * @attr description
-     * A fixed height for the window along the major axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowFixedHeightMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15241,11 +14513,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=118;
     /**
-     * <p>
-     * @attr description
-     * A fixed height for the window along the minor axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowFixedHeightMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15261,11 +14530,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=119;
     /**
-     * <p>
-     * @attr description
-     * A fixed width for the window along the major axis of the screen,
-     * that is, when in landscape. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowFixedWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15281,11 +14547,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=120;
     /**
-     * <p>
-     * @attr description
-     * A fixed width for the window along the minor axis of the screen,
-     * that is, when in portrait. Can be either an absolute dimension
-     * or a fraction of the screen size in that dimension.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowFixedWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15301,12 +14564,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=121;
     /**
-     * <p>
-     * @attr description
-     * The minimum width the window is allowed to be, along the major
-     * axis of the screen.  That is, when in landscape.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowMinWidthMajor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15322,12 +14581,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMajor=122;
     /**
-     * <p>
-     * @attr description
-     * The minimum width the window is allowed to be, along the minor
-     * axis of the screen.  That is, when in portrait.  Can be either
-     * an absolute dimension or a fraction of the screen size in that
-     * dimension.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowMinWidthMinor}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15343,9 +14598,8 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMinor=123;
     /**
-     * <p>
-     * @attr description
-     * Flag indicating whether there should be no title on this window.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#windowNoTitle}
+     * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -15415,7 +14669,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.noon.a7pets:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.noon.a7pets:backgroundTint}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.noon.a7pets:fabAlignmentMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.noon.a7pets:fabCradleMargin}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius com.noon.a7pets:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
@@ -15434,9 +14688,8 @@ public final class R {
       0x7f0400ed, 0x7f04010c
     };
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15518,7 +14771,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.noon.a7pets:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation com.noon.a7pets:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomNavigationView_itemBackground com.noon.a7pets:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled com.noon.a7pets:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomNavigationView_itemIconSize com.noon.a7pets:itemIconSize}</code></td><td></td></tr>
@@ -15527,7 +14780,7 @@ public final class R {
      * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive com.noon.a7pets:itemTextAppearanceInactive}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.noon.a7pets:itemTextColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode com.noon.a7pets:labelVisibilityMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.noon.a7pets:menu}</code></td><td>Menu resource to inflate to be shown in the toolbar</td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu com.noon.a7pets:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -15546,9 +14799,8 @@ public final class R {
       0x7f04013e, 0x7f0401b5
     };
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#elevation}
+     * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15660,9 +14912,8 @@ public final class R {
      */
     public static final int BottomNavigationView_labelVisibilityMode=8;
     /**
-     * <p>
-     * @attr description
-     * Menu resource to inflate to be shown in the toolbar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#menu}
+     * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15750,8 +15001,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.noon.a7pets:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.</td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.noon.a7pets:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -15759,10 +15009,8 @@ public final class R {
       0x7f040032
     };
     /**
-     * <p>
-     * @attr description
-     * Whether to automatically stack the buttons when there is not
-     * enough space to lay them out side-by-side.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#allowStacking}
+     * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -15779,17 +15027,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor com.noon.a7pets:cardBackgroundColor}</code></td><td>Background color for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius com.noon.a7pets:cardCornerRadius}</code></td><td>Corner radius for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation com.noon.a7pets:cardElevation}</code></td><td>Elevation for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation com.noon.a7pets:cardMaxElevation}</code></td><td>Maximum Elevation for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.noon.a7pets:cardPreventCornerOverlap}</code></td><td>Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.noon.a7pets:cardUseCompatPadding}</code></td><td>Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding com.noon.a7pets:contentPadding}</code></td><td>Inner padding between the edges of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom com.noon.a7pets:contentPaddingBottom}</code></td><td>Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft com.noon.a7pets:contentPaddingLeft}</code></td><td>Inner padding between the left edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight com.noon.a7pets:contentPaddingRight}</code></td><td>Inner padding between the right edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop com.noon.a7pets:contentPaddingTop}</code></td><td>Inner padding between the top edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor com.noon.a7pets:cardBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius com.noon.a7pets:cardCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation com.noon.a7pets:cardElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation com.noon.a7pets:cardMaxElevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.noon.a7pets:cardPreventCornerOverlap}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.noon.a7pets:cardUseCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding com.noon.a7pets:contentPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom com.noon.a7pets:contentPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft com.noon.a7pets:contentPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight com.noon.a7pets:contentPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop com.noon.a7pets:contentPaddingTop}</code></td><td></td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -15812,9 +15060,8 @@ public final class R {
       0x7f0400b9
     };
     /**
-     * <p>
-     * @attr description
-     * Workaround to read user defined minimum width
+     * <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15826,9 +15073,8 @@ public final class R {
      */
     public static final int CardView_android_minWidth=0;
     /**
-     * <p>
-     * @attr description
-     * Workaround to read user defined minimum height
+     * <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15840,9 +15086,8 @@ public final class R {
      */
     public static final int CardView_android_minHeight=1;
     /**
-     * <p>
-     * @attr description
-     * Background color for CardView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#cardBackgroundColor}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -15852,9 +15097,8 @@ public final class R {
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
-     * <p>
-     * @attr description
-     * Corner radius for CardView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#cardCornerRadius}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15866,9 +15110,8 @@ public final class R {
      */
     public static final int CardView_cardCornerRadius=3;
     /**
-     * <p>
-     * @attr description
-     * Elevation for CardView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#cardElevation}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15880,9 +15123,8 @@ public final class R {
      */
     public static final int CardView_cardElevation=4;
     /**
-     * <p>
-     * @attr description
-     * Maximum Elevation for CardView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#cardMaxElevation}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15894,9 +15136,8 @@ public final class R {
      */
     public static final int CardView_cardMaxElevation=5;
     /**
-     * <p>
-     * @attr description
-     * Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#cardPreventCornerOverlap}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -15905,9 +15146,8 @@ public final class R {
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
-     * <p>
-     * @attr description
-     * Add padding in API v21+ as well to have the same measurements with previous versions.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#cardUseCompatPadding}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -15916,9 +15156,8 @@ public final class R {
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the edges of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentPadding}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15930,9 +15169,8 @@ public final class R {
      */
     public static final int CardView_contentPadding=8;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the bottom edge of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentPaddingBottom}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15944,9 +15182,8 @@ public final class R {
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the left edge of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentPaddingLeft}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15958,9 +15195,8 @@ public final class R {
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the right edge of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentPaddingRight}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -15972,9 +15208,8 @@ public final class R {
      */
     public static final int CardView_contentPaddingRight=11;
     /**
-     * <p>
-     * @attr description
-     * Inner padding between the top edge of the Card and children of the CardView.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentPaddingTop}
+     * attribute's value can be found in the {@link #CardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -16012,7 +15247,7 @@ public final class R {
      * <tr><td><code>{@link #Chip_chipStartPadding com.noon.a7pets:chipStartPadding}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_chipStrokeColor com.noon.a7pets:chipStrokeColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_chipStrokeWidth com.noon.a7pets:chipStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIcon com.noon.a7pets:closeIcon}</code></td><td>Close button icon</td></tr>
+     * <tr><td><code>{@link #Chip_closeIcon com.noon.a7pets:closeIcon}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_closeIconEnabled com.noon.a7pets:closeIconEnabled}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_closeIconEndPadding com.noon.a7pets:closeIconEndPadding}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_closeIconSize com.noon.a7pets:closeIconSize}</code></td><td></td></tr>
@@ -16314,9 +15549,8 @@ public final class R {
      */
     public static final int Chip_chipStrokeWidth=19;
     /**
-     * <p>
-     * @attr description
-     * Close button icon
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#closeIcon}
+     * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16958,7 +16192,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.noon.a7pets:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.noon.a7pets:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -16968,9 +16202,8 @@ public final class R {
       0x010101a5, 0x0101031f, 0x7f040033
     };
     /**
-     * <p>
-     * @attr description
-     * Base color for this state.
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -16989,9 +16222,8 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>
-     * @attr description
-     * Alpha multiplier applied to the base color.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#alpha}
+     * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -17006,9 +16238,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonCompat com.noon.a7pets:buttonCompat}</code></td><td>Compat attr to load backported drawable types</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.noon.a7pets:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.noon.a7pets:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonCompat com.noon.a7pets:buttonCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.noon.a7pets:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.noon.a7pets:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonCompat
@@ -17031,9 +16263,8 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>
-     * @attr description
-     * Compat attr to load backported drawable types
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonCompat}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -17044,9 +16275,8 @@ public final class R {
      */
     public static final int CompoundButton_buttonCompat=1;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the button drawable.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonTint}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -17056,9 +16286,8 @@ public final class R {
      */
     public static final int CompoundButton_buttonTint=2;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the button tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#buttonTintMode}
+     * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -17066,17 +16295,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:buttonTintMode
@@ -18091,7 +17315,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -19467,9 +18691,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.noon.a7pets:keylines}</code></td><td>A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.noon.a7pets:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.noon.a7pets:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.noon.a7pets:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -19478,13 +18701,8 @@ public final class R {
       0x7f04013d, 0x7f04022f
     };
     /**
-     * <p>
-     * @attr description
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#keylines}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -19495,9 +18713,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>
-     * @attr description
-     * Drawable to display behind the status bar when the view is set to draw behind it.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#statusBarBackground}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -19518,15 +18735,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.noon.a7pets:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.noon.a7pets:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.noon.a7pets:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
-     * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.noon.a7pets:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.noon.a7pets:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.noon.a7pets:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.noon.a7pets:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.noon.a7pets:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.noon.a7pets:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.noon.a7pets:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.noon.a7pets:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.noon.a7pets:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -19570,9 +18784,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>
-     * @attr description
-     * The id of an anchor view that this view should position relative to.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#layout_anchor}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -19583,10 +18796,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#layout_anchorGravity}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -19594,36 +18805,28 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>
-     * @attr description
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#layout_behavior}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -19632,9 +18835,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#layout_dodgeInsetEdges}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -19642,24 +18844,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
+     * <tr><td>all</td><td>77</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#layout_insetEdge}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -19667,24 +18867,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>
-     * @attr description
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#layout_keyline}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -19767,14 +18964,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.noon.a7pets:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.noon.a7pets:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.noon.a7pets:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.noon.a7pets:color}</code></td><td>The drawing color for the bars</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.noon.a7pets:drawableSize}</code></td><td>The total size of the drawable</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.noon.a7pets:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.noon.a7pets:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.noon.a7pets:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.noon.a7pets:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.noon.a7pets:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.noon.a7pets:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.noon.a7pets:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.noon.a7pets:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.noon.a7pets:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.noon.a7pets:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.noon.a7pets:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -19790,9 +18987,8 @@ public final class R {
       0x7f0400d0, 0x7f040103, 0x7f040224, 0x7f040276
     };
     /**
-     * <p>
-     * @attr description
-     * The length of the arrow head when formed to make an arrow
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#arrowHeadLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19804,9 +19000,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>
-     * @attr description
-     * The length of the shaft when formed to make an arrow
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#arrowShaftLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19818,9 +19013,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>
-     * @attr description
-     * The length of the bars when they are parallel to each other
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#barLength}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19832,9 +19026,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>
-     * @attr description
-     * The drawing color for the bars
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#color}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -19844,9 +19037,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>
-     * @attr description
-     * The total size of the drawable
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#drawableSize}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19858,9 +19050,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>
-     * @attr description
-     * The max gap between the bars when they are parallel to each other
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#gapBetweenBars}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19872,9 +19063,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>
-     * @attr description
-     * Whether bars should rotate or not during transition
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#spinBars}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -19883,9 +19073,8 @@ public final class R {
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>
-     * @attr description
-     * The thickness (stroke size) for the bar paint
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#thickness}
+     * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -19938,10 +19127,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.noon.a7pets:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.noon.a7pets:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.noon.a7pets:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.noon.a7pets:backgroundTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_borderWidth com.noon.a7pets:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.noon.a7pets:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.noon.a7pets:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.noon.a7pets:fabCustomSize}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_fabSize com.noon.a7pets:fabSize}</code></td><td></td></tr>
      * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec com.noon.a7pets:hideMotionSpec}</code></td><td></td></tr>
@@ -19973,9 +19162,8 @@ public final class R {
       0x7f04029d
     };
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -19985,9 +19173,8 @@ public final class R {
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -19995,17 +19182,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:backgroundTintMode
@@ -20025,9 +19207,8 @@ public final class R {
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#elevation}
+     * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -20226,12 +19407,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.noon.a7pets:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.noon.a7pets:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.noon.a7pets:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.noon.a7pets:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.noon.a7pets:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.noon.a7pets:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.noon.a7pets:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.noon.a7pets:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.noon.a7pets:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.noon.a7pets:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.noon.a7pets:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.noon.a7pets:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -20245,9 +19426,8 @@ public final class R {
       0x7f0400fd, 0x7f0400fe
     };
     /**
-     * <p>
-     * @attr description
-     * The authority of the Font Provider to be used for the request.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontProviderAuthority}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -20256,13 +19436,8 @@ public final class R {
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>
-     * @attr description
-     * The sets of hashes for the certificates the provider should be signed with. This is
-     * used to verify the identity of the provider, and is only required if the provider is not
-     * part of the system image. This value may point to one list or a list of lists, where each
-     * individual list represents one collection of signature hashes. Refer to your font provider's
-     * documentation for these values.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontProviderCerts}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -20273,15 +19448,8 @@ public final class R {
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>
-     * @attr description
-     * The strategy to be used when fetching font data from a font provider in XML layouts.
-     * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
-     * choice of API between {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
-     * {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
-     * (async).
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontProviderFetchStrategy}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -20289,25 +19457,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>async</td><td>1</td><td>The async font fetch works as follows.
-     * First, check the local cache, then if the requeted font is not cached, trigger a
-     * request the font and continue with layout inflation. Once the font fetch succeeds, the
-     * target text view will be refreshed with the downloaded font data. The
-     * fontProviderFetchTimeout will be ignored if async loading is specified.</td></tr>
-     * <tr><td>blocking</td><td>0</td><td>The blocking font fetch works as follows.
-     * First, check the local cache, then if the requested font is not cached, request the
-     * font from the provider and wait until it is finished.  You can change the length of
-     * the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-     * default typeface will be used instead.</td></tr>
+     * <tr><td>async</td><td>1</td><td></td></tr>
+     * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>
-     * @attr description
-     * The length of the timeout during fetching.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontProviderFetchTimeout}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -20316,18 +19475,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>forever</td><td>ffffffff</td><td>A special value for the timeout. In this case, the blocking font fetching will not
-     * timeout and wait until a reply is received from the font provider.</td></tr>
+     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>
-     * @attr description
-     * The package for the Font Provider to be used for the request. This is used to verify
-     * the identity of the provider.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontProviderPackage}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -20336,10 +19492,8 @@ public final class R {
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>
-     * @attr description
-     * The query to be sent over to the provider. Refer to your font provider's documentation
-     * on the format of this string.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontProviderQuery}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -20359,11 +19513,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.noon.a7pets:font}</code></td><td>The reference to the font file to be used.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.noon.a7pets:fontStyle}</code></td><td>The style of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.noon.a7pets:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.noon.a7pets:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.noon.a7pets:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.noon.a7pets:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.noon.a7pets:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.noon.a7pets:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.noon.a7pets:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.noon.a7pets:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -20403,9 +19557,8 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontWeight=1;
     /**
-     * <p>
-     * @attr description
-     * References to the framework attrs
+     * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -20440,10 +19593,8 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>
-     * @attr description
-     * The reference to the font file to be used. This should be a file in the res/font folder
-     * and should therefore have an R reference value. E.g. @font/myfont
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#font}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -20454,11 +19605,8 @@ public final class R {
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>
-     * @attr description
-     * The style of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any style information in the font's header tables. If
-     * unspecified, the value in the font's header tables will be used.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -20474,12 +19622,8 @@ public final class R {
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>
-     * @attr description
-     * The variation settings to be applied to the font. The string should be in the following
-     * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
-     * used, or the font used does not support variation settings, this attribute needs not be
-     * specified.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -20488,13 +19632,8 @@ public final class R {
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>
-     * @attr description
-     * The weight of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any weight information in the font's header tables. Must
-     * be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
-     * common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
-     * in the font's header tables will be used.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -20502,10 +19641,8 @@ public final class R {
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>
-     * @attr description
-     * The index of the font in the tcc font file. If the font file referenced is not in the
-     * tcc format, this attribute needs not be specified.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#ttcIndex}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -20621,9 +19758,8 @@ public final class R {
       0x01010510, 0x01010511, 0x01010512, 0x01010513
     };
     /**
-     * <p>
-     * @attr description
-     * Start color of the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#startColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -20633,9 +19769,8 @@ public final class R {
      */
     public static final int GradientColor_android_startColor=0;
     /**
-     * <p>
-     * @attr description
-     * End color of the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#endColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -20645,9 +19780,8 @@ public final class R {
      */
     public static final int GradientColor_android_endColor=1;
     /**
-     * <p>
-     * @attr description
-     * Type of gradient. The default type is linear.
+     * <p>This symbol is the offset where the {@link android.R.attr#type}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -20664,9 +19798,8 @@ public final class R {
      */
     public static final int GradientColor_android_type=2;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the center of the gradient within the path.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a fractional value, which is a floating point number appended with
@@ -20678,9 +19811,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerX=3;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the center of the gradient within the path.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a fractional value, which is a floating point number appended with
@@ -20692,9 +19824,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerY=4;
     /**
-     * <p>
-     * @attr description
-     * Radius of the gradient, used only with radial gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#gradientRadius}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -20711,9 +19842,8 @@ public final class R {
      */
     public static final int GradientColor_android_gradientRadius=5;
     /**
-     * <p>
-     * @attr description
-     * Defines the tile mode of the gradient. SweepGradient doesn't support tiling.
+     * <p>This symbol is the offset where the {@link android.R.attr#tileMode}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -20731,9 +19861,8 @@ public final class R {
      */
     public static final int GradientColor_android_tileMode=6;
     /**
-     * <p>
-     * @attr description
-     * Optional center color.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -20743,10 +19872,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerColor=7;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the start point origin of the gradient.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#startX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -20754,10 +19881,8 @@ public final class R {
      */
     public static final int GradientColor_android_startX=8;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the start point of the gradient within the shape.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#startY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -20765,10 +19890,8 @@ public final class R {
      */
     public static final int GradientColor_android_startY=9;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the end point origin of the gradient.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#endX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -20776,10 +19899,8 @@ public final class R {
      */
     public static final int GradientColor_android_endX=10;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the end point of the gradient within the shape.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#endY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -20803,9 +19924,8 @@ public final class R {
       0x010101a5, 0x01010514
     };
     /**
-     * <p>
-     * @attr description
-     * The current color for the offset inside the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -20815,10 +19935,8 @@ public final class R {
      */
     public static final int GradientColorItem_android_color=0;
     /**
-     * <p>
-     * @attr description
-     * The offset (or ratio) of this current color item inside the gradient.
-     * The value is only meaningful when it is between 0 and 1.
+     * <p>This symbol is the offset where the {@link android.R.attr#offset}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -21095,11 +20213,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.noon.a7pets:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.noon.a7pets:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.noon.a7pets:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.noon.a7pets:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.noon.a7pets:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.noon.a7pets:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.noon.a7pets:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.noon.a7pets:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -21146,11 +20263,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_gravity=0;
     /**
-     * <p>
-     * @attr description
-     * Should the layout be a column or a row?  Use "horizontal"
-     * for a row, "vertical" for a column.  The default is
-     * horizontal.
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -21166,11 +20280,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_orientation=1;
     /**
-     * <p>
-     * @attr description
-     * When set to false, prevents the layout from aligning its children's
-     * baselines. This attribute is particularly useful when the children
-     * use different values for gravity. The default value is true.
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAligned}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -21179,11 +20290,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_baselineAligned=2;
     /**
-     * <p>
-     * @attr description
-     * When a linear layout is part of another layout that is baseline
-     * aligned, it can specify which of its children to baseline align to
-     * (that is, which child TextView).
+     * <p>This symbol is the offset where the {@link android.R.attr#baselineAlignedChildIndex}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -21191,13 +20299,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_baselineAlignedChildIndex=3;
     /**
-     * <p>
-     * @attr description
-     * Defines the maximum weight sum. If unspecified, the sum is computed
-     * by adding the layout_weight of all of the children. This can be
-     * used for instance to give a single child 50% of the total available
-     * space by giving it a layout_weight of 0.5 and setting the weightSum
-     * to 1.0.
+     * <p>This symbol is the offset where the {@link android.R.attr#weightSum}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -21205,9 +20308,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as a vertical divider between buttons.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#divider}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -21218,9 +20320,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>
-     * @attr description
-     * Size of padding on either end of a divider.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#dividerPadding}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21232,11 +20333,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>
-     * @attr description
-     * When set to true, all children with a weight will be considered having
-     * the minimum size of the largest child. If false, all children are
-     * measured normally.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#measureWithLargestChild}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -21245,9 +20343,8 @@ public final class R {
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>
-     * @attr description
-     * Setting for which dividers to show.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#showDividers}
+     * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -21385,9 +20482,8 @@ public final class R {
       0x010102ac, 0x010102ad
     };
     /**
-     * <p>
-     * @attr description
-     * Amount of pixels by which the drop down should be offset horizontally.
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownHorizontalOffset}
+     * attribute's value can be found in the {@link #ListPopupWindow} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21399,9 +20495,8 @@ public final class R {
      */
     public static final int ListPopupWindow_android_dropDownHorizontalOffset=0;
     /**
-     * <p>
-     * @attr description
-     * Amount of pixels by which the drop down should be offset vertically.
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownVerticalOffset}
+     * attribute's value can be found in the {@link #ListPopupWindow} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -21483,7 +20578,7 @@ public final class R {
      * <tr><td><code>{@link #LottieAnimationView_lottie_loop com.noon.a7pets:lottie_loop}</code></td><td></td></tr>
      * <tr><td><code>{@link #LottieAnimationView_lottie_progress com.noon.a7pets:lottie_progress}</code></td><td></td></tr>
      * <tr><td><code>{@link #LottieAnimationView_lottie_rawRes com.noon.a7pets:lottie_rawRes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LottieAnimationView_lottie_renderMode com.noon.a7pets:lottie_renderMode}</code></td><td>These values must be kept in sync with the RenderMode enum</td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_renderMode com.noon.a7pets:lottie_renderMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #LottieAnimationView_lottie_repeatCount com.noon.a7pets:lottie_repeatCount}</code></td><td></td></tr>
      * <tr><td><code>{@link #LottieAnimationView_lottie_repeatMode com.noon.a7pets:lottie_repeatMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #LottieAnimationView_lottie_scale com.noon.a7pets:lottie_scale}</code></td><td></td></tr>
@@ -21607,9 +20702,8 @@ public final class R {
      */
     public static final int LottieAnimationView_lottie_rawRes=8;
     /**
-     * <p>
-     * @attr description
-     * These values must be kept in sync with the RenderMode enum
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#lottie_renderMode}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -21690,15 +20784,15 @@ public final class R {
      * <tr><td><code>{@link #MaterialButton_android_insetRight android:insetRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetTop android:insetTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetBottom android:insetBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTint com.noon.a7pets:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.noon.a7pets:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTint com.noon.a7pets:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.noon.a7pets:backgroundTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_cornerRadius com.noon.a7pets:cornerRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_icon com.noon.a7pets:icon}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_iconGravity com.noon.a7pets:iconGravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_iconPadding com.noon.a7pets:iconPadding}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_iconSize com.noon.a7pets:iconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTint com.noon.a7pets:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTintMode com.noon.a7pets:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTint com.noon.a7pets:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTintMode com.noon.a7pets:iconTintMode}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_rippleColor com.noon.a7pets:rippleColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_strokeColor com.noon.a7pets:strokeColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_strokeWidth com.noon.a7pets:strokeWidth}</code></td><td></td></tr>
@@ -21795,9 +20889,8 @@ public final class R {
      */
     public static final int MaterialButton_android_insetBottom=3;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -21807,9 +20900,8 @@ public final class R {
      */
     public static final int MaterialButton_backgroundTint=4;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -21817,17 +20909,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:backgroundTintMode
@@ -21902,9 +20989,8 @@ public final class R {
      */
     public static final int MaterialButton_iconSize=10;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the icon.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#iconTint}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -21914,9 +21000,8 @@ public final class R {
      */
     public static final int MaterialButton_iconTint=11;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the icon tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#iconTintMode}
+     * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -21924,17 +21009,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the icon with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the icon, but with the icon’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the icon. The icon’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the icon.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:iconTintMode
@@ -22027,12 +21107,12 @@ public final class R {
      * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle com.noon.a7pets:chipGroupStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle com.noon.a7pets:chipStandaloneStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle com.noon.a7pets:chipStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent com.noon.a7pets:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating com.noon.a7pets:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary com.noon.a7pets:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark com.noon.a7pets:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent com.noon.a7pets:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating com.noon.a7pets:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary com.noon.a7pets:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark com.noon.a7pets:colorPrimaryDark}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary com.noon.a7pets:colorSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle com.noon.a7pets:editTextStyle}</code></td><td>Default EditText style.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle com.noon.a7pets:editTextStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle com.noon.a7pets:floatingActionButtonStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle com.noon.a7pets:materialButtonStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle com.noon.a7pets:materialCardViewStyle}</code></td><td></td></tr>
@@ -22159,10 +21239,8 @@ public final class R {
      */
     public static final int MaterialComponentsTheme_chipStyle=4;
     /**
-     * <p>
-     * @attr description
-     * Bright complement to the primary branding color. By default, this is the color applied
-     * to framework controls (via colorControlActivated).
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorAccent}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -22172,9 +21250,8 @@ public final class R {
      */
     public static final int MaterialComponentsTheme_colorAccent=5;
     /**
-     * <p>
-     * @attr description
-     * Default color of background imagery for floating components, ex. dialogs, popups, and cards.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorBackgroundFloating}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -22184,10 +21261,8 @@ public final class R {
      */
     public static final int MaterialComponentsTheme_colorBackgroundFloating=6;
     /**
-     * <p>
-     * @attr description
-     * The primary branding color for the app. By default, this is the color applied to the
-     * action bar background.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorPrimary}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -22197,10 +21272,8 @@ public final class R {
      */
     public static final int MaterialComponentsTheme_colorPrimary=7;
     /**
-     * <p>
-     * @attr description
-     * Dark variant of the primary branding color. By default, this is the color applied to
-     * the status bar (via statusBarColor) and navigation bar (via navigationBarColor).
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#colorPrimaryDark}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -22221,9 +21294,8 @@ public final class R {
      */
     public static final int MaterialComponentsTheme_colorSecondary=9;
     /**
-     * <p>
-     * @attr description
-     * Default EditText style.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#editTextStyle}
+     * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23307,9 +22379,8 @@ public final class R {
       0x010101df, 0x010101e0
     };
     /**
-     * <p>
-     * @attr description
-     * Whether the items are enabled.
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -23318,9 +22389,8 @@ public final class R {
      */
     public static final int MenuGroup_android_enabled=0;
     /**
-     * <p>
-     * @attr description
-     * The ID of the group.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23331,9 +22401,8 @@ public final class R {
      */
     public static final int MenuGroup_android_id=1;
     /**
-     * <p>
-     * @attr description
-     * Whether the items are shown/visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -23342,10 +22411,8 @@ public final class R {
      */
     public static final int MenuGroup_android_visible=2;
     /**
-     * <p>
-     * @attr description
-     * The category applied to all items within this group.
-     * (This will be or'ed with the orderInCategory attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -23363,10 +22430,8 @@ public final class R {
      */
     public static final int MenuGroup_android_menuCategory=3;
     /**
-     * <p>
-     * @attr description
-     * The order within the category applied to all items within this group.
-     * (This will be or'ed with the category attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -23374,9 +22439,8 @@ public final class R {
      */
     public static final int MenuGroup_android_orderInCategory=4;
     /**
-     * <p>
-     * @attr description
-     * Whether the items are capable of displaying a check mark.
+     * <p>This symbol is the offset where the {@link android.R.attr#checkableBehavior}
+     * attribute's value can be found in the {@link #MenuGroup} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -23412,18 +22476,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.noon.a7pets:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.noon.a7pets:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.noon.a7pets:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
-     * action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.noon.a7pets:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.noon.a7pets:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.noon.a7pets:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.noon.a7pets:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.noon.a7pets:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.noon.a7pets:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.noon.a7pets:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.noon.a7pets:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.noon.a7pets:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.noon.a7pets:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.noon.a7pets:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.noon.a7pets:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.noon.a7pets:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.noon.a7pets:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.noon.a7pets:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.noon.a7pets:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.noon.a7pets:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -23458,10 +22520,8 @@ public final class R {
       0x7f0401e1, 0x7f040217, 0x7f040290
     };
     /**
-     * <p>
-     * @attr description
-     * The icon associated with this item.  This icon will not always be shown, so
-     * the title should be sufficient in describing this item.
+     * <p>This symbol is the offset where the {@link android.R.attr#icon}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23472,9 +22532,8 @@ public final class R {
      */
     public static final int MenuItem_android_icon=0;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is enabled.
+     * <p>This symbol is the offset where the {@link android.R.attr#enabled}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -23483,9 +22542,8 @@ public final class R {
      */
     public static final int MenuItem_android_enabled=1;
     /**
-     * <p>
-     * @attr description
-     * The ID of the item.
+     * <p>This symbol is the offset where the {@link android.R.attr#id}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23496,10 +22554,8 @@ public final class R {
      */
     public static final int MenuItem_android_id=2;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is checked.  Note that you must first have enabled checking with
-     * the checkable attribute or else the check mark will not appear.
+     * <p>This symbol is the offset where the {@link android.R.attr#checked}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -23508,9 +22564,8 @@ public final class R {
      */
     public static final int MenuItem_android_checked=3;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is shown/visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -23519,10 +22574,8 @@ public final class R {
      */
     public static final int MenuItem_android_visible=4;
     /**
-     * <p>
-     * @attr description
-     * The category applied to the item.
-     * (This will be or'ed with the orderInCategory attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#menuCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -23540,10 +22593,8 @@ public final class R {
      */
     public static final int MenuItem_android_menuCategory=5;
     /**
-     * <p>
-     * @attr description
-     * The order within the category applied to the item.
-     * (This will be or'ed with the category attribute.)
+     * <p>This symbol is the offset where the {@link android.R.attr#orderInCategory}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -23551,9 +22602,8 @@ public final class R {
      */
     public static final int MenuItem_android_orderInCategory=6;
     /**
-     * <p>
-     * @attr description
-     * The title associated with the item.
+     * <p>This symbol is the offset where the {@link android.R.attr#title}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -23562,10 +22612,8 @@ public final class R {
      */
     public static final int MenuItem_android_title=7;
     /**
-     * <p>
-     * @attr description
-     * The condensed title associated with the item.  This is used in situations where the
-     * normal title may be too long to be displayed.
+     * <p>This symbol is the offset where the {@link android.R.attr#titleCondensed}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -23574,10 +22622,8 @@ public final class R {
      */
     public static final int MenuItem_android_titleCondensed=8;
     /**
-     * <p>
-     * @attr description
-     * The alphabetic shortcut key.  This is the shortcut when using a keyboard
-     * with alphabetic keys.
+     * <p>This symbol is the offset where the {@link android.R.attr#alphabeticShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -23586,10 +22632,8 @@ public final class R {
      */
     public static final int MenuItem_android_alphabeticShortcut=9;
     /**
-     * <p>
-     * @attr description
-     * The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
-     * keyboard.
+     * <p>This symbol is the offset where the {@link android.R.attr#numericShortcut}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -23598,9 +22642,8 @@ public final class R {
      */
     public static final int MenuItem_android_numericShortcut=10;
     /**
-     * <p>
-     * @attr description
-     * Whether the item is capable of displaying a check mark.
+     * <p>This symbol is the offset where the {@link android.R.attr#checkable}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -23609,10 +22652,8 @@ public final class R {
      */
     public static final int MenuItem_android_checkable=11;
     /**
-     * <p>
-     * @attr description
-     * Name of a method on the Context used to inflate the menu that will be
-     * called when the item is clicked.
+     * <p>This symbol is the offset where the {@link android.R.attr#onClick}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -23621,11 +22662,8 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>
-     * @attr description
-     * An optional layout to be used as an action view.
-     * See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionLayout}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23636,12 +22674,8 @@ public final class R {
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>
-     * @attr description
-     * The name of an optional ActionProvider class to instantiate an action view
-     * and perform operations such as default action for that menu item.
-     * See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionProviderClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -23650,11 +22684,8 @@ public final class R {
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>
-     * @attr description
-     * The name of an optional View class to instantiate and use as an
-     * action view. See {@link android.view.MenuItem#setActionView(android.view.View)}
-     * for more info.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#actionViewClass}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -23663,10 +22694,8 @@ public final class R {
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>
-     * @attr description
-     * The alphabetic modifier key. This is the modifier when using a keyboard
-     * with alphabetic keys. The values should be kept in sync with KeyEvent
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#alphabeticModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -23686,9 +22715,8 @@ public final class R {
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>
-     * @attr description
-     * The content description associated with the item.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentDescription}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -23697,9 +22725,8 @@ public final class R {
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the icon.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#iconTint}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -23709,9 +22736,8 @@ public final class R {
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the icon tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#iconTintMode}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -23719,27 +22745,20 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the icon with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the icon, but with the icon’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the icon. The icon’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the icon.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>
-     * @attr description
-     * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
-     * keyboard. The values should be kept in sync with KeyEvent
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#numericModifiers}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -23759,9 +22778,8 @@ public final class R {
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>
-     * @attr description
-     * How this item should display in the Action Bar, if present.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#showAsAction}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -23769,29 +22787,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>always</td><td>2</td><td>Always show this item in an actionbar, even if it would override
-     * the system's limits of how much stuff to put there. This may make
-     * your action bar look bad on some screens. In most cases you should
-     * use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never".</td></tr>
-     * <tr><td>collapseActionView</td><td>8</td><td>This item's action view collapses to a normal menu
-     * item. When expanded, the action view takes over a
-     * larger segment of its container.</td></tr>
-     * <tr><td>ifRoom</td><td>1</td><td>Show this item in an action bar if there is room for it as determined
-     * by the system. Favor this option over "always" where possible.
-     * Mutually exclusive with "never" and "always".</td></tr>
-     * <tr><td>never</td><td>0</td><td>Never show this item in an action bar, show it in the overflow menu instead.
-     * Mutually exclusive with "ifRoom" and "always".</td></tr>
-     * <tr><td>withText</td><td>4</td><td>When this item is shown as an action in the action bar, show a text
-     * label with it even if it has an icon representation.</td></tr>
+     * <tr><td>always</td><td>2</td><td></td></tr>
+     * <tr><td>collapseActionView</td><td>8</td><td></td></tr>
+     * <tr><td>ifRoom</td><td>1</td><td></td></tr>
+     * <tr><td>never</td><td>0</td><td></td></tr>
+     * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>
-     * @attr description
-     * The tooltip text associated with the item.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#tooltipText}
+     * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -23813,8 +22821,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.noon.a7pets:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.noon.a7pets:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.noon.a7pets:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.noon.a7pets:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -23832,9 +22840,8 @@ public final class R {
       0x7f040233
     };
     /**
-     * <p>
-     * @attr description
-     * Default animations for the menu.
+     * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23845,9 +22852,8 @@ public final class R {
      */
     public static final int MenuView_android_windowAnimationStyle=0;
     /**
-     * <p>
-     * @attr description
-     * Default appearance of menu item text.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemTextAppearance}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23858,9 +22864,8 @@ public final class R {
      */
     public static final int MenuView_android_itemTextAppearance=1;
     /**
-     * <p>
-     * @attr description
-     * Default horizontal divider between rows of menu items.
+     * <p>This symbol is the offset where the {@link android.R.attr#horizontalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23871,9 +22876,8 @@ public final class R {
      */
     public static final int MenuView_android_horizontalDivider=2;
     /**
-     * <p>
-     * @attr description
-     * Default vertical divider between menu items.
+     * <p>This symbol is the offset where the {@link android.R.attr#verticalDivider}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23884,9 +22888,8 @@ public final class R {
      */
     public static final int MenuView_android_verticalDivider=3;
     /**
-     * <p>
-     * @attr description
-     * Default background for the menu header.
+     * <p>This symbol is the offset where the {@link android.R.attr#headerBackground}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23900,9 +22903,8 @@ public final class R {
      */
     public static final int MenuView_android_headerBackground=4;
     /**
-     * <p>
-     * @attr description
-     * Default background for each menu item.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemBackground}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23916,9 +22918,8 @@ public final class R {
      */
     public static final int MenuView_android_itemBackground=5;
     /**
-     * <p>
-     * @attr description
-     * Default disabled icon alpha for each menu item that shows an icon.
+     * <p>This symbol is the offset where the {@link android.R.attr#itemIconDisabledAlpha}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -23926,9 +22927,8 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>
-     * @attr description
-     * Whether space should be reserved in layout when an icon is missing.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#preserveIconSpacing}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -23937,9 +22937,8 @@ public final class R {
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>
-     * @attr description
-     * Drawable for the arrow icon indicating a particular item is a submenu.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#subMenuArrow}
+     * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -23959,7 +22958,7 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.noon.a7pets:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.noon.a7pets:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_headerLayout com.noon.a7pets:headerLayout}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_itemBackground com.noon.a7pets:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.noon.a7pets:itemHorizontalPadding}</code></td><td></td></tr>
@@ -23967,7 +22966,7 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_itemIconTint com.noon.a7pets:itemIconTint}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_itemTextAppearance com.noon.a7pets:itemTextAppearance}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_itemTextColor com.noon.a7pets:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.noon.a7pets:menu}</code></td><td>Menu resource to inflate to be shown in the toolbar</td></tr>
+     * <tr><td><code>{@link #NavigationView_menu com.noon.a7pets:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -24026,9 +23025,8 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#elevation}
+     * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -24124,9 +23122,8 @@ public final class R {
      */
     public static final int NavigationView_itemTextColor=10;
     /**
-     * <p>
-     * @attr description
-     * Menu resource to inflate to be shown in the toolbar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#menu}
+     * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -24494,7 +23491,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.noon.a7pets:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.noon.a7pets:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -24531,9 +23528,8 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>
-     * @attr description
-     * Whether the popup window should overlap its anchor view.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#overlapAnchor}
+     * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -24548,7 +23544,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.noon.a7pets:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.noon.a7pets:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -24556,9 +23552,8 @@ public final class R {
       0x7f04022a
     };
     /**
-     * <p>
-     * @attr description
-     * State identifier indicating the popup will be above the anchor.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#state_above_anchor}
+     * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -24573,8 +23568,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.noon.a7pets:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.noon.a7pets:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.noon.a7pets:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.noon.a7pets:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -24583,9 +23578,8 @@ public final class R {
       0x7f0401e3, 0x7f0401e6
     };
     /**
-     * <p>
-     * @attr description
-     * Bottom padding to use when no buttons are present.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#paddingBottomNoButtons}
+     * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -24597,9 +23591,8 @@ public final class R {
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>
-     * @attr description
-     * Top padding to use when no title is present.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#paddingTopNoTitle}
+     * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -24624,7 +23617,7 @@ public final class R {
      * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.noon.a7pets:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.noon.a7pets:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.noon.a7pets:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.noon.a7pets:layoutManager}</code></td><td>Class name of the Layout Manager to be used.</td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.noon.a7pets:layoutManager}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_reverseLayout com.noon.a7pets:reverseLayout}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_spanCount com.noon.a7pets:spanCount}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_stackFromEnd com.noon.a7pets:stackFromEnd}</code></td><td></td></tr>
@@ -24740,17 +23733,8 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>
-     * @attr description
-     * Class name of the Layout Manager to be used.
-     * <p/>
-     * The class must extandroidx.recyclerview.widget.RecyclerViewView$LayoutManager
-     * and have either a default constructor or constructor with the signature
-     * (android.content.Context, android.util.AttributeSet, int, int).
-     * <p/>
-     * If the name starts with a '.', application package is prefixed.
-     * Else, if the name contains a '.', the classname is assumed to be a full class name.
-     * Else, the recycler view package naandroidx.appcompat.widgetdget) is prefixed.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#layoutManager}
+     * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -24912,20 +23896,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.noon.a7pets:closeIcon}</code></td><td>Close button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.noon.a7pets:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.noon.a7pets:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.</td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.noon.a7pets:goIcon}</code></td><td>Go button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.noon.a7pets:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.noon.a7pets:layout}</code></td><td>The layout to use for the search view.</td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.noon.a7pets:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.noon.a7pets:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.noon.a7pets:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.noon.a7pets:searchIcon}</code></td><td>Search icon</td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.noon.a7pets:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.noon.a7pets:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.noon.a7pets:voiceIcon}</code></td><td>Voice button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.noon.a7pets:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.noon.a7pets:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.noon.a7pets:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.noon.a7pets:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.noon.a7pets:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.noon.a7pets:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.noon.a7pets:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.noon.a7pets:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.noon.a7pets:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.noon.a7pets:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.noon.a7pets:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.noon.a7pets:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.noon.a7pets:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -24971,9 +23954,8 @@ public final class R {
      */
     public static final int SearchView_android_focusable=0;
     /**
-     * <p>
-     * @attr description
-     * An optional maximum width of the SearchView.
+     * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -24985,9 +23967,8 @@ public final class R {
      */
     public static final int SearchView_android_maxWidth=1;
     /**
-     * <p>
-     * @attr description
-     * The input type to set on the query text field.
+     * <p>This symbol is the offset where the {@link android.R.attr#inputType}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -25033,9 +24014,8 @@ public final class R {
      */
     public static final int SearchView_android_inputType=2;
     /**
-     * <p>
-     * @attr description
-     * The IME options to set on the query text field.
+     * <p>This symbol is the offset where the {@link android.R.attr#imeOptions}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -25066,9 +24046,8 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>
-     * @attr description
-     * Close button icon
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#closeIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25079,9 +24058,8 @@ public final class R {
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>
-     * @attr description
-     * Commit icon shown in the query suggestion row
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#commitIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25092,10 +24070,8 @@ public final class R {
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>
-     * @attr description
-     * Default query hint used when {@code queryHint} is undefined and
-     * the search view's {@code SearchableInfo} does not provide a hint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#defaultQueryHint}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -25104,9 +24080,8 @@ public final class R {
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>
-     * @attr description
-     * Go button icon
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#goIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25117,10 +24092,8 @@ public final class R {
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>
-     * @attr description
-     * The default state of the SearchView. If true, it will be iconified when not in
-     * use and expanded when clicked.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#iconifiedByDefault}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -25129,9 +24102,8 @@ public final class R {
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>
-     * @attr description
-     * The layout to use for the search view.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#layout}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25142,9 +24114,8 @@ public final class R {
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>
-     * @attr description
-     * Background for the section containing the search query
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#queryBackground}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25155,9 +24126,8 @@ public final class R {
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>
-     * @attr description
-     * An optional user-defined query hint string to be displayed in the empty query field.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#queryHint}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -25166,9 +24136,8 @@ public final class R {
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>
-     * @attr description
-     * Search icon displayed as a text field hint
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#searchHintIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25179,9 +24148,8 @@ public final class R {
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>
-     * @attr description
-     * Search icon
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#searchIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25192,9 +24160,8 @@ public final class R {
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>
-     * @attr description
-     * Background for the section containing the action (e.g. voice search)
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#submitBackground}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25205,9 +24172,8 @@ public final class R {
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>
-     * @attr description
-     * Layout for query suggestion rows
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#suggestionRowLayout}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25218,9 +24184,8 @@ public final class R {
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>
-     * @attr description
-     * Voice button icon
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#voiceIcon}
+     * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25441,7 +24406,7 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.noon.a7pets:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.noon.a7pets:elevation}</code></td><td></td></tr>
      * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.noon.a7pets:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
@@ -25465,9 +24430,8 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>
-     * @attr description
-     * Elevation for the action bar itself
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#elevation}
+     * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -25502,8 +24466,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.noon.a7pets:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.noon.a7pets:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -25516,9 +24479,8 @@ public final class R {
       0x7f0401f6
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to an array resource that will populate the Spinner.
+     * <p>This symbol is the offset where the {@link android.R.attr#entries}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25529,9 +24491,8 @@ public final class R {
      */
     public static final int Spinner_android_entries=0;
     /**
-     * <p>
-     * @attr description
-     * Background drawable to use for the dropdown in spinnerMode="dropdown".
+     * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25545,9 +24506,8 @@ public final class R {
      */
     public static final int Spinner_android_popupBackground=1;
     /**
-     * <p>
-     * @attr description
-     * The prompt to display when the spinner's dialog is shown.
+     * <p>This symbol is the offset where the {@link android.R.attr#prompt}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25558,9 +24518,8 @@ public final class R {
      */
     public static final int Spinner_android_prompt=2;
     /**
-     * <p>
-     * @attr description
-     * Width of the dropdown in spinnerMode="dropdown".
+     * <p>This symbol is the offset where the {@link android.R.attr#dropDownWidth}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -25582,9 +24541,8 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>
-     * @attr description
-     * Theme to use for the drop-down or dialog popup window.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25620,11 +24578,8 @@ public final class R {
       0x0101030c, 0x0101030d
     };
     /**
-     * <p>
-     * @attr description
-     * Enables or disables dithering of the bitmap if the bitmap does not have the
-     * same pixel configuration as the screen (for instance: a ARGB 8888 bitmap with
-     * an RGB 565 screen).
+     * <p>This symbol is the offset where the {@link android.R.attr#dither}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -25633,9 +24588,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_dither=0;
     /**
-     * <p>
-     * @attr description
-     * Indicates whether the drawable should be initially visible.
+     * <p>This symbol is the offset where the {@link android.R.attr#visible}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -25644,14 +24598,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_visible=1;
     /**
-     * <p>
-     * @attr description
-     * If true, allows the drawable's padding to change based on the
-     * current state that is selected.  If false, the padding will
-     * stay the same (based on the maximum padding of all the states).
-     * Enabling this feature requires that the owner of the drawable
-     * deal with performing layout when the state changes, which is
-     * often not supported.
+     * <p>This symbol is the offset where the {@link android.R.attr#variablePadding}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -25660,12 +24608,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_variablePadding=2;
     /**
-     * <p>
-     * @attr description
-     * If true, the drawable's reported internal size will remain
-     * constant as the state changes; the size is the maximum of all
-     * of the states.  If false, the size will vary based on the
-     * current state.
+     * <p>This symbol is the offset where the {@link android.R.attr#constantSize}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -25674,9 +24618,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_constantSize=3;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade in a new state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#enterFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -25684,9 +24627,8 @@ public final class R {
      */
     public static final int StateListDrawable_android_enterFadeDuration=4;
     /**
-     * <p>
-     * @attr description
-     * Amount of time (in milliseconds) to fade out an old state drawable.
+     * <p>This symbol is the offset where the {@link android.R.attr#exitFadeDuration}
+     * attribute's value can be found in the {@link #StateListDrawable} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -25708,10 +24650,8 @@ public final class R {
       0x01010199
     };
     /**
-     * <p>
-     * @attr description
-     * Reference to a drawable resource to use for the state. If not
-     * given, the drawable must be defined by the first child tag.
+     * <p>This symbol is the offset where the {@link android.R.attr#drawable}
+     * attribute's value can be found in the {@link #StateListDrawableItem} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25731,17 +24671,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.noon.a7pets:showText}</code></td><td>Whether to draw on/off text.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.noon.a7pets:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.noon.a7pets:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.noon.a7pets:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.noon.a7pets:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.noon.a7pets:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.noon.a7pets:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.noon.a7pets:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.noon.a7pets:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.noon.a7pets:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.noon.a7pets:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.noon.a7pets:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.noon.a7pets:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.noon.a7pets:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.noon.a7pets:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.noon.a7pets:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.noon.a7pets:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.noon.a7pets:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.noon.a7pets:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.noon.a7pets:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.noon.a7pets:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.noon.a7pets:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -25765,9 +24705,8 @@ public final class R {
       0x7f040292, 0x7f040293
     };
     /**
-     * <p>
-     * @attr description
-     * Text to use when the switch is in the checked/"on" state.
+     * <p>This symbol is the offset where the {@link android.R.attr#textOn}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -25776,9 +24715,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_textOn=0;
     /**
-     * <p>
-     * @attr description
-     * Text to use when the switch is in the unchecked/"off" state.
+     * <p>This symbol is the offset where the {@link android.R.attr#textOff}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -25787,9 +24725,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_textOff=1;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as the "thumb" that switches back and forth.
+     * <p>This symbol is the offset where the {@link android.R.attr#thumb}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25800,9 +24737,8 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>
-     * @attr description
-     * Whether to draw on/off text.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#showText}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -25811,9 +24747,8 @@ public final class R {
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>
-     * @attr description
-     * Whether to split the track and leave a gap for the thumb drawable.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#splitTrack}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -25822,9 +24757,8 @@ public final class R {
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum width for the switch component
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#switchMinWidth}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -25836,9 +24770,8 @@ public final class R {
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum space between the switch and caption text
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#switchPadding}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -25850,9 +24783,8 @@ public final class R {
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>
-     * @attr description
-     * TextAppearance style for text displayed on the switch thumb.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#switchTextAppearance}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25863,9 +24795,8 @@ public final class R {
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>
-     * @attr description
-     * Amount of padding on either side of text within the switch thumb.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#thumbTextPadding}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -25877,9 +24808,8 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the thumb drawable.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#thumbTint}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -25889,9 +24819,8 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the thumb tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#thumbTintMode}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -25899,26 +24828,20 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>
-     * @attr description
-     * Drawable to use as the "track" that the switch thumb slides within.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#track}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -25929,9 +24852,8 @@ public final class R {
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the track.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#trackTint}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -25941,9 +24863,8 @@ public final class R {
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the track tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#trackTintMode}
+     * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -25951,17 +24872,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and drawable color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:trackTintMode
@@ -26427,11 +25343,10 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_textFontWeight android:textFontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.noon.a7pets:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontVariationSettings com.noon.a7pets:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.noon.a7pets:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textLocale com.noon.a7pets:textLocale}</code></td><td>Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN".</td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.noon.a7pets:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontVariationSettings com.noon.a7pets:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.noon.a7pets:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textLocale com.noon.a7pets:textLocale}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -26630,9 +25545,8 @@ public final class R {
      */
     public static final int TextAppearance_android_textFontWeight=11;
     /**
-     * <p>
-     * @attr description
-     * The attribute for the font family.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontFamily}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -26641,9 +25555,8 @@ public final class R {
      */
     public static final int TextAppearance_fontFamily=12;
     /**
-     * <p>
-     * @attr description
-     * OpenType font variation settings, available aftear api 26.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -26652,9 +25565,8 @@ public final class R {
      */
     public static final int TextAppearance_fontVariationSettings=13;
     /**
-     * <p>
-     * @attr description
-     * Present the text in ALL CAPS. This may use a small-caps form when available.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textAllCaps}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -26667,13 +25579,8 @@ public final class R {
      */
     public static final int TextAppearance_textAllCaps=14;
     /**
-     * <p>
-     * @attr description
-     * Set the textLocale by a comma-separated language tag string,
-     * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
-     * Before API 24, only the first language tag is used. Starting from API 24,
-     * the string will be converted into a {@link android.os.LocaleList} and then used by
-     * {@link android.widget.TextView}
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#textLocale}
+     * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -27190,40 +26097,33 @@ public final class R {
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_buttonGravity com.noon.a7pets:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.noon.a7pets:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.noon.a7pets:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.noon.a7pets:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.noon.a7pets:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
-     * are present.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.noon.a7pets:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.noon.a7pets:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.noon.a7pets:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.noon.a7pets:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.noon.a7pets:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.noon.a7pets:logoDescription}</code></td><td>A content description string to describe the appearance of the
-     * associated logo image.</td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.noon.a7pets:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.noon.a7pets:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.noon.a7pets:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.noon.a7pets:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.noon.a7pets:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.noon.a7pets:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.noon.a7pets:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.noon.a7pets:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.noon.a7pets:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.noon.a7pets:logoDescription}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_maxButtonHeight com.noon.a7pets:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_menu com.noon.a7pets:menu}</code></td><td>Menu resource to inflate to be shown in the toolbar</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.noon.a7pets:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
-     * located at the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.noon.a7pets:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
-     * the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.noon.a7pets:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
-     * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.noon.a7pets:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
+     * <tr><td><code>{@link #Toolbar_menu com.noon.a7pets:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.noon.a7pets:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.noon.a7pets:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.noon.a7pets:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.noon.a7pets:subtitle}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.noon.a7pets:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.noon.a7pets:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.noon.a7pets:subtitleTextColor}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_title com.noon.a7pets:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.noon.a7pets:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.noon.a7pets:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.noon.a7pets:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.noon.a7pets:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.noon.a7pets:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.noon.a7pets:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.noon.a7pets:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.noon.a7pets:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.noon.a7pets:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.noon.a7pets:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.noon.a7pets:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.noon.a7pets:titleMargins}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_titleTextAppearance com.noon.a7pets:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.noon.a7pets:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.noon.a7pets:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -27256,7 +26156,6 @@ public final class R {
      * @see #Toolbar_titleTextAppearance
      * @see #Toolbar_titleTextColor
      */
-    @Deprecated
     public static final int[] Toolbar={
       0x010100af, 0x01010140, 0x7f040064, 0x7f040099, 
       0x7f04009a, 0x7f0400af, 0x7f0400b0, 0x7f0400b1, 
@@ -27319,18 +26218,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>
-     * @attr description
-     * Text to set as the content description for the collapse button.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#collapseContentDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -27339,9 +26237,8 @@ public final class R {
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>
-     * @attr description
-     * Icon drawable to use for the collapse button.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#collapseIcon}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -27352,10 +26249,8 @@ public final class R {
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetEnd}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27367,10 +26262,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when actions from a menu
-     * are present. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetEndWithActions}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27382,10 +26275,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetLeft}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27397,10 +26288,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetRight}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27412,10 +26301,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar. Navigation buttons and
-     * menu views are excepted. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetStart}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27427,10 +26314,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>
-     * @attr description
-     * Minimum inset for content views within a bar when a navigation button
-     * is present, such as the Up button. Only valid for some themes and configurations.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#contentInsetStartWithNavigation}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27442,10 +26327,8 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>
-     * @attr description
-     * Drawable to set as the logo that appears at the starting side of
-     * the Toolbar, just after the navigation button.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#logo}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -27456,10 +26339,8 @@ public final class R {
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>
-     * @attr description
-     * A content description string to describe the appearance of the
-     * associated logo image.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#logoDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -27481,9 +26362,8 @@ public final class R {
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>
-     * @attr description
-     * Menu resource to inflate to be shown in the toolbar
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#menu}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -27494,10 +26374,8 @@ public final class R {
      */
     public static final int Toolbar_menu=14;
     /**
-     * <p>
-     * @attr description
-     * Text to set as the content description for the navigation button
-     * located at the start of the toolbar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#navigationContentDescription}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -27506,10 +26384,8 @@ public final class R {
      */
     public static final int Toolbar_navigationContentDescription=15;
     /**
-     * <p>
-     * @attr description
-     * Icon drawable to use for the navigation button located at
-     * the start of the toolbar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#navigationIcon}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -27520,10 +26396,8 @@ public final class R {
      */
     public static final int Toolbar_navigationIcon=16;
     /**
-     * <p>
-     * @attr description
-     * Reference to a theme that should be used to inflate popups
-     * shown by widgets in the toolbar.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#popupTheme}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -27534,9 +26408,8 @@ public final class R {
      */
     public static final int Toolbar_popupTheme=17;
     /**
-     * <p>
-     * @attr description
-     * Specifies subtitle text used for navigationMode="normal"
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#subtitle}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -27557,9 +26430,8 @@ public final class R {
      */
     public static final int Toolbar_subtitleTextAppearance=19;
     /**
-     * <p>
-     * @attr description
-     * A color to apply to the subtitle string.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#subtitleTextColor}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -27579,10 +26451,8 @@ public final class R {
      */
     public static final int Toolbar_title=21;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the left, start, right and end sides
-     * of the toolbar's title. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleMargin}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27594,11 +26464,8 @@ public final class R {
      */
     public static final int Toolbar_titleMargin=22;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the bottom side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleMarginBottom}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27610,11 +26477,8 @@ public final class R {
      */
     public static final int Toolbar_titleMarginBottom=23;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the end side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleMarginEnd}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27626,11 +26490,8 @@ public final class R {
      */
     public static final int Toolbar_titleMarginEnd=24;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the start side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleMarginStart}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27642,11 +26503,8 @@ public final class R {
      */
     public static final int Toolbar_titleMarginStart=25;
     /**
-     * <p>
-     * @attr description
-     * Specifies extra space on the top side of the toolbar's title.
-     * If both this attribute and titleMargin are specified, then this
-     * attribute takes precedence. Margin values should be positive.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleMarginTop}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27658,9 +26516,8 @@ public final class R {
      */
     public static final int Toolbar_titleMarginTop=26;
     /**
-     * <p>
-     * @attr description
-     * {@deprecated Use titleMargin}
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleMargins}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27670,7 +26527,6 @@ public final class R {
      *
      * @attr name com.noon.a7pets:titleMargins
      */
-    @Deprecated
     public static final int Toolbar_titleMargins=27;
     /**
      * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleTextAppearance}
@@ -27685,9 +26541,8 @@ public final class R {
      */
     public static final int Toolbar_titleTextAppearance=28;
     /**
-     * <p>
-     * @attr description
-     * A color to apply to the title string.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#titleTextColor}
+     * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -27705,9 +26560,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.noon.a7pets:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.noon.a7pets:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_theme com.noon.a7pets:theme}</code></td><td>Deprecated.</td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.noon.a7pets:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.noon.a7pets:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.noon.a7pets:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -27720,11 +26575,8 @@ public final class R {
       0x7f040275
     };
     /**
-     * <p>
-     * @attr description
-     * Specifies a theme override for a view. When a theme override is set, the
-     * view will be inflated using a {@link android.content.Context} themed with
-     * the specified resource.
+     * <p>This symbol is the offset where the {@link android.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -27735,14 +26587,8 @@ public final class R {
      */
     public static final int View_android_theme=0;
     /**
-     * <p>
-     * @attr description
-     * Boolean that controls whether a view can take focus.  By default the user can not
-     * move focus to a view; by setting this attribute to true the view is
-     * allowed to take focus.  This value does not impact the behavior of
-     * directly calling {@link android.view.View#requestFocus}, which will
-     * always request focus regardless of this view.  It only impacts where
-     * focus navigation will try to move focus.
+     * <p>This symbol is the offset where the {@link android.R.attr#focusable}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
@@ -27759,9 +26605,8 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>
-     * @attr description
-     * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#paddingEnd}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27773,9 +26618,8 @@ public final class R {
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>
-     * @attr description
-     * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#paddingStart}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -27787,9 +26631,8 @@ public final class R {
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>
-     * @attr description
-     * Deprecated.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#theme}
+     * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -27807,8 +26650,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.noon.a7pets:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.noon.a7pets:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.noon.a7pets:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.noon.a7pets:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -27833,9 +26676,8 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>
-     * @attr description
-     * Tint to apply to the background.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundTint}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -27845,9 +26687,8 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>
-     * @attr description
-     * Blending mode used to apply the background tint.
+     * <p>This symbol is the offset where the {@link com.noon.a7pets.R.attr#backgroundTintMode}
+     * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -27855,17 +26696,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>add</td><td>10</td><td>Combines the tint and icon color and alpha channels, clamping the
-     * result to valid color values. Saturate(S + D)</td></tr>
-     * <tr><td>multiply</td><td>e</td><td>Multiplies the color and alpha channels of the drawable with those of
-     * the tint. [Sa * Da, Sc * Dc]</td></tr>
-     * <tr><td>screen</td><td>f</td><td>[Sa + Da - Sa * Da, Sc + Dc - Sc * Dc]</td></tr>
-     * <tr><td>src_atop</td><td>9</td><td>The tint is drawn above the drawable, but with the drawable’s alpha
-     * channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc]</td></tr>
-     * <tr><td>src_in</td><td>5</td><td>The tint is masked by the alpha channel of the drawable. The drawable’s
-     * color channels are thrown out. [Sa * Da, Sc * Da]</td></tr>
-     * <tr><td>src_over</td><td>3</td><td>The tint is drawn on top of the drawable.
-     * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
+     * <tr><td>add</td><td>10</td><td></td></tr>
+     * <tr><td>multiply</td><td>e</td><td></td></tr>
+     * <tr><td>screen</td><td>f</td><td></td></tr>
+     * <tr><td>src_atop</td><td>9</td><td></td></tr>
+     * <tr><td>src_in</td><td>5</td><td></td></tr>
+     * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
      * @attr name com.noon.a7pets:backgroundTintMode
@@ -27902,11 +26738,8 @@ public final class R {
      */
     public static final int ViewStubCompat_android_id=0;
     /**
-     * <p>
-     * @attr description
-     * Supply an identifier for the layout resource to inflate when the ViewStub
-     * becomes visible or when forced to do so. The layout resource must be a
-     * valid reference to a layout.
+     * <p>This symbol is the offset where the {@link android.R.attr#layout}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -27917,9 +26750,8 @@ public final class R {
      */
     public static final int ViewStubCompat_android_layout=1;
     /**
-     * <p>
-     * @attr description
-     * Overrides the id of the inflated View with this value.
+     * <p>This symbol is the offset where the {@link android.R.attr#inflatedId}
+     * attribute's value can be found in the {@link #ViewStubCompat} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme

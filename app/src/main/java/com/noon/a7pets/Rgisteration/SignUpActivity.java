@@ -189,7 +189,7 @@ public class SignUpActivity extends Activity {
                     currentUser.sendEmailVerification();
 
                     //create shared preference and store data
-                    session.createLoginSession(username,email,phoneNumber,bitmap.toString());
+                    session.createLoginSession(username,email,phoneNumber,profileImageUrl);
 
                     Intent intent = new Intent(SignUpActivity.this, MainActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

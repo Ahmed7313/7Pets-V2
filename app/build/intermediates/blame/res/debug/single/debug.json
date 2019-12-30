@@ -480,12 +480,12 @@
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable-ldpi\\agenda.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\262f2c26b26ac4d800815800edd2f2b0\\jetified-easy-feedback-1.0.5\\res\\xml\\provider_paths.xml"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\262f2c26b26ac4d800815800edd2f2b0\\jetified-easy-feedback-1.0.5\\res\\xml\\provider_paths.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_material_drawer_item_switch.xml.flat",
@@ -910,6 +910,10 @@
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_close_icon_tint.xml.flat",
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\3295b8d0bda86d39fcda21b87c31a4e7\\material-1.0.0\\res\\color\\mtrl_chip_close_icon_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_placed.xml.flat",
+        "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\layout\\activity_order_placed.xml"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -2456,12 +2460,12 @@
         "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\3295b8d0bda86d39fcda21b87c31a4e7\\material-1.0.0\\res\\color\\mtrl_chip_ripple_color.xml"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_ofer1.png.flat",
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\card_ofer1.png"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light.xml.flat",
@@ -2904,12 +2908,12 @@
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\profile.png"
     },
     {
-        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_offer4.jpg.flat",
         "source": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\src\\main\\res\\drawable\\card_offer4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Ahmed Adel\\.gradle\\caches\\transforms-2\\files-2.1\\81efca949d99855e5e3f6d718bc8d1fe\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Ahmed Adel\\Desktop\\7Pets\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_text_color.xml.flat",

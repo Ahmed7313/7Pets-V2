@@ -78,4 +78,7 @@
     <string name="play_again">Play Again</string>
     <string name="forget">Forget Your password</string>
     <string name="petName">Pets</string>
+    <string name="radio_male">PayPal</string>
+    <string name="radio_female">Pay ATM</string>
+    <string name="cod">COD</string>
 </resources>

@@ -1964,6 +1964,7 @@ id checked
 id chronometer
 id clip_horizontal
 id clip_vertical
+id cod
 id collapseActionView
 id confirmpassword
 id container
@@ -1989,6 +1990,7 @@ id default_center_top_indicator
 id default_center_top_left_indicator
 id default_center_top_right_indicator
 id deletecard
+id delivery_date
 id description
 id description_layout
 id design_bottom_sheet
@@ -2155,6 +2157,7 @@ id name_button
 id navigation_header_container
 id negative
 id never
+id no_of_items
 id none
 id normal
 id notification_background
@@ -2164,6 +2167,12 @@ id notifintro
 id number
 id off
 id on
+id orderaddress
+id orderemail
+id orderid
+id ordername
+id ordernumber
+id orderpincode
 id others
 id outline
 id oval
@@ -2173,6 +2182,8 @@ id parent
 id parentPanel
 id parent_matrix
 id password
+id payatm
+id paypal
 id percent
 id pin
 id position
@@ -2192,6 +2203,7 @@ id progressBar_sign_up_google
 id progress_circular
 id progress_horizontal
 id quantityProductPage
+id rGroup
 id radio
 id rect
 id recyclerview
@@ -2289,6 +2301,7 @@ id toolbar
 id toolbarwrap
 id top
 id topPanel
+id total_amount
 id touch_outside
 id transition_current_scene
 id transition_layout_save
@@ -2377,6 +2390,7 @@ layout activity_login
 layout activity_main
 layout activity_opensource
 layout activity_order_details
+layout activity_order_placed
 layout activity_product_details
 layout activity_profile
 layout activity_register
@@ -2526,6 +2540,7 @@ string changes
 string character_counter_content_description
 string character_counter_pattern
 string click_again
+string cod
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -5471,6 +5486,8 @@ string play_again
 string play_again_desc
 string please_write
 string project_id
+string radio_female
+string radio_male
 string rate
 string register
 string register_now

@@ -17,7 +17,11 @@ import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.DefaultSliderView;
 import com.getkeepsafe.taptargetview.TapTarget;
 import com.getkeepsafe.taptargetview.TapTargetSequence;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.FirebaseApp;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.mikepenz.aboutlibraries.Libs;
 import com.mikepenz.aboutlibraries.LibsBuilder;
 import com.mikepenz.crossfadedrawerlayout.view.CrossfadeDrawerLayout;
@@ -36,6 +40,7 @@ import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 import com.mikepenz.materialdrawer.util.DrawerUIUtils;
 import com.mikepenz.materialize.util.UIUtils;
 import com.noon.a7pets.Productscategory.Dogs;
+import com.noon.a7pets.Rgisteration.SignInActivity;
 import com.noon.a7pets.Rgisteration.WelcomeActivity;
 import com.noon.a7pets.networksync.CheckInternetConnection;
 import com.noon.a7pets.usersession.UserSession;
@@ -75,6 +80,9 @@ public class MainActivity extends AppCompatActivity {
     private Drawer result;
     Bitmap profilePhoto;
 
+    private FirebaseAuth mAuth;
+    private DatabaseReference userRef;
+
     private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,6 +95,9 @@ public class MainActivity extends AppCompatActivity {
         appname.setTypeface(typeface);
 
         toolbar = findViewById(R.id.toolbar);
+
+        mAuth = FirebaseAuth.getInstance();
+        userRef = FirebaseDatabase.getInstance().getReference().child("Users");
 
         //check Internet Connection
         new CheckInternetConnection(this).checkConnection();
@@ -310,7 +321,16 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity(new Intent(MainActivity.this, Cart.class));
                                 break;
                             case 5:
-                                session.logoutUser();
+                                        String currentUser = mAuth.getCurrentUser().getUid();
+                                        userRef.child(currentUser).child("device_token").setValue(null).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                            @Override
+                                            public void onSuccess(Void aVoid) {
+                                                FirebaseAuth.getInstance().signOut();
+                                                Intent intent = new Intent(MainActivity.this, SignInActivity.class);
+                                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                                startActivity(intent);
+                                            }
+                                        });
                                 finish();
                                 break;
 
